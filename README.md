@@ -21,9 +21,9 @@
 ### Managing Python Packages and Virtual Environments
 
 1. [ ] [Course Overview](README.md)
-1. [ ] [Managing Python Packages with pip](README.md)
+1. [ ] [Managing Python Packages with `pip`](README.md)
 1. [ ] [Setting up Your Project with Virtual Environments](README.md)
-1. [ ] [Using virtualenvwrapper to Make Your Life Easier](README.md)
+1. [ ] [Using `virtualenvwrapper` to Make Your Life Easier](README.md)
 1. [ ] [Choosing the Right Tools](README.md)
 
 ### Unit Testing with Python
@@ -31,8 +31,8 @@
 1. [ ] [Course Overview](README.md)
 1. [ ] [Unit Test Fundamentals](README.md)
 1. [ ] [Unit Testing Why and When](README.md)
-1. [ ] [Unit Testing with pytest](README.md)
-1. [ ] [Testable Documentation with doctest](README.md)
+1. [ ] [Unit Testing with `pytest`](README.md)
+1. [ ] [Testable Documentation with `doctest`](README.md)
 1. [ ] [Using Test Doubles](README.md)
 1. [ ] [Parameterized Tests & Test Coverage](README.md)
 
