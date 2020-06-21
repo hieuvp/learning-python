@@ -17,4 +17,5 @@
 
 ## References
 
-- [Python Fundamentals by Austin Bingham and Robert Smallshire](https://app.pluralsight.com/library/courses/python-fundamentals)
+- [Learn Python - Free Interactive Python Tutorial](https://www.learnpython.org)
+- [Python Path](https://app.pluralsight.com/paths/skill/python)
