@@ -40,38 +40,38 @@
 
 ### Learn the Basics
 
-1. [ ] [Hello, World!](README.md)
-1. [ ] [Variables and Types](README.md)
-1. [ ] [Lists](README.md)
-1. [ ] [Basic Operators](README.md)
-1. [ ] [String Formatting](README.md)
-1. [ ] [Basic String Operations](README.md)
-1. [ ] [Conditions](README.md)
-1. [ ] [Loops](README.md)
-1. [ ] [Functions](README.md)
-1. [ ] [Classes and Objects](README.md)
-1. [ ] [Dictionaries](README.md)
-1. [ ] [Modules and Packages](README.md)
+1. [ ] [Hello, World!](learn-the-basics/hello-world/README.md)
+1. [ ] [Variables and Types](learn-the-basics/variables-and-types/README.md)
+1. [ ] [Lists](learn-the-basics/lists/README.md)
+1. [ ] [Basic Operators](learn-the-basics/basic-operators/README.md)
+1. [ ] [String Formatting](learn-the-basics/string-formatting/README.md)
+1. [ ] [Basic String Operations](learn-the-basics/basic-string-operations/README.md)
+1. [ ] [Conditions](learn-the-basics/conditions/README.md)
+1. [ ] [Loops](learn-the-basics/loops/README.md)
+1. [ ] [Functions](learn-the-basics/functions/README.md)
+1. [ ] [Classes and Objects](learn-the-basics/classes-and-objects/README.md)
+1. [ ] [Dictionaries](learn-the-basics/dictionaries/README.md)
+1. [ ] [Modules and Packages](learn-the-basics/modules-and-packages/README.md)
 
 ### Data Science Tutorials
 
-1. [ ] [Numpy Arrays](README.md)
-1. [ ] [Pandas Basics](README.md)
+1. [ ] [Numpy Arrays](data-science-tutorials/numpy-arrays/README.md)
+1. [ ] [Pandas Basics](data-science-tutorials/pandas-basics/README.md)
 
 ### Advanced Tutorials
 
-1. [ ] [Generators](README.md)
-1. [ ] [List Comprehensions](README.md)
-1. [ ] [Multiple Function Arguments](README.md)
-1. [ ] [Regular Expressions](README.md)
-1. [ ] [Exception Handling](README.md)
-1. [ ] [Sets](README.md)
-1. [ ] [Serialization](README.md)
-1. [ ] [Partial functions](README.md)
-1. [ ] [Code Introspection](README.md)
-1. [ ] [Closures](README.md)
-1. [ ] [Decorators](README.md)
-1. [ ] [Map, Filter, Reduce](README.md)
+1. [ ] [Generators](advanced-tutorials/generators/README.md)
+1. [ ] [List Comprehensions](advanced-tutorials/list-comprehensions/README.md)
+1. [ ] [Multiple Function Arguments](advanced-tutorials/multiple-function-arguments/README.md)
+1. [ ] [Regular Expressions](advanced-tutorials/regular-expressions/README.md)
+1. [ ] [Exception Handling](advanced-tutorials/exception-handling/README.md)
+1. [ ] [Sets](advanced-tutorials/sets/README.md)
+1. [ ] [Serialization](advanced-tutorials/serialization/README.md)
+1. [ ] [Partial functions](advanced-tutorials/partial-functions/README.md)
+1. [ ] [Code Introspection](advanced-tutorials/code-introspection/README.md)
+1. [ ] [Closures](advanced-tutorials/closures/README.md)
+1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
+1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
 
 ## References
 
