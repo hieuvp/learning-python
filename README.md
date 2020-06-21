@@ -67,7 +67,7 @@
 1. [ ] [Exception Handling](advanced-tutorials/exception-handling/README.md)
 1. [ ] [Sets](advanced-tutorials/sets/README.md)
 1. [ ] [Serialization](advanced-tutorials/serialization/README.md)
-1. [ ] [Partial functions](advanced-tutorials/partial-functions/README.md)
+1. [ ] [Partial Functions](advanced-tutorials/partial-functions/README.md)
 1. [ ] [Code Introspection](advanced-tutorials/code-introspection/README.md)
 1. [ ] [Closures](advanced-tutorials/closures/README.md)
 1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
