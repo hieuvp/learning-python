@@ -108,9 +108,9 @@ and the integer should be named myint and should contain the number 20.
 
 ```py
 # change this code
-mystring = None
-myfloat = None
-myint = None
+mystring = "hello"
+myfloat = 10.0
+myint = 20
 
 # testing code
 if mystring == "hello":
@@ -119,6 +119,20 @@ if isinstance(myfloat, float) and myfloat == 10.0:
     print("Float: %f" % myfloat)
 if isinstance(myint, int) and myint == 20:
     print("Integer: %d" % myint)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ type python
+python is ../../venv/bin/python
++ python exercise.py
+String: hello
+Float: 10.000000
+Integer: 20
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
