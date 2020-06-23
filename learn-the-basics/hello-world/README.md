@@ -33,7 +33,7 @@ print("This line will be printed.")
 
 Python uses indentation for blocks, instead of curly braces.
 Both tabs and spaces are supported,
-but the standard indentation requires standard Python code to use four spaces. For example:
+but the standard indentation requires standard Python code to use four spaces.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=indentation.py) -->
 <!-- The below code snippet is automatically added from indentation.py -->
