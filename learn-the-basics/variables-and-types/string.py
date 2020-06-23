@@ -1,4 +1,4 @@
-mystring = 'hello'
-print(mystring)
-mystring = "hello"
-print(mystring)
+my_string = 'hello'
+print(my_string)
+my_string = "hello"
+print(my_string)

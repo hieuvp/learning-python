@@ -27,8 +27,8 @@ To define an integer, use the following syntax:
 <!-- The below code snippet is automatically added from integer.py -->
 
 ```py
-myint = 7
-print(myint)
+my_int = 7
+print(my_int)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -51,10 +51,10 @@ To define a floating point number, you may use one of the following notations:
 <!-- The below code snippet is automatically added from float.py -->
 
 ```py
-myfloat = 7.0
-print(myfloat)
-myfloat = float(7)
-print(myfloat)
+my_float = 7.0
+print(my_float)
+my_float = float(7)
+print(my_float)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -78,10 +78,10 @@ Strings are defined either with a single quote or a double quotes.
 <!-- The below code snippet is automatically added from string.py -->
 
 ```py
-mystring = 'hello'
-print(mystring)
-mystring = "hello"
-print(mystring)
+my_string = 'hello'
+print(my_string)
+my_string = "hello"
+print(my_string)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -155,18 +155,18 @@ and the integer should be named myint and should contain the number 20.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# change this code
-mystring = "hello"
-myfloat = 10.0
-myint = 20
+# Change this code
+my_string = "hello"
+my_float = 10.0
+my_int = 20
 
-# testing code
-if mystring == "hello":
-    print("String: %s" % mystring)
-if isinstance(myfloat, float) and myfloat == 10.0:
-    print("Float: %f" % myfloat)
-if isinstance(myint, int) and myint == 20:
-    print("Integer: %d" % myint)
+# Testing code
+if my_string == "hello":
+    print("String: %s" % my_string)
+if isinstance(my_float, float) and my_float == 10.0:
+    print("Float: %f" % my_float)
+if isinstance(my_int, int) and my_int == 20:
+    print("Integer: %d" % my_int)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
