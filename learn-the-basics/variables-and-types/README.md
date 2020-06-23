@@ -12,12 +12,18 @@ This tutorial will go over a few basic types of variables.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Numbers](#numbers)
+  - [Integers](#integers)
+  - [Floating Point Numbers](#floating-point-numbers)
 - [Strings](#strings)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Numbers
+
+### Integers
+
+### Floating Point Numbers
 
 Python supports two types of numbers - integers and floating point numbers.
 (It also supports complex numbers, which will not be explained in this tutorial).
@@ -30,6 +36,18 @@ To define an integer, use the following syntax:
 ```py
 myint = 7
 print(myint)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=integer.console) -->
+<!-- The below code snippet is automatically added from integer.console -->
+
+```console
++ type python
+python is ../../venv/bin/python
++ python integer.py
+7
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,6 +66,19 @@ print(myfloat)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=float.console) -->
+<!-- The below code snippet is automatically added from float.console -->
+
+```console
++ type python
+python is ../../venv/bin/python
++ python float.py
+7.0
+7.0
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Strings
 
 Strings are defined either with a single quote or a double quotes.
@@ -60,6 +91,19 @@ mystring = 'hello'
 print(mystring)
 mystring = "hello"
 print(mystring)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string.console) -->
+<!-- The below code snippet is automatically added from string.console -->
+
+```console
++ type python
+python is ../../venv/bin/python
++ python string.py
+hello
+hello
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

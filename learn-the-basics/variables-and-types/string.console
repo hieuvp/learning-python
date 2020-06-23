@@ -1,0 +1,5 @@
++ type python
+python is ../../venv/bin/python
++ python string.py
+hello
+hello

@@ -1,0 +1,5 @@
++ type python
+python is ../../venv/bin/python
++ python float.py
+7.0
+7.0
