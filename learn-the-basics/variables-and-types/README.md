@@ -24,30 +24,45 @@ Python supports two types of numbers - integers and floating point numbers.
 
 To define an integer, use the following syntax:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=integer.py) -->
+<!-- The below code snippet is automatically added from integer.py -->
+
+```py
 myint = 7
 print(myint)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 To define a floating point number, you may use one of the following notations:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=float.py) -->
+<!-- The below code snippet is automatically added from float.py -->
+
+```py
 myfloat = 7.0
 print(myfloat)
 myfloat = float(7)
 print(myfloat)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Strings
 
 Strings are defined either with a single quote or a double quotes.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string.py) -->
+<!-- The below code snippet is automatically added from string.py -->
+
+```py
 mystring = 'hello'
 print(mystring)
 mystring = "hello"
 print(mystring)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The difference between the two is that using double quotes makes it easy to include apostrophes
 (whereas these would terminate the string if using single quotes)
