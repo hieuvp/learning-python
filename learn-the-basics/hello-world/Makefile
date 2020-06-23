@@ -1,3 +1,5 @@
+export PATH := ../../venv/bin:$(PATH)
+
 .PHONY: indentation
 indentation:
 	./indentation.sh &> indentation.console

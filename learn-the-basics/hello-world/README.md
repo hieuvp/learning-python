@@ -77,7 +77,7 @@ print("Hello, World!")
 + type python
 python is ../../venv/bin/python
 + python exercise.py
-Goodbye, World!
+Hello, World!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
