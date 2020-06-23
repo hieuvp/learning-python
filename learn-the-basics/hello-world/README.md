@@ -5,15 +5,15 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [`print()`](#print)
 - [Indentation](#indentation)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Python is a very simple language, and has a very straightforward syntax.
-It encourages programmers to program without boilerplate (prepared) code.
-The simplest directive in Python is the "print" directive -
-it simply prints out a line (and also includes a newline, unlike in C).
+## `print()`
+
+It simply prints out a line (and also includes a newline).
 
 There are two major Python versions, Python 2 and Python 3.
 Python 2 and 3 are quite different.
