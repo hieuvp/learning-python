@@ -103,7 +103,10 @@ The string should be named mystring and should contain the word "hello".
 The floating point number should be named myfloat and should contain the number 10.0,
 and the integer should be named myint and should contain the number 20.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
 # change this code
 mystring = None
 myfloat = None
@@ -117,3 +120,5 @@ if isinstance(myfloat, float) and myfloat == 10.0:
 if isinstance(myint, int) and myint == 20:
     print("Integer: %d" % myint)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
