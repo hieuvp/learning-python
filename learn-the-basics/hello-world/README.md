@@ -51,8 +51,6 @@ if x == 1:
 <!-- The below code snippet is automatically added from indentation.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python indentation.py
 x is 1.
 ```
@@ -74,8 +72,6 @@ print("Hello, World!")
 <!-- The below code snippet is automatically added from exercise.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python exercise.py
 Hello, World!
 ```

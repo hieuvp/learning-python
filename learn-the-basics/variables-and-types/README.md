@@ -4,8 +4,6 @@ Python is completely object oriented, and not "statically typed".
 You do not need to declare variables before using them, or declare their type.
 Every variable in Python is an object.
 
-This tutorial will go over a few basic types of variables.
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -23,11 +21,6 @@ This tutorial will go over a few basic types of variables.
 
 ### Integers
 
-### Floating Point Numbers
-
-Python supports two types of numbers - integers and floating point numbers.
-(It also supports complex numbers, which will not be explained in this tutorial).
-
 To define an integer, use the following syntax:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=integer.py) -->
@@ -44,13 +37,13 @@ print(myint)
 <!-- The below code snippet is automatically added from integer.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python integer.py
 7
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+### Floating Point Numbers
 
 To define a floating point number, you may use one of the following notations:
 
@@ -70,8 +63,6 @@ print(myfloat)
 <!-- The below code snippet is automatically added from float.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python float.py
 7.0
 7.0
@@ -99,8 +90,6 @@ print(mystring)
 <!-- The below code snippet is automatically added from string.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python string.py
 hello
 hello
@@ -186,8 +175,6 @@ if isinstance(myint, int) and myint == 20:
 <!-- The below code snippet is automatically added from exercise.console -->
 
 ```console
-+ type python
-python is ../../venv/bin/python
 + python exercise.py
 String: hello
 Float: 10.000000

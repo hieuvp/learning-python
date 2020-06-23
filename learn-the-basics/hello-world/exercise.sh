@@ -2,6 +2,4 @@
 
 set -eoux pipefail
 
-type python
-
 python exercise.py
