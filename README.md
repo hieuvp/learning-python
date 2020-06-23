@@ -41,7 +41,7 @@
 ### Learn the Basics
 
 1. [Hello, World!](learn-the-basics/hello-world/README.md)
-1. [ ] [Variables and Types](learn-the-basics/variables-and-types/README.md)
+1. [Variables and Types](learn-the-basics/variables-and-types/README.md)
 1. [ ] [Lists](learn-the-basics/lists/README.md)
 1. [ ] [Basic Operators](learn-the-basics/basic-operators/README.md)
 1. [ ] [String Formatting](learn-the-basics/string-formatting/README.md)
