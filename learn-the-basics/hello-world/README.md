@@ -61,8 +61,23 @@ x is 1.
 
 ## Exercise
 
-Use the "print" command to print the line "Hello, World!".
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
 
-```python
-print("Goodbye, World!")
+```py
+print("Hello, World!")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ type python
+python is ../../venv/bin/python
++ python exercise.py
+Goodbye, World!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
