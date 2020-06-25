@@ -156,17 +156,17 @@ and the integer should be named myint and should contain the number 20.
 
 ```py
 # Change this code
-my_string = "hello"
-my_float = 10.0
-my_int = 20
+MY_STRING = "hello"
+MY_FLOAT = 10.0
+MY_INT = 20
 
 # Testing code
-if my_string == "hello":
-    print("String: %s" % my_string)
-if isinstance(my_float, float) and my_float == 10.0:
-    print("Float: %f" % my_float)
-if isinstance(my_int, int) and my_int == 20:
-    print("Integer: %d" % my_int)
+if MY_STRING == "hello":
+    print("String: %s" % MY_STRING)
+if isinstance(MY_FLOAT, float) and MY_FLOAT == 10.0:
+    print("Float: %f" % MY_FLOAT)
+if isinstance(MY_INT, int) and MY_INT == 20:
+    print("Integer: %d" % MY_INT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
