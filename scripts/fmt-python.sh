@@ -4,11 +4,6 @@ set -eoux pipefail
 
 black learn-the-basics/variables-and-types/exercise.py
 
-# ╰─$ black --help
-# Usage: black [OPTIONS] [SRC]...
-#
-#   The uncompromising code formatter.
-#
 # Options:
 #   -c, --code TEXT                 Format the code passed in as a string.
 #   -l, --line-length INTEGER       How many characters per line to allow.

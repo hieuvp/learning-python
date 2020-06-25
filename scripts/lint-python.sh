@@ -4,18 +4,8 @@ set -eoux pipefail
 
 flake8 learn-the-basics/variables-and-types/exercise.py
 
-# ╰─$ flake8 --help                                                                                                                                         1 ↵
-# usage: flake8 [options] file file ...
-#
-# positional arguments:
-#  filename
-#
 # optional arguments:
-#  -h, --help            show this help message and exit
-#  -v, --verbose         Print more information about what is happening in flake8. This option is repeatable and will increase verbosity each time it is
-#                        repeated.
-#  --output-file OUTPUT_FILE
-#                        Redirect report to a file.
+#
 #  --append-config APPEND_CONFIG
 #                        Provide extra config files to parse in addition to the files found by Flake8 by default. These files are the last ones read and so
 #                        they take the highest precedence when multiple files provide the same option.
@@ -72,18 +62,11 @@ flake8 learn-the-basics/variables-and-types/exercise.py
 #                        Run doctests only on these files
 #  --exclude-from-doctest EXCLUDE_FROM_DOCTEST
 #                        Skip these files when running doctests
-#
-# Installed plugins: mccabe: 0.6.1, pycodestyle: 2.6.0, pyflakes: 2.2.0
 
 pylint learn-the-basics/variables-and-types/exercise.py
 
 # $ pylint --help
 # Usage: pylint [options]
-#
-# Options:
-#   --version             show program's version number and exit
-#   -h, --help            show this help message and exit
-#   --long-help           more verbose help.
 #
 #   Master:
 #     --init-hook=<code>  Python code to execute, usually for sys.path
