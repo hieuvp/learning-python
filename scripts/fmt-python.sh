@@ -13,7 +13,7 @@ declare -ra FILES
 main() {
   local -r file=$1
 
-  options=(
+  local -ra options=(
     # Do not emit non-error messages to stderr, errors are still emitted
     --quiet
 
