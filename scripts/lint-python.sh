@@ -2,12 +2,14 @@
 
 set -eoux pipefail
 
-pylint learn-the-basics/variables-and-types/exercise.py
-
 # Integrate Pylint with PyCharm
 # https://pylint.pycqa.org/en/latest/user_guide/ide-integration.html#integrate-pylint-with-pycharm
 # Using pylint-pycharm plugin
 # 17:25	Pylint Plugin: Failure: executable "/usr/local/bin/pylint" not found
+
+flake8 learn-the-basics/variables-and-types/exercise.py
+
+pylint learn-the-basics/variables-and-types/exercise.py
 
 # $ pylint --help
 # Usage: pylint [options]
