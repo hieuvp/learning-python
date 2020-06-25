@@ -73,7 +73,7 @@
 
 ## Topics
 
-1. [ ] [Simple Python Development Setup](README.md)
+1. [ ] [Python Development Setup](python-development-setup/README.md)
 
 ## References
 
