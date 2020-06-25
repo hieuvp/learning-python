@@ -7,6 +7,7 @@
 
 - [`pyenv`](#pyenv)
 - [`venv`](#venv)
+- [`requirements.txt`](#requirementstxt)
 - [`pip`](#pip)
 - [`pip-tools`](#pip-tools)
 - [References](#references)
@@ -16,6 +17,8 @@
 ## `pyenv`
 
 ## `venv`
+
+## `requirements.txt`
 
 ## `pip`
 

@@ -66,7 +66,6 @@ flake8 learn-the-basics/variables-and-types/exercise.py
 pylint learn-the-basics/variables-and-types/exercise.py
 
 # $ pylint --help
-# Usage: pylint [options]
 #
 #   Master:
 #     --init-hook=<code>  Python code to execute, usually for sys.path
@@ -77,8 +76,6 @@ pylint learn-the-basics/variables-and-types/exercise.py
 #     --py3k              In Python 3 porting mode, all checkers will be
 #                         disabled and only messages emitted by the porting
 #                         checker will be displayed.
-#     -v, --verbose       In verbose mode, extra non-checker-related info will
-#                         be displayed.
 #     --ignore=<file>[,<file>...]
 #                         Add files or directories to the blacklist. They should
 #                         be base names, not paths. [current: CVS]

@@ -78,7 +78,7 @@ Strings are defined either with a single quote or a double quotes.
 <!-- The below code snippet is automatically added from string.py -->
 
 ```py
-my_string = 'hello'
+my_string = "hello"
 print(my_string)
 my_string = "hello"
 print(my_string)
