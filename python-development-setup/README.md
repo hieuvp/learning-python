@@ -14,10 +14,13 @@ It is based on pip, which is installed everywhere and is the standard for instal
 
 - [`pyenv`](#pyenv)
 - [`venv`](#venv)
+- [`virtualenvwrapper`](#virtualenvwrapper)
 - [PyPI](#pypi)
 - [`requirements.txt`](#requirementstxt)
 - [`pip`](#pip)
 - [`pip-tools`](#pip-tools)
+- [`pipenv`](#pipenv)
+- [`poetry`](#poetry)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -45,6 +48,8 @@ pip install -r requirements.txt
 pip list
 ```
 
+## `virtualenvwrapper`
+
 ## PyPI
 
 how to pronounce PyPI (beginner) anthony explains #020
@@ -58,6 +63,10 @@ how to pronounce PyPI (beginner) anthony explains #020
 ## `pip-tools`
 
 <https://github.com/jazzband/pip-tools> => install?
+
+## `pipenv`
+
+## `poetry`
 
 ## References
 
