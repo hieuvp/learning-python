@@ -64,6 +64,10 @@ For Application
 ## `pip`
 
 ```shell script
+pip list
+```
+
+```shell script
 pip freeze
 pip freeze > requirements.txt
 ```
