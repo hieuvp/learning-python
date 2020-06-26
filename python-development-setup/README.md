@@ -18,6 +18,7 @@ It is based on pip, which is installed everywhere and is the standard for instal
 - [PyPI](#pypi)
 - [`requirements.txt`](#requirementstxt)
 - [`pip`](#pip)
+- [`setup.py`](#setuppy)
 - [`pip-tools`](#pip-tools)
 - [`pipenv`](#pipenv)
 - [`poetry`](#poetry)
@@ -58,11 +59,23 @@ how to pronounce PyPI (beginner) anthony explains #020
 
 ## `requirements.txt`
 
+For Application
+
 ## `pip`
 
 ```shell script
 pip freeze
 pip freeze > requirements.txt
+```
+
+## `setup.py`
+
+For Library (e.g. flask)
+
+## `tox.ini`
+
+```shell script
+tox
 ```
 
 ## `pip-tools`
