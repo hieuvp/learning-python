@@ -7,6 +7,8 @@ It is composable. You can start from plain requirements.txt
 and add tools as you decide to solve other problems from the table above;
 It is based on pip, which is installed everywhere and is the standard for installing packages.
 
+pip and virtualenv are standard tools
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -19,6 +21,7 @@ It is based on pip, which is installed everywhere and is the standard for instal
 - [`requirements.txt`](#requirementstxt)
 - [`pip`](#pip)
 - [`setup.py`](#setuppy)
+- [`tox.ini`](#toxini)
 - [`pip-tools`](#pip-tools)
 - [`pipenv`](#pipenv)
 - [`poetry`](#poetry)
@@ -49,6 +52,8 @@ pip install -r requirements.txt
 pip list
 ```
 
+- virtualenv vs. venv
+
 ## `virtualenvwrapper`
 
 ## PyPI
@@ -59,7 +64,8 @@ how to pronounce PyPI (beginner) anthony explains #020
 
 ## `requirements.txt`
 
-For Application
+- For Application
+- Dependency Management
 
 ## `pip`
 
@@ -88,7 +94,18 @@ tox
 
 ## `pipenv`
 
+The future is uncertain
+More popular
+
+Pipfile
+Pipfile.lock
+
 ## `poetry`
+
+The future is uncertain
+better UI, supports packaging
+
+poetry.lock
 
 ## References
 
