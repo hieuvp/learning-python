@@ -14,6 +14,7 @@ It is based on pip, which is installed everywhere and is the standard for instal
 
 - [`pyenv`](#pyenv)
 - [`venv`](#venv)
+- [PyPI](#pypi)
 - [`requirements.txt`](#requirementstxt)
 - [`pip`](#pip)
 - [`pip-tools`](#pip-tools)
@@ -43,6 +44,12 @@ pip install --requirement requirements.txt
 pip install -r requirements.txt
 pip list
 ```
+
+## PyPI
+
+how to pronounce PyPI (beginner) anthony explains #020
+<https://www.youtube.com/watch?v=I5OUzCAYst8>
+<http://www.howtopronounce.cc/pypi>
 
 ## `requirements.txt`
 
