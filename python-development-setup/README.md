@@ -60,6 +60,11 @@ how to pronounce PyPI (beginner) anthony explains #020
 
 ## `pip`
 
+```shell script
+pip freeze
+pip freeze > requirements.txt
+```
+
 ## `pip-tools`
 
 <https://github.com/jazzband/pip-tools> => install?
