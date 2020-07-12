@@ -7,7 +7,6 @@
 
 - [`print()`](#print)
 - [Indentation](#indentation)
-- [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -28,6 +27,25 @@ To print a string in Python 3, just write:
 ```python
 print("This line will be printed.")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+print("Hello, World!")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+Hello, World!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Indentation
 
@@ -53,27 +71,6 @@ if x == 1:
 ```console
 + python indentation.py
 x is 1.
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-## Exercise
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
-<!-- The below code snippet is automatically added from exercise.py -->
-
-```py
-print("Hello, World!")
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
-<!-- The below code snippet is automatically added from exercise.console -->
-
-```console
-+ python exercise.py
-Hello, World!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

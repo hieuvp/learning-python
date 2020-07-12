@@ -63,7 +63,7 @@ flake8 learn-the-basics/variables-and-types/exercise.py
 #  --exclude-from-doctest EXCLUDE_FROM_DOCTEST
 #                        Skip these files when running doctests
 
-pylint learn-the-basics/variables-and-types/exercise.py
+# pylint learn-the-basics/variables-and-types/exercise.py
 
 # $ pylint --help
 #
