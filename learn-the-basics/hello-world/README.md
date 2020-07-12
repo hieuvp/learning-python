@@ -28,8 +28,8 @@ To print a string in Python 3, just write:
 print("This line will be printed.")
 ```
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
-<!-- The below code snippet is automatically added from exercise.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.py) -->
+<!-- The below code snippet is automatically added from print.py -->
 
 ```py
 print("Hello, World!")
@@ -37,8 +37,8 @@ print("Hello, World!")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
-<!-- The below code snippet is automatically added from exercise.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.console) -->
+<!-- The below code snippet is automatically added from print.console -->
 
 ```console
 + python exercise.py
