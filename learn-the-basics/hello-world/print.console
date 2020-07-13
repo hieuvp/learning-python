@@ -1,2 +1,4 @@
++ python --version
+Python 3.8.3
 + python print.py
 Hello, World!

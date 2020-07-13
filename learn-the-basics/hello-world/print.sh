@@ -2,4 +2,5 @@
 
 set -eoux pipefail
 
+python --version
 python print.py
