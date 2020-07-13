@@ -3,11 +3,11 @@
 Composable set of tools, each tool solving one problem.
 I highly recommend this setup for two main reasons.
 
-It is composable. You can start from plain requirements.txt
+It is composable. You can start from plain `requirements.txt`
 and add tools as you decide to solve other problems from the table above;
 It is based on pip, which is installed everywhere and is the standard for installing packages.
 
-pip and virtualenv are standard tools
+`pip` and `virtualenv` are standard tools
 
 ## Table of Contents
 

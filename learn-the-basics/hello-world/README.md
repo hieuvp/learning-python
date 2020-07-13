@@ -12,7 +12,7 @@
 
 ## `print()`
 
-It simply prints out a line (and also includes a newline).
+> It simply prints out a line and also includes a newline.
 
 There are two major Python versions, Python 2 and Python 3.
 Python 2 and 3 are quite different.
@@ -23,10 +23,6 @@ In Python 2, the "print" statement is not a function, and therefore it is invoke
 However, in Python 3, it is a function, and must be invoked with parentheses.
 
 To print a string in Python 3, just write:
-
-```python
-print("This line will be printed.")
-```
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.py) -->
 <!-- The below code snippet is automatically added from print.py -->
