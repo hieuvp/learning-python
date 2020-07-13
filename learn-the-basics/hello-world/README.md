@@ -37,7 +37,7 @@ Hello, World!
 
 ## Indentation
 
-> Python uses indentation for blocks, instead of curly braces.
+> Python uses indentation for blocks, instead of curly braces.<br />
 > Both tabs and spaces are supported,
 > but the standard indentation requires standard Python code to use four spaces.
 
