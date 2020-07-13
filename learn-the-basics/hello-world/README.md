@@ -12,7 +12,7 @@
 
 ## `print()`
 
-> Print out a line and also includes a newline.
+> Print out a line and also include a newline.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.py) -->
 <!-- The below code snippet is automatically added from print.py -->
@@ -39,7 +39,7 @@ Hello, World!
 
 > Python uses indentation for blocks, instead of curly braces.<br />
 > Both tabs and spaces are supported,
-> but the standard indentation requires standard Python code to use four spaces.
+> but the standard indentation requires standard Python code to use **four spaces**.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=indentation.py) -->
 <!-- The below code snippet is automatically added from indentation.py -->
