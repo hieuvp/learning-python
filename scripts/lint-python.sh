@@ -1,8 +1,29 @@
 #!/usr/bin/env bash
 
-set -eoux pipefail
+set -eou pipefail
 
-flake8 learn-the-basics/variables-and-types/exercise.py
+# shellcheck source=helper-scripts/init.sh
+# shellcheck disable=SC1091
+source "${HELPER_SCRIPT_PATH}/init.sh"
+
+FILES=$(ls_files::by_extension "py")
+
+readarray -t FILES < <(printf "%s" "$FILES")
+declare -ra FILES
+
+main() {
+  local -r file=$1
+
+  set -x
+  flake8 "$file"
+  set +x
+}
+
+for file in "${FILES[@]}"; do
+  if is_processable "$file"; then
+    main "$file"
+  fi
+done
 
 # optional arguments:
 #
