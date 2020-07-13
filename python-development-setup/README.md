@@ -25,6 +25,8 @@ pip and virtualenv are standard tools
 - [`pip-tools`](#pip-tools)
 - [`pipenv`](#pipenv)
 - [`poetry`](#poetry)
+- [pypa](#pypa)
+- [anaconda](#anaconda)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -106,6 +108,15 @@ The future is uncertain
 better UI, supports packaging
 
 poetry.lock
+
+## pypa
+
+- <https://www.pypa.io/en/latest/>
+
+## anaconda
+
+- <https://www.anaconda.com/>  
+  => Data Science
 
 ## References
 

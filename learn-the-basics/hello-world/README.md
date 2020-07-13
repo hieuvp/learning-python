@@ -41,7 +41,7 @@ print("Hello, World!")
 <!-- The below code snippet is automatically added from print.console -->
 
 ```console
-+ python exercise.py
++ python print.py
 Hello, World!
 ```
 
