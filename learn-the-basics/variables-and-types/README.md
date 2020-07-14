@@ -103,14 +103,6 @@ Don't worry about apostrophes
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-The difference between the two is that using double quotes makes it easy to include apostrophes
-(whereas these would terminate the string if using single quotes)
-
-```python
-mystring = "Don't worry about apostrophes"
-print(mystring)
-```
-
 There are additional variations on defining strings that make it easier to include things
 such as carriage returns, backslashes and Unicode characters.
 These are beyond the scope of this tutorial, but are covered in the Python documentation.
