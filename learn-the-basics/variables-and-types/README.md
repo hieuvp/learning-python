@@ -139,11 +139,6 @@ hello world
 Assignments can be done on more than one variable
 "simultaneously" on the same line like this
 
-```python
-a, b = 3, 4
-print(a,b)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=assignments.py) -->
 <!-- The below code snippet is automatically added from assignments.py -->
 
