@@ -144,6 +144,26 @@ a, b = 3, 4
 print(a,b)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=assignments.py) -->
+<!-- The below code snippet is automatically added from assignments.py -->
+
+```py
+a, b = 3, 4
+print(a, b)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=assignments.console) -->
+<!-- The below code snippet is automatically added from assignments.console -->
+
+```console
++ python assignments.py
+3 4
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Mixing operators between numbers and strings is not supported:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=unsupported_operators.py) -->

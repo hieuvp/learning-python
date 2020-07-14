@@ -16,6 +16,10 @@ string:
 simple-operators:
 	./simple_operators.sh &> simple_operators.console
 
+.PHONY: assignments
+assignments:
+	./assignments.sh &> assignments.console
+
 .PHONY: unsupported-operators
 unsupported-operators:
 	./unsupported_operators.sh &> unsupported_operators.console || true
@@ -25,4 +29,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: integer float string simple-operators unsupported-operators exercise
+all: integer float string simple-operators assignments unsupported-operators exercise
