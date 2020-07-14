@@ -1,0 +1,5 @@
++ python unsupported_operators.py
+Traceback (most recent call last):
+  File "unsupported_operators.py", line 6, in <module>
+    print(one + two + hello)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

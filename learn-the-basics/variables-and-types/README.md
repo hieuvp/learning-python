@@ -136,18 +136,6 @@ hello world
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-one = 1
-two = 2
-three = one + two
-print(three)
-
-hello = "hello"
-world = "world"
-helloworld = hello + " " + world
-print(helloworld)
-```
-
 Assignments can be done on more than one variable
 "simultaneously" on the same line like this
 
@@ -157,6 +145,33 @@ print(a,b)
 ```
 
 Mixing operators between numbers and strings is not supported:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=unsupported_operators.py) -->
+<!-- The below code snippet is automatically added from unsupported_operators.py -->
+
+```py
+# This will not work!
+one = 1
+two = 2
+hello = "hello"
+
+print(one + two + hello)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=unsupported_operators.console) -->
+<!-- The below code snippet is automatically added from unsupported_operators.console -->
+
+```console
++ python unsupported_operators.py
+Traceback (most recent call last):
+  File "unsupported_operators.py", line 6, in <module>
+    print(one + two + hello)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 # This will not work!
