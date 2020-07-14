@@ -10,6 +10,10 @@ FILES=$(ls_files::by_extension "py")
 readarray -t FILES < <(printf "%s" "$FILES")
 declare -ra FILES
 
+declare -ra IGNORING_FILES=(
+  "learn-the-basics/variables-and-types/string.py"
+)
+
 main() {
   local -r file=$1
 
@@ -25,7 +29,7 @@ main() {
 }
 
 for file in "${FILES[@]}"; do
-  if is_processable "$file"; then
+  if [[ " ${IGNORING_FILES[*]} " != *" ${file} "* ]] && is_processable "$file"; then
     main "$file"
   fi
 done

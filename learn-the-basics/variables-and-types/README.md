@@ -21,8 +21,6 @@
 
 ### Integers
 
-To define an integer, use the following syntax:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=integer.py) -->
 <!-- The below code snippet is automatically added from integer.py -->
 
@@ -44,8 +42,6 @@ print(my_int)
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Floating Point Numbers
-
-To define a floating point number, you may use one of the following notations:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=float.py) -->
 <!-- The below code snippet is automatically added from float.py -->
