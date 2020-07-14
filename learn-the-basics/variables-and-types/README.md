@@ -173,15 +173,6 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-# This will not work!
-one = 1
-two = 2
-hello = "hello"
-
-print(one + two + hello)
-```
-
 ## Exercise
 
 The target of this exercise is to create a string, an integer,

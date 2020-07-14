@@ -2,8 +2,7 @@
 
 set -eou pipefail
 
-# shellcheck source=helper-scripts/init.sh
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090
 source "${HELPER_SCRIPT_PATH}/init.sh"
 
 FILES=$(ls_files::by_extension "py")
@@ -14,9 +13,8 @@ declare -ra FILES
 main() {
   local -r file=$1
 
-  set -x
   flake8 "$file"
-  set +x
+  pylint "$file"
 }
 
 for file in "${FILES[@]}"; do
@@ -25,6 +23,12 @@ for file in "${FILES[@]}"; do
   fi
 done
 
+# $ flake8 --help
+# usage: flake8 [options] file file ...
+#
+# positional arguments:
+#   filename
+#
 # optional arguments:
 #
 #  --append-config APPEND_CONFIG
@@ -83,8 +87,6 @@ done
 #                        Run doctests only on these files
 #  --exclude-from-doctest EXCLUDE_FROM_DOCTEST
 #                        Skip these files when running doctests
-
-# pylint learn-the-basics/variables-and-types/exercise.py
 
 # $ pylint --help
 #
