@@ -108,6 +108,34 @@ These are beyond the scope of this tutorial, but are covered in the Python docum
 
 Simple operators can be executed on numbers and strings:
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.py) -->
+<!-- The below code snippet is automatically added from simple_operators.py -->
+
+```py
+one = 1
+two = 2
+three = one + two
+print(three)
+
+hello = "hello"
+world = "world"
+hello_world = hello + " " + world
+print(hello_world)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.console) -->
+<!-- The below code snippet is automatically added from simple_operators.console -->
+
+```console
++ python simple_operators.py
+3
+hello world
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 one = 1
 two = 2
