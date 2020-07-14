@@ -68,8 +68,6 @@ print(my_float)
 
 ## Strings
 
-Strings are defined either with a single quote or a double quotes.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string.py) -->
 <!-- The below code snippet is automatically added from string.py -->
 
