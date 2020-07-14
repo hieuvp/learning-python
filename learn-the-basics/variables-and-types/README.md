@@ -74,8 +74,11 @@ Strings are defined either with a single quote or a double quotes.
 <!-- The below code snippet is automatically added from string.py -->
 
 ```py
+# With a single quote
 my_string = 'hello'
 print(my_string)
+
+# Or a double quotes
 my_string = "hello"
 print(my_string)
 ```
