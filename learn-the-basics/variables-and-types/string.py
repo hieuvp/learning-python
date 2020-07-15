@@ -1,13 +1,13 @@
 # With a single quote
-my_string = 'hello'
-print(my_string)
+MY_STRING = 'hello'
+print(MY_STRING)
 
 # Or a double quotes
-my_string = "hello"
-print(my_string)
+MY_STRING = "hello"
+print(MY_STRING)
 
 # The difference between the two is that
 # using double quotes makes it easy to include apostrophes
 # (whereas these would terminate the string if using single quotes)
-my_string = "Don't worry about apostrophes"
-print(my_string)
+MY_STRING = "Don't worry about apostrophes"
+print(MY_STRING)

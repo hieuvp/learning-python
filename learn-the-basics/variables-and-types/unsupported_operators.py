@@ -1,6 +1,6 @@
 # This will not work!
-one = 1
-two = 2
-hello = "hello"
+ONE = 1
+TWO = 2
+HELLO = "hello"
 
-print(one + two + hello)
+print(ONE + TWO + HELLO)

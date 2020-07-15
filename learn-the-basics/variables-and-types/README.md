@@ -25,8 +25,8 @@
 <!-- The below code snippet is automatically added from integer.py -->
 
 ```py
-my_int = 7
-print(my_int)
+MY_INT = 7
+print(MY_INT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -47,10 +47,10 @@ print(my_int)
 <!-- The below code snippet is automatically added from float.py -->
 
 ```py
-my_float = 7.0
-print(my_float)
-my_float = float(7)
-print(my_float)
+MY_FLOAT = 7.0
+print(MY_FLOAT)
+MY_FLOAT = float(7)
+print(MY_FLOAT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -73,18 +73,18 @@ print(my_float)
 
 ```py
 # With a single quote
-my_string = 'hello'
-print(my_string)
+MY_STRING = 'hello'
+print(MY_STRING)
 
 # Or a double quotes
-my_string = "hello"
-print(my_string)
+MY_STRING = "hello"
+print(MY_STRING)
 
 # The difference between the two is that
 # using double quotes makes it easy to include apostrophes
 # (whereas these would terminate the string if using single quotes)
-my_string = "Don't worry about apostrophes"
-print(my_string)
+MY_STRING = "Don't worry about apostrophes"
+print(MY_STRING)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -114,15 +114,15 @@ Simple operators can be executed on numbers and strings:
 <!-- The below code snippet is automatically added from simple_operators.py -->
 
 ```py
-one = 1
-two = 2
-three = one + two
-print(three)
+ONE = 1
+TWO = 2
+THREE = ONE + TWO
+print(THREE)
 
-hello = "hello"
-world = "world"
-hello_world = hello + " " + world
-print(hello_world)
+HELLO = "hello"
+WORLD = "world"
+HELLO_WORLD = HELLO + " " + WORLD
+print(HELLO_WORLD)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -172,11 +172,11 @@ Mixing operators between numbers and strings is not supported:
 
 ```py
 # This will not work!
-one = 1
-two = 2
-hello = "hello"
+ONE = 1
+TWO = 2
+HELLO = "hello"
 
-print(one + two + hello)
+print(ONE + TWO + HELLO)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

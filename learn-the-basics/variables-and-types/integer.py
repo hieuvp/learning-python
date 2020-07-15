@@ -1,2 +1,2 @@
-my_int = 7
-print(my_int)
+MY_INT = 7
+print(MY_INT)

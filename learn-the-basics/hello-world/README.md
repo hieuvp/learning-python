@@ -45,10 +45,10 @@ Hello, World!
 <!-- The below code snippet is automatically added from indentation.py -->
 
 ```py
-x = 1
-if x == 1:
+X = 1
+if X == 1:
     # Indented four spaces
-    print("x is 1.")
+    print("X is 1.")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
