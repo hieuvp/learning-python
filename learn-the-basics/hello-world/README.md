@@ -58,7 +58,7 @@ if X == 1:
 
 ```console
 + python indentation.py
-x is 1.
+X is 1.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

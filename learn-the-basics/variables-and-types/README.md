@@ -188,7 +188,7 @@ print(ONE + TWO + HELLO)
 + python unsupported_operators.py
 Traceback (most recent call last):
   File "unsupported_operators.py", line 6, in <module>
-    print(one + two + hello)
+    print(ONE + TWO + HELLO)
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
