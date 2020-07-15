@@ -105,6 +105,7 @@ Don't worry about apostrophes
 
 There are additional variations on defining strings that make it easier to include things
 such as carriage returns (`\r`), backslashes and Unicode characters.
+<https://www.youtube.com/watch?v=fpRZsVrVrkU>
 These are beyond the scope of this tutorial, but are covered in the Python documentation.
 <https://docs.python.org/tutorial/introduction.html#strings>
 
