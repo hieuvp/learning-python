@@ -114,6 +114,8 @@ Simple operators can be executed on numbers and strings:
 <!-- The below code snippet is automatically added from simple_operators.py -->
 
 ```py
+# Simple operators can be executed on numbers and strings
+
 ONE = 1
 TWO = 2
 THREE = ONE + TWO
@@ -146,6 +148,7 @@ hello world
 ```py
 # Assignments can be done
 # on more than one variable "simultaneously" on the same line
+
 a, b = 3, 4
 print(a, b)
 ```
