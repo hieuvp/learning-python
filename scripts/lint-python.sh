@@ -14,7 +14,10 @@ main() {
   local -r file=$1
 
   flake8 "$file"
-  pylint "$file"
+
+  pylint \
+    --rcfile "${EXECUTION_PATH}/.pylintrc" \
+    "$file"
 }
 
 for file in "${FILES[@]}"; do
@@ -141,7 +144,6 @@ done
 #                         needs to be passed as the module_or_package argument.
 #
 #   Commands:
-#     --rcfile=<file>     Specify a configuration file to load.
 #     --help-msg=<msg-id>
 #                         Display a help message for the given message id and
 #                         exit. The value may be a comma separated list of

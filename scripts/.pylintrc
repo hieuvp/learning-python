@@ -1,4 +1,4 @@
-# https://stackoverflow.com/questions/7877522/how-do-i-disable-missing-docstring-warnings-at-a-file-level-in-pylint
 [MASTER]
+
 disable=
-    C0114, # missing-module-docstring
+    C0114, # Missing module docstring (missing-module-docstring)
