@@ -164,13 +164,12 @@ print(a, b)
 
 <br />
 
-Mixing operators between numbers and strings is not supported:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=unsupported_operators.py) -->
 <!-- The below code snippet is automatically added from unsupported_operators.py -->
 
 ```py
 # Mixing operators between numbers and strings is not supported
+
 ONE = 1
 TWO = 2
 HELLO = "hello"
