@@ -108,8 +108,6 @@ such as carriage returns, backslashes and Unicode characters.
 These are beyond the scope of this tutorial, but are covered in the Python documentation.
 <https://docs.python.org/tutorial/introduction.html#strings>
 
-Simple operators can be executed on numbers and strings:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.py) -->
 <!-- The below code snippet is automatically added from simple_operators.py -->
 
