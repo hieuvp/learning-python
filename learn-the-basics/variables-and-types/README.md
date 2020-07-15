@@ -147,6 +147,8 @@ Assignments can be done on more than one variable
 <!-- The below code snippet is automatically added from assignments.py -->
 
 ```py
+# Assignments can be done
+# on more than one variable "simultaneously" on the same line
 a, b = 3, 4
 print(a, b)
 ```
@@ -171,7 +173,7 @@ Mixing operators between numbers and strings is not supported:
 <!-- The below code snippet is automatically added from unsupported_operators.py -->
 
 ```py
-# This will not work!
+# Mixing operators between numbers and strings is not supported
 ONE = 1
 TWO = 2
 HELLO = "hello"
