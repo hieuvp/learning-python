@@ -101,6 +101,8 @@ Don't worry about apostrophes
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 There are additional variations on defining strings that make it easier to include things
 such as carriage returns, backslashes and Unicode characters.
 These are beyond the scope of this tutorial, but are covered in the Python documentation.
@@ -136,6 +138,8 @@ hello world
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 Assignments can be done on more than one variable
 "simultaneously" on the same line like this
 
@@ -158,6 +162,8 @@ print(a, b)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 Mixing operators between numbers and strings is not supported:
 
