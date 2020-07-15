@@ -1,9 +1,9 @@
-# Change this code
+# Create a String, an Integer, and a Floating Point Number
 MY_STRING = "hello"
 MY_FLOAT = 10.0
 MY_INT = 20
 
-# Testing code
+# Testing Code
 if MY_STRING == "hello":
     print("String: %s" % MY_STRING)
 if isinstance(MY_FLOAT, float) and MY_FLOAT == 10.0:
