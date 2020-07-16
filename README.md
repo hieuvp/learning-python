@@ -6,22 +6,42 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Courses](#courses)
-  - [Learn the Basics](#learn-the-basics)
-  - [Data Science Tutorials](#data-science-tutorials)
-  - [Advanced Tutorials](#advanced-tutorials)
   - [Managing Python Packages and Virtual Environments](#managing-python-packages-and-virtual-environments)
   - [Unit Testing with Python](#unit-testing-with-python)
 - [Topics](#topics)
+  - [Learn the Basics](#learn-the-basics)
+  - [Data Science Tutorials](#data-science-tutorials)
+  - [Advanced Tutorials](#advanced-tutorials)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Courses
 
+### Managing Python Packages and Virtual Environments
+
+1. [ ] [Course Overview](README.md)
+1. [ ] [Managing Python Packages with `pip`](README.md)
+1. [ ] [Setting up Your Project with Virtual Environments](README.md)
+1. [ ] [Using `virtualenvwrapper` to Make Your Life Easier](README.md)
+1. [ ] [Choosing the Right Tools](README.md)
+
+### Unit Testing with Python
+
+1. [ ] [Course Overview](README.md)
+1. [ ] [Unit Test Fundamentals](README.md)
+1. [ ] [Unit Testing Why and When](README.md)
+1. [ ] [Unit Testing with `pytest`](README.md)
+1. [ ] [Testable Documentation with `doctest`](README.md)
+1. [ ] [Using Test Doubles](README.md)
+1. [ ] [Parameterized Tests & Test Coverage](README.md)
+
+## Topics
+
 ### Learn the Basics
 
-1. [Hello, World!](learn-the-basics/hello-world/README.md)
-1. [Variables and Types](learn-the-basics/variables-and-types/README.md)
+1. [ ] [Hello, World!](learn-the-basics/hello-world/README.md)
+1. [ ] [Variables and Types](learn-the-basics/variables-and-types/README.md)
 1. [ ] [Lists](learn-the-basics/lists/README.md)
 1. [ ] [Basic Operators](learn-the-basics/basic-operators/README.md)
 1. [ ] [String Formatting](learn-the-basics/string-formatting/README.md)
@@ -52,28 +72,6 @@
 1. [ ] [Closures](advanced-tutorials/closures/README.md)
 1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
 1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
-
-### Managing Python Packages and Virtual Environments
-
-1. [ ] [Course Overview](README.md)
-1. [ ] [Managing Python Packages with `pip`](README.md)
-1. [ ] [Setting up Your Project with Virtual Environments](README.md)
-1. [ ] [Using `virtualenvwrapper` to Make Your Life Easier](README.md)
-1. [ ] [Choosing the Right Tools](README.md)
-
-### Unit Testing with Python
-
-1. [ ] [Course Overview](README.md)
-1. [ ] [Unit Test Fundamentals](README.md)
-1. [ ] [Unit Testing Why and When](README.md)
-1. [ ] [Unit Testing with `pytest`](README.md)
-1. [ ] [Testable Documentation with `doctest`](README.md)
-1. [ ] [Using Test Doubles](README.md)
-1. [ ] [Parameterized Tests & Test Coverage](README.md)
-
-## Topics
-
-1. [ ] [Python Development Setup](python-development-setup/README.md)
 
 ## References
 
