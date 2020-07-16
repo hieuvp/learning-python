@@ -6,13 +6,7 @@
 fmt:
 	@printf "\n"
 	$(MAKEFILE_SCRIPT_PATH)/fmt-shell.sh
-	@printf "\n"
-
-	@printf "\n"
 	scripts/fmt-python.sh
-	@printf "\n"
-
-	@printf "\n"
 	$(MAKEFILE_SCRIPT_PATH)/fmt-markdown.sh
 	@printf "\n"
 
@@ -20,9 +14,6 @@ fmt:
 lint:
 	@printf "\n"
 	$(MAKEFILE_SCRIPT_PATH)/lint-shell.sh
-	@printf "\n"
-
-	@printf "\n"
 	scripts/lint-python.sh
 	@printf "\n"
 
