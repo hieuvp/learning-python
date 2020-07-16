@@ -111,9 +111,6 @@ The name comes from a printer's carriage,
 as monitors were rare when the name was coined.
 This is commonly escaped as `\r`, abbreviated `CR`, and has ASCII value `13` or `0x0D`.
 
-These are beyond the scope of this tutorial, but are covered in the Python documentation.
-<https://docs.python.org/tutorial/introduction.html#strings>
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.py) -->
 <!-- The below code snippet is automatically added from simple_operators.py -->
 
