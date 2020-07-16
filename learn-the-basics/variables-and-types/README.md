@@ -104,8 +104,13 @@ Don't worry about apostrophes
 <br />
 
 There are additional variations on defining strings that make it easier to include things
-such as carriage returns (`\r`), backslashes and Unicode characters.
-<https://www.youtube.com/watch?v=fpRZsVrVrkU>
+such as carriage returns (`\r`), backslashes (`\`) and Unicode characters.
+
+Carriage return means to return to the beginning of the current line without advancing downward.
+The name comes from a printer's carriage,
+as monitors were rare when the name was coined.
+This is commonly escaped as `\r`, abbreviated `CR`, and has ASCII value `13` or `0x0D`.
+
 These are beyond the scope of this tutorial, but are covered in the Python documentation.
 <https://docs.python.org/tutorial/introduction.html#strings>
 
