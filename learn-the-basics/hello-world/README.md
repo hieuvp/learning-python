@@ -38,8 +38,8 @@ Hello, World!
 ## Indentation
 
 > Python uses **indentation** for **blocks**, instead of **curly braces**.<br />
-> Both tabs and spaces are supported,
-> but the standard indentation requires standard Python code to use **four spaces**.
+> Both **tabs** and **spaces** are supported,
+> but the **standard indentation** requires standard Python code to use **four spaces**.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=indentation.py) -->
 <!-- The below code snippet is automatically added from indentation.py -->
