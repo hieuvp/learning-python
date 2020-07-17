@@ -2,9 +2,3 @@
 
 disable=
     C0114, # Missing module docstring (missing-module-docstring)
-
-
-[MESSAGES CONTROL]
-
-disable=
-    R, C,  # Show ERROR and WARNING messages only

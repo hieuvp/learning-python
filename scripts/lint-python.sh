@@ -17,6 +17,7 @@ main() {
 
   pylint \
     --rcfile "${EXECUTION_PATH}/.pylintrc" \
+    --score no \
     "$file"
 }
 
