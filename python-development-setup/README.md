@@ -1,6 +1,5 @@
 # Python Development Setup
 
-<<<<<<< HEAD
 Composable set of tools, each tool solving one problem.
 I highly recommend this setup for two main reasons.
 
@@ -8,16 +7,13 @@ It is composable. You can start from plain `requirements.txt`
 and add tools as you decide to solve other problems from the table above;
 It is based on pip, which is installed everywhere and is the standard for installing packages.
 
-`pip` and `virtualenv` are standard tools
+`pip` and `virtualenv` are standard tools.
 
-=======
->>>>>>> master
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<<<<<<< HEAD
 - [`pyenv`](#pyenv)
 - [`venv`](#venv)
 - [`virtualenvwrapper`](#virtualenvwrapper)
@@ -31,13 +27,10 @@ It is based on pip, which is installed everywhere and is the standard for instal
 - [`poetry`](#poetry)
 - [pypa](#pypa)
 - [anaconda](#anaconda)
-=======
->>>>>>> master
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<<<<<<< HEAD
 ## `pyenv`
 
 Although not required,
@@ -131,6 +124,3 @@ poetry.lock
 - [python-virtual-env](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env)
 - [venv](https://docs.python.org/3/tutorial/venv.html)
 - [installing-using-pip-and-virtual-environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
-=======
-## References
->>>>>>> master
