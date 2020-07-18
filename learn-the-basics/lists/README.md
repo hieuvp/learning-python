@@ -17,21 +17,41 @@ They can contain any type of variable, and they can contain as many variables as
 Lists can also be iterated over in a very simple manner.
 Here is an example of how to build a list.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list.py) -->
+<!-- The below code snippet is automatically added from list.py -->
+
 ```py
 mylist = []
 mylist.append(1)
 mylist.append(2)
 mylist.append(3)
-print(mylist[0]) # prints 1
-print(mylist[1]) # prints 2
-print(mylist[2]) # prints 3
+print(mylist[0])  # prints 1
+print(mylist[1])  # prints 2
+print(mylist[2])  # prints 3
 
 # prints out 1,2,3
 for x in mylist:
     print(x)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Accessing an index which does not exist generates an exception (an error).
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list.console) -->
+<!-- The below code snippet is automatically added from list.console -->
+
+```console
++ python list.py
+1
+2
+3
+1
+2
+3
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```py
 mylist = [1,2,3]
@@ -50,17 +70,34 @@ using the brackets operator [].
 Note that the index is zero-based,
 so if you want to access the second item in the list, its index will be 1.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
 ```py
 numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
 
-# write your code here
-second_name = None
+# Write your code here
+SECOND_NAME = None
 
-
-# this code should write out the filled arrays and the second name in the names list (Eric).
+# This code should write out the filled arrays
+# and the second name in the names list (Eric)
 print(numbers)
 print(strings)
-print("The second name on the names list is %s" % second_name)
+print("The second name on the names list is %s" % SECOND_NAME)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+[]
+[]
+The second name on the names list is None
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
