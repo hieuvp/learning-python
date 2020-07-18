@@ -14,3 +14,5 @@ type pip
 
 pip install --requirement requirements.txt
 pip list
+
+rm -rf venv
