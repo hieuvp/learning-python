@@ -13,10 +13,7 @@
   - [Integers](#integers)
   - [Floating Point Numbers](#floating-point-numbers)
 - [Strings](#strings)
-<<<<<<< HEAD
 - [Exercise](#exercise)
-=======
->>>>>>> master
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -103,7 +100,6 @@ Don't worry about apostrophes
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-<<<<<<< HEAD
 
 <br />
 
@@ -233,5 +229,3 @@ Integer: 20
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-=======
->>>>>>> master
