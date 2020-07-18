@@ -1,4 +1,4 @@
-# Simple operators can be executed on numbers and strings
+# Simple Operators can be executed on Numbers and Strings
 
 ONE = 1
 TWO = 2
