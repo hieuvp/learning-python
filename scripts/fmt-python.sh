@@ -18,11 +18,8 @@ main() {
   local -r file=$1
 
   local -ra options=(
-    # Do not emit non-error messages to stderr, errors are still emitted
-    --quiet
-
-    # How many characters per line to allow
-    --line-length 96
+    --quiet          # Do not emit non-error messages to stderr, errors are still emitted
+    --line-length 96 # How many characters per line to allow
   )
 
   black "${options[@]}" "$file"
