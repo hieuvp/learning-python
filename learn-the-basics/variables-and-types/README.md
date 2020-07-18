@@ -73,17 +73,16 @@ print(MY_FLOAT)
 <!-- The below code snippet is automatically added from string.py -->
 
 ```py
-# With a single quote
+# With a Single Quote
 MY_STRING = 'hello'
 print(MY_STRING)
 
-# Or a double quotes
+# Or a Double Quotes
 MY_STRING = "hello"
 print(MY_STRING)
 
 # The difference between the two is that
-# using double quotes makes it easy to include apostrophes
-# (whereas these would terminate the string if using single quotes)
+# using Double Quotes makes it easy to include "apostrophes"
 MY_STRING = "Don't worry about apostrophes"
 print(MY_STRING)
 ```
