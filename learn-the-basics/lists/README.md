@@ -64,7 +64,3 @@ print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name)
 ```
-
-This site is generously supported by DataCamp.
-DataCamp offers online interactive Python Tutorials for Data Science.
-Join over a million other learners and get started learning Python for data science today!
