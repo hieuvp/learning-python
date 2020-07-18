@@ -1,0 +1,50 @@
++ type python
+python is /usr/bin/python
++ type pip
+./virtualenv.sh: line 6: type: pip: not found
++ true
++ rm -rf venv
++ virtualenv venv
+created virtual environment CPython3.8.3.final.0-64 in 404ms
+  creator CPython3Posix(dest=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/hieu.van/Library/Application Support/virtualenv)
+    added seed packages: pip==20.1.1, setuptools==47.3.1, wheel==0.34.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
++ source venv/bin/activate
+++ '[' venv/bin/activate = ./virtualenv.sh ']'
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ '[' -n /usr/local/bin/bash ']'
+++ hash -r
+++ '[' -z '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH='../../venv/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/Users/hieu.van/.sdkman/candidates/scala/current/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin'
+++ PATH='/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin:../../venv/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/Users/hieu.van/.sdkman/candidates/scala/current/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin'
+++ export PATH
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' x '!=' x ']'
++++ basename /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv
+++ PS1='(venv) '
+++ export PS1
+++ alias pydoc
+++ true
+++ '[' -n /usr/local/bin/bash ']'
+++ hash -r
++ type python
+python is /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/python
++ type pip
+pip is /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/pip
++ pip install --requirement requirements.txt
++ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.3.1
+wheel      0.34.2

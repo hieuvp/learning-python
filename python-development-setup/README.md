@@ -33,10 +33,7 @@ It is based on pip, which is installed everywhere and is the standard for instal
 
 ## `pyenv`
 
-Although not required,
-the `pyenv` wiki recommends installing some additional libraries.
-
-Simple Python Version Management
+> Simple Python version management.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=pyenv.console) -->
 <!-- The below code snippet is automatically added from pyenv.console -->
@@ -49,10 +46,6 @@ Python 2.7.16
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```shell script
-brew install sqlite3 zlib
-```
 
 ## `venv`
 
