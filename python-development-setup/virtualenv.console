@@ -1,80 +1,43 @@
 + type python
 python is /usr/bin/python
 + type pip
-./virtualenv.sh: line 6: type: pip: not found
+./virtualenv.sh: line 7: type: pip: not found
 + true
 + rm -rf venv
 + virtualenv venv
-created virtual environment CPython3.8.3.final.0-64 in 428ms
+created virtual environment CPython3.8.3.final.0-64 in 426ms
   creator CPython3Posix(dest=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv, clear=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/hieu.van/Library/Application Support/virtualenv)
     added seed packages: pip==20.1.1, setuptools==47.3.1, wheel==0.34.2
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
++ set +x
 + source venv/bin/activate
-++ '[' venv/bin/activate = ./virtualenv.sh ']'
-++ deactivate nondestructive
-++ unset -f pydoc
-++ '[' -z '' ']'
-++ '[' -z '' ']'
-++ '[' -n /usr/local/bin/bash ']'
-++ hash -r
-++ '[' -z '' ']'
-++ unset VIRTUAL_ENV
-++ '[' '!' nondestructive = nondestructive ']'
-++ VIRTUAL_ENV=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv
-++ export VIRTUAL_ENV
-++ _OLD_VIRTUAL_PATH='../../venv/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/Users/hieu.van/.sdkman/candidates/scala/current/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin'
-++ PATH='/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin:../../venv/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-sk/bin:/Users/hieu.van/Desktop/Workspace/ShopBack/shopback-shopbash/bin:/Users/hieu.van/Desktop/Workspace/Miscellany/maintenance-cli/bin:/Users/hieu.van/Documents/Google Cloud SDK/bin:/Users/hieu.van/.sdkman/candidates/scala/current/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/ncurses/bin:/usr/local/opt/apr-util/bin:/usr/local/opt/apr/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl@1.1/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/usr/local/opt/openldap/sbin:/usr/local/opt/openldap/bin:/usr/local/opt/libpq/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/mysql-client/bin:/Applications/draw.io.app/Contents/MacOS:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/hieu.van/.rbenv/shims:/Users/hieu.van/.pyenv/shims:/usr/local/sbin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin:/Users/hieu.van/Library/Android/sdk/emulator:/Users/hieu.van/Library/Android/sdk/tools:/Users/hieu.van/Library/Android/sdk/tools/bin:/Users/hieu.van/Library/Android/sdk/platform-tools:/Users/hieu.van/.go/bin:/usr/local/opt/go/libexec/bin'
-++ export PATH
-++ '[' -z '' ']'
-++ '[' -z '' ']'
-++ _OLD_VIRTUAL_PS1=
-++ '[' x '!=' x ']'
-+++ basename /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv
-++ PS1='(venv) '
-++ export PS1
-++ alias pydoc
-++ true
-++ '[' -n /usr/local/bin/bash ']'
-++ hash -r
 + type python
 python is /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/python
 + type pip
 pip is /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/pip
++ pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 47.3.1
+wheel      0.34.2
 + pip install --requirement requirements.txt
 Collecting pylint==2.5.3
-  Downloading pylint-2.5.3-py3-none-any.whl (324 kB)
-Collecting mccabe<0.7,>=0.6
-  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
-Collecting astroid<=2.5,>=2.4.0
-  Downloading astroid-2.4.2-py3-none-any.whl (213 kB)
-Collecting toml>=0.7.1
-  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
+  Using cached pylint-2.5.3-py3-none-any.whl (324 kB)
 Collecting isort<5,>=4.2.5
-  Downloading isort-4.3.21-py2.py3-none-any.whl (42 kB)
+  Using cached isort-4.3.21-py2.py3-none-any.whl (42 kB)
+Collecting mccabe<0.7,>=0.6
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting toml>=0.7.1
+  Using cached toml-0.10.1-py2.py3-none-any.whl (19 kB)
+Collecting astroid<=2.5,>=2.4.0
+  Using cached astroid-2.4.2-py3-none-any.whl (213 kB)
+Processing /Users/hieu.van/Library/Caches/pip/wheels/d7/f7/3b/6853df4a25a106662f20e70ad6bd448c8ae07d12ce80fb9063/lazy_object_proxy-1.4.3-cp38-cp38-macosx_10_15_x86_64.whl
 Collecting six~=1.12
-  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
-Collecting lazy-object-proxy==1.4.*
-  Downloading lazy-object-proxy-1.4.3.tar.gz (34 kB)
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Getting requirements to build wheel: started
-  Getting requirements to build wheel: finished with status 'done'
-    Preparing wheel metadata: started
-    Preparing wheel metadata: finished with status 'done'
-Collecting wrapt~=1.11
-  Downloading wrapt-1.12.1.tar.gz (27 kB)
-Building wheels for collected packages: lazy-object-proxy, wrapt
-  Building wheel for lazy-object-proxy (PEP 517): started
-  Building wheel for lazy-object-proxy (PEP 517): finished with status 'done'
-  Created wheel for lazy-object-proxy: filename=lazy_object_proxy-1.4.3-cp38-cp38-macosx_10_15_x86_64.whl size=19532 sha256=171af7c2e46e5cee047ef43adc0572f3165a2ef00975d7fde9b0cc24bae67d5a
-  Stored in directory: /Users/hieu.van/Library/Caches/pip/wheels/d7/f7/3b/6853df4a25a106662f20e70ad6bd448c8ae07d12ce80fb9063
-  Building wheel for wrapt (setup.py): started
-  Building wheel for wrapt (setup.py): finished with status 'done'
-  Created wheel for wrapt: filename=wrapt-1.12.1-cp38-cp38-macosx_10_15_x86_64.whl size=32595 sha256=a21648cd5ce856b75fbbc64ed4a070de4d77cadd09d55619b53132d0b091ac0a
-  Stored in directory: /Users/hieu.van/Library/Caches/pip/wheels/5f/fd/9e/b6cf5890494cb8ef0b5eaff72e5d55a70fb56316007d6dfe73
-Successfully built lazy-object-proxy wrapt
-Installing collected packages: mccabe, six, lazy-object-proxy, wrapt, astroid, toml, isort, pylint
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
+Processing /Users/hieu.van/Library/Caches/pip/wheels/5f/fd/9e/b6cf5890494cb8ef0b5eaff72e5d55a70fb56316007d6dfe73/wrapt-1.12.1-cp38-cp38-macosx_10_15_x86_64.whl
+Installing collected packages: isort, mccabe, toml, lazy-object-proxy, six, wrapt, astroid, pylint
 Successfully installed astroid-2.4.2 isort-4.3.21 lazy-object-proxy-1.4.3 mccabe-0.6.1 pylint-2.5.3 six-1.15.0 toml-0.10.1 wrapt-1.12.1
 + pip list
 Package           Version
