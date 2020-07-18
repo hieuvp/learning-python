@@ -25,6 +25,7 @@ my_list = []
 my_list.append(1)
 my_list.append(2)
 my_list.append(3)
+
 print(my_list[0])  # prints 1
 print(my_list[1])  # prints 2
 print(my_list[2])  # prints 3
@@ -35,8 +36,6 @@ for x in my_list:
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Accessing an index which does not exist generates an exception (an error).
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=list.console) -->
 <!-- The below code snippet is automatically added from list.console -->
@@ -53,6 +52,8 @@ Accessing an index which does not exist generates an exception (an error).
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+Accessing an index which does not exist generates an exception (an error).
+
 ```py
 mylist = [1,2,3]
 print(mylist[10])
@@ -66,7 +67,7 @@ You must add the numbers 1,2, and 3 to the "numbers" list,
 and the words 'hello' and 'world' to the strings variable.
 
 You will also have to fill in the variable second_name with the second name in the names list,
-using the brackets operator [].
+using the brackets operator `[]`.
 Note that the index is zero-based,
 so if you want to access the second item in the list, its index will be 1.
 
