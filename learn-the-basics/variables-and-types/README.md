@@ -116,7 +116,7 @@ This is commonly escaped as `\r`, abbreviated `CR`, and has ASCII value `13` or 
 <!-- The below code snippet is automatically added from simple_operators.py -->
 
 ```py
-# Simple operators can be executed on numbers and strings
+# Simple Operators can be executed on Numbers and Strings
 
 ONE = 1
 TWO = 2
@@ -173,7 +173,7 @@ print(a, b)
 <!-- The below code snippet is automatically added from unsupported_operators.py -->
 
 ```py
-# Mixing operators between numbers and strings is not supported
+# Mixing Operators between Numbers and Strings is NOT supported
 
 ONE = 1
 TWO = 2

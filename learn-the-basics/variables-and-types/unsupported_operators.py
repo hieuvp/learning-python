@@ -1,4 +1,4 @@
-# Mixing operators between numbers and strings is not supported
+# Mixing Operators between Numbers and Strings is NOT supported
 
 ONE = 1
 TWO = 2
