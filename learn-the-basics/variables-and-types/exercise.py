@@ -1,4 +1,4 @@
-# Create a String, an Integer, and a Floating Point Number
+# Create a String, a Floating Point Number, and an Integer
 MY_STRING = "hello"
 MY_FLOAT = 10.0
 MY_INT = 20
