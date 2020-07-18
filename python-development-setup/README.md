@@ -36,6 +36,20 @@ It is based on pip, which is installed everywhere and is the standard for instal
 Although not required,
 the `pyenv` wiki recommends installing some additional libraries.
 
+Simple Python Version Management
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=pyenv.console) -->
+<!-- The below code snippet is automatically added from pyenv.console -->
+
+```console
++ pyenv versions
+* system (set by /Users/hieu.van/.pyenv/version)
++ python --version
+Python 2.7.16
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```shell script
 brew install sqlite3 zlib
 ```
