@@ -24,8 +24,6 @@ number = 1 + 2 * 3 / 4.0
 print(number)
 ```
 
-Try to predict what the answer will be. Does python follow order of operations?
-
 Another operator available is the modulo (%) operator,
 which returns the integer remainder of the division. dividend % divisor = remainder.
 
