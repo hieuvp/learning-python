@@ -1,6 +1,6 @@
 # Variables and Types
 
-> Python is completely object oriented, and not `statically typed`.<br />
+> Python is completely **object oriented**, and not **~~statically typed~~**.<br />
 > You do not need to declare variables before using them, or declare their type.<br />
 > Every variable in Python is an object.
 
