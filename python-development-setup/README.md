@@ -64,18 +64,6 @@ pylint==2.5.3
 
 ## `venv`
 
-```shell script
-which python && which pip
-unalias python && unalias pip
-which python && which pip
-virtualenv venv
-source venv/bin/activate
-which python && which pip
-pip install --requirement requirements.txt
-pip install -r requirements.txt
-pip list
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=virtualenv.console) -->
 <!-- The below code snippet is automatically added from virtualenv.console -->
 
