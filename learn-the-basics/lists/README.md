@@ -12,10 +12,9 @@
 
 ## Concept
 
-Lists are very similar to arrays.
-They can contain any type of variable, and they can contain as many variables as you wish.
-Lists can also be iterated over in a very simple manner.
-Here is an example of how to build a list.
+> Lists are very similar to arrays.
+> They can contain any type of variable, and they can contain as many variables as you wish.
+> Lists can also be iterated over in a very simple manner.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=list.py) -->
 <!-- The below code snippet is automatically added from list.py -->
