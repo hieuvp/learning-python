@@ -1,16 +1,16 @@
-# Lists Title
+# Lists
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Lists](#lists)
+- [Concept](#concept)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Lists
+## Concept
 
 Lists are very similar to arrays.
 They can contain any type of variable, and they can contain as many variables as you wish.
