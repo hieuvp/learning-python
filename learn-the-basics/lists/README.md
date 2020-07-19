@@ -53,10 +53,30 @@ for x in my_list:
 
 Accessing an index which does not exist generates an exception (an error).
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_exception.py) -->
+<!-- The below code snippet is automatically added from list_exception.py -->
+
 ```py
-mylist = [1,2,3]
-print(mylist[10])
+my_list = [1, 2, 3]
+print(my_list[10])
 ```
+
+<!-- The below code snippet is automatically added from list.console -->
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_exception.console) -->
+<!-- The below code snippet is automatically added from list_exception.console -->
+
+```console
++ python list_exception.py
+Traceback (most recent call last):
+  File "list_exception.py", line 2, in <module>
+    print(my_list[10])
+IndexError: list index out of range
+```
+
+<!-- The below code snippet is automatically added from list.console -->
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Exercise
 
