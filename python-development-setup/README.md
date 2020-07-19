@@ -138,6 +138,10 @@ wrapt             1.12.1
 how to pronounce PyPI (beginner) anthony explains #020
 <https://www.youtube.com/watch?v=I5OUzCAYst8>
 <http://www.howtopronounce.cc/pypi>
+Pie-Pea-Eye
+"Py-P-I"
+
+`/paɪ/` `/piː/` `/aɪ/`
 
 ## `pip`
 
