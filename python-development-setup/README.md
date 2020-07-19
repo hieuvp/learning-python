@@ -15,11 +15,11 @@ It is based on pip, which is installed everywhere and is the standard for instal
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [`pyenv`](#pyenv)
+- [`pip`](#pip)
 - [`requirements.txt`](#requirementstxt)
 - [`venv`](#venv)
 - [`virtualenvwrapper`](#virtualenvwrapper)
 - [PyPI](#pypi)
-- [`pip`](#pip)
 - [`setup.py`](#setuppy)
 - [`tox.ini`](#toxini)
 - [`pip-tools`](#pip-tools)
@@ -46,6 +46,17 @@ Python 2.7.16
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## `pip`
+
+```shell script
+pip list
+```
+
+```shell script
+pip freeze
+pip freeze > requirements.txt
+```
 
 ## `requirements.txt`
 
@@ -142,17 +153,6 @@ Pie-Pea-Eye
 "Py-P-I"
 
 `/paɪ/` `/piː/` `/aɪ/`
-
-## `pip`
-
-```shell script
-pip list
-```
-
-```shell script
-pip freeze
-pip freeze > requirements.txt
-```
 
 ## `setup.py`
 
