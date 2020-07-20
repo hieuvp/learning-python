@@ -1,2 +1,2 @@
-helloworld = "hello" + " " + "world"
-print(helloworld)
+HELLO_WORLD = "hello" + " " + "world"
+print(HELLO_WORLD)
