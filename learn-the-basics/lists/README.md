@@ -12,7 +12,7 @@
 
 ## Concept
 
-> Lists are very similar to arrays.
+> Lists are very similar to arrays.<br />
 > They can contain any type of variable, and they can contain as many variables as you wish.
 > Lists can also be iterated over in a very simple manner.
 
@@ -51,13 +51,14 @@ for x in my_list:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Accessing an index which does not exist generates an exception (an error).
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_exception.py) -->
 <!-- The below code snippet is automatically added from list_exception.py -->
 
 ```py
 my_list = [1, 2, 3]
+
+# Accessing an index which does not exist
+# generates an exception (an error)
 print(my_list[10])
 ```
 
