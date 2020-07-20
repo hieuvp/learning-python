@@ -16,6 +16,26 @@
 
 The addition, subtraction, multiplication, and division operators can be used with numbers.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operator.py) -->
+<!-- The below code snippet is automatically added from simple_operator.py -->
+
+```py
+NUMBER = 1 + 2 * 3 / 4.0
+print(NUMBER)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operator.console) -->
+<!-- The below code snippet is automatically added from simple_operator.console -->
+
+```console
++ python simple_operator.py
+2.5
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```py
 number = 1 + 2 * 3 / 4.0
 print(number)
@@ -24,12 +44,55 @@ print(number)
 Another operator available is the modulo (%) operator,
 which returns the integer remainder of the division. dividend % divisor = remainder.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=modulo_operator.py) -->
+<!-- The below code snippet is automatically added from modulo_operator.py -->
+
+```py
+REMAINDER = 11 % 3
+print(REMAINDER)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=modulo_operator.console) -->
+<!-- The below code snippet is automatically added from modulo_operator.console -->
+
+```console
++ python modulo_operator.py
+2
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```py
 remainder = 11 % 3
 print(remainder)
 ```
 
 Using two multiplication symbols makes a power relationship.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=power_operator.py) -->
+<!-- The below code snippet is automatically added from power_operator.py -->
+
+```py
+SQUARED = 7 ** 2
+CUBED = 2 ** 3
+print(SQUARED)
+print(CUBED)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=power_operator.console) -->
+<!-- The below code snippet is automatically added from power_operator.console -->
+
+```console
++ python power_operator.py
+49
+8
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```py
 squared = 7 ** 2
