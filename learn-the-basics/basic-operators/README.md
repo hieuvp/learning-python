@@ -1,7 +1,5 @@
 # Basic Operators
 
-This section explains how to use basic operators in Python.
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -16,8 +14,7 @@ This section explains how to use basic operators in Python.
 
 ## Arithmetic Operators
 
-Just as any other programming languages,
-the addition, subtraction, multiplication, and division operators can be used with numbers.
+The addition, subtraction, multiplication, and division operators can be used with numbers.
 
 ```py
 number = 1 + 2 * 3 / 4.0
