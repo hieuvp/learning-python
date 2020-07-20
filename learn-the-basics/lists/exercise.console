@@ -1,4 +1,4 @@
 + python exercise.py
-[]
-[]
-The second name on the names list is None
+[1, 2, 3]
+['hello', 'world']
+The second name on the names list is Eric

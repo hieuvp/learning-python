@@ -71,7 +71,7 @@ print(my_list[10])
 ```console
 + python list_exception.py
 Traceback (most recent call last):
-  File "list_exception.py", line 2, in <module>
+  File "list_exception.py", line 5, in <module>
     print(my_list[10])
 IndexError: list index out of range
 ```
@@ -81,15 +81,6 @@ IndexError: list index out of range
 
 ## Exercise
 
-You will need to add numbers and strings to the correct lists using the "append" list method.
-You must add the numbers 1, 2, and 3 to the "numbers" list,
-and the words 'hello' and 'world' to the strings variable.
-
-You will also have to fill in the variable second_name with the second name in the names list,
-using the brackets operator `[]`.
-Note that the index is zero-based,
-so if you want to access the second item in the list, its index will be 1.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
@@ -98,8 +89,17 @@ numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
 
-# Write your code here
+# Add numbers and strings to the lists using the "append" list method
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+strings.append("hello")
+strings.append("world")
+
 SECOND_NAME = None
+
+# Fill in the variable SECOND_NAME with the second name in the "names" list
+SECOND_NAME = names[1]
 
 # This code should write out the filled arrays
 # and the second name in the names list (Eric)
@@ -115,9 +115,9 @@ print("The second name on the names list is %s" % SECOND_NAME)
 
 ```console
 + python exercise.py
-[]
-[]
-The second name on the names list is None
+[1, 2, 3]
+['hello', 'world']
+The second name on the names list is Eric
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

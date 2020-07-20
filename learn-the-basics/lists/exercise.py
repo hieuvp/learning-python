@@ -2,8 +2,17 @@ numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
 
-# Write your code here
+# Add numbers and strings to the lists using the "append" list method
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+strings.append("hello")
+strings.append("world")
+
 SECOND_NAME = None
+
+# Fill in the variable SECOND_NAME with the second name in the "names" list
+SECOND_NAME = names[1]
 
 # This code should write out the filled arrays
 # and the second name in the names list (Eric)
