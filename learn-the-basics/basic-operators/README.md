@@ -139,7 +139,7 @@ hellohellohellohellohellohellohellohellohellohello
 
 ## Using Operators with Lists
 
-Lists can be joined with the addition operators:
+Lists can be joined with the addition operators.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=join_lists.py) -->
 <!-- The below code snippet is automatically added from join_lists.py -->
@@ -163,15 +163,8 @@ print(all_numbers)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```py
-even_numbers = [2,4,6,8]
-odd_numbers = [1,3,5,7]
-all_numbers = odd_numbers + even_numbers
-print(all_numbers)
-```
-
 Just as in strings,
-Python supports forming new lists with a repeating sequence using the multiplication operator:
+Python supports forming new lists with a repeating sequence using the multiplication operator.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeat_list.py) -->
 <!-- The below code snippet is automatically added from repeat_list.py -->
@@ -191,10 +184,6 @@ print([1, 2, 3] * 3)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```py
-print([1,2,3] * 3)
-```
 
 ## Exercise
 
@@ -223,3 +212,40 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+x = object()
+y = object()
+
+# TODO: change this code
+x_list = [x]
+y_list = [y]
+big_list = []
+
+print("x_list contains %d objects" % len(x_list))
+print("y_list contains %d objects" % len(y_list))
+print("big_list contains %d objects" % len(big_list))
+
+# testing code
+if x_list.count(x) == 10 and y_list.count(y) == 10:
+    print("Almost there...")
+if big_list.count(x) == 10 and big_list.count(y) == 10:
+    print("Great!")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+x_list contains 1 objects
+y_list contains 1 objects
+big_list contains 0 objects
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->

@@ -28,5 +28,9 @@ join-lists:
 repeat-list:
 	./repeat_list.sh &> repeat_list.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> exercise.console
+
 .PHONY: all
-all: simple-operator modulo-operator power-operator concatenate-strings multiply-strings join-lists repeat-list
+all: simple-operator modulo-operator power-operator concatenate-strings multiply-strings join-lists repeat-list exercise
