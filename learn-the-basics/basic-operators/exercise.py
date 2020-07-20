@@ -1,7 +1,7 @@
 x = object()
 y = object()
 
-# TODO: change this code
+# Change this code
 x_list = [x]
 y_list = [y]
 big_list = []
