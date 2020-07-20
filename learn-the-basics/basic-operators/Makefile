@@ -12,5 +12,13 @@ modulo-operator:
 power-operator:
 	./power_operator.sh &> power_operator.console
 
+.PHONY: concatenate-strings
+concatenate-strings:
+	./concatenate_strings.sh &> concatenate_strings.console
+
+.PHONY: multiply-strings
+multiply-strings:
+	./multiply_strings.sh &> multiply_strings.console
+
 .PHONY: all
-all: simple-operator modulo-operator power-operator
+all: simple-operator modulo-operator power-operator concatenate-strings multiply-strings

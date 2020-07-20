@@ -36,11 +36,6 @@ print(NUMBER)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```py
-number = 1 + 2 * 3 / 4.0
-print(number)
-```
-
 Another operator available is the modulo (%) operator,
 which returns the integer remainder of the division. dividend % divisor = remainder.
 
@@ -63,11 +58,6 @@ print(REMAINDER)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```py
-remainder = 11 % 3
-print(remainder)
-```
 
 Using two multiplication symbols makes a power relationship.
 
