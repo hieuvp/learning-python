@@ -106,7 +106,7 @@ Don't worry about apostrophes
 There are additional variations on defining strings that make it easier to include things
 such as carriage returns (`\r`), backslashes (`\`) and Unicode characters.
 
-**Carriage return** `\r` means to return to the beginning of the current line without advancing downward.
+> **Carriage Return** `\r` means to return to the beginning of the current line without advancing downward.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.py) -->
 <!-- The below code snippet is automatically added from simple_operators.py -->
