@@ -141,6 +141,28 @@ hellohellohellohellohellohellohellohellohellohello
 
 Lists can be joined with the addition operators:
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=join_lists.py) -->
+<!-- The below code snippet is automatically added from join_lists.py -->
+
+```py
+even_numbers = [2, 4, 6, 8]
+odd_numbers = [1, 3, 5, 7]
+all_numbers = odd_numbers + even_numbers
+print(all_numbers)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=join_lists.console) -->
+<!-- The below code snippet is automatically added from join_lists.console -->
+
+```console
++ python join_lists.py
+[1, 3, 5, 7, 2, 4, 6, 8]
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```py
 even_numbers = [2,4,6,8]
 odd_numbers = [1,3,5,7]
@@ -150,6 +172,25 @@ print(all_numbers)
 
 Just as in strings,
 Python supports forming new lists with a repeating sequence using the multiplication operator:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeat_list.py) -->
+<!-- The below code snippet is automatically added from repeat_list.py -->
+
+```py
+print([1, 2, 3] * 3)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeat_list.console) -->
+<!-- The below code snippet is automatically added from repeat_list.console -->
+
+```console
++ python repeat_list.py
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```py
 print([1,2,3] * 3)

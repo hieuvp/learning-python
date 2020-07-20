@@ -20,5 +20,13 @@ concatenate-strings:
 multiply-strings:
 	./multiply_strings.sh &> multiply_strings.console
 
+.PHONY: join-lists
+join-lists:
+	./join_lists.sh &> join_lists.console
+
+.PHONY: repeat-list
+repeat-list:
+	./repeat_list.sh &> repeat_list.console
+
 .PHONY: all
-all: simple-operator modulo-operator power-operator concatenate-strings multiply-strings
+all: simple-operator modulo-operator power-operator concatenate-strings multiply-strings join-lists repeat-list
