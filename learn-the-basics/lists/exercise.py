@@ -9,13 +9,12 @@ numbers.append(3)
 strings.append("hello")
 strings.append("world")
 
-SECOND_NAME = None
+second_name = None
 
-# Fill in the variable SECOND_NAME with the second name in the "names" list
-SECOND_NAME = names[1]
+# Fill in the variable second_name with the second name in the "names" list
+second_name = names[1]
 
-# This code should write out the filled arrays
-# and the second name in the names list (Eric)
+# Write out the filled arrays and the second name in the names list (Eric)
 print(numbers)
 print(strings)
-print("The second name on the names list is %s" % SECOND_NAME)
+print("The second name on the names list is %s" % second_name)
