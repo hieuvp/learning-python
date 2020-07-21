@@ -104,8 +104,8 @@ Don't worry about apostrophes
 There are additional variations on defining strings that make it easier to include things<br />
 such as carriage returns (`\r`), backslashes (`\`) and Unicode characters.
 
-> **Carriage Return** `\r` means
-> to return to the beginning of the current line without advancing downward.
+> **Carriage Return** `\r`:
+> means to return to the beginning of the current line without advancing downward.
 
 <br />
 
