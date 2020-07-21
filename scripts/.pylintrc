@@ -1,3 +1,6 @@
+# Example
+# https://github.com/kubeflow/examples/blob/master/.pylintrc
+
 [MASTER]
 
 disable=

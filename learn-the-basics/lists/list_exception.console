@@ -1,0 +1,5 @@
++ python list_exception.py
+Traceback (most recent call last):
+  File "list_exception.py", line 4, in <module>
+    print(my_list[10])
+IndexError: list index out of range
