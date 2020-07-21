@@ -1,0 +1,4 @@
++ pyenv versions
+* system (set by /Users/hieu.van/.pyenv/version)
++ python --version
+Python 2.7.16
