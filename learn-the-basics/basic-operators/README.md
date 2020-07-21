@@ -121,7 +121,7 @@ Python also supports multiplying strings to form a string with a repeating seque
 <!-- The below code snippet is automatically added from multiply_strings.py -->
 
 ```py
-LOTS_OF_HELLOS = "hello" * 10
+LOTS_OF_HELLOS = "hello_" * 10
 print(LOTS_OF_HELLOS)
 ```
 
@@ -132,7 +132,7 @@ print(LOTS_OF_HELLOS)
 
 ```console
 + python multiply_strings.py
-hellohellohellohellohellohellohellohellohellohello
+hello_hello_hello_hello_hello_hello_hello_hello_hello_hello_
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
