@@ -2,7 +2,7 @@ numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
 
-# Add numbers and strings to the lists using the "append" list method
+# Add Numbers and Strings to the Lists using the "append" list method
 numbers.append(1)
 numbers.append(2)
 numbers.append(3)
