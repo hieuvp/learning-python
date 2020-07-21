@@ -56,8 +56,7 @@ for x in my_list:
 ```py
 my_list = [1, 2, 3]
 
-# Accessing an index which does not exist
-# generates an exception (an error)
+# Accessing an index which does not exist generates an exception (an error)
 print(my_list[10])
 ```
 
@@ -70,7 +69,7 @@ print(my_list[10])
 ```console
 + python list_exception.py
 Traceback (most recent call last):
-  File "list_exception.py", line 5, in <module>
+  File "list_exception.py", line 4, in <module>
     print(my_list[10])
 IndexError: list index out of range
 ```
