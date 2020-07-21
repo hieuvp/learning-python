@@ -101,14 +101,13 @@ Don't worry about apostrophes
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
-
-There are additional variations on defining strings that make it easier<br />
-to include things such as
-carriage returns (`\r`), backslashes (`\`) and Unicode characters.
+There are additional variations on defining strings that make it easier to include things<br />
+such as carriage returns (`\r`), backslashes (`\`) and Unicode characters.
 
 > **Carriage Return** `\r` means
 > to return to the beginning of the current line without advancing downward.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operators.py) -->
 <!-- The below code snippet is automatically added from simple_operators.py -->
