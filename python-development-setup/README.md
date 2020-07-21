@@ -15,7 +15,6 @@ It is based on pip, which is installed everywhere and is the standard for instal
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [`pyenv`](#pyenv)
-<<<<<<< HEAD
 - [`pip`](#pip)
 - [`requirements.txt`](#requirementstxt)
 - [`venv`](#venv)
@@ -28,8 +27,6 @@ It is based on pip, which is installed everywhere and is the standard for instal
 - [`poetry`](#poetry)
 - [pypa](#pypa)
 - [anaconda](#anaconda)
-=======
->>>>>>> master
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -50,7 +47,6 @@ Python 2.7.16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<<<<<<< HEAD
 ## `pip`
 
 ```shell script
@@ -196,8 +192,6 @@ poetry.lock
 - <https://www.anaconda.com/>  
   => Data Science
 
-=======
->>>>>>> master
 ## References
 
 - [My Simple Python Development Setup](https://medium.com/better-programming/my-simple-python-development-setup-687c31898d5b)
