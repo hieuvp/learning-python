@@ -33,6 +33,33 @@ age = 23
 print("%s is %d years old." % (name, age))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_strings.py) -->
+<!-- The below code snippet is automatically added from print_formatted_strings.py -->
+
+```py
+# This prints out "Hello, John!"
+NAME = "John"
+print("Hello, %s!" % NAME)
+
+# This prints out "John is 23 years old."
+NAME = "John"
+AGE = 23
+print("%s is %d years old." % (NAME, AGE))
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_strings.console) -->
+<!-- The below code snippet is automatically added from print_formatted_strings.console -->
+
+```console
++ python print_formatted_strings.py
+Hello, John!
+John is 23 years old.
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Any object which is not a string can be formatted using the %s operator as well.
 The string which returns from the "repr" method of that object is formatted as the string.
 For example:
