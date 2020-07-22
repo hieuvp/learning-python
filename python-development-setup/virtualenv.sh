@@ -19,6 +19,6 @@ type pip
 
 pip list
 pip install --requirement requirements.txt
-pip list
+pip freeze
 
 rm -rf venv
