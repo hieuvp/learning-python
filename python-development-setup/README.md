@@ -140,6 +140,9 @@ wrapt==1.12.1
 
 ## PyPI
 
+> The Python Package Index ([PyPI](https://pypi.org/))
+> is a repository of software for the Python programming language.
+
 how to pronounce PyPI (beginner) anthony explains #020
 <https://www.youtube.com/watch?v=I5OUzCAYst8>
 <http://www.howtopronounce.cc/pypi>
@@ -185,7 +188,7 @@ poetry.lock
 
 ### anaconda
 
-- <https://www.anaconda.com/>  
+- <https://www.anaconda.com/>
 
 ## References
 
