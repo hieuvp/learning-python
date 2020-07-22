@@ -2,10 +2,7 @@
 
 set -eoux pipefail
 
-# https://github.com/klen/pylama
-
-# pydocstyle (formerly pep257)
-# https://github.com/PyCQA/pydocstyle
+# Must be >= 900 stars
 
 # Radon
 # https://github.com/rubik/radon
