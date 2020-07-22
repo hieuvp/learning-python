@@ -1,20 +1,11 @@
 # Python Development Setup
 
-Composable set of tools, each tool solving one problem.
-I highly recommend this setup for two main reasons.
-
-It is composable. You can start from plain `requirements.txt`
-and add tools as you decide to solve other problems from the table above;
-It is based on pip, which is installed everywhere and is the standard for installing packages.
-
-`pip` and `virtualenv` are standard tools.
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Standard Tools](#standard-tools)
+- [Standard](#standard)
   - [`$ pyenv`](#-pyenv)
   - [`requirements.txt`](#requirementstxt)
   - [`$ virtualenv`](#-virtualenv)
@@ -31,7 +22,7 @@ It is based on pip, which is installed everywhere and is the standard for instal
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Standard Tools
+## Standard
 
 ### `$ pyenv`
 
