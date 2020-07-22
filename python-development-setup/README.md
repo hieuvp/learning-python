@@ -14,10 +14,10 @@ It is based on pip, which is installed everywhere and is the standard for instal
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [`pyenv`](#pyenv)
-- [`pip`](#pip)
-- [`requirements.txt`](#requirementstxt)
-- [`venv`](#venv)
+- [Standard Tools](#standard-tools)
+  - [`$ pyenv`](#-pyenv)
+  - [`requirements.txt`](#requirementstxt)
+  - [`$ virtualenv`](#-virtualenv)
 - [`virtualenvwrapper`](#virtualenvwrapper)
 - [PyPI](#pypi)
 - [`setup.py`](#setuppy)
@@ -31,7 +31,9 @@ It is based on pip, which is installed everywhere and is the standard for instal
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## `pyenv`
+## Standard Tools
+
+### `$ pyenv`
 
 > Simple Python version management.
 
@@ -47,18 +49,7 @@ Python 2.7.16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## `pip`
-
-```shell script
-pip list
-```
-
-```shell script
-pip freeze
-pip freeze > requirements.txt
-```
-
-## `requirements.txt`
+### `requirements.txt`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=requirements.txt) -->
 <!-- The below code snippet is automatically added from requirements.txt -->
@@ -73,7 +64,7 @@ pylint==2.5.3
 - For Application
 - Dependency Management
 
-## `venv`
+### `$ virtualenv`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=virtualenv.console) -->
 <!-- The below code snippet is automatically added from virtualenv.console -->
@@ -152,8 +143,6 @@ wrapt==1.12.1
 
 <!-- The below code snippet is automatically added from pyenv.console -->
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-- virtualenv vs. venv
 
 ## `virtualenvwrapper`
 
