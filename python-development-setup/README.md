@@ -43,6 +43,17 @@ Python 2.7.16
 
 ### `requirements.txt`
 
+If you have browsed any python projects on Github or elsewhere,
+you have probably noticed a file called `requirements.txt`.
+This `requirements.txt` file is used for specifying
+what python packages are required to run the project you are looking at.
+Typically the `requirements.txt` file is located
+in the root directory of your project.
+
+```shell script
+pip freeze > requirements.txt
+```
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=requirements.txt) -->
 <!-- The below code snippet is automatically added from requirements.txt -->
 
