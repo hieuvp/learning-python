@@ -17,7 +17,8 @@
 - [`pipenv`](#pipenv)
 - [`poetry`](#poetry)
 - [pypa](#pypa)
-- [anaconda](#anaconda)
+- [Data Science](#data-science)
+  - [anaconda](#anaconda)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -180,10 +181,11 @@ poetry.lock
 
 - <https://www.pypa.io/en/latest/>
 
-## anaconda
+## Data Science
+
+### anaconda
 
 - <https://www.anaconda.com/>  
-  => Data Science
 
 ## References
 
