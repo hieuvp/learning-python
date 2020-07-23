@@ -20,6 +20,29 @@ However, you will face problems if the value to be assigned itself contains sing
 For example to assign the string in these bracket(single quotes are ' ')
 you need to use double quotes only like this
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_sentence.py) -->
+<!-- The below code snippet is automatically added from print_sentence.py -->
+
+```py
+A_STRING = "Hello world!"
+print("single quotes are ' '")
+
+print(len(A_STRING))
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_sentence.console) -->
+<!-- The below code snippet is automatically added from print_sentence.console -->
+
+```console
++ python print_sentence.py
+single quotes are ' '
+12
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 astring = "Hello world!"
 print("single quotes are ' '")
@@ -29,6 +52,26 @@ print(len(astring))
 
 That prints out 12, because "Hello world!" is 12 characters long,
 including punctuation and spaces.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_index.py) -->
+<!-- The below code snippet is automatically added from string_index.py -->
+
+```py
+A_STRING = "Hello world!"
+print(A_STRING.index("o"))
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_index.console) -->
+<!-- The below code snippet is automatically added from string_index.console -->
+
+```console
++ python string_index.py
+4
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 astring = "Hello world!"
@@ -46,6 +89,26 @@ Isn't "o" the fifth character in the string?
 To make things more simple,
 Python (and most other programming languages) start things at 0 instead of 1.
 So the index of "o" is 4.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_count.py) -->
+<!-- The below code snippet is automatically added from string_count.py -->
+
+```py
+A_STRING = "Hello world!"
+print(A_STRING.count("l"))
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_count.console) -->
+<!-- The below code snippet is automatically added from string_count.console -->
+
+```console
++ python string_count.py
+3
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 astring = "Hello world!"
