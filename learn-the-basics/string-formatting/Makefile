@@ -8,5 +8,9 @@ print-formatted-strings:
 print-formatted-object:
 	./print_formatted_object.sh &> print_formatted_object.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> exercise.console
+
 .PHONY: all
-all: print-formatted-strings print-formatted-object
+all: print-formatted-strings print-formatted-object exercise

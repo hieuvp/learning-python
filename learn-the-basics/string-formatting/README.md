@@ -50,12 +50,6 @@ The string which returns from the `repr` method of that object is formatted as t
 
 > The `repr()` function returns a printable representation of the given object.
 
-```python
-# This prints out: A list: [1, 2, 3]
-mylist = [1,2,3]
-print("A list: %s" % mylist)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_object.py) -->
 <!-- The below code snippet is automatically added from print_formatted_object.py -->
 
@@ -106,3 +100,24 @@ format_string = "Hello"
 
 print(format_string % data)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+data = ("John", "Doe", 53.44)
+format_string = "Hello"
+
+# print(format_string % data)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
