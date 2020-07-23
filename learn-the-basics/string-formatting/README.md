@@ -15,19 +15,6 @@ together with a format string,
 which contains normal text together with "argument specifiers",
 special symbols like "%s" and "%d".
 
-```python
-# This prints out "Hello, John!"
-name = "John"
-print("Hello, %s!" % name)
-```
-
-```python
-# This prints out "John is 23 years old."
-name = "John"
-age = 23
-print("%s is %d years old." % (name, age))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_strings.py) -->
 <!-- The below code snippet is automatically added from print_formatted_strings.py -->
 
@@ -59,14 +46,39 @@ John is 23 years old.
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 Any object which is not a string can be formatted using the %s operator as well.
-The string which returns from the "repr" method of that object is formatted as the string.
-For example:
+The string which returns from the `repr` method of that object is formatted as the string.
+
+> The `repr()` function returns a printable representation of the given object.
 
 ```python
 # This prints out: A list: [1, 2, 3]
 mylist = [1,2,3]
 print("A list: %s" % mylist)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_object.py) -->
+<!-- The below code snippet is automatically added from print_formatted_object.py -->
+
+```py
+# This prints out: A list: [1, 2, 3]
+my_list = [1, 2, 3]
+
+print(repr(my_list))
+print("A list: %s" % my_list)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_object.console) -->
+<!-- The below code snippet is automatically added from print_formatted_object.console -->
+
+```console
++ python print_formatted_object.py
+[1, 2, 3]
+A list: [1, 2, 3]
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Here are some basic argument specifiers you should know:
 
