@@ -90,16 +90,14 @@ Here are some basic argument specifiers you should know:
 
 ## Exercise
 
-You will need to write a format string
-which prints out the data using the following syntax:
-`Hello John Doe. Your current balance is $53.44`.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
 data = ("John", "Doe", 53.44)
-FORMAT_STRING = "Hello %s %s. Your current balance is $%f"
+
+# A format string which prints out the data
+FORMAT_STRING = "Hello %s %s. Your current balance is $%.2f"
 
 print(FORMAT_STRING % data)
 ```
@@ -111,6 +109,7 @@ print(FORMAT_STRING % data)
 
 ```console
 + python exercise.py
+Hello John Doe. Your current balance is $53.44
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
