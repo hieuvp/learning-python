@@ -43,12 +43,6 @@ single quotes are ' '
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-astring = "Hello world!"
-print("single quotes are ' '")
-
-print(len(astring))
-```
 
 That prints out 12, because "Hello world!" is 12 characters long,
 including punctuation and spaces.
@@ -72,11 +66,6 @@ print(A_STRING.index("o"))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-astring = "Hello world!"
-print(astring.index("o"))
-```
 
 That prints out 4,
 because the location of the first occurrence of the letter "o"
@@ -110,10 +99,6 @@ print(A_STRING.count("l"))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-astring = "Hello world!"
-print(astring.count("l"))
-```
 
 For those of you using silly fonts, that is a lowercase L, not a number one.
 This counts the number of l's in the string. Therefore, it should print 3.
