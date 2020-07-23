@@ -9,12 +9,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Strings are bits of text. They can be defined as anything between quotes:
-
-```python
-astring = "Hello world!"
-astring2 = 'Hello world!'
-```
+> Strings are bits of text.
 
 As you can see, the first thing you learned was printing a simple sentence.
 This sentence was stored by Python as a string.
