@@ -1,4 +1,4 @@
 data = ("John", "Doe", 53.44)
-format_string = "Hello"
+FORMAT_STRING = "Hello %s %s. Your current balance is $%f"
 
-# print(format_string % data)
+print(FORMAT_STRING % data)

@@ -94,21 +94,14 @@ You will need to write a format string
 which prints out the data using the following syntax:
 `Hello John Doe. Your current balance is $53.44`.
 
-```python
-data = ("John", "Doe", 53.44)
-format_string = "Hello"
-
-print(format_string % data)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
 data = ("John", "Doe", 53.44)
-format_string = "Hello"
+FORMAT_STRING = "Hello %s %s. Your current balance is $%f"
 
-# print(format_string % data)
+print(FORMAT_STRING % data)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
