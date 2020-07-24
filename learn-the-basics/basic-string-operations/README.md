@@ -158,6 +158,28 @@ But with the above mentioned type of slice syntax you can easily reverse a strin
 
 This
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_case.py) -->
+<!-- The below code snippet is automatically added from string_case.py -->
+
+```py
+A_STRING = "Hello world!"
+print(A_STRING.upper())
+print(A_STRING.lower())
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_case.console) -->
+<!-- The below code snippet is automatically added from string_case.console -->
+
+```console
++ python string_case.py
+HELLO WORLD!
+hello world!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 astring = "Hello world!"
 print(astring.upper())
@@ -165,6 +187,28 @@ print(astring.lower())
 ```
 
 These make a new string with all letters converted to uppercase and lowercase, respectively.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_check.py) -->
+<!-- The below code snippet is automatically added from string_check.py -->
+
+```py
+A_STRING = "Hello world!"
+print(A_STRING.startswith("Hello"))
+print(A_STRING.endswith("asdfasdfasdf"))
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_check.console) -->
+<!-- The below code snippet is automatically added from string_check.console -->
+
+```console
++ python string_check.py
+True
+False
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 astring = "Hello world!"
@@ -175,6 +219,28 @@ print(astring.endswith("asdfasdfasdf"))
 This is used to determine whether the string starts with something or ends with something, respectively.
 The first one will print True, as the string starts with "Hello".
 The second one will print False, as the string certainly does not end with "asdfasdfasdf".
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_split.py) -->
+<!-- The below code snippet is automatically added from string_split.py -->
+
+```py
+A_STRING = "Hello world!"
+A_FEW_WORDS = A_STRING.split(" ")
+
+print(A_FEW_WORDS)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_split.console) -->
+<!-- The below code snippet is automatically added from string_split.console -->
+
+```console
++ python string_split.py
+['Hello', 'world!']
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 astring = "Hello world!"
