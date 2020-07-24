@@ -1,0 +1,12 @@
++ python exercise.py
+Length of s = 38
+The first occurrence of the letter a = 13
+a occurs 1 times
+The first five characters are 'Hey t'
+The next five characters are 'here!'
+The thirteenth character is 'h'
+The characters with odd index are 'e hr!wa hudti tigb?'
+The last five characters are 'g be?'
+String in uppercase: HEY THERE! WHAT SHOULD THIS STRING BE?
+String in lowercase: hey there! what should this string be?
+Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'string', 'be?']

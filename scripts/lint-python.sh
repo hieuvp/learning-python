@@ -13,7 +13,9 @@ declare -ra FILES
 main() {
   local -r file=$1
 
-  flake8 "$file"
+  flake8 \
+    --config "${EXECUTION_PATH}/.flake8" \
+    "$file"
 
   pylint \
     --rcfile "${EXECUTION_PATH}/.pylintrc" \

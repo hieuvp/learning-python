@@ -28,5 +28,9 @@ string-check:
 string-split:
 	./string_split.sh &> string_split.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> exercise.console
+
 .PHONY: all
-all: print-sentence string-index string-count string-slice string-case string-check string-split
+all: print-sentence string-index string-count string-slice string-case string-check string-split exercise

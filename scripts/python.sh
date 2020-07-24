@@ -2,11 +2,11 @@
 
 set -eoux pipefail
 
-# Radon
+# Various code metrics for Python code
 # https://github.com/rubik/radon
 
-# MyPy 	  Logical 	  Checks for optionally-enforced static types
-# http://mypy-lang.org/
+# Optional static typing for Python 3 and 2 (PEP 484)
+# https://github.com/python/mypy
 
-# Isort 	Formatter 	Formats imports by sorting alphabetically and separating into sections
+# A Python utility / library to sort imports
 # https://github.com/timothycrosley/isort

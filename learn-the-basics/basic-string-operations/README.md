@@ -238,39 +238,64 @@ and the second will be "world!".
 
 Try to fix the code to print out the correct information by changing the string.
 
-```python
-s = "Hey there! what should this string be?"
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+TEXT = "Hey there! what should this string be?"
 # Length should be 20
-print("Length of s = %d" % len(s))
+print("Length of s = %d" % len(TEXT))
 
 # First occurrence of "a" should be at index 8
-print("The first occurrence of the letter a = %d" % s.index("a"))
+print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 
 # Number of a's should be 2
-print("a occurs %d times" % s.count("a"))
+print("a occurs %d times" % TEXT.count("a"))
 
 # Slicing the string into bits
-print("The first five characters are '%s'" % s[:5]) # Start to 5
-print("The next five characters are '%s'" % s[5:10]) # 5 to 10
-print("The thirteenth character is '%s'" % s[12]) # Just number 12
-print("The characters with odd index are '%s'" %s[1::2]) #(0-based indexing)
-print("The last five characters are '%s'" % s[-5:]) # 5th-from-last to end
+print("The first five characters are '%s'" % TEXT[:5])  # Start to 5
+print("The next five characters are '%s'" % TEXT[5:10])  # 5 to 10
+print("The thirteenth character is '%s'" % TEXT[12])  # Just number 12
+print("The characters with odd index are '%s'" % TEXT[1::2])  # (0-based indexing)
+print("The last five characters are '%s'" % TEXT[-5:])  # 5th-from-last to end
 
 # Convert everything to uppercase
-print("String in uppercase: %s" % s.upper())
+print("String in uppercase: %s" % TEXT.upper())
 
 # Convert everything to lowercase
-print("String in lowercase: %s" % s.lower())
+print("String in lowercase: %s" % TEXT.lower())
 
 # Check how a string starts
-if s.startswith("Str"):
+if TEXT.startswith("Str"):
     print("String starts with 'Str'. Good!")
 
 # Check how a string ends
-if s.endswith("ome!"):
+if TEXT.endswith("ome!"):
     print("String ends with 'ome!'. Good!")
 
 # Split the string into three separate strings,
 # each containing only a word
-print("Split the words of the string: %s" % s.split(" "))
+print("Split the words of the string: %s" % TEXT.split(" "))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+Length of s = 38
+The first occurrence of the letter a = 13
+a occurs 1 times
+The first five characters are 'Hey t'
+The next five characters are 'here!'
+The thirteenth character is 'h'
+The characters with odd index are 'e hr!wa hudti tigb?'
+The last five characters are 'g be?'
+String in uppercase: HEY THERE! WHAT SHOULD THIS STRING BE?
+String in lowercase: hey there! what should this string be?
+Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'string', 'be?']
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
