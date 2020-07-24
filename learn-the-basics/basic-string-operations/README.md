@@ -106,7 +106,15 @@ This counts the number of l's in the string. Therefore, it should print 3.
 
 ```py
 A_STRING = "Hello world!"
+
 print(A_STRING[3:7])
+
+print(A_STRING[3:7:2])
+
+print(A_STRING[3:7])
+print(A_STRING[3:7:1])
+
+print(A_STRING[::-1])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -117,6 +125,10 @@ print(A_STRING[3:7])
 ```console
 + python string_slice.py
 lo w
+l
+lo w
+lo w
+!dlrow olleH
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -136,29 +148,13 @@ You can even put negative numbers inside the brackets.
 They are an easy way of starting at the end of the string instead of the beginning.
 This way, -3 means "3rd character from the end".
 
-```python
-astring = "Hello world!"
-print(astring[3:7:2])
-```
-
 This prints the characters of string from 3 to 7 skipping one character.
 This is extended slice syntax. The general form is `[start:stop:step]`.
-
-```python
-astring = "Hello world!"
-print(astring[3:7])
-print(astring[3:7:1])
-```
 
 Note that both of them produce same output
 
 There is no function like strrev in C to reverse a string.
 But with the above mentioned type of slice syntax you can easily reverse a string like this
-
-```python
-astring = "Hello world!"
-print(astring[::-1])
-```
 
 This
 
