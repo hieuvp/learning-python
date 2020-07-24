@@ -43,7 +43,6 @@ single quotes are ' '
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-
 That prints out 12, because "Hello world!" is 12 characters long,
 including punctuation and spaces.
 
@@ -99,14 +98,28 @@ print(A_STRING.count("l"))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-
 For those of you using silly fonts, that is a lowercase L, not a number one.
 This counts the number of l's in the string. Therefore, it should print 3.
 
-```python
-astring = "Hello world!"
-print(astring[3:7])
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.py) -->
+<!-- The below code snippet is automatically added from string_slice.py -->
+
+```py
+A_STRING = "Hello world!"
+print(A_STRING[3:7])
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.console) -->
+<!-- The below code snippet is automatically added from string_slice.console -->
+
+```console
++ python string_slice.py
+lo w
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 This prints a slice of the string, starting at index 3, and ending at index 6.
 But why 6 and not 7? Again, most programming languages do this -
