@@ -91,12 +91,11 @@ print(CUBED)
 
 ## Using Operators with Strings
 
-> Python supports concatenating strings using the addition operator.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=concatenate_strings.py) -->
 <!-- The below code snippet is automatically added from concatenate_strings.py -->
 
 ```py
+# Concatenating strings using the addition operator
 HELLO_WORLD = "hello" + " " + "world"
 print(HELLO_WORLD)
 ```
@@ -115,12 +114,11 @@ hello world
 
 <br />
 
-> Python also supports multiplying strings to form a string with a repeating sequence.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply_strings.py) -->
 <!-- The below code snippet is automatically added from multiply_strings.py -->
 
 ```py
+# Multiplying strings to form a string with a repeating sequence
 LOTS_OF_HELLOS = "hello_" * 10
 print(LOTS_OF_HELLOS)
 ```
