@@ -137,12 +137,11 @@ hello_hello_hello_hello_hello_hello_hello_hello_hello_hello_
 
 ## Using Operators with Lists
 
-> Lists can be joined with the addition operators.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=join_lists.py) -->
 <!-- The below code snippet is automatically added from join_lists.py -->
 
 ```py
+# Lists can be joined with the addition operators
 even_numbers = [2, 4, 6, 8]
 odd_numbers = [1, 3, 5, 7]
 all_numbers = odd_numbers + even_numbers
@@ -163,13 +162,13 @@ print(all_numbers)
 
 <br />
 
-> Just as in strings,
-> Python supports forming new lists with a repeating sequence using the multiplication operator.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeat_list.py) -->
 <!-- The below code snippet is automatically added from repeat_list.py -->
 
 ```py
+# Just as in strings,
+# Python supports forming new lists with a repeating sequence
+# using the multiplication operator
 print([1, 2, 3] * 3)
 ```
 
