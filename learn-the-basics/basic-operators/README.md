@@ -39,8 +39,8 @@ print(NUMBER)
 <br />
 
 > The modulo (`%`) operator,
-> which returns the integer remainder of the division.<br />
-> `dividend % divisor = remainder`.
+> which returns the integer remainder of the division.
+> <br />`dividend % divisor = remainder`.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=modulo_operator.py) -->
 <!-- The below code snippet is automatically added from modulo_operator.py -->
