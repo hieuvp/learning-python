@@ -14,7 +14,9 @@
 
 > Lists are very similar to arrays.<br />
 > They can contain any type of variable, and they can contain as many variables as you wish.<br />
-> Lists can also be iterated over in a very simple manner.<br />
+> Lists can also be iterated over in a very simple manner.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=list.py) -->
 <!-- The below code snippet is automatically added from list.py -->
