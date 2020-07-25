@@ -12,9 +12,7 @@
 
 ## Concept
 
-> Lists are very similar to arrays.<br />
-> They can contain any type of variable, and they can contain as many variables as you wish.<br />
-> Lists can also be iterated over in a very simple manner.
+> Lists can contain any type of variable, and they can contain as many variables as you wish.<br />
 
 <br />
 
@@ -31,6 +29,7 @@ print(my_list[0])
 print(my_list[1])
 print(my_list[2])
 
+# Lists can also be iterated over in a very simple manner
 for x in my_list:
     print(x)
 ```
