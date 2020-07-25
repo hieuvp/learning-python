@@ -6,8 +6,7 @@ y = object()
 x_list = [x] * 10
 y_list = [y] * 10
 
-# Create a list
-# which contains the variables x and y, 10 times each,
+# Create a list which contains the variables x and y, 10 times each,
 # by concatenating the two lists you have just created
 big_list = x_list + y_list
 
