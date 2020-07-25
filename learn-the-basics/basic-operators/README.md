@@ -14,7 +14,7 @@
 
 ## Arithmetic Operators
 
-The addition, subtraction, multiplication, and division operators can be used with numbers.
+> The addition, subtraction, multiplication, and division operators can be used with numbers.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=simple_operator.py) -->
 <!-- The below code snippet is automatically added from simple_operator.py -->
@@ -36,8 +36,10 @@ print(NUMBER)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Another operator available is the modulo (%) operator,
-which returns the integer remainder of the division. dividend % divisor = remainder.
+<br />
+
+> Another operator available is the modulo (%) operator,
+> which returns the integer remainder of the division. dividend % divisor = remainder.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=modulo_operator.py) -->
 <!-- The below code snippet is automatically added from modulo_operator.py -->
@@ -59,7 +61,9 @@ print(REMAINDER)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Using two multiplication symbols makes a power relationship.
+<br />
+
+> Using two multiplication symbols makes a power relationship.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=power_operator.py) -->
 <!-- The below code snippet is automatically added from power_operator.py -->
@@ -84,16 +88,9 @@ print(CUBED)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```py
-squared = 7 ** 2
-cubed = 2 ** 3
-print(squared)
-print(cubed)
-```
-
 ## Using Operators with Strings
 
-Python supports concatenating strings using the addition operator.
+> Python supports concatenating strings using the addition operator.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=concatenate_strings.py) -->
 <!-- The below code snippet is automatically added from concatenate_strings.py -->
@@ -139,7 +136,7 @@ hello_hello_hello_hello_hello_hello_hello_hello_hello_hello_
 
 ## Using Operators with Lists
 
-Lists can be joined with the addition operators.
+> Lists can be joined with the addition operators.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=join_lists.py) -->
 <!-- The below code snippet is automatically added from join_lists.py -->
