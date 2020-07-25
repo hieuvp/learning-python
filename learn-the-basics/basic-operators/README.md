@@ -166,8 +166,7 @@ print(all_numbers)
 <!-- The below code snippet is automatically added from repeat_list.py -->
 
 ```py
-# Just as in strings,
-# Python supports forming new lists with a repeating sequence
+# Forming a new list with a repeating sequence
 # using the multiplication operator
 print([1, 2, 3] * 3)
 ```
