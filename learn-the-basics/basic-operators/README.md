@@ -40,7 +40,7 @@ print(NUMBER)
 
 > The modulo (`%`) operator,
 > which returns the integer remainder of the division.
-> <br />`dividend % divisor = remainder`.
+> <br />`dividend /ˈdɪvɪdend/ % divisor = remainder`.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=modulo_operator.py) -->
 <!-- The below code snippet is automatically added from modulo_operator.py -->
@@ -113,7 +113,7 @@ hello world
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Python also supports multiplying strings to form a string with a repeating sequence.
+> Python also supports multiplying strings to form a string with a repeating sequence.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply_strings.py) -->
 <!-- The below code snippet is automatically added from multiply_strings.py -->
@@ -161,8 +161,8 @@ print(all_numbers)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Just as in strings,
-Python supports forming new lists with a repeating sequence using the multiplication operator.
+> Just as in strings,
+> Python supports forming new lists with a repeating sequence using the multiplication operator.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeat_list.py) -->
 <!-- The below code snippet is automatically added from repeat_list.py -->
