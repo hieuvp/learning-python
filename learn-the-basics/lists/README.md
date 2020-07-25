@@ -30,7 +30,7 @@ print(my_list[0])
 print(my_list[1])
 print(my_list[2])
 
-# Lists can also be iterated over in a very simple manner
+# This list can be iterated over in a simple manner
 for x in my_list:
     print(x)
 ```
