@@ -113,6 +113,8 @@ hello world
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 > Python also supports multiplying strings to form a string with a repeating sequence.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply_strings.py) -->
@@ -160,6 +162,8 @@ print(all_numbers)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 > Just as in strings,
 > Python supports forming new lists with a repeating sequence using the multiplication operator.
