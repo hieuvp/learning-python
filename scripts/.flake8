@@ -1,0 +1,13 @@
+# References
+# - https://flake8.pycqa.org/en/latest/user/options.html
+# - https://flake8.pycqa.org/en/latest/user/error-codes.html
+# - https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes
+#
+# Example
+# - https://gist.github.com/krnd/1f3fb6c05af365977e486c47cb7b4a72
+#
+
+[flake8]
+
+# Set the maximum length that any line (with some exceptions) may be
+max-line-length = 96
