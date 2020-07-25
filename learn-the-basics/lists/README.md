@@ -12,7 +12,8 @@
 
 ## Concept
 
-> Lists can contain any type of variable, and they can contain as many variables as you wish.<br />
+> Lists can contain any type of variable,
+> and they can contain as many variables as you wish.
 
 <br />
 
