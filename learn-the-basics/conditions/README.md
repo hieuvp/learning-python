@@ -6,9 +6,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Boolean operators](#boolean-operators)
-- [The "in" operator](#the-in-operator)
-- [The 'is' operator](#the-is-operator)
-- [The "not" operator](#the-not-operator)
+- [The `in` operator](#the-in-operator)
+- [The `is` operator](#the-is-operator)
+- [The `not` operator](#the-not-operator)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -44,7 +44,7 @@ if name == "John" or name == "Rick":
     print("Your name is either John or Rick.")
 ```
 
-## The "in" operator
+## The `in` operator
 
 The "in" operator could be used to check if
 a specified object exists within an iterable object container,
@@ -100,7 +100,7 @@ Here are some examples for objects which are considered as empty:
 3. The number zero: 0
 4. The false boolean variable: False
 
-## The 'is' operator
+## The `is` operator
 
 Unlike the double equals operator "==",
 the "is" operator does not match the values of the variables,
@@ -114,7 +114,7 @@ print(x == y) # Prints out True
 print(x is y) # Prints out False
 ```
 
-## The "not" operator
+## The `not` operator
 
 Using "not" before a boolean expression inverts it:
 

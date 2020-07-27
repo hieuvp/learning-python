@@ -5,17 +5,17 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [The "for" loop](#the-for-loop)
-- ["while" loops](#while-loops)
-- ["break" and "continue" statements](#break-and-continue-statements)
-- [can we use "else" clause for loops](#can-we-use-else-clause-for-loops)
+- [The `for` loop](#the-for-loop)
+- [`while` loops](#while-loops)
+- [`break` and `continue` statements](#break-and-continue-statements)
+- [can we use `else` clause for loops](#can-we-use-else-clause-for-loops)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 There are two types of loops in Python, for and while.
 
-## The "for" loop
+## The `for` loop
 
 For loops iterate over a given sequence.
 Here is an example:
@@ -48,7 +48,7 @@ for x in range(3, 8, 2):
     print(x)
 ```
 
-## "while" loops
+## `while` loops
 
 While loops repeat as long as a certain boolean condition is met.
 For example:
@@ -62,7 +62,7 @@ while count < 5:
     count += 1  # This is the same as count = count + 1
 ```
 
-## "break" and "continue" statements
+## `break` and `continue` statements
 
 break is used to exit a for loop or a while loop,
 whereas continue is used to skip the current block,
@@ -87,7 +87,7 @@ for x in range(10):
     print(x)
 ```
 
-## can we use "else" clause for loops
+## can we use `else` clause for loops
 
 unlike languages like C,CPP.. we can use else for loops.
 When the loop condition of "for" or "while" statement fails then code part in "else" is executed.
