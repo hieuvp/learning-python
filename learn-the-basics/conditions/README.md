@@ -44,6 +44,33 @@ if name == "John" or name == "Rick":
     print("Your name is either John or Rick.")
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_operators.py) -->
+<!-- The below code snippet is automatically added from boolean_operators.py -->
+
+```py
+NAME = "John"
+AGE = 23
+
+if NAME == "John" and AGE == 23:
+    print("Your name is John, and you are also 23 years old.")
+
+if NAME == "John" or NAME == "Rick":
+    print("Your name is either John or Rick.")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_operators.console) -->
+<!-- The below code snippet is automatically added from boolean_operators.console -->
+
+```console
++ python boolean_operators.py
+Your name is John, and you are also 23 years old.
+Your name is either John or Rick.
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## The `in` operator
 
 The "in" operator could be used to check if
@@ -55,6 +82,27 @@ name = "John"
 if name in ["John", "Rick"]:
     print("Your name is either John or Rick.")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=in_operator.py) -->
+<!-- The below code snippet is automatically added from in_operator.py -->
+
+```py
+name = "John"
+if name in ["John", "Rick"]:
+    print("Your name is either John or Rick.")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=in_operator.console) -->
+<!-- The below code snippet is automatically added from in_operator.console -->
+
+```console
++ python in_operator.py
+Your name is either John or Rick.
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Python uses indentation to define code blocks, instead of brackets.
 The standard Python indentation is 4 spaces,
@@ -114,6 +162,29 @@ print(x == y) # Prints out True
 print(x is y) # Prints out False
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=is_operator.py) -->
+<!-- The below code snippet is automatically added from is_operator.py -->
+
+```py
+x = [1, 2, 3]
+y = [1, 2, 3]
+print(x == y)  # Prints out True
+print(x is y)  # Prints out False
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=is_operator.console) -->
+<!-- The below code snippet is automatically added from is_operator.console -->
+
+```console
++ python is_operator.py
+True
+False
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## The `not` operator
 
 Using "not" before a boolean expression inverts it:
@@ -122,6 +193,27 @@ Using "not" before a boolean expression inverts it:
 print(not False) # Prints out True
 print((not False) == (False)) # Prints out False
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=not_operator.py) -->
+<!-- The below code snippet is automatically added from not_operator.py -->
+
+```py
+print(not False)  # Prints out True
+print((not False) == (False))  # Prints out False
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=not_operator.console) -->
+<!-- The below code snippet is automatically added from not_operator.console -->
+
+```console
++ python not_operator.py
+True
+False
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Exercise
 
@@ -153,3 +245,43 @@ if first_array and first_array[0] == 1:
 if not second_number:
     print("6")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+# Change this code
+NUMBER = 10
+SECOND_NUMBER = 10
+FIRST_ARRAY = []
+SECOND_ARRAY = [1, 2, 3]
+
+if NUMBER > 15:
+    print("1")
+
+if FIRST_ARRAY:
+    print("2")
+
+if len(SECOND_ARRAY) == 2:
+    print("3")
+
+if len(FIRST_ARRAY) + len(SECOND_ARRAY) == 5:
+    print("4")
+
+if FIRST_ARRAY and FIRST_ARRAY[0] == 1:
+    print("5")
+
+if not SECOND_NUMBER:
+    print("6")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
