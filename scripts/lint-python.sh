@@ -15,6 +15,8 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/conditions/in_operator.py"
   "learn-the-basics/conditions/not_operator.py"
   "learn-the-basics/loops/break_continue_statements.py"
+  "learn-the-basics/loops/else_clause.py"
+  "learn-the-basics/loops/while_loop.py"
 )
 
 main() {
