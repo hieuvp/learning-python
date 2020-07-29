@@ -5,9 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Outputting Formatted String](#outputting-formatted-string)
+- [Outputting Formatted Object](#outputting-formatted-object)
+- [Specifiers](#specifiers)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Outputting Formatted String
 
 Python uses C-style string formatting to create new, formatted strings.
 The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list),
@@ -45,6 +50,8 @@ John is 23 years old.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## Outputting Formatted Object
+
 Any object which is not a string can be formatted using the %s operator as well.
 The string which returns from the `repr` method of that object is formatted as the string.
 
@@ -74,7 +81,9 @@ A list: [1, 2, 3]
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Here are some basic argument specifiers you should know:
+## Specifiers
+
+> Here are some basic argument specifiers you should know.
 
 | Specifier               | Description                                                                   |
 | ----------------------- | ----------------------------------------------------------------------------- |
