@@ -6,9 +6,12 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Print](#print)
-- [`index`](#index)
-- [`count`](#count)
+- [`index()`](#index)
+- [`count()`](#count)
 - [Slicing Strings](#slicing-strings)
+- [Uppercase and Lowercase](#uppercase-and-lowercase)
+- [`startswith()` and `endswith()`](#startswith-and-endswith)
+- [`split()`](#split)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -53,7 +56,7 @@ single quotes are ' '
 That prints out 12, because "Hello world!" is 12 characters long,
 including punctuation and spaces.
 
-## `index`
+## `index()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_index.py) -->
 <!-- The below code snippet is automatically added from string_index.py -->
@@ -87,7 +90,7 @@ To make things more simple,
 Python (and most other programming languages) start things at 0 instead of 1.
 So the index of "o" is 4.
 
-## `count`
+## `count()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_count.py) -->
 <!-- The below code snippet is automatically added from string_count.py -->
@@ -172,6 +175,8 @@ Note that both of them produce same output
 There is no function like strrev in C to reverse a string.
 But with the above mentioned type of slice syntax you can easily reverse a string like this
 
+## Uppercase and Lowercase
+
 This
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_case.py) -->
@@ -198,6 +203,8 @@ hello world!
 
 These make a new string with all letters converted to uppercase and lowercase, respectively.
 
+## `startswith()` and `endswith()`
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_check.py) -->
 <!-- The below code snippet is automatically added from string_check.py -->
 
@@ -223,6 +230,8 @@ False
 This is used to determine whether the string starts with something or ends with something, respectively.
 The first one will print True, as the string starts with "Hello".
 The second one will print False, as the string certainly does not end with "asdfasdfasdf".
+
+## `split()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_split.py) -->
 <!-- The below code snippet is automatically added from string_split.py -->
