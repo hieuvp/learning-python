@@ -11,8 +11,8 @@ readarray -t FILES < <(printf "%s" "$FILES")
 declare -ra FILES
 
 declare -ra IGNORING_FILES=(
-  "learn-the-basics/variables-and-types/string.py"
   "learn-the-basics/loops/exercise.py"
+  "learn-the-basics/variables-and-types/string.py"
 )
 
 main() {
