@@ -52,7 +52,10 @@ whereas xrange returns an iterator, which is more efficient.
 (Python 3 uses the range function, which acts like xrange).
 Note that the range function is zero based.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.py) -->
+<!-- The below code snippet is automatically added from for_range_loops.py -->
+
+```py
 # Prints out the numbers 0,1,2,3,4
 for x in range(5):
     print(x)
@@ -65,6 +68,28 @@ for x in range(3, 6):
 for x in range(3, 8, 2):
     print(x)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.console) -->
+<!-- The below code snippet is automatically added from for_range_loops.console -->
+
+```console
++ python for_range_loops.py
+0
+1
+2
+3
+4
+3
+4
+5
+3
+5
+7
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## `while` loops
 

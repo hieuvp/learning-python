@@ -4,6 +4,10 @@ export PATH := ../../venv/bin:$(PATH)
 for-loop:
 	./for_loop.sh &> for_loop.console
 
+.PHONY: for-range-loops
+for-range-loops:
+	./for_range_loops.sh &> for_range_loops.console
+
 .PHONY: while-loop
 while-loop:
 	./while_loop.sh &> while_loop.console
@@ -21,4 +25,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: for-loop while-loop break-continue-statements else-clause exercise
+all: for-loop for-range-loops while-loop break-continue-statements else-clause exercise
