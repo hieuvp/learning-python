@@ -132,11 +132,11 @@ For example:
 <!-- The below code snippet is automatically added from if_statement.py -->
 
 ```py
-x = 2
-if x == 2:
-    print("x equals two!")
+X = 2
+if X == 2:
+    print("X equals two!")
 else:
-    print("x does not equal to two.")
+    print("X does not equal to two.")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -146,7 +146,7 @@ else:
 
 ```console
 + python if_statement.py
-x equals two!
+X equals two!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

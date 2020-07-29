@@ -1,5 +1,5 @@
-x = 2
-if x == 2:
-    print("x equals two!")
+X = 2
+if X == 2:
+    print("X equals two!")
 else:
-    print("x does not equal to two.")
+    print("X does not equal to two.")
