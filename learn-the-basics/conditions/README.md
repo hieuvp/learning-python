@@ -18,12 +18,29 @@ The boolean values True and False are returned
 when an expression is compared or evaluated.
 For example:
 
-```python
-x = 2
-print(x == 2) # prints out True
-print(x == 3) # prints out False
-print(x < 3) # prints out True
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_expression.py) -->
+<!-- The below code snippet is automatically added from boolean_expression.py -->
+
+```py
+X = 2
+print(X == 2)  # prints out True
+print(X == 3)  # prints out False
+print(X < 3)  # prints out True
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_expression.console) -->
+<!-- The below code snippet is automatically added from boolean_expression.console -->
+
+```console
++ python boolean_expression.py
+True
+False
+True
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Notice that variable assignment is done using a single equals operator `=`,
 whereas comparison between two variables is done using the double equals operator `==`.
@@ -93,7 +110,7 @@ The standard Python indentation is 4 spaces,
 although tabs and any other space size will work, as long as it is consistent.
 Notice that code blocks do not need any termination.
 
-Here is an example for using Python's "if" statement using code blocks:
+Here is an example for using Python's `if` statement using code blocks:
 
 ```python
 statement = False
@@ -111,13 +128,28 @@ else:
 
 For example:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=if_statement.py) -->
+<!-- The below code snippet is automatically added from if_statement.py -->
+
+```py
 x = 2
 if x == 2:
     print("x equals two!")
 else:
     print("x does not equal to two.")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=if_statement.console) -->
+<!-- The below code snippet is automatically added from if_statement.console -->
+
+```console
++ python if_statement.py
+x equals two!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 A statement is evaulated as true if one of the following is correct:
 
