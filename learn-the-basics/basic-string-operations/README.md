@@ -5,11 +5,18 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Print](#print)
+- [`index`](#index)
+- [`count`](#count)
+- [Slicing Strings](#slicing-strings)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 > Strings are bits of text.
+
+## Print
 
 As you can see, the first thing you learned was printing a simple sentence.
 This sentence was stored by Python as a string.
@@ -17,7 +24,7 @@ However, instead of immediately printing strings out,
 we will explore the various things you can do to them.
 You can also use single quotes to assign a string.
 However, you will face problems if the value to be assigned itself contains single quotes.
-For example to assign the string in these bracket(single quotes are ' ')
+For example to assign the string in these bracket(single quotes are `' '`)
 you need to use double quotes only like this
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_sentence.py) -->
@@ -45,6 +52,8 @@ single quotes are ' '
 
 That prints out 12, because "Hello world!" is 12 characters long,
 including punctuation and spaces.
+
+## `index`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_index.py) -->
 <!-- The below code snippet is automatically added from string_index.py -->
@@ -78,6 +87,8 @@ To make things more simple,
 Python (and most other programming languages) start things at 0 instead of 1.
 So the index of "o" is 4.
 
+## `count`
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_count.py) -->
 <!-- The below code snippet is automatically added from string_count.py -->
 
@@ -100,6 +111,11 @@ print(A_STRING.count("l"))
 
 For those of you using silly fonts, that is a lowercase L, not a number one.
 This counts the number of l's in the string. Therefore, it should print 3.
+
+## Slicing Strings
+
+> You can return a range of characters by using the slice syntax.
+> Specify the start index and the end index, separated by a colon, to return a part of the string.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.py) -->
 <!-- The below code snippet is automatically added from string_slice.py -->
@@ -299,3 +315,7 @@ Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'stri
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Python Slice Strings](https://www.w3schools.com/python/gloss_python_string_slice.asp)
