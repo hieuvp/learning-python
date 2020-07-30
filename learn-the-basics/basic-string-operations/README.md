@@ -46,9 +46,6 @@ single quotes are ' '
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-That prints out 12, because "Hello world!" is 12 characters long,
-including punctuation and spaces.
-
 ## `index()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_index.py) -->
@@ -56,6 +53,8 @@ including punctuation and spaces.
 
 ```py
 A_STRING = "Hello world!"
+
+# This method only recognizes the first
 print(A_STRING.index("o"))
 ```
 
