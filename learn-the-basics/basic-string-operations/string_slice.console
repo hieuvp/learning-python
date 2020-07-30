@@ -1,6 +1,6 @@
 + python string_slice.py
-A_STRING[3:7] = lo w
+A_STRING[3:7]   = lo w
 A_STRING[3:7:2] = l 
-A_STRING[3:7] = lo w
+A_STRING[3:7]   = lo w
 A_STRING[3:7:1] = lo w
-A_STRING[::-1] = !dlrow olleH
+A_STRING[::-1]  = !dlrow olleH
