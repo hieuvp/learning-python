@@ -54,6 +54,7 @@ single quotes are ' '
 ```py
 A_STRING = "Hello world!"
 
+# There are actually two o's in the phrase
 # This method only recognizes the first
 print(A_STRING.index("o"))
 ```
@@ -69,12 +70,6 @@ print(A_STRING.index("o"))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-That prints out 4,
-because the location of the first occurrence of the letter "o"
-is 4 characters away from the first character.
-Notice how there are actually two o's in the phrase -
-this method only recognizes the first.
 
 But why didn't it print out 5?
 Isn't "o" the fifth character in the string?
