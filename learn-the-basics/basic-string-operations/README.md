@@ -5,7 +5,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Print](#print)
+- [`print()`](#print)
 - [`index()`](#index)
 - [`count()`](#count)
 - [Slicing Strings](#slicing-strings)
@@ -19,7 +19,7 @@
 
 > Strings are bits of text.
 
-## Print
+## `print()`
 
 As you can see, the first thing you learned was printing a simple sentence.
 This sentence was stored by Python as a string.
