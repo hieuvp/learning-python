@@ -17,18 +17,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-> Strings are bits of text.
-
 ## `print()`
-
-As you can see, the first thing you learned was printing a simple sentence.
-This sentence was stored by Python as a string.
-However, instead of immediately printing strings out,
-we will explore the various things you can do to them.
-You can also use single quotes to assign a string.
-However, you will face problems if the value to be assigned itself contains single quotes.
-For example to assign the string in these bracket(single quotes are `' '`)
-you need to use double quotes only like this
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.py) -->
 <!-- The below code snippet is automatically added from print.py -->
@@ -36,6 +25,11 @@ you need to use double quotes only like this
 ```py
 A_STRING = "Hello world!"
 print(len(A_STRING))
+
+# You can use single quotes to assign a string.
+# However, you will face problems
+# if the value to be assigned itself contains single quotes.
+# You need double quotes in this case.
 print("single quotes are ' '")
 ```
 
