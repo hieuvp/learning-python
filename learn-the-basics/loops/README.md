@@ -24,8 +24,8 @@ Here is an example:
 <!-- The below code snippet is automatically added from for_loop.py -->
 
 ```py
-primes = [2, 3, 5, 7]
-for prime in primes:
+PRIMES = [2, 3, 5, 7]
+for prime in PRIMES:
     print(prime)
 ```
 
