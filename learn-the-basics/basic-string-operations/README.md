@@ -30,25 +30,24 @@ However, you will face problems if the value to be assigned itself contains sing
 For example to assign the string in these bracket(single quotes are `' '`)
 you need to use double quotes only like this
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_sentence.py) -->
-<!-- The below code snippet is automatically added from print_sentence.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.py) -->
+<!-- The below code snippet is automatically added from print.py -->
 
 ```py
 A_STRING = "Hello world!"
-print("single quotes are ' '")
-
 print(len(A_STRING))
+print("single quotes are ' '")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_sentence.console) -->
-<!-- The below code snippet is automatically added from print_sentence.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print.console) -->
+<!-- The below code snippet is automatically added from print.console -->
 
 ```console
-+ python print_sentence.py
-single quotes are ' '
++ python print.py
 12
+single quotes are ' '
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

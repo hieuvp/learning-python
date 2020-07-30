@@ -1,8 +1,8 @@
 export PATH := ../../venv/bin:$(PATH)
 
-.PHONY: print-sentence
-print-sentence:
-	./print_sentence.sh &> print_sentence.console
+.PHONY: print
+print:
+	./print.sh &> print.console
 
 .PHONY: string-index
 string-index:
@@ -33,4 +33,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: print-sentence string-index string-count string-slice string-case string-check string-split exercise
+all: print string-index string-count string-slice string-case string-check string-split exercise
