@@ -127,7 +127,7 @@ This counts the number of l's in the string. Therefore, it should print 3.
 ```py
 A_STRING = "Hello world!"
 
-print("A_STRING[3:7] = %s" % A_STRING[3:7])
+print("A_STRING[3:7]   = %s" % A_STRING[3:7])
 
 # This prints a slice of the string, starting at index 3, and ending at index 6.
 # But why 6 and not 7? Again, most programming languages do this -
@@ -149,7 +149,7 @@ print("A_STRING[3:7:2] = %s" % A_STRING[3:7:2])
 # This prints the characters of string from 3 to 7 skipping one character.
 # This is extended slice syntax. The general form is `[start:stop:step]`.
 
-print("A_STRING[3:7] = %s" % A_STRING[3:7])
+print("A_STRING[3:7]   = %s" % A_STRING[3:7])
 print("A_STRING[3:7:1] = %s" % A_STRING[3:7:1])
 
 # Note that both of them produce same output
@@ -157,7 +157,7 @@ print("A_STRING[3:7:1] = %s" % A_STRING[3:7:1])
 # There is no function like strrev in C to reverse a string.
 # But with the above mentioned type of slice syntax you can easily reverse a string like this
 
-print("A_STRING[::-1] = %s" % A_STRING[::-1])
+print("A_STRING[::-1]  = %s" % A_STRING[::-1])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -167,11 +167,11 @@ print("A_STRING[::-1] = %s" % A_STRING[::-1])
 
 ```console
 + python string_slice.py
-A_STRING[3:7] = lo w
+A_STRING[3:7]   = lo w
 A_STRING[3:7:2] = l
-A_STRING[3:7] = lo w
+A_STRING[3:7]   = lo w
 A_STRING[3:7:1] = lo w
-A_STRING[::-1] = !dlrow olleH
+A_STRING[::-1]  = !dlrow olleH
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
