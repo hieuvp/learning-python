@@ -1,6 +1,6 @@
 A_STRING = "Hello world!"
 
-print(A_STRING[3:7])
+print("A_STRING[3:7] = %s" % A_STRING[3:7])
 
 # This prints a slice of the string, starting at index 3, and ending at index 6.
 # But why 6 and not 7? Again, most programming languages do this -
@@ -17,17 +17,17 @@ print(A_STRING[3:7])
 # They are an easy way of starting at the end of the string instead of the beginning.
 # This way, -3 means "3rd character from the end".
 
-print(A_STRING[3:7:2])
+print("A_STRING[3:7:2] = %s" % A_STRING[3:7:2])
 
 # This prints the characters of string from 3 to 7 skipping one character.
 # This is extended slice syntax. The general form is `[start:stop:step]`.
 
-print(A_STRING[3:7])
-print(A_STRING[3:7:1])
+print("A_STRING[3:7] = %s" % A_STRING[3:7])
+print("A_STRING[3:7:1] = %s" % A_STRING[3:7:1])
 
 # Note that both of them produce same output
 #
 # There is no function like strrev in C to reverse a string.
 # But with the above mentioned type of slice syntax you can easily reverse a string like this
 
-print(A_STRING[::-1])
+print("A_STRING[::-1] = %s" % A_STRING[::-1])
