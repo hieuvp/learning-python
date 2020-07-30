@@ -88,8 +88,8 @@ such as a list:
 <!-- The below code snippet is automatically added from in_operator.py -->
 
 ```py
-name = "John"
-if name in ["John", "Rick"]:
+NAME = "John"
+if NAME in ["John", "Rick"]:
     print("Your name is either John or Rick.")
 ```
 
@@ -177,8 +177,8 @@ For example:
 ```py
 x = [1, 2, 3]
 y = [1, 2, 3]
-print(x == y)  # Prints out True
-print(x is y)  # Prints out False
+print(x == y)
+print(x is y)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -202,8 +202,8 @@ Using "not" before a boolean expression inverts it:
 <!-- The below code snippet is automatically added from not_operator.py -->
 
 ```py
-print(not False)  # Prints out True
-print((not False) == (False))  # Prints out False
+print(not False)
+print((not False) == (False))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

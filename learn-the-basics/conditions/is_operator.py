@@ -1,4 +1,4 @@
 x = [1, 2, 3]
 y = [1, 2, 3]
-print(x == y)  # Prints out True
-print(x is y)  # Prints out False
+print(x == y)
+print(x is y)
