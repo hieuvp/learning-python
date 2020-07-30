@@ -8,7 +8,7 @@
 - [`print()`](#print)
 - [`index()`](#index)
 - [`count()`](#count)
-- [Slicing Strings](#slicing-strings)
+- [Slice](#slice)
 - [Uppercase and Lowercase](#uppercase-and-lowercase)
 - [`startswith()` and `endswith()`](#startswith-and-endswith)
 - [`split()`](#split)
@@ -102,7 +102,7 @@ print(A_STRING.count("l"))
 For those of you using silly fonts, that is a lowercase L, not a number one.
 This counts the number of l's in the string. Therefore, it should print 3.
 
-## Slicing Strings
+## Slice
 
 > You can return a range of characters by using the slice syntax.
 > Specify the start index and the end index, separated by a colon,
