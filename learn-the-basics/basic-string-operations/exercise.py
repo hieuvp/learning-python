@@ -1,4 +1,5 @@
 TEXT = "String, what should it become!"
+
 print("Length of TEXT = %d" % len(TEXT))
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 print("a occurs %d times" % TEXT.count("a"))
