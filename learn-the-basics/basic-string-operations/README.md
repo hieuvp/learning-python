@@ -71,12 +71,6 @@ print(A_STRING.index("o"))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-But why didn't it print out 5?
-Isn't "o" the fifth character in the string?
-To make things more simple,
-Python (and most other programming languages) start things at 0 instead of 1.
-So the index of "o" is 4.
-
 ## `count()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_count.py) -->
@@ -99,14 +93,19 @@ print(A_STRING.count("l"))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-For those of you using silly fonts, that is a lowercase L, not a number one.
-This counts the number of l's in the string. Therefore, it should print 3.
-
 ## Slice
 
 > You can return a range of characters by using the slice syntax.
 > Specify the start index and the end index, separated by a colon,
 > to return a part of the string.
+
+`slice(start, end, step)`
+
+| Parameter | Description                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------- |
+| `start`   | Optional. An integer number specifying at which position to start the slicing. Default is 0 |
+| `end`     | An integer number specifying at which position to end the slicing                           |
+| `step`    | Optional. An integer number specifying the step of the slicing. Default is 1                |
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.py) -->
 <!-- The below code snippet is automatically added from string_slice.py -->
@@ -314,3 +313,4 @@ Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'stri
 ## References
 
 - [Python Slice Strings](https://www.w3schools.com/python/gloss_python_string_slice.asp)
+- [Python `slice()` Function](https://www.w3schools.com/python/ref_func_slice.asp)
