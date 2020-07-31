@@ -12,22 +12,14 @@ print("The characters with odd index are '%s'" % TEXT[1::2])
 print("The last five characters are      '%s'" % TEXT[-5:])
 print()
 
-# Convert everything to uppercase
-print("String in uppercase: %s" % TEXT.upper())
-
-# Convert everything to lowercase
-print("String in lowercase: %s" % TEXT.lower())
-
+print("String in uppercase: %s" % TEXT.upper())  # Convert everything to uppercase
+print("String in lowercase: %s" % TEXT.lower())  # Convert everything to lowercase
 print()
 
-# Check how a string starts
-if TEXT.startswith("Str"):
+if TEXT.startswith("Str"):  # Check how a string starts
     print("String starts with 'Str'. Good!")
-
-# Check how a string ends
-if TEXT.endswith("ome!"):
+if TEXT.endswith("ome!"):  # Check how a string ends
     print("String ends with 'ome!'. Good!")
-
 print()
 
 # Split the string into separate substrings, each containing only a word
