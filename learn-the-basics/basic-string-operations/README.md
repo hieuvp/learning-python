@@ -8,7 +8,7 @@
 - [`print()`](#print)
 - [`index()`](#index)
 - [`count()`](#count)
-- [Slice](#slice)
+- [`slice()`](#slice)
 - [Uppercase and Lowercase](#uppercase-and-lowercase)
 - [`startswith()` and `endswith()`](#startswith-and-endswith)
 - [`split()`](#split)
@@ -93,13 +93,13 @@ print(A_STRING.count("l"))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Slice
+## `slice()`
 
 > Return a range of characters.
 
 ```python
 slice(start, end, step)
-string[start:end:step]
+[start:end:step]
 ```
 
 | Parameter | Description                                                              |
@@ -116,9 +116,9 @@ string[start:end:step]
 ```py
 A_STRING = "Hello world!"
 
-# Starting at index "3"
+# Starting at index "2"
 # Ending at index "6" (not "7")
-print("A_STRING[3:7]   = %s" % A_STRING[3:7])
+print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 
 # If you just have one number in the brackets,
 # it will give you the single character at that index.
@@ -131,13 +131,13 @@ print("A_STRING[3:7]   = %s" % A_STRING[3:7])
 # They are an easy way of starting at the end of the string instead of the beginning.
 # This way, -3 means "3rd character from the end".
 
-print("A_STRING[3:7:2] = %s" % A_STRING[3:7:2])
+print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 
 # This prints the characters of string from 3 to 7 skipping one character.
 # This is extended slice syntax. The general form is `[start:stop:step]`.
 
-print("A_STRING[3:7]   = %s" % A_STRING[3:7])
-print("A_STRING[3:7:1] = %s" % A_STRING[3:7:1])
+print("A_STRING[2:7]   = %s" % A_STRING[2:7])
+print("A_STRING[2:7:1] = %s" % A_STRING[2:7:1])
 
 # Note that both of them produce same output
 #
@@ -154,10 +154,10 @@ print("A_STRING[::-1]  = %s" % A_STRING[::-1])
 
 ```console
 + python string_slice.py
-A_STRING[3:7]   = lo w
-A_STRING[3:7:2] = l
-A_STRING[3:7]   = lo w
-A_STRING[3:7:1] = lo w
+A_STRING[2:7]   = llo w
+A_STRING[2:7:2] = low
+A_STRING[2:7]   = llo w
+A_STRING[2:7:1] = llo w
 A_STRING[::-1]  = !dlrow olleH
 ```
 
