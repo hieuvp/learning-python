@@ -249,8 +249,9 @@ Try to fix the code to print out the correct information by changing the string.
 
 ```py
 TEXT = "Hey there! what should this string be?"
+
 # Length should be 20
-print("Length of s = %d" % len(TEXT))
+print("Length of TEXT = %d" % len(TEXT))
 
 # First occurrence of "a" should be at index 8
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
@@ -291,7 +292,7 @@ print("Split the words of the string: %s" % TEXT.split(" "))
 
 ```console
 + python exercise.py
-Length of s = 38
+Length of TEXT = 38
 The first occurrence of the letter a = 13
 a occurs 1 times
 The first five characters are 'Hey t'
