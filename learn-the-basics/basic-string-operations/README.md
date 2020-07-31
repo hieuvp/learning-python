@@ -248,27 +248,16 @@ Try to fix the code to print out the correct information by changing the string.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-TEXT = "Str Hey there! what should this string be? ome!"
-
-# Length should be 20
+TEXT = "Str, what it become!"
 print("Length of TEXT = %d" % len(TEXT))
-
-# First occurrence of "a" should be at index 8
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
-
-# Number of a's should be 2
 print("a occurs %d times" % TEXT.count("a"))
 
 # Slicing the string into bits
-# Start to 5
 print("The first five characters are '%s'" % TEXT[:5])
-# 5 to 10
 print("The next five characters are '%s'" % TEXT[5:10])
-# Just number 12
 print("The thirteenth character is '%s'" % TEXT[12])
-# (0-based indexing)
 print("The characters with odd index are '%s'" % TEXT[1::2])
-# 5th-from-last to end
 print("The last five characters are '%s'" % TEXT[-5:])
 
 # Convert everything to uppercase
@@ -285,7 +274,7 @@ if TEXT.startswith("Str"):
 if TEXT.endswith("ome!"):
     print("String ends with 'ome!'. Good!")
 
-# Split the string into three separate strings, each containing only a word
+# Split the string into separate substrings, each containing only a word
 print("Split the words of the string: %s" % TEXT.split(" "))
 ```
 
@@ -296,19 +285,19 @@ print("Split the words of the string: %s" % TEXT.split(" "))
 
 ```console
 + python exercise.py
-Length of TEXT = 47
-The first occurrence of the letter a = 17
+Length of TEXT = 20
+The first occurrence of the letter a = 7
 a occurs 1 times
-The first five characters are 'Str H'
-The next five characters are 'ey th'
-The thirteenth character is 'e'
-The characters with odd index are 't e hr!wa hudti tigb?oe'
-The last five characters are ' ome!'
-String in uppercase: STR HEY THERE! WHAT SHOULD THIS STRING BE? OME!
-String in lowercase: str hey there! what should this string be? ome!
+The first five characters are 'Str, '
+The next five characters are 'what '
+The thirteenth character is ' '
+The characters with odd index are 't,wa tbcm!'
+The last five characters are 'come!'
+String in uppercase: STR, WHAT IT BECOME!
+String in lowercase: str, what it become!
 String starts with 'Str'. Good!
 String ends with 'ome!'. Good!
-Split the words of the string: ['Str', 'Hey', 'there!', 'what', 'should', 'this', 'string', 'be?', 'ome!']
+Split the words of the string: ['Str,', 'what', 'it', 'become!']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

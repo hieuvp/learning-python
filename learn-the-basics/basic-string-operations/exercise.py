@@ -1,24 +1,13 @@
-TEXT = "Str Hey there! what should this string be? ome!"
-
-# Length should be 20
+TEXT = "Str, what it become!"
 print("Length of TEXT = %d" % len(TEXT))
-
-# First occurrence of "a" should be at index 8
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
-
-# Number of a's should be 2
 print("a occurs %d times" % TEXT.count("a"))
 
 # Slicing the string into bits
-# Start to 5
 print("The first five characters are '%s'" % TEXT[:5])
-# 5 to 10
 print("The next five characters are '%s'" % TEXT[5:10])
-# Just number 12
 print("The thirteenth character is '%s'" % TEXT[12])
-# (0-based indexing)
 print("The characters with odd index are '%s'" % TEXT[1::2])
-# 5th-from-last to end
 print("The last five characters are '%s'" % TEXT[-5:])
 
 # Convert everything to uppercase
@@ -35,5 +24,5 @@ if TEXT.startswith("Str"):
 if TEXT.endswith("ome!"):
     print("String ends with 'ome!'. Good!")
 
-# Split the string into three separate strings, each containing only a word
+# Split the string into separate substrings, each containing only a word
 print("Split the words of the string: %s" % TEXT.split(" "))
