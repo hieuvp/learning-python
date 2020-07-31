@@ -192,8 +192,6 @@ hello world!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-These make a new string with all letters converted to uppercase and lowercase, respectively.
-
 ## `startswith()` and `endswith()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_check.py) -->
@@ -218,10 +216,6 @@ False
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-This is used to determine whether the string starts with something or ends with something, respectively.
-The first one will print True, as the string starts with "Hello".
-The second one will print False, as the string certainly does not end with "asdfasdfasdf".
-
 ## `split()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_split.py) -->
@@ -245,10 +239,6 @@ print(A_FEW_WORDS)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-This splits the string into a bunch of strings grouped together in a list.
-Since this example splits at a space, the first item in the list will be "Hello",
-and the second will be "world!".
 
 ## Exercise
 
