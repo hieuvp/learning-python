@@ -3,6 +3,7 @@ A_STRING[2:7]   = llo w
 A_STRING[2]     = l
 A_STRING[:7]    = Hello w
 A_STRING[2:]    = llo world!
+A_STRING[-2:]   = d!
 A_STRING[2:7:2] = low
 A_STRING[2:7]   = llo w
 A_STRING[2:7:1] = llo w

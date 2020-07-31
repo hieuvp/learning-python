@@ -17,8 +17,10 @@ print("A_STRING[2:]    = %s" % A_STRING[2:])
 
 # You can even put negative numbers inside the brackets.
 # They are an easy way of starting at the end of the string instead of the beginning.
-# This way, -3 means "3rd character from the end".
+# This way, -2 means "2nd character from the end".
+print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 
+# Step
 print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 
 # Print the characters of string from 2 to 7, skipping one character
