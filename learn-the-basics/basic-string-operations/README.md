@@ -248,7 +248,7 @@ Try to fix the code to print out the correct information by changing the string.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-TEXT = "Hey there! what should this string be?"
+TEXT = "Str Hey there! what should this string be? ome!"
 
 # Length should be 20
 print("Length of TEXT = %d" % len(TEXT))
@@ -260,11 +260,16 @@ print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 print("a occurs %d times" % TEXT.count("a"))
 
 # Slicing the string into bits
-print("The first five characters are '%s'" % TEXT[:5])  # Start to 5
-print("The next five characters are '%s'" % TEXT[5:10])  # 5 to 10
-print("The thirteenth character is '%s'" % TEXT[12])  # Just number 12
-print("The characters with odd index are '%s'" % TEXT[1::2])  # (0-based indexing)
-print("The last five characters are '%s'" % TEXT[-5:])  # 5th-from-last to end
+# Start to 5
+print("The first five characters are '%s'" % TEXT[:5])
+# 5 to 10
+print("The next five characters are '%s'" % TEXT[5:10])
+# Just number 12
+print("The thirteenth character is '%s'" % TEXT[12])
+# (0-based indexing)
+print("The characters with odd index are '%s'" % TEXT[1::2])
+# 5th-from-last to end
+print("The last five characters are '%s'" % TEXT[-5:])
 
 # Convert everything to uppercase
 print("String in uppercase: %s" % TEXT.upper())
@@ -280,8 +285,7 @@ if TEXT.startswith("Str"):
 if TEXT.endswith("ome!"):
     print("String ends with 'ome!'. Good!")
 
-# Split the string into three separate strings,
-# each containing only a word
+# Split the string into three separate strings, each containing only a word
 print("Split the words of the string: %s" % TEXT.split(" "))
 ```
 
@@ -292,17 +296,19 @@ print("Split the words of the string: %s" % TEXT.split(" "))
 
 ```console
 + python exercise.py
-Length of TEXT = 38
-The first occurrence of the letter a = 13
+Length of TEXT = 47
+The first occurrence of the letter a = 17
 a occurs 1 times
-The first five characters are 'Hey t'
-The next five characters are 'here!'
-The thirteenth character is 'h'
-The characters with odd index are 'e hr!wa hudti tigb?'
-The last five characters are 'g be?'
-String in uppercase: HEY THERE! WHAT SHOULD THIS STRING BE?
-String in lowercase: hey there! what should this string be?
-Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'string', 'be?']
+The first five characters are 'Str H'
+The next five characters are 'ey th'
+The thirteenth character is 'e'
+The characters with odd index are 't e hr!wa hudti tigb?oe'
+The last five characters are ' ome!'
+String in uppercase: STR HEY THERE! WHAT SHOULD THIS STRING BE? OME!
+String in lowercase: str hey there! what should this string be? ome!
+String starts with 'Str'. Good!
+String ends with 'ome!'. Good!
+Split the words of the string: ['Str', 'Hey', 'there!', 'what', 'should', 'this', 'string', 'be?', 'ome!']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
