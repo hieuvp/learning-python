@@ -1,11 +1,9 @@
 A_STRING = "Hello world!"
 
+# Starting at index "3"
+# Ending at index "6" (not "7")
 print("A_STRING[3:7]   = %s" % A_STRING[3:7])
 
-# This prints a slice of the string, starting at index 3, and ending at index 6.
-# But why 6 and not 7? Again, most programming languages do this -
-# it makes doing math inside those brackets easier.
-#
 # If you just have one number in the brackets,
 # it will give you the single character at that index.
 # If you leave out the first number but keep the colon,

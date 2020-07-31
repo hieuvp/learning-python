@@ -102,11 +102,11 @@ slice(start, end, step)
 string[start:end:step]
 ```
 
-| Parameter | Description                                                   |
-| --------- | ------------------------------------------------------------- |
-| `start`   | Which position to start the slicing. Default is `0`.          |
-| `end`     | Which position to end the slicing.                            |
-| `step`    | The increment between each index for slicing. Default is `1`. |
+| Parameter | Description                                                              |
+| --------- | ------------------------------------------------------------------------ |
+| `start`   | Which position to start the slicing. Default is `0`.                     |
+| `end`     | Which position to end the slicing. The slicing stops at index `end - 1`. |
+| `step`    | The increment between each index for slicing. Default is `1`.            |
 
 <br />
 
@@ -116,12 +116,10 @@ string[start:end:step]
 ```py
 A_STRING = "Hello world!"
 
+# Starting at index "3"
+# Ending at index "6" (not "7")
 print("A_STRING[3:7]   = %s" % A_STRING[3:7])
 
-# This prints a slice of the string, starting at index 3, and ending at index 6.
-# But why 6 and not 7? Again, most programming languages do this -
-# it makes doing math inside those brackets easier.
-#
 # If you just have one number in the brackets,
 # it will give you the single character at that index.
 # If you leave out the first number but keep the colon,
