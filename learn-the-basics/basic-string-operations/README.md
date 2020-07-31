@@ -95,17 +95,18 @@ print(A_STRING.count("l"))
 
 ## Slice
 
-> You can return a range of characters by using the slice syntax.
-> Specify the start index and the end index, separated by a colon,
-> to return a part of the string.
+> Return a range of characters.
 
-`slice(start, end, step)`
+```python
+slice(start, end, step)
+string[start:end:step]
+```
 
-| Parameter | Description                                                                                 |
-| --------- | ------------------------------------------------------------------------------------------- |
-| `start`   | Optional. An integer number specifying at which position to start the slicing. Default is 0 |
-| `end`     | An integer number specifying at which position to end the slicing                           |
-| `step`    | Optional. An integer number specifying the step of the slicing. Default is 1                |
+| Parameter | Description                                                                         |
+| --------- | ----------------------------------------------------------------------------------- |
+| `start`   | An integer number specifying at which position to start the slicing. Default is `0` |
+| `end`     | An integer number specifying at which position to end the slicing.                  |
+| `step`    | An integer number specifying the step of the slicing. Default is `1`                |
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.py) -->
 <!-- The below code snippet is automatically added from string_slice.py -->
