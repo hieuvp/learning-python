@@ -242,23 +242,21 @@ print(A_FEW_WORDS)
 
 ## Exercise
 
-Try to fix the code to print out the correct information by changing the string.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-TEXT = "Str, what it become!"
+TEXT = "String, what should it become!"
 print("Length of TEXT = %d" % len(TEXT))
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 print("a occurs %d times" % TEXT.count("a"))
 
 # Slicing the string into bits
-print("The first five characters are '%s'" % TEXT[:5])
-print("The next five characters are '%s'" % TEXT[5:10])
-print("The thirteenth character is '%s'" % TEXT[12])
+print("The first five characters are     '%s'" % TEXT[:5])
+print("The next five characters are      '%s'" % TEXT[5:10])
+print("The thirteenth character is       '%s'" % TEXT[12])
 print("The characters with odd index are '%s'" % TEXT[1::2])
-print("The last five characters are '%s'" % TEXT[-5:])
+print("The last five characters are      '%s'" % TEXT[-5:])
 
 # Convert everything to uppercase
 print("String in uppercase: %s" % TEXT.upper())
@@ -285,19 +283,19 @@ print("Split the words of the string: %s" % TEXT.split(" "))
 
 ```console
 + python exercise.py
-Length of TEXT = 20
-The first occurrence of the letter a = 7
+Length of TEXT = 30
+The first occurrence of the letter a = 10
 a occurs 1 times
-The first five characters are 'Str, '
-The next five characters are 'what '
-The thirteenth character is ' '
-The characters with odd index are 't,wa tbcm!'
-The last five characters are 'come!'
-String in uppercase: STR, WHAT IT BECOME!
-String in lowercase: str, what it become!
+The first five characters are     'Strin'
+The next five characters are      'g, wh'
+The thirteenth character is       ' '
+The characters with odd index are 'tig htsol tbcm!'
+The last five characters are      'come!'
+String in uppercase: STRING, WHAT SHOULD IT BECOME!
+String in lowercase: string, what should it become!
 String starts with 'Str'. Good!
 String ends with 'ome!'. Good!
-Split the words of the string: ['Str,', 'what', 'it', 'become!']
+Split the words of the string: ['String,', 'what', 'should', 'it', 'become!']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
