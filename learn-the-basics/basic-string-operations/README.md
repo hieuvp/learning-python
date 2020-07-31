@@ -102,11 +102,13 @@ slice(start, end, step)
 string[start:end:step]
 ```
 
-| Parameter | Description                                                                         |
-| --------- | ----------------------------------------------------------------------------------- |
-| `start`   | An integer number specifying at which position to start the slicing. Default is `0` |
-| `end`     | An integer number specifying at which position to end the slicing.                  |
-| `step`    | An integer number specifying the step of the slicing. Default is `1`                |
+| Parameter | Description                                                   |
+| --------- | ------------------------------------------------------------- |
+| `start`   | Which position to start the slicing. Default is `0`.          |
+| `end`     | Which position to end the slicing.                            |
+| `step`    | The increment between each index for slicing. Default is `1`. |
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_slice.py) -->
 <!-- The below code snippet is automatically added from string_slice.py -->
@@ -315,3 +317,4 @@ Split the words of the string: ['Hey', 'there!', 'what', 'should', 'this', 'stri
 
 - [Python Slice Strings](https://www.w3schools.com/python/gloss_python_string_slice.asp)
 - [Python `slice()` Function](https://www.w3schools.com/python/ref_func_slice.asp)
+- [Python `slice()`](https://www.programiz.com/python-programming/methods/built-in/slice)
