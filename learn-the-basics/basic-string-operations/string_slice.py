@@ -24,5 +24,5 @@ print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 print("A_STRING[2:7:1] = %s" % A_STRING[2:7:1])
 
-# Reverse a string using slice
+# Reversing a string
 print("A_STRING[::-1]  = %s" % A_STRING[::-1])
