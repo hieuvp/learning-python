@@ -12,7 +12,7 @@ The last five characters are      => 'come!'
 TEXT in uppercase: STRING, WHAT SHOULD IT BECOME!
 TEXT in lowercase: string, what should it become!
 
-String starts with 'Str'. Good!
-String ends with 'ome!'. Good!
+TEXT starts with 'Str'. Good!
+TEXT ends with 'ome!'. Good!
 
 Split the words of the string: ['String,', 'what', 'should', 'it', 'become!']

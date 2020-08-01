@@ -18,9 +18,9 @@ print("TEXT in lowercase: %s" % TEXT.lower())  # Convert everything to lowercase
 print()
 
 if TEXT.startswith("Str"):  # Check how a string starts
-    print("String starts with 'Str'. Good!")
+    print("TEXT starts with 'Str'. Good!")
 if TEXT.endswith("ome!"):  # Check how a string ends
-    print("String ends with 'ome!'. Good!")
+    print("TEXT ends with 'ome!'. Good!")
 print()
 
 # Split the TEXT into separate substrings, each containing only a word
