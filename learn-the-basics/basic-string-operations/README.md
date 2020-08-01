@@ -118,21 +118,18 @@ A_STRING = "Hello world!"
 # Starting at index 2, and ending at index 6 (not 7)
 print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 
-# If you just have one number in the brackets,
-# it will give you the single character at that index
+# Single character at an index
 print("A_STRING[2]     = %s" % A_STRING[2])
 
-# If you leave out the first number but keep the colon,
-# it will give you a slice from the start to the number you left in
+# Slicing from the start to a number
 print("A_STRING[:7]    = %s" % A_STRING[:7])
 
-# If you leave out the second number,
-# it will give you a slice from the first number to the end
+# Slicing from a first number to the end
 print("A_STRING[2:]    = %s" % A_STRING[2:])
 
-# You can even put negative numbers inside the brackets.
-# They are an easy way of starting at the end of the string instead of the beginning.
-# This way, -2 means "2nd character from the end".
+# Starting at the end of the string instead of the beginning
+# by using a negative number
+# This way, "-2" means "2nd character from the end"
 print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 
 # Step
