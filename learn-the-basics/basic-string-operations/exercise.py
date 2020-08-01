@@ -6,11 +6,11 @@ print("Letter a occurs %d times" % TEXT.count("a"))
 print()
 
 # Slice the TEXT into bits
-print("The first five characters are     '%s'" % TEXT[:5])
-print("The next five characters are      '%s'" % TEXT[5:10])
-print("The fourteenth character is       '%s'" % TEXT[13])
-print("The characters with odd index are '%s'" % TEXT[1::2])
-print("The last five characters are      '%s'" % TEXT[-5:])
+print("The first five characters are     => '%s'" % TEXT[:5])
+print("The next five characters are      => '%s'" % TEXT[5:10])
+print("The fourteenth character is       => '%s'" % TEXT[13])
+print("The characters with odd index are => '%s'" % TEXT[1::2])
+print("The last five characters are      => '%s'" % TEXT[-5:])
 print()
 
 print("String in uppercase: %s" % TEXT.upper())  # Convert everything to uppercase
