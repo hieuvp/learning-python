@@ -271,7 +271,7 @@ if TEXT.endswith("ome!"):  # Check how a string ends
 print()
 
 # Split the TEXT into separate substrings, each containing only a word
-print("Split the words of the string: %s" % TEXT.split(" "))
+print("Split the words of the TEXT: %s" % TEXT.split(" "))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -297,7 +297,7 @@ TEXT in lowercase: string, what should it become!
 TEXT starts with 'Str'. Good!
 TEXT ends with 'ome!'. Good!
 
-Split the words of the string: ['String,', 'what', 'should', 'it', 'become!']
+Split the words of the TEXT: ['String,', 'what', 'should', 'it', 'become!']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
