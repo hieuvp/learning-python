@@ -15,4 +15,4 @@ TEXT in lowercase: string, what should it become!
 TEXT starts with 'Str'. Good!
 TEXT ends with 'ome!'. Good!
 
-Split the words of the string: ['String,', 'what', 'should', 'it', 'become!']
+Split the words of the TEXT: ['String,', 'what', 'should', 'it', 'become!']

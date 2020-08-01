@@ -265,9 +265,9 @@ print("TEXT in lowercase: %s" % TEXT.lower())  # Convert everything to lowercase
 print()
 
 if TEXT.startswith("Str"):  # Check how a string starts
-    print("String starts with 'Str'. Good!")
+    print("TEXT starts with 'Str'. Good!")
 if TEXT.endswith("ome!"):  # Check how a string ends
-    print("String ends with 'ome!'. Good!")
+    print("TEXT ends with 'ome!'. Good!")
 print()
 
 # Split the TEXT into separate substrings, each containing only a word
@@ -294,8 +294,8 @@ The last five characters are      => 'come!'
 TEXT in uppercase: STRING, WHAT SHOULD IT BECOME!
 TEXT in lowercase: string, what should it become!
 
-String starts with 'Str'. Good!
-String ends with 'ome!'. Good!
+TEXT starts with 'Str'. Good!
+TEXT ends with 'ome!'. Good!
 
 Split the words of the string: ['String,', 'what', 'should', 'it', 'become!']
 ```

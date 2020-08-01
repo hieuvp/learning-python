@@ -24,4 +24,4 @@ if TEXT.endswith("ome!"):  # Check how a string ends
 print()
 
 # Split the TEXT into separate substrings, each containing only a word
-print("Split the words of the string: %s" % TEXT.split(" "))
+print("Split the words of the TEXT: %s" % TEXT.split(" "))
