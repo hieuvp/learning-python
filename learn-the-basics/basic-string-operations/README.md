@@ -252,10 +252,10 @@ print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 print("Letter a occurs %d times" % TEXT.count("a"))
 print()
 
-# Slicing the string into bits
+# Slice the TEXT into bits
 print("The first five characters are     '%s'" % TEXT[:5])
 print("The next five characters are      '%s'" % TEXT[5:10])
-print("The thirteenth character is       '%s'" % TEXT[12])
+print("The fourteenth character is       '%s'" % TEXT[13])
 print("The characters with odd index are '%s'" % TEXT[1::2])
 print("The last five characters are      '%s'" % TEXT[-5:])
 print()
@@ -287,7 +287,7 @@ Letter a occurs 1 times
 
 The first five characters are     'Strin'
 The next five characters are      'g, wh'
-The thirteenth character is       ' '
+The fourteenth character is       's'
 The characters with odd index are 'tig htsol tbcm!'
 The last five characters are      'come!'
 
