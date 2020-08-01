@@ -127,8 +127,7 @@ print("A_STRING[:7]    = %s" % A_STRING[:7])
 # Slicing from a first number to the end
 print("A_STRING[2:]    = %s" % A_STRING[2:])
 
-# Starting at the end of the string instead of the beginning
-# by using a negative number
+# Starting at the end of the string instead of the beginning by using a "negative number"
 # This way, "-2" means "2nd character from the end"
 print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 
