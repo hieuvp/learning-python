@@ -277,6 +277,23 @@ print("Split the words of the TEXT: %s" % TEXT.split(" "))
 
 ```console
 + python exercise.py
+Length of TEXT = 30
+The first occurrence of the letter a = 10
+Letter a occurs 1 times
+
+The first five characters are     => 'Strin'
+The next five characters are      => 'g, wh'
+The fourteenth character is       => 's'
+The characters with odd index are => 'tig htsol tbcm!'
+The last five characters are      => 'come!'
+
+TEXT in uppercase: STRING, WHAT SHOULD IT BECOME!
+TEXT in lowercase: string, what should it become!
+
+TEXT starts with 'Str'. Good!
+TEXT ends with 'ome!'. Good!
+
+Split the words of the TEXT: ['String,', 'what', 'should', 'it', 'become!']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
