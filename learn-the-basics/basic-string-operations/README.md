@@ -253,11 +253,11 @@ print("Letter a occurs %d times" % TEXT.count("a"))
 print()
 
 # Slice the TEXT into bits
-print("The first five characters are     '%s'" % TEXT[:5])
-print("The next five characters are      '%s'" % TEXT[5:10])
-print("The fourteenth character is       '%s'" % TEXT[13])
-print("The characters with odd index are '%s'" % TEXT[1::2])
-print("The last five characters are      '%s'" % TEXT[-5:])
+print("The first five characters are     => '%s'" % TEXT[:5])
+print("The next five characters are      => '%s'" % TEXT[5:10])
+print("The fourteenth character is       => '%s'" % TEXT[13])
+print("The characters with odd index are => '%s'" % TEXT[1::2])
+print("The last five characters are      => '%s'" % TEXT[-5:])
 print()
 
 print("String in uppercase: %s" % TEXT.upper())  # Convert everything to uppercase
@@ -285,11 +285,11 @@ Length of TEXT = 30
 The first occurrence of the letter a = 10
 Letter a occurs 1 times
 
-The first five characters are     'Strin'
-The next five characters are      'g, wh'
-The fourteenth character is       's'
-The characters with odd index are 'tig htsol tbcm!'
-The last five characters are      'come!'
+The first five characters are     => 'Strin'
+The next five characters are      => 'g, wh'
+The fourteenth character is       => 's'
+The characters with odd index are => 'tig htsol tbcm!'
+The last five characters are      => 'come!'
 
 String in uppercase: STRING, WHAT SHOULD IT BECOME!
 String in lowercase: string, what should it become!

@@ -9,8 +9,8 @@ The fourteenth character is       => 's'
 The characters with odd index are => 'tig htsol tbcm!'
 The last five characters are      => 'come!'
 
-String in uppercase: STRING, WHAT SHOULD IT BECOME!
-String in lowercase: string, what should it become!
+TEXT in uppercase: STRING, WHAT SHOULD IT BECOME!
+TEXT in lowercase: string, what should it become!
 
 String starts with 'Str'. Good!
 String ends with 'ome!'. Good!
