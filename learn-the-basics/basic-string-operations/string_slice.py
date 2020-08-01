@@ -16,10 +16,10 @@ print("A_STRING[2:]    = %s" % A_STRING[2:])
 # This way, "-2" means "2nd character from the end"
 print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 
-# Printing the characters of string from "2" to "7", skipping "two" characters
+# Printing the characters of string from "2" to "7", skipping "2" characters
 print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 
-# Printing the characters of string from "2" to "7", skipping "one" character
+# Printing the characters of string from "2" to "7", skipping "1" character
 # Both of these produce a same output
 print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 print("A_STRING[2:7:1] = %s" % A_STRING[2:7:1])
