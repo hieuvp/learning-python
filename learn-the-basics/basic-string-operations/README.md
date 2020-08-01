@@ -132,15 +132,15 @@ print("A_STRING[2:]    = %s" % A_STRING[2:])
 # This way, "-2" means "2nd character from the end"
 print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 
-# Step
+# Skipping two characters
 print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 
-# Print the characters of string from 2 to 7, skipping one character
-# Both of these produce same output
+# Printing the characters of string from "2" to "7", skipping one character
+# Both of these produce a same output
 print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 print("A_STRING[2:7:1] = %s" % A_STRING[2:7:1])
 
-# Easily reverse a string using slice
+# Reverse a string using slice
 print("A_STRING[::-1]  = %s" % A_STRING[::-1])
 ```
 

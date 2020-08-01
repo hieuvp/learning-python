@@ -20,7 +20,7 @@ print("A_STRING[-2:]   = %s" % A_STRING[-2:])
 # Skipping two characters
 print("A_STRING[2:7:2] = %s" % A_STRING[2:7:2])
 
-# Print the characters of string from 2 to 7, skipping one character
+# Printing the characters of string from "2" to "7", skipping one character
 # Both of these produce a same output
 print("A_STRING[2:7]   = %s" % A_STRING[2:7])
 print("A_STRING[2:7:1] = %s" % A_STRING[2:7:1])
