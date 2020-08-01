@@ -5,7 +5,7 @@ print("The first occurrence of the letter a = %d" % TEXT.index("a"))
 print("Letter a occurs %d times" % TEXT.count("a"))
 print()
 
-# Slicing the string into bits
+# Slice the TEXT into bits
 print("The first five characters are     '%s'" % TEXT[:5])
 print("The next five characters are      '%s'" % TEXT[5:10])
 print("The thirteenth character is       '%s'" % TEXT[12])

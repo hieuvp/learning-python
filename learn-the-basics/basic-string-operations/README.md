@@ -249,7 +249,7 @@ TEXT = "String, what should it become!"
 
 print("Length of TEXT = %d" % len(TEXT))
 print("The first occurrence of the letter a = %d" % TEXT.index("a"))
-print("a occurs %d times" % TEXT.count("a"))
+print("Letter a occurs %d times" % TEXT.count("a"))
 print()
 
 # Slicing the string into bits
@@ -283,7 +283,7 @@ print("Split the words of the string: %s" % TEXT.split(" "))
 + python exercise.py
 Length of TEXT = 30
 The first occurrence of the letter a = 10
-a occurs 1 times
+Letter a occurs 1 times
 
 The first five characters are     'Strin'
 The next five characters are      'g, wh'
