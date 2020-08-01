@@ -1,7 +1,7 @@
 + python exercise.py
 Length of TEXT = 30
 The first occurrence of the letter a = 10
-a occurs 1 times
+Letter a occurs 1 times
 
 The first five characters are     'Strin'
 The next five characters are      'g, wh'
