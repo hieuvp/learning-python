@@ -1,4 +1,4 @@
-# Change these variables, so that each if statement resolves as "True"
+# Change these variables, so that each "if" statement resolves as "True"
 NUMBER = 16              # Original NUMBER = 10
 SECOND_NUMBER = 0        # Original SECOND_NUMBER = 10
 FIRST_ARRAY = [1, 2, 3]  # Original FIRST_ARRAY = []
