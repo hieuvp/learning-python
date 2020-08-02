@@ -206,8 +206,6 @@ and hence its execution is skipped.
 <!-- The below code snippet is automatically added from else_clause.py -->
 
 ```py
-# Prints out 0,1,2,3,4 and then it prints "count value reached 5"
-
 count = 0
 while count < 5:
     print(count)
@@ -217,7 +215,6 @@ else:
 
 print()
 
-# Prints out 1,2,3,4
 for i in range(1, 10):
     if i % 5 == 0:
         break
@@ -253,9 +250,6 @@ count value reached 5
 
 ## Exercise
 
-Loop through and print out all even numbers from the numbers list in the same order they are received.
-Don't print any numbers that come after 237 in the sequence.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
@@ -270,7 +264,9 @@ numbers = [
     743, 527
 ]
 
-# your code goes here
+# Loop through and print out all even numbers
+# from the numbers list in the same order they are received.
+# Don't print any numbers that come after 237 in the sequence.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -287,4 +283,4 @@ numbers = [
 ## References
 
 - [Python `range()` Function](https://www.w3schools.com/python/ref_func_range.asp)
-- [Using else conditional statement with for loop in python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)
+- [Using `else` conditional statement with `for` loop in Python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)

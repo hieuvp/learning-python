@@ -1,5 +1,3 @@
-# Prints out 0,1,2,3,4 and then it prints "count value reached 5"
-
 count = 0
 while count < 5:
     print(count)
@@ -9,7 +7,6 @@ else:
 
 print()
 
-# Prints out 1,2,3,4
 for i in range(1, 10):
     if i % 5 == 0:
         break
