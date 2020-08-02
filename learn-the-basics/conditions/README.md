@@ -204,8 +204,9 @@ Using `not` before a boolean expression inverts it:
 <!-- The below code snippet is automatically added from not_operator.py -->
 
 ```py
+# Using "not" before a boolean expression inverts it
 print(not False)
-print((not False) == (False))
+print((not False) == False)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
