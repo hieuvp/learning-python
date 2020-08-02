@@ -168,18 +168,18 @@ Here are some examples for objects which are considered as empty:
 
 ## `is` Operator
 
-Unlike the double equals operator `==`,
-the `is` operator does not match the values of the variables,
-but the instances themselves.
-For example:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=is_operator.py) -->
 <!-- The below code snippet is automatically added from is_operator.py -->
 
 ```py
 x = [1, 2, 3]
 y = [1, 2, 3]
+
 print(x == y)
+
+# Unlike the "double equals" operator "==",
+# the "is" operator does not match the "values" of the variables,
+# but the "instances" themselves
 print(x is y)
 ```
 
@@ -197,8 +197,6 @@ False
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## `not` Operator
-
-Using `not` before a boolean expression inverts it:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=not_operator.py) -->
 <!-- The below code snippet is automatically added from not_operator.py -->
