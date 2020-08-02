@@ -16,10 +16,9 @@
 
 ## Boolean Expression
 
-Python uses boolean variables to evaluate conditions.
-The boolean values True and False are returned
-when an expression is compared or evaluated.
-For example:
+> Python uses boolean variables to evaluate conditions.
+> The boolean values `True` and `False` are returned
+> when an expression is compared or evaluated.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_expression.py) -->
 <!-- The below code snippet is automatically added from boolean_expression.py -->
