@@ -10,6 +10,7 @@
 - [`break` and `continue` statements](#break-and-continue-statements)
 - [can we use `else` clause for loops](#can-we-use-else-clause-for-loops)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -49,24 +50,37 @@ whereas xrange returns an iterator, which is more efficient.
 (Python 3 uses the range function, which acts like xrange).
 Note that the range function is zero-based.
 
+```python
+range(start, stop, step)
+```
+
+| Parameter | Description                                                                        |
+| --------- | ---------------------------------------------------------------------------------- |
+| `start`   | Optional. An integer number specifying at which position to start. Default is `0`. |
+| `stop`    | Required. An integer number specifying at which position to stop (not included).   |
+| `step`    | Optional. An integer number specifying the incrementation. Default is `1`.         |
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.py) -->
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
 ```py
-output = "range(5)       ="
+OUTPUT = "range(5)       ="
 for x in range(5):
-    output += " %d" % x
-print(output)
+    OUTPUT += " %d" % x
 
-output = "range(3, 6)    ="
+print(OUTPUT)
+
+OUTPUT = "range(3, 6)    ="
 for x in range(3, 6):
-    output += " %d" % x
-print(output)
+    OUTPUT += " %d" % x
 
-output = "range(3, 8, 2) ="
+print(OUTPUT)
+
+OUTPUT = "range(3, 8, 2) ="
 for x in range(3, 8, 2):
-    output += " %d" % x
-print(output)
+    OUTPUT += " %d" % x
+
+print(OUTPUT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -251,3 +265,7 @@ numbers = [
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Python `range()` Function](https://www.w3schools.com/python/ref_func_range.asp)
