@@ -123,7 +123,7 @@ else:
 
 <br />
 
-Here is an example for using Python's `if` statement using code blocks:
+Here is an example for Python's `if` statement using code blocks:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=if_statement.py) -->
 <!-- The below code snippet is automatically added from if_statement.py -->
@@ -216,14 +216,11 @@ False
 
 ## Exercise
 
-Change the variables in the first section,
-so that each if statement resolves as True.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Change this code
+# Change these variables, so that each if statement resolves as "True"
 NUMBER = 10
 SECOND_NUMBER = 10
 FIRST_ARRAY = []
