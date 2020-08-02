@@ -47,23 +47,29 @@ The difference between range and xrange is that
 the range function returns a new list with numbers of that specified range,
 whereas xrange returns an iterator, which is more efficient.
 (Python 3 uses the range function, which acts like xrange).
-Note that the range function is zero based.
+Note that the range function is zero-based.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.py) -->
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
 ```py
-# Prints out the numbers 0,1,2,3,4
+RESULT = "range(5) ="
 for x in range(5):
-    print(x)
+    RESULT += " %d" % x
+print(RESULT)  # Prints out the numbers 0,1,2,3,4
 
-# Prints out 3,4,5
+RESULT = "range(3, 6) ="
+
 for x in range(3, 6):
-    print(x)
+    RESULT += " %d" % x
 
-# Prints out 3,5,7
+print(RESULT)  # Prints out 3,4,5
+
+RESULT = "range(3, 8, 2) ="
 for x in range(3, 8, 2):
-    print(x)
+    RESULT += " %d" % x
+
+print(RESULT)  # Prints out 3,5,7
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -73,17 +79,9 @@ for x in range(3, 8, 2):
 
 ```console
 + python for_range_loops.py
-0
-1
-2
-3
-4
-3
-4
-5
-3
-5
-7
+range(5) = 0 1 2 3 4
+range(3, 6) = 3 4 5
+range(3, 8, 2) = 3 5 7
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
