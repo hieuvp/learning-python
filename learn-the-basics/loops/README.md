@@ -7,8 +7,8 @@
 
 - [`for`](#for)
 - [`while`](#while)
-- [`break` and `continue` statements](#break-and-continue-statements)
-- [can we use `else` clause for loops](#can-we-use-else-clause-for-loops)
+- [`break` and `continue` Statements](#break-and-continue-statements)
+- [`else` Clauses](#else-clauses)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -66,19 +66,19 @@ range(start, stop, step)
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
 ```py
-OUTPUT = "range(5)       ="
+OUTPUT = "range(5)       =>"
 for x in range(5):
     OUTPUT += " %d" % x
 
 print(OUTPUT)
 
-OUTPUT = "range(3, 6)    ="
+OUTPUT = "range(3, 6)    =>"
 for x in range(3, 6):
     OUTPUT += " %d" % x
 
 print(OUTPUT)
 
-OUTPUT = "range(3, 8, 2) ="
+OUTPUT = "range(3, 8, 2) =>"
 for x in range(3, 8, 2):
     OUTPUT += " %d" % x
 
@@ -92,9 +92,9 @@ print(OUTPUT)
 
 ```console
 + python for_range_loops.py
-range(5)       = 0 1 2 3 4
-range(3, 6)    = 3 4 5
-range(3, 8, 2) = 3 5 7
+range(5)       => 0 1 2 3 4
+range(3, 6)    => 3 4 5
+range(3, 8, 2) => 3 5 7
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -130,7 +130,7 @@ while count < 5:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## `break` and `continue` statements
+## `break` and `continue` Statements
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=break_continue_statements.py) -->
 <!-- The below code snippet is automatically added from break_continue_statements.py -->
@@ -145,6 +145,8 @@ while True:
     if count >= 5:
         # break is used to exit a for loop or a while loop
         break
+
+print()
 
 # Prints out only odd numbers - 1,3,5,7,9
 for x in range(10):
@@ -168,6 +170,7 @@ for x in range(10):
 2
 3
 4
+
 1
 3
 5
@@ -177,7 +180,7 @@ for x in range(10):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## can we use `else` clause for loops
+## `else` Clauses
 
 unlike languages like C,CPP.. we can use else for loops.
 When the loop condition of "for" or "while" statement fails then code part in "else" is executed.
