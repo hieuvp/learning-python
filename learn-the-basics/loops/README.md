@@ -13,8 +13,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-There are two types of loops in Python, for and while.
-
 ## `for`
 
 For loops iterate over a given sequence.
