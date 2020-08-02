@@ -15,14 +15,13 @@
 
 ## `for`
 
-For loops iterate over a given sequence.
-Here is an example:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_loop.py) -->
 <!-- The below code snippet is automatically added from for_loop.py -->
 
 ```py
 PRIMES = [2, 3, 5, 7]
+
+# "for" loop iterate over a given sequence
 for prime in PRIMES:
     print(prime)
 ```
