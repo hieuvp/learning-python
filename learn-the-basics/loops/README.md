@@ -189,11 +189,12 @@ The `else` functionality is available for use only when the loop terminates norm
 In case of forceful termination of loop `else` statement
 is overlooked by the interpreter and hence its execution is skipped.
 
-When the loop condition of "for" or "while" statement fails then code part in "else" is executed.
-If break statement is executed inside for loop then the "else" part is skipped.
-Note that "else" part is executed even if there is a continue statement.
-
-Here are a few examples:
+- When the loop condition of `for` or `while` statement fails
+  then code part in `else` is executed.
+- If `break` statement is executed inside for loop
+  then the `else` part is skipped.
+- Note that `else` part is executed
+  even if there is a `continue` statement.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=else_clause.py) -->
 <!-- The below code snippet is automatically added from else_clause.py -->
