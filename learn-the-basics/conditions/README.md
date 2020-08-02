@@ -156,10 +156,10 @@ A statement is evaluated as `True` if one of the following is correct:
 
 Here are some examples for objects which are considered as **empty**:
 
-1. An empty string: `""`
-2. An empty list: `[]`
-3. The number zero: `0`
-4. The false boolean variable: `False`
+1. An empty **string**: `""`
+2. An empty **list**: `[]`
+3. The **number** zero: `0`
+4. The false **boolean** variable: `False`
 
 ## `is` Operator
 
@@ -220,7 +220,7 @@ False
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Change these variables, so that each if statement resolves as "True"
+# Change these variables, so that each "if" statement resolves as "True"
 NUMBER = 16              # Original NUMBER = 10
 SECOND_NUMBER = 0        # Original SECOND_NUMBER = 10
 FIRST_ARRAY = [1, 2, 3]  # Original FIRST_ARRAY = []
