@@ -104,11 +104,6 @@ Your name is either John or Rick.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Python uses indentation to define code blocks, instead of brackets.
-The standard Python indentation is 4 spaces,
-although tabs and any other space size will work, as long as it is consistent.
-Notice that code blocks do not need any termination.
-
 Here is an example for using Python's `if` statement using code blocks:
 
 ```python
