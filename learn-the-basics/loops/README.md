@@ -42,6 +42,8 @@ for prime in PRIMES:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 For loops can iterate over a sequence of numbers
 using the "range" and "xrange" functions.
 The difference between range and xrange is that
@@ -99,9 +101,6 @@ range(3, 8, 2) = 3 5 7
 
 ## `while`
 
-While loops repeat as long as a certain boolean condition is met.
-For example:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=while_loop.py) -->
 <!-- The below code snippet is automatically added from while_loop.py -->
 
@@ -109,6 +108,7 @@ For example:
 # Prints out 0,1,2,3,4
 
 count = 0
+# While loops repeat as long as a certain boolean condition is met
 while count < 5:
     print(count)
     count += 1  # This is the same as count = count + 1
