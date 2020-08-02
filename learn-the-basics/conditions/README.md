@@ -79,15 +79,15 @@ Your name is either John or Rick.
 
 ## `in` Operator
 
-The `in` operator could be used to check if
-a specified object exists within an iterable object container,
-such as a list:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=in_operator.py) -->
 <!-- The below code snippet is automatically added from in_operator.py -->
 
 ```py
 NAME = "John"
+
+# The "in" operator could be used to check if
+# a specified object exists within an iterable object container,
+# such as a list:
 if NAME in ["John", "Rick"]:
     print("Your name is either John or Rick.")
 ```
