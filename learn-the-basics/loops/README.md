@@ -53,20 +53,20 @@ Note that the range function is zero-based.
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
 ```py
-RESULT = "range(5)       ="
+output = "range(5)       ="
 for x in range(5):
-    RESULT += " %d" % x
-print(RESULT)  # Print out the numbers 0,1,2,3,4
+    output += " %d" % x
+print(output)
 
-RESULT = "range(3, 6)    ="
+output = "range(3, 6)    ="
 for x in range(3, 6):
-    RESULT += " %d" % x
-print(RESULT)  # Print out 3,4,5
+    output += " %d" % x
+print(output)
 
-RESULT = "range(3, 8, 2) ="
+output = "range(3, 8, 2) ="
 for x in range(3, 8, 2):
-    RESULT += " %d" % x
-print(RESULT)  # Print out 3,5,7
+    output += " %d" % x
+print(output)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
