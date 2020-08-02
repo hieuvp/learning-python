@@ -5,13 +5,16 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Boolean Expression](#boolean-expression)
 - [Boolean Operators](#boolean-operators)
-- [The `in` Operator](#the-in-operator)
-- [The `is` Operator](#the-is-operator)
-- [The `not` Operator](#the-not-operator)
+- [`in` Operator](#in-operator)
+- [`is` Operator](#is-operator)
+- [`not` Operator](#not-operator)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Boolean Expression
 
 Python uses boolean variables to evaluate conditions.
 The boolean values True and False are returned
@@ -48,7 +51,7 @@ The "not equals" operator is marked as `!=`.
 
 ## Boolean Operators
 
-The "and" and "or" boolean operators allow building complex boolean expressions,
+The `and` and `or` boolean operators allow building complex boolean expressions,
 for example:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_operators.py) -->
@@ -78,9 +81,9 @@ Your name is either John or Rick.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## The `in` Operator
+## `in` Operator
 
-The "in" operator could be used to check if
+The `in` operator could be used to check if
 a specified object exists within an iterable object container,
 such as a list:
 
@@ -164,10 +167,10 @@ Here are some examples for objects which are considered as empty:
 3. The number zero: 0
 4. The false boolean variable: False
 
-## The `is` Operator
+## `is` Operator
 
-Unlike the double equals operator "==",
-the "is" operator does not match the values of the variables,
+Unlike the double equals operator `==`,
+the `is` operator does not match the values of the variables,
 but the instances themselves.
 For example:
 
@@ -194,9 +197,9 @@ False
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## The `not` Operator
+## `not` Operator
 
-Using "not" before a boolean expression inverts it:
+Using `not` before a boolean expression inverts it:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=not_operator.py) -->
 <!-- The below code snippet is automatically added from not_operator.py -->
