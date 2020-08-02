@@ -182,7 +182,7 @@ for x in range(10):
 
 ## `else` Clauses
 
-> In other languages, the `else` functionality is only provided in `if-else` pairs.
+> In other languages, the `else` functionality is only provided in `if-else` pairs.<br />
 > But Python allows us to implement the `else` functionality with loops as well .
 
 The `else` functionality is available for use only when the loop terminates normally.
