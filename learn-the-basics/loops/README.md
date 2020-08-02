@@ -182,7 +182,13 @@ for x in range(10):
 
 ## `else` Clauses
 
-unlike languages like C,CPP.. we can use else for loops.
+> In other languages, the `else` functionality is only provided in `if-else` pairs.
+> But Python allows us to implement the `else` functionality with loops as well .
+
+The `else` functionality is available for use only when the loop terminates normally.
+In case of forceful termination of loop `else` statement
+is overlooked by the interpreter and hence its execution is skipped.
+
 When the loop condition of "for" or "while" statement fails then code part in "else" is executed.
 If break statement is executed inside for loop then the "else" part is skipped.
 Note that "else" part is executed even if there is a continue statement.
@@ -270,3 +276,4 @@ numbers = [
 ## References
 
 - [Python `range()` Function](https://www.w3schools.com/python/ref_func_range.asp)
+- [Using else conditional statement with for loop in python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)
