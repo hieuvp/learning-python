@@ -221,10 +221,10 @@ False
 
 ```py
 # Change these variables, so that each if statement resolves as "True"
-NUMBER = 10               # Original NUMBER = 10
-SECOND_NUMBER = 10        # Original SECOND_NUMBER = 10
-FIRST_ARRAY = []          # Original FIRST_ARRAY = []
-SECOND_ARRAY = [1, 2, 3]  # Original SECOND_ARRAY = [1, 2, 3]
+NUMBER = 16              # Original NUMBER = 10
+SECOND_NUMBER = 0        # Original SECOND_NUMBER = 10
+FIRST_ARRAY = [1, 2, 3]  # Original FIRST_ARRAY = []
+SECOND_ARRAY = [4, 5]    # Original SECOND_ARRAY = [1, 2, 3]
 
 if NUMBER > 15:
     print("1")
@@ -253,6 +253,11 @@ if not SECOND_NUMBER:
 ```console
 + python exercise.py
 1
+2
+3
+4
+5
+6
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
