@@ -8,6 +8,7 @@
 - [Boolean Expressions](#boolean-expressions)
 - [`and` and `or` Boolean Operators](#and-and-or-boolean-operators)
 - [`in` Operator](#in-operator)
+- [`if` Statements](#if-statements)
 - [`is` Operator](#is-operator)
 - [`not` Operator](#not-operator)
 - [Exercise](#exercise)
@@ -104,6 +105,8 @@ Your name is either John or Rick.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## `if` Statements
+
 Here is an example for using Python's `if` statement using code blocks:
 
 ```python
@@ -145,9 +148,9 @@ X equals two!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-A statement is evaulated as true if one of the following is correct:
+A statement is evaluated as true if one of the following is correct:
 
-1. The "True" boolean variable is given, or calculated using an expression,
+1. The `True` boolean variable is given, or calculated using an expression,
    such as an arithmetic comparison.
 2. An object which is not considered "empty" is passed.
 
