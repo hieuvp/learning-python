@@ -5,8 +5,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Boolean Expression](#boolean-expression)
-- [Boolean Operators](#boolean-operators)
+- [Boolean Expressions](#boolean-expressions)
+- [`and` and `or` Boolean Operators](#and-and-or-boolean-operators)
 - [`in` Operator](#in-operator)
 - [`is` Operator](#is-operator)
 - [`not` Operator](#not-operator)
@@ -14,7 +14,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Boolean Expression
+## Boolean Expressions
 
 > Python uses boolean variables to evaluate conditions.<br />
 > The boolean values `True` and `False` are returned
@@ -48,10 +48,7 @@ Notice that variable assignment is done using a single equals operator `=`,
 whereas comparison between two variables is done using the double equals operator `==`.
 The "not equals" operator is marked as `!=`.
 
-## Boolean Operators
-
-The `and` and `or` boolean operators allow building complex boolean expressions,
-for example:
+## `and` and `or` Boolean Operators
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_operators.py) -->
 <!-- The below code snippet is automatically added from boolean_operators.py -->
