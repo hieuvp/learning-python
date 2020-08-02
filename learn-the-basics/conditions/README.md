@@ -171,11 +171,11 @@ Here are some examples for objects which are considered as **empty**:
 x = [1, 2, 3]
 y = [1, 2, 3]
 
-print("x == y = %s" % x == y)
+print("(x == y) = %s" % (x == y))
 
 # Unlike the "double equals (==)" operator,
 # "is" operator does not match the "values" of the variables, but the "instances" themselves
-print("x is y = %s" % x is y)
+print("(x is y) = %s" % (x is y))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -185,8 +185,8 @@ print("x is y = %s" % x is y)
 
 ```console
 + python is_operator.py
-False
-False
+(x == y) = True
+(x is y) = False
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
