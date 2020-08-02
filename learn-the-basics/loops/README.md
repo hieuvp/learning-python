@@ -5,8 +5,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [The `for` loop](#the-for-loop)
-- [`while` loops](#while-loops)
+- [`for`](#for)
+- [`while`](#while)
 - [`break` and `continue` statements](#break-and-continue-statements)
 - [can we use `else` clause for loops](#can-we-use-else-clause-for-loops)
 - [Exercise](#exercise)
@@ -15,7 +15,7 @@
 
 There are two types of loops in Python, for and while.
 
-## The `for` loop
+## `for`
 
 For loops iterate over a given sequence.
 Here is an example:
@@ -91,7 +91,7 @@ for x in range(3, 8, 2):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## `while` loops
+## `while`
 
 While loops repeat as long as a certain boolean condition is met.
 For example:
