@@ -87,8 +87,7 @@ Your name is either John or Rick.
 NAME = "John"
 
 # The "in" operator could be used to check if
-# a specified object exists within an iterable object container,
-# such as a list:
+# a specified object exists within an iterable object container (e.g. list)
 if NAME in ["John", "Rick"]:
     print("Your name is either John or Rick.")
 ```
@@ -174,8 +173,8 @@ y = [1, 2, 3]
 
 print(x == y)
 
-# Unlike the "double equals" operator "=="
-# The "is" operator doesn't match the "values" of the variables, but the "instances" themselves
+# Unlike the "double equals (==)" operator
+# "is" operator does not match the "values" of the variables, but the "instances" themselves
 print(x is y)
 ```
 
