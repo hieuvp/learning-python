@@ -107,8 +107,6 @@ Your name is either John or Rick.
 
 ## `if` Statements
 
-Here is an example for using Python's `if` statement using code blocks:
-
 ```python
 statement = False
 another_statement = True
@@ -123,7 +121,9 @@ else:
     pass
 ```
 
-For example:
+<br />
+
+Here is an example for using Python's `if` statement using code blocks:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=if_statement.py) -->
 <!-- The below code snippet is automatically added from if_statement.py -->
@@ -148,18 +148,18 @@ X equals two!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-A statement is evaluated as true if one of the following is correct:
+A statement is evaluated as `True` if one of the following is correct:
 
 1. The `True` boolean variable is given, or calculated using an expression,
    such as an arithmetic comparison.
-2. An object which is not considered "empty" is passed.
+2. An object which is not considered **empty** is passed.
 
-Here are some examples for objects which are considered as empty:
+Here are some examples for objects which are considered as **empty**:
 
-1. An empty string: ""
-2. An empty list: []
-3. The number zero: 0
-4. The false boolean variable: False
+1. An empty string: `""`
+2. An empty list: `[]`
+3. The number zero: `0`
+4. The false boolean variable: `False`
 
 ## `is` Operator
 
