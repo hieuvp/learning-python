@@ -148,6 +148,8 @@ X equals two!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 A statement is evaluated as `True` if one of the following is correct:
 
 1. The `True` boolean variable is given, or calculated using an expression,
