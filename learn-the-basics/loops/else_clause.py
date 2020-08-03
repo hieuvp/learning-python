@@ -13,6 +13,6 @@ for i in range(1, 10):
     print(i)
 else:
     print(
-        "this is not printed because for loop is terminated, "
-        "because of break but not due to fail in condition"
+        "this is not printed because \"for\" loop is terminated, "
+        "because of \"break\" but not due to fail in condition"
     )
