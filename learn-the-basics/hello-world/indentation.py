@@ -1,4 +1,4 @@
 X = 1
 if X == 1:
-    # Indented four spaces
+    # Indented 4 spaces
     print("X is 1.")

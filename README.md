@@ -9,7 +9,6 @@
   - [Learn the Basics](#learn-the-basics)
   - [Data Science Tutorials](#data-science-tutorials)
   - [Advanced Tutorials](#advanced-tutorials)
-  - [Managing Python Packages and Virtual Environments](#managing-python-packages-and-virtual-environments)
   - [Unit Testing with Python](#unit-testing-with-python)
 - [Topics](#topics)
 - [References](#references)
@@ -53,14 +52,6 @@
 1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
 1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
 
-### Managing Python Packages and Virtual Environments
-
-1. [ ] [Course Overview](README.md)
-1. [ ] [Managing Python Packages with `pip`](README.md)
-1. [ ] [Setting up Your Project with Virtual Environments](README.md)
-1. [ ] [Using `virtualenvwrapper` to Make Your Life Easier](README.md)
-1. [ ] [Choosing the Right Tools](README.md)
-
 ### Unit Testing with Python
 
 1. [ ] [Course Overview](README.md)
@@ -79,5 +70,4 @@
 
 - [Learn Python - Free Interactive Python Tutorial](https://www.learnpython.org)
 - [Python Path](https://app.pluralsight.com/paths/skill/python)
-- [Managing Python Packages and Virtual Environments](https://app.pluralsight.com/library/courses/managing-python-packages-virtual-environments/table-of-contents)
 - [Unit Testing with Python](https://app.pluralsight.com/library/courses/using-unit-testing-python/table-of-contents)
