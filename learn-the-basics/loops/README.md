@@ -66,23 +66,23 @@ range(start, stop, step)
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
 ```py
-OUTPUT = "range(5)       =>"
+output = "range(5)       =>"
 for x in range(5):
-    OUTPUT += " %d" % x
+    output += " %d" % x
 
-print(OUTPUT)
+print(output)
 
-OUTPUT = "range(3, 6)    =>"
+output = "range(3, 6)    =>"
 for x in range(3, 6):
-    OUTPUT += " %d" % x
+    output += " %d" % x
 
-print(OUTPUT)
+print(output)
 
-OUTPUT = "range(3, 8, 2) =>"
+output = "range(3, 8, 2) =>"
 for x in range(3, 8, 2):
-    OUTPUT += " %d" % x
+    output += " %d" % x
 
-print(OUTPUT)
+print(output)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -105,13 +105,14 @@ range(3, 8, 2) => 3 5 7
 <!-- The below code snippet is automatically added from while_loop.py -->
 
 ```py
-# Prints out 0,1,2,3,4
-
 count = 0
-# While loops repeat as long as a certain boolean condition is met
+
+# "while" loops repeat as long as a certain boolean condition is met
 while count < 5:
     print(count)
-    count += 1  # This is the same as count = count + 1
+
+    # This is the same as count = count + 1
+    count += 1
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
