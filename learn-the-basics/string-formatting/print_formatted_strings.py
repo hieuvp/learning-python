@@ -1,6 +1,3 @@
-# Let's say you have a variable called "name" with your user name in it,
-# and you would then like to print(out a greeting to that user.)
-# This prints out "Hello, John!"
 NAME = "John"
 print("Hello, %s!" % NAME)
 
