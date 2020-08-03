@@ -24,15 +24,11 @@ special symbols like `%s` and `%d`.
 <!-- The below code snippet is automatically added from print_formatted_strings.py -->
 
 ```py
-# Let's say you have a variable called "name" with your user name in it,
-# and you would then like to print(out a greeting to that user.)
-# This prints out "Hello, John!"
 NAME = "John"
 print("Hello, %s!" % NAME)
 
-# To use two or more argument specifiers, use a tuple (parentheses):
-# This prints out "John is 23 years old."
-NAME = "John"
+# For two or more argument specifiers, use a "tuple"
+# https://dictionary.cambridge.org/pronunciation/english/tuple
 AGE = 23
 print("%s is %d years old." % (NAME, AGE))
 ```
