@@ -1,0 +1,3 @@
++ python is_operator.py
+(x == y) = True
+(x is y) = False

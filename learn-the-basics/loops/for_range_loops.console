@@ -1,0 +1,4 @@
++ python for_range_loops.py
+range(5)       => 0 1 2 3 4
+range(3, 6)    => 3 4 5
+range(3, 8, 2) => 3 5 7
