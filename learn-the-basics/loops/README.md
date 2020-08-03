@@ -141,7 +141,8 @@ while True:
     print(count)
     count += 1
     if count >= 5:
-        # "break" is used to exit a loop
+        # "break"
+        # is used to exit a loop
         break
 
 print()
@@ -149,8 +150,8 @@ print()
 # Print out only odd numbers
 for x in range(10):
     if x % 2 == 0:
-        # "continue" is used to skip the current block,
-        # and return to the "for" or "while" statement
+        # "continue"
+        # returns the control to the beginning of a loop
         continue
 
     print(x)
