@@ -21,8 +21,10 @@ type pip
 
 pip install --quiet --upgrade pip
 pip list
+pip freeze
 
 pip install --quiet --requirement requirements.txt
+pip list
 pip freeze
 
 rm -rf venv
