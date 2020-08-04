@@ -57,11 +57,10 @@ The string which returns from the `repr` method of that object is formatted as t
 <!-- The below code snippet is automatically added from print_formatted_object.py -->
 
 ```py
-# This prints out: A list: [1, 2, 3]
-my_list = [1, 2, 3]
+MY_LIST = [1, 2, 3]
 
-print(repr(my_list))
-print("A list: %s" % my_list)
+print(repr(MY_LIST))
+print("A list: %s" % MY_LIST)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
