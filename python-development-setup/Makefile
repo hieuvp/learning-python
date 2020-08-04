@@ -4,7 +4,8 @@ pyenv:
 
 .PHONY: virtualenv
 virtualenv:
-	./virtualenv.sh &> virtualenv.console
+	# Notice: the output is likely to change
+	# ./virtualenv.sh &> virtualenv.console
 
 .PHONY: all
 all: pyenv virtualenv
