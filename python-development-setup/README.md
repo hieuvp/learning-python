@@ -6,16 +6,16 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Standard](#standard)
-  - [`$ pyenv`](#-pyenv)
-  - [`requirements.txt`](#requirementstxt)
-  - [`$ virtualenv`](#-virtualenv)
+  - [pyenv](#pyenv)
+  - [requirements.txt](#requirementstxt)
+  - [virtualenv](#virtualenv)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Standard
 
-### `$ pyenv`
+### pyenv
 
 > Simple Python version management.
 
@@ -31,7 +31,7 @@ Python 2.7.16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `requirements.txt`
+### requirements.txt
 
 If you have browsed any python projects on Github or elsewhere,
 you have probably noticed a file called `requirements.txt`.
@@ -57,7 +57,7 @@ pylint==2.5.3
 - For Application
 - Dependency Management
 
-### `$ virtualenv`
+### virtualenv
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=virtualenv.console) -->
 <!-- The below code snippet is automatically added from virtualenv.console -->
@@ -70,10 +70,10 @@ python is /usr/bin/python
 + true
 + rm -rf venv
 + virtualenv venv
-created virtual environment CPython3.8.3.final.0-64 in 441ms
+created virtual environment CPython3.8.3.final.0-64 in 549ms
   creator CPython3Posix(dest=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv, clear=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/hieu.van/Library/Application Support/virtualenv)
-    added seed packages: pip==20.1.1, setuptools==47.2.0, wheel==0.34.2
+    added seed packages: pip==20.1.1, setuptools==49.0.1, wheel==0.34.2
   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
 + set +x
 + source venv/bin/activate
@@ -85,21 +85,21 @@ pip is /Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-devel
 Package    Version
 ---------- -------
 pip        20.1.1
-setuptools 47.2.0
+setuptools 49.0.1
 wheel      0.34.2
+WARNING: You are using pip version 20.1.1; however, version 20.2 is available.
+You should consider upgrading via the '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/python -m pip install --upgrade pip' command.
 + pip install --requirement requirements.txt
 Collecting pylint==2.5.3
   Downloading pylint-2.5.3-py3-none-any.whl (324 kB)
-Collecting toml>=0.7.1
-  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
 Collecting astroid<=2.5,>=2.4.0
   Downloading astroid-2.4.2-py3-none-any.whl (213 kB)
-Collecting mccabe<0.7,>=0.6
-  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting toml>=0.7.1
+  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
 Collecting isort<5,>=4.2.5
   Downloading isort-4.3.21-py2.py3-none-any.whl (42 kB)
-Collecting six~=1.12
-  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting mccabe<0.7,>=0.6
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
 Collecting lazy-object-proxy==1.4.*
   Downloading lazy-object-proxy-1.4.3.tar.gz (34 kB)
   Installing build dependencies: started
@@ -108,20 +108,24 @@ Collecting lazy-object-proxy==1.4.*
   Getting requirements to build wheel: finished with status 'done'
     Preparing wheel metadata: started
     Preparing wheel metadata: finished with status 'done'
+Collecting six~=1.12
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
 Collecting wrapt~=1.11
   Downloading wrapt-1.12.1.tar.gz (27 kB)
 Building wheels for collected packages: lazy-object-proxy, wrapt
   Building wheel for lazy-object-proxy (PEP 517): started
   Building wheel for lazy-object-proxy (PEP 517): finished with status 'done'
-  Created wheel for lazy-object-proxy: filename=lazy_object_proxy-1.4.3-cp38-cp38-macosx_10_15_x86_64.whl size=19532 sha256=33ffb4b07984e78167f162d944230aa211b293be85c552ae331e67db67e57148
+  Created wheel for lazy-object-proxy: filename=lazy_object_proxy-1.4.3-cp38-cp38-macosx_10_15_x86_64.whl size=19534 sha256=9d96fbd8809a62293a539e9a263420638f58290eacb799290e0982f0a73931f5
   Stored in directory: /Users/hieu.van/Library/Caches/pip/wheels/d7/f7/3b/6853df4a25a106662f20e70ad6bd448c8ae07d12ce80fb9063
   Building wheel for wrapt (setup.py): started
   Building wheel for wrapt (setup.py): finished with status 'done'
-  Created wheel for wrapt: filename=wrapt-1.12.1-cp38-cp38-macosx_10_15_x86_64.whl size=32590 sha256=64979140f6ecfb108b13681873b3964d950654ca891f947019cc246000f591ee
+  Created wheel for wrapt: filename=wrapt-1.12.1-cp38-cp38-macosx_10_15_x86_64.whl size=32592 sha256=ad2f0f8cc5ec90568a34c6775002ac111e8e8ffa6eb7207fabc72b5e89592fde
   Stored in directory: /Users/hieu.van/Library/Caches/pip/wheels/5f/fd/9e/b6cf5890494cb8ef0b5eaff72e5d55a70fb56316007d6dfe73
 Successfully built lazy-object-proxy wrapt
-Installing collected packages: toml, six, lazy-object-proxy, wrapt, astroid, mccabe, isort, pylint
+Installing collected packages: lazy-object-proxy, six, wrapt, astroid, toml, isort, mccabe, pylint
 Successfully installed astroid-2.4.2 isort-4.3.21 lazy-object-proxy-1.4.3 mccabe-0.6.1 pylint-2.5.3 six-1.15.0 toml-0.10.1 wrapt-1.12.1
+WARNING: You are using pip version 20.1.1; however, version 20.2 is available.
+You should consider upgrading via the '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv/bin/python -m pip install --upgrade pip' command.
 + pip freeze
 astroid==2.4.2
 isort==4.3.21
@@ -142,4 +146,4 @@ wrapt==1.12.1
 - [My Simple Python Development Setup](https://medium.com/better-programming/my-simple-python-development-setup-687c31898d5b)
 - [python-virtual-env](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env)
 - [venv](https://docs.python.org/3/tutorial/venv.html)
-- [installing-using-pip-and-virtual-environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
+- [Installing packages using pip and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
