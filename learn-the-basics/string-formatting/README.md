@@ -16,8 +16,8 @@
 
 - The `%` operator is used to format a set of variables
   enclosed in a **tuple** (a fixed size list).
-- A format string, which contains normal text together with **argument specifiers**,
-  special symbols like `%s` and `%d`.
+- A format string contains normal text together with [**argument specifiers**](#argument-specifiers),
+  (e.g. special symbols like `%s` and `%d`).
 
 <br />
 
