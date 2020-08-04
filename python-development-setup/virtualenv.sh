@@ -17,9 +17,9 @@ set -x
 type python
 type pip
 
-pip install --upgrade pip
+pip install --quiet --upgrade pip
 pip list
-pip install --requirement requirements.txt
+pip install --quiet --requirement requirements.txt
 pip freeze
 
 rm -rf venv
