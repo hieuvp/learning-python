@@ -51,7 +51,7 @@ John is 23 years old.
 Any object which is not a string can be formatted using the %s operator as well.
 The string which returns from the `repr` method of that object is formatted as the string.
 
-> The `repr()` function returns a printable representation of the given object.
+> The `repr()` function returns a printable **representation** of the given object.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_object.py) -->
 <!-- The below code snippet is automatically added from print_formatted_object.py -->
@@ -59,8 +59,8 @@ The string which returns from the `repr` method of that object is formatted as t
 ```py
 MY_LIST = [1, 2, 3]
 
-print(repr(MY_LIST))
-print("A list: %s" % MY_LIST)
+print("repr(MY_LIST) = %s" % repr(MY_LIST))
+print("MY_LIST       = %s" % MY_LIST)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -70,8 +70,8 @@ print("A list: %s" % MY_LIST)
 
 ```console
 + python print_formatted_object.py
-[1, 2, 3]
-A list: [1, 2, 3]
+repr(MY_LIST) = [1, 2, 3]
+MY_LIST       = [1, 2, 3]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
