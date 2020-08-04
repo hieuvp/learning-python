@@ -21,6 +21,7 @@ type pip
 
 pip install --quiet --upgrade pip
 pip list
+
 pip install --quiet --requirement requirements.txt
 pip freeze
 
