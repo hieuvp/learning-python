@@ -2,11 +2,13 @@
 
 set -eou pipefail
 
+# Cleaning up
+rm -rf venv
+
 set -x
 type python
 type pip || true
 
-rm -rf venv
 virtualenv venv
 
 set +x
