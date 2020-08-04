@@ -1,0 +1,3 @@
++ python print_formatted_object.py
+repr(MY_LIST) = [1, 2, 3]
+MY_LIST       = [1, 2, 3]
