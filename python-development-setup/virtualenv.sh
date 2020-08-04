@@ -17,6 +17,7 @@ set -x
 type python
 type pip
 
+pip install --upgrade pip
 pip list
 pip install --requirement requirements.txt
 pip freeze
