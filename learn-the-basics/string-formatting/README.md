@@ -14,8 +14,7 @@
 
 ## Printing Formatted String
 
-Python uses C-style string formatting to create new, formatted strings.
-The `%` operator is used to format a set of variables enclosed in a "tuple" (a fixed size list),
+The `%` operator is used to format a set of variables enclosed in a **tuple** (a fixed size list),
 together with a format string,
 which contains normal text together with **argument specifiers**,
 special symbols like `%s` and `%d`.
@@ -48,7 +47,7 @@ John is 23 years old.
 
 ## Printing Formatted Object
 
-Any object which is not a string can be formatted using the %s operator as well.
+Any object which is not a string can be formatted using the `%s` operator as well.
 The string which returns from the `repr` method of that object is formatted as the string.
 
 > The `repr()` function returns a printable **representation** of the given object.
@@ -77,8 +76,6 @@ MY_LIST       = [1, 2, 3]
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Argument Specifiers
-
-> Here are some basic argument specifiers you should know.
 
 | Specifier               | Description                                                                   |
 | ----------------------- | ----------------------------------------------------------------------------- |
