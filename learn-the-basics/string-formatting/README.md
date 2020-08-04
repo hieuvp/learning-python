@@ -14,7 +14,7 @@
 
 ## Printing Formatted String
 
-The `%` operator is used to format a set of variables enclosed in a **tuple** (a fixed size list),
+The `%` operator is used to format a set of variables enclosed in a **tuple** (a fixed size list),<br />
 together with a format string,
 which contains normal text together with **argument specifiers**,
 special symbols like `%s` and `%d`.
