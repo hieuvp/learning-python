@@ -19,6 +19,8 @@ together with a format string,
 which contains normal text together with **argument specifiers**,
 special symbols like `%s` and `%d`.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_strings.py) -->
 <!-- The below code snippet is automatically added from print_formatted_strings.py -->
 
@@ -47,10 +49,12 @@ John is 23 years old.
 
 ## Printing Formatted Object
 
-Any object which is not a string can be formatted using the `%s` operator as well.
+Any object which is not a string can be formatted using the `%s` operator as well.<br />
 The string which returns from the `repr` method of that object is formatted as the string.
 
 > The `repr()` function returns a printable **representation** of the given object.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_formatted_object.py) -->
 <!-- The below code snippet is automatically added from print_formatted_object.py -->
