@@ -4,7 +4,7 @@ python is /usr/bin/python
 ./virtualenv.sh: line 10: type: pip: not found
 + true
 + virtualenv venv
-created virtual environment CPython3.8.3.final.0-64 in 343ms
+created virtual environment CPython3.8.3.final.0-64 in 285ms
   creator CPython3Posix(dest=/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/python-development-setup/venv, clear=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/hieu.van/Library/Application Support/virtualenv)
     added seed packages: pip==20.1.1, setuptools==47.3.1, wheel==0.34.2
