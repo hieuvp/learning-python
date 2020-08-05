@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Standard](#standard)
-  - [`$ pyenv`](#-pyenv)
-  - [`requirements.txt`](#requirementstxt)
+  - [pyenv](#pyenv)
+  - [requirements.txt](#requirementstxt)
   - [`$ virtualenv`](#-virtualenv)
 - [References](#references)
 
@@ -15,7 +15,7 @@
 
 ## Standard
 
-### `$ pyenv`
+### pyenv
 
 > Simple Python version management.
 
@@ -31,10 +31,8 @@ Python 2.7.16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `requirements.txt`
+### requirements.txt
 
-If you have browsed any python projects on Github or elsewhere,
-you have probably noticed a file called `requirements.txt`.
 This `requirements.txt` file is used for specifying
 what python packages are required to run the project you are looking at.
 Typically the `requirements.txt` file is located
@@ -126,7 +124,4 @@ wrapt==1.12.1
 
 ## References
 
-- [My Simple Python Development Setup](https://medium.com/better-programming/my-simple-python-development-setup-687c31898d5b)
-- [python-virtual-env](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env)
-- [venv](https://docs.python.org/3/tutorial/venv.html)
-- [installing-using-pip-and-virtual-environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
+- [Installing Packages using `pip` and Virtual Environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
