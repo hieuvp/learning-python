@@ -11,6 +11,7 @@ readarray -t FILES < <(printf "%s" "$FILES")
 declare -ra FILES
 
 declare -ra IGNORING_FILES=(
+  "learn-the-basics/classes-and-objects/exercise.py"
   "learn-the-basics/conditions/boolean_operators.py"
   "learn-the-basics/conditions/in_operator.py"
   "learn-the-basics/conditions/not_operator.py"

@@ -149,10 +149,6 @@ class Vehicle:
 
 ```console
 + python exercise.py
-Traceback (most recent call last):
-  File "exercise.py", line 13, in <module>
-    print(car1.description())
-NameError: name 'car1' is not defined
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
