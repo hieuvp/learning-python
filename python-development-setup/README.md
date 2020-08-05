@@ -8,7 +8,7 @@
 - [Standard](#standard)
   - [pyenv](#pyenv)
   - [requirements.txt](#requirementstxt)
-  - [`$ virtualenv`](#-virtualenv)
+  - [virtualenv](#virtualenv)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -17,7 +17,7 @@
 
 ### pyenv
 
-> Simple Python version management.
+> Python Version Management.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=pyenv.console) -->
 <!-- The below code snippet is automatically added from pyenv.console -->
@@ -33,10 +33,11 @@ Python 2.7.16
 
 ### requirements.txt
 
-This `requirements.txt` file is used for specifying
-what python packages are required to run the project you are looking at.
-Typically the `requirements.txt` file is located
-in the root directory of your project.
+> Python Dependency Management.
+
+- The `requirements.txt` file is used for specifying
+  what python dependencies are required to run the project.
+- Typically `requirements.txt` file is located in the root directory.
 
 ```shell script
 pip freeze > requirements.txt
@@ -52,10 +53,7 @@ pylint==2.5.3
 <!-- The below code snippet is automatically added from pyenv.console -->
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-- For Application
-- Dependency Management
-
-### `$ virtualenv`
+### virtualenv
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=virtualenv.console) -->
 <!-- The below code snippet is automatically added from virtualenv.console -->
@@ -124,4 +122,4 @@ wrapt==1.12.1
 
 ## References
 
-- [Installing Packages using `pip` and Virtual Environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
+- [Installing Packages Using `pip` and Virtual Environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments)
