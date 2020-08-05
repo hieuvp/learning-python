@@ -49,6 +49,24 @@ for name, number in phonebook.items():
     print("Phone number of %s is %d" % (name, number))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=iteration.py) -->
+<!-- The below code snippet is automatically added from iteration.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=iteration.console) -->
+<!-- The below code snippet is automatically added from iteration.console -->
+
+```console
++ python iteration.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Removing a value
 
 To remove a specified index, use either one of the following notations:
@@ -75,6 +93,24 @@ phonebook.pop("John")
 print(phonebook)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=remove.py) -->
+<!-- The below code snippet is automatically added from remove.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=remove.console) -->
+<!-- The below code snippet is automatically added from remove.console -->
+
+```console
++ python remove.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Exercise
 
 Add "Jake" to the phonebook with the phone number 938273443,
@@ -96,3 +132,21 @@ if "Jake" in phonebook:
 if "Jill" not in phonebook:
     print("Jill is not listed in the phonebook.")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
