@@ -5,17 +5,17 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Formatted String](#formatted-string)
-- [Formatted Object](#formatted-object)
+- [Formatted Strings](#formatted-strings)
+- [Formatted Objects](#formatted-objects)
 - [Argument Specifiers](#argument-specifiers)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Formatted String
+## Formatted Strings
 
 - The `%` operator is used to format a set of variables
-  enclosed in a **tuple** (a fixed size list).
+  enclosed in a [**tuple**](https://dictionary.cambridge.org/pronunciation/english/tuple) (a fixed size list).
 - A format string contains normal text together with [Argument Specifiers](#argument-specifiers)
   (special symbols like `%s` and `%d`).
 
@@ -29,7 +29,6 @@ NAME = "John"
 print("Hello, %s!" % NAME)
 
 # For two or more argument specifiers, use a "tuple" e.g. "(NAME, AGE)"
-# https://dictionary.cambridge.org/pronunciation/english/tuple
 AGE = 23
 print("%s is %d years old." % (NAME, AGE))
 ```
@@ -47,7 +46,7 @@ John is 23 years old.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Formatted Object
+## Formatted Objects
 
 - Any object which is not a string can be formatted using the `%s` operator as well.
 - The string which returns from the `repr` method of that object is formatted as the string.
