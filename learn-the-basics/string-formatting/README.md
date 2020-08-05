@@ -16,8 +16,8 @@
 
 - The `%` operator is used to format a set of variables
   enclosed in a **tuple** (a fixed size list).
-- A format string contains normal text together with [**argument specifiers**](#argument-specifiers),
-  (e.g. special symbols like `%s` and `%d`).
+- A format string contains normal text together with [Argument Specifiers](#argument-specifiers)
+  (special symbols like `%s` and `%d`).
 
 <br />
 
@@ -49,8 +49,8 @@ John is 23 years old.
 
 ## Printing Formatted Object
 
-Any object which is not a string can be formatted using the `%s` operator as well.<br />
-The string which returns from the `repr` method of that object is formatted as the string.
+- Any object which is not a string can be formatted using the `%s` operator as well.
+- The string which returns from the `repr` method of that object is formatted as the string.
 
 > The `repr()` function returns a printable **representation** of the given object.
 
