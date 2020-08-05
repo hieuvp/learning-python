@@ -35,9 +35,11 @@ Python 2.7.16
 
 > Python Dependency Management.
 
-- The `requirements.txt` file is used for specifying
+1. The `requirements.txt` file is used for specifying
   what python dependencies are required to run the project.
-- Typically `requirements.txt` file is located in the root directory.
+1. Typically `requirements.txt` file is located in the root directory.
+
+<br />
 
 ```shell script
 pip freeze > requirements.txt
