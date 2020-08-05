@@ -55,10 +55,7 @@ pylint==2.5.3
 
 ### virtualenv
 
-> virtualenv is a tool to create isolated Python environments.
-> Since Python 3.3, a subset of it has been integrated into the standard library under the venv module.
-> The venv module does not offer all features of this library,
-> to name just a few more prominent:
+> Creating Isolated Python Environments.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=virtualenv.console) -->
 <!-- The below code snippet is automatically added from virtualenv.console -->
