@@ -49,8 +49,8 @@ John is 23 years old.
 
 ## Formatted Objects
 
-- Any **object** which is not a string can be formatted using the `%s` operator.
-- The returned string is a result from the `repr` method of that **object**.
+- Any **object** which is not a string can be formatted using the `%s` specifier.
+- The returned string is a result from the `repr()` method of that **object**.
 - `repr()` function returns a printable **string representation** of a given **object**.
 
 <br />
