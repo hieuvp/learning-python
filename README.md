@@ -27,10 +27,10 @@
 1. [Basic String Operations](learn-the-basics/basic-string-operations/README.md)
 1. [Conditions](learn-the-basics/conditions/README.md)
 1. [Loops](learn-the-basics/loops/README.md)
-1. [ ] [Functions](learn-the-basics/functions/README.md)
-1. [ ] [Classes and Objects](learn-the-basics/classes-and-objects/README.md)
-1. [ ] [Dictionaries](learn-the-basics/dictionaries/README.md)
-1. [ ] [Modules and Packages](learn-the-basics/modules-and-packages/README.md)
+1. [Functions](learn-the-basics/functions/README.md)
+1. [Classes and Objects](learn-the-basics/classes-and-objects/README.md)
+1. [Dictionaries](learn-the-basics/dictionaries/README.md)
+1. [Modules and Packages](learn-the-basics/modules-and-packages/README.md)
 
 ### Data Science Tutorials
 
