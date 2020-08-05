@@ -64,7 +64,16 @@ def sum_two_numbers(a, b):
 <!-- The below code snippet is automatically added from write_functions.py -->
 
 ```py
+def my_function():
+    print("Hello From My Function!")
 
+
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
+
+
+def sum_two_numbers(a, b):
+    return a + b
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
