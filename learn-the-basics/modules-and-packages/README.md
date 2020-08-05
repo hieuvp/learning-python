@@ -5,14 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Writing modules](#writing-modules)
-- [Importing module objects to the current namespace](#importing-module-objects-to-the-current-namespace)
-- [Importing all objects from a module](#importing-all-objects-from-a-module)
-- [Custom import name](#custom-import-name)
-- [Module initialization](#module-initialization)
-- [Extending module load path](#extending-module-load-path)
-- [Exploring built-in modules](#exploring-built-in-modules)
-- [Writing packages](#writing-packages)
+- [Writing Modules](#writing-modules)
+- [Importing Module Objects To The Current Namespace](#importing-module-objects-to-the-current-namespace)
+- [Importing All Objects From A Module](#importing-all-objects-from-a-module)
+- [Custom Import Name](#custom-import-name)
+- [Module Initialization](#module-initialization)
+- [Extending Module Load Path](#extending-module-load-path)
+- [Exploring Built-in Modules](#exploring-built-in-modules)
+- [Writing Packages](#writing-packages)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -22,7 +22,7 @@ For example, when building a ping pong game, one module would be responsible for
 and another module would be responsible for drawing the game on the screen.
 Each module is a different file, which can be edited separately.
 
-## Writing modules
+## Writing Modules
 
 Modules in Python are simply Python files with a `.py` extension.
 The name of the module will be the name of the file.
@@ -95,7 +95,7 @@ so that it won't have to parse the files each time modules are loaded.
 If a .pyc file exists, it gets loaded instead of the .py file,
 but this process is transparent to the user.
 
-## Importing module objects to the current namespace
+## Importing Module Objects To The Current Namespace
 
 We may also import the function draw_game directly into the main script's namespace,
 by using the from command.
@@ -120,7 +120,7 @@ because you don't need to specify which module the function comes from.
 However, any namespace cannot have two objects with the exact same name,
 so the import command may replace an existing object in the namespace.
 
-## Importing all objects from a module
+## Importing All Objects From A Module
 
 We may also use the `import *` command to import all objects from a specific module,
 like this:
@@ -139,7 +139,7 @@ This might be a bit risky as changes in the module might affect the module which
 but it is shorter and also does not require you to specify
 which objects you wish to import from the module.
 
-## Custom import name
+## Custom Import Name
 
 We may also load modules under any name we want.
 This is useful when we want to import a module conditionally
@@ -164,7 +164,7 @@ def main():
     draw.draw_game(result)
 ```
 
-## Module initialization
+## Module Initialization
 
 The first time a module is loaded into a running Python script,
 it is initialized by executing the code in the module once.
@@ -195,7 +195,7 @@ class Screen():
 main_screen = Screen()
 ```
 
-## Extending module load path
+## Extending Module Load Path
 
 There are a couple of ways we could tell the Python interpreter where to look for modules,
 aside from the default, which is the local directory and the built-in modules.
@@ -219,7 +219,7 @@ sys.path.append("/foo")
 
 This will add the foo directory to the list of paths to look for modules in as well.
 
-## Exploring built-in modules
+## Exploring Built-in Modules
 
 Check out the full list of built-in modules in the Python standard library here.
 <https://docs.python.org/3/library/>
@@ -266,7 +266,7 @@ inside the Python interpreter:
 help(urllib.urlopen)
 ```
 
-## Writing packages
+## Writing Packages
 
 Packages are namespaces which contain multiple packages and modules themselves.
 They are simply directories, but with a twist.
@@ -309,8 +309,22 @@ In this exercise,
 you will need to print an alphabetically sorted list of all functions in the `re` module,
 which contain the word `find`.
 
-```python
-import re
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+# import re
 
 # Your code goes here
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
