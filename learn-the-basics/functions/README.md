@@ -148,19 +148,42 @@ and while adding your own to create a fully functional program.
    and ending with the string " is a benefit of functions!"
 1. Run and see all the functions work together!
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
 # Modify this function to return a list of strings as defined above
 def list_benefits():
     pass
 
+
 # Modify this function to concatenate to each benefit - " is a benefit of functions!"
 def build_sentence(benefit):
     pass
+
 
 def name_the_benefits_of_functions():
     list_of_benefits = list_benefits()
     for benefit in list_of_benefits:
         print(build_sentence(benefit))
 
+
 name_the_benefits_of_functions()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+Traceback (most recent call last):
+  File "exercise.py", line 17, in <module>
+    name_the_benefits_of_functions()
+  File "exercise.py", line 13, in name_the_benefits_of_functions
+    for benefit in list_of_benefits:
+TypeError: 'NoneType' object is not iterable
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
