@@ -5,14 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Printing Formatted String](#printing-formatted-string)
-- [Printing Formatted Object](#printing-formatted-object)
+- [Formatted String](#formatted-string)
+- [Formatted Object](#formatted-object)
 - [Argument Specifiers](#argument-specifiers)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Printing Formatted String
+## Formatted String
 
 - The `%` operator is used to format a set of variables
   enclosed in a **tuple** (a fixed size list).
@@ -47,7 +47,7 @@ John is 23 years old.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Printing Formatted Object
+## Formatted Object
 
 - Any object which is not a string can be formatted using the `%s` operator as well.
 - The string which returns from the `repr` method of that object is formatted as the string.
