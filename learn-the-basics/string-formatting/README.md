@@ -82,7 +82,7 @@ MY_LIST       = [1, 2, 3]
 
 | Specifier               | Description                                                                  |
 | ----------------------- | ---------------------------------------------------------------------------- |
-| `%s`                    | String (or any object with a string representation, like number).            |
+| `%s`                    | String or any object with a string representation (like number).             |
 | `%d`                    | Integer.                                                                     |
 | `%f`                    | Floating point number.                                                       |
 | `%.<number of digits>f` | Floating point number with a fixed amount of digits to the right of the dot. |
