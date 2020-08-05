@@ -36,7 +36,7 @@ mygame/draw.py
 ```
 
 The Python script `game.py` will implement the game.
-It will use the function draw_game from the file draw.py, or in other words, thedraw module,
+It will use the function `draw_game` from the file `draw.py`, or in other words, thedraw module,
 that implements the logic for drawing the game on the screen.
 
 Modules are imported from other modules using the import command.
