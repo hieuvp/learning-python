@@ -80,13 +80,13 @@ MY_LIST       = [1, 2, 3]
 
 ## Argument Specifiers
 
-| Specifier               | Description                                                                   |
-| ----------------------- | ----------------------------------------------------------------------------- |
-| `%s`                    | String (or any object with a string representation, like numbers).            |
-| `%d`                    | Integers.                                                                     |
-| `%f`                    | Floating point numbers.                                                       |
-| `%.<number of digits>f` | Floating point numbers with a fixed amount of digits to the right of the dot. |
-| `%x/%X`                 | Integers in hex representation (lowercase/uppercase).                         |
+| Specifier               | Description                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| `%s`                    | String (or any object with a string representation, like number).            |
+| `%d`                    | Integer.                                                                     |
+| `%f`                    | Floating point number.                                                       |
+| `%.<number of digits>f` | Floating point number with a fixed amount of digits to the right of the dot. |
+| `%x/%X`                 | Integer in hex representation (lowercase/uppercase).                         |
 
 ## Exercise
 
