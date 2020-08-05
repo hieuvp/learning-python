@@ -9,16 +9,6 @@
   - [`$ pyenv`](#-pyenv)
   - [`requirements.txt`](#requirementstxt)
   - [`$ virtualenv`](#-virtualenv)
-- [`virtualenvwrapper`](#virtualenvwrapper)
-- [PyPI](#pypi)
-- [`setup.py`](#setuppy)
-- [`tox.ini`](#toxini)
-- [`pip-tools`](#pip-tools)
-- [`pipenv`](#pipenv)
-- [`poetry`](#poetry)
-- [pypa](#pypa)
-- [Data Science](#data-science)
-  - [anaconda](#anaconda)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -133,60 +123,6 @@ wrapt==1.12.1
 
 <!-- The below code snippet is automatically added from pyenv.console -->
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-## `virtualenvwrapper`
-
-## PyPI
-
-> The Python Package Index ([PyPI](https://pypi.org/))
-> is a repository of software for the Python programming language.
-
-how to pronounce PyPI (beginner) anthony explains #020
-<https://www.youtube.com/watch?v=I5OUzCAYst8>
-<http://www.howtopronounce.cc/pypi>
-Pie-Pea-Eye
-"Py-P-I"
-
-`/paɪ/` `/piː/` `/aɪ/`
-
-## `setup.py`
-
-For Library (e.g. flask)
-
-## `tox.ini`
-
-```shell script
-tox
-```
-
-## `pip-tools`
-
-<https://github.com/jazzband/pip-tools> => install?
-
-## `pipenv`
-
-The future is uncertain
-More popular
-
-Pipfile
-Pipfile.lock
-
-## `poetry`
-
-The future is uncertain
-better UI, supports packaging
-
-poetry.lock
-
-## pypa
-
-- <https://www.pypa.io/en/latest/>
-
-## Data Science
-
-### anaconda
-
-- <https://www.anaconda.com/>
 
 ## References
 
