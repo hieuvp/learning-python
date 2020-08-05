@@ -59,6 +59,9 @@ for name, number in phonebook.items():
 
 ```console
 + python iteration.py
+Phone number of John is 938477566
+Phone number of Jack is 938377264
+Phone number of Jill is 947662781
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -67,33 +70,19 @@ for name, number in phonebook.items():
 
 To remove a specified index, use either one of the following notations:
 
-```python
-phonebook = {
-   "John" : 938477566,
-   "Jack" : 938377264,
-   "Jill" : 947662781
-}
-del phonebook["John"]
-print(phonebook)
-```
-
-or:
-
-```python
-phonebook = {
-   "John" : 938477566,
-   "Jack" : 938377264,
-   "Jill" : 947662781
-}
-phonebook.pop("John")
-print(phonebook)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=remove.py) -->
 <!-- The below code snippet is automatically added from remove.py -->
 
 ```py
+phonebook = {"John": 938477566, "Jack": 938377264, "Jill": 947662781}
+del phonebook["John"]
+print(phonebook)
 
+# Or
+
+phonebook = {"John": 938477566, "Jack": 938377264, "Jill": 947662781}
+phonebook.pop("John")
+print(phonebook)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -103,6 +92,8 @@ print(phonebook)
 
 ```console
 + python remove.py
+{'Jack': 938377264, 'Jill': 947662781}
+{'Jack': 938377264, 'Jill': 947662781}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
