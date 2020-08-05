@@ -60,6 +60,24 @@ def sum_two_numbers(a, b):
     return a + b
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.py) -->
+<!-- The below code snippet is automatically added from write_functions.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.console) -->
+<!-- The below code snippet is automatically added from write_functions.console -->
+
+```console
++ python write_functions.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## How do you call functions in Python
 
 Simply write the function's name followed by (), placing any required arguments within the brackets.
@@ -99,6 +117,8 @@ x = sum_two_numbers(1, 2)
 
 ```console
 + python call_functions.py
+Hello From My Function!
+Hello, John Doe , From My Function!, I wish you a great year!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
