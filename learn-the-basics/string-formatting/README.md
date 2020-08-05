@@ -15,8 +15,9 @@
 ## Formatted Strings
 
 - The `%` operator is used to format a set of variables
-  enclosed in a [**tuple**](https://dictionary.cambridge.org/pronunciation/english/tuple) (a fixed size list).
-- A format string contains normal text together with [Argument Specifiers](#argument-specifiers)
+  enclosed in a [**tuple**](https://dictionary.cambridge.org/pronunciation/english/tuple)
+  (a fixed size list).
+- A format string contains normal text together with [**argument specifiers**](#argument-specifiers)
   (special symbols like `%s` and `%d`).
 
 <br />
