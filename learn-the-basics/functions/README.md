@@ -65,38 +65,55 @@ def sum_two_numbers(a, b):
 Simply write the function's name followed by (), placing any required arguments within the brackets.
 For example, lets call the functions written above (in the previous example):
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=call_functions.py) -->
+<!-- The below code snippet is automatically added from call_functions.py -->
+
+```py
 # Define our 3 functions
 def my_function():
     print("Hello From My Function!")
 
+
 def my_function_with_args(username, greeting):
-    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
+    print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
+
 
 def sum_two_numbers(a, b):
     return a + b
 
+
 # print(a simple greeting)
 my_function()
 
-#prints - "Hello, John Doe, From My Function!, I wish you a great year!"
+# prints - "Hello, John Doe, From My Function!, I wish you a great year!"
 my_function_with_args("John Doe", "a great year!")
 
 # after this line x will hold the value 3!
-x = sum_two_numbers(1,2)
+x = sum_two_numbers(1, 2)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=call_functions.console) -->
+<!-- The below code snippet is automatically added from call_functions.console -->
+
+```console
++ python call_functions.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Exercise
 
 In this exercise you'll use an existing function,
 and while adding your own to create a fully functional program.
 
-1. Add a function named list_benefits() that returns the following list of strings:
+1. Add a function named `list_benefits()` that returns the following list of strings:
    "More organized code",
    "More readable code",
    "Easier code reuse",
    "Allowing programmers to share and connect code together"
-1. Add a function named build_sentence(info)
+1. Add a function named `build_sentence(info)`
    which receives a single argument containing a string
    and returns a sentence starting with the given string
    and ending with the string " is a benefit of functions!"
