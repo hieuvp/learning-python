@@ -71,7 +71,7 @@ def draw_game():
 def clear_screen(screen):
     ...
 ```
-  
+
 In this example, the game module imports the draw module,
 which enables it to use functions implemented in that module.
 The main function would use the local function play_game to run the game,

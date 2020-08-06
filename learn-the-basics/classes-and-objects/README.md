@@ -77,12 +77,16 @@ However, each object contains independent copies of the variables defined in the
 For instance, if we were to define another object with the "MyClass" class
 and then change the string in the variable above:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_variable.py) -->
+<!-- The below code snippet is automatically added from access_object_variable.py -->
+
+```py
 class MyClass:
     variable = "blah"
 
     def function(self):
         print("This is a message inside the class.")
+
 
 myobjectx = MyClass()
 myobjecty = MyClass()
@@ -93,6 +97,19 @@ myobjecty.variable = "yackity"
 print(myobjectx.variable)
 print(myobjecty.variable)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_variable.console) -->
+<!-- The below code snippet is automatically added from access_object_variable.console -->
+
+```console
++ python access_object_variable.py
+blah
+yackity
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Accessing Object Functions
 
