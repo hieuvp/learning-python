@@ -25,10 +25,16 @@
 <!-- The below code snippet is automatically added from boolean_expression.py -->
 
 ```py
+# Variable assignment is done using a single equals operator `=`
 X = 2
-print(X == 2)
-print(X == 3)
-print(X < 3)
+
+# Whereas comparison between two variables is done using the double equals operator `==`
+print("(X == 2) = %s" % (X == 2))
+
+# The "not equals" operator is marked as `!=`
+print("(X != 2) = %s" % (X != 2))
+
+print("(X < 3) = %s" % (X < 3))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -38,16 +44,12 @@ print(X < 3)
 
 ```console
 + python boolean_expression.py
-True
-False
-True
+(X == 2) = True
+(X != 2) = False
+(X < 3) = True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Notice that variable assignment is done using a single equals operator `=`,
-whereas comparison between two variables is done using the double equals operator `==`.
-The "not equals" operator is marked as `!=`.
 
 ## `and` and `or` Boolean Operators
 

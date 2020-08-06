@@ -1,4 +1,4 @@
 + python boolean_expression.py
-True
-False
-True
+(X == 2) = True
+(X != 2) = False
+(X < 3)  = True
