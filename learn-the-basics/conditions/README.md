@@ -34,7 +34,7 @@ print("(X == 2) = %s" % (X == 2))
 # The "not equals" operator is marked as `!=`
 print("(X != 2) = %s" % (X != 2))
 
-print("(X < 3) = %s" % (X < 3))
+print("(X < 3)  = %s" % (X < 3))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -46,7 +46,7 @@ print("(X < 3) = %s" % (X < 3))
 + python boolean_expression.py
 (X == 2) = True
 (X != 2) = False
-(X < 3) = True
+(X < 3)  = True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
