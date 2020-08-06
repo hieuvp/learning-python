@@ -44,17 +44,17 @@ for prime in PRIMES:
 
 <br />
 
-> The `range()` function returns a sequence of numbers.
+> `range()` returns a sequence of numbers.
 
 ```python
 range(start, stop, step)
 ```
 
-| Parameter          | Description                                                       |
-| ------------------ | ----------------------------------------------------------------- |
-| `start` (optional) | The position to start. Default is `0`.                            |
-| `stop` (required)  | The position to stop (not included or before a specified number). |
-| `step` (optional)  | The incrementation. Default is `1`.                               |
+| Parameter          | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| `start` (optional) | The position to start. Default is `0`.              |
+| `stop` (required)  | The position to stop (but not include this number). |
+| `step` (optional)  | The incrementation. Default is `1`.                 |
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.py) -->
 <!-- The below code snippet is automatically added from for_range_loops.py -->
