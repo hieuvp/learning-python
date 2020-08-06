@@ -9,7 +9,7 @@
 - [`index()`](#index)
 - [`count()`](#count)
 - [`slice()`](#slice)
-- [Uppercase and Lowercase](#uppercase-and-lowercase)
+- [`upper()` and `lower()`](#upper-and-lower)
 - [`startswith()` and `endswith()`](#startswith-and-endswith)
 - [`split()`](#split)
 - [Exercise](#exercise)
@@ -101,11 +101,11 @@ slice(start, end, step)
 [start:end:step]
 ```
 
-| Parameter | Description                                                              |
-| --------- | ------------------------------------------------------------------------ |
-| `start`   | Which position to start the slicing. Default is `0`.                     |
-| `end`     | Which position to end the slicing. The slicing stops at index `end - 1`. |
-| `step`    | The increment between each index for slicing. Default is `1`.            |
+| Parameter | Description                                                        |
+| --------- | ------------------------------------------------------------------ |
+| `start`   | The position to start the slicing. Default is `0`.                 |
+| `end`     | The position to end the slicing. Slicing stops at index `end - 1`. |
+| `step`    | The increment between each index for slicing. Default is `1`.      |
 
 <br />
 
@@ -163,7 +163,7 @@ A_STRING[::-1]  = !dlrow olleH
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Uppercase and Lowercase
+## `upper()` and `lower()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=string_case.py) -->
 <!-- The below code snippet is automatically added from string_case.py -->
@@ -300,6 +300,5 @@ Split the words of the TEXT: ['String,', 'what', 'should', 'it', 'become!']
 
 ## References
 
-- [Python Slice Strings](https://www.w3schools.com/python/gloss_python_string_slice.asp)
 - [Python `slice()` Function](https://www.w3schools.com/python/ref_func_slice.asp)
 - [Python `slice()`](https://www.programiz.com/python-programming/methods/built-in/slice)
