@@ -300,5 +300,4 @@ Split the words of the TEXT: ['String,', 'what', 'should', 'it', 'become!']
 
 ## References
 
-- [Python `slice()` Function](https://www.w3schools.com/python/ref_func_slice.asp)
 - [Python `slice()`](https://www.programiz.com/python-programming/methods/built-in/slice)
