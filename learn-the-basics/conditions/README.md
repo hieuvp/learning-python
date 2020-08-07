@@ -113,6 +113,7 @@ Your name is either John or Rick.
 ```python
 statement = False
 another_statement = True
+
 if statement is True:
     # Do something
     pass
