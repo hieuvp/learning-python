@@ -1,4 +1,5 @@
-# Variable assignment is done using a "single equals" operator "="
+# Variable assignment is done
+# using a "single equals" operator "="
 X = 2
 
 # Whereas comparison between two variables is done

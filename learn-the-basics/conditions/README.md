@@ -25,7 +25,8 @@
 <!-- The below code snippet is automatically added from boolean_expression.py -->
 
 ```py
-# Variable assignment is done using a "single equals" operator "="
+# Variable assignment is done
+# using a "single equals" operator "="
 X = 2
 
 # Whereas comparison between two variables is done
@@ -113,13 +114,13 @@ Your name is either John or Rick.
 statement = False
 another_statement = True
 if statement is True:
-    # do something
+    # Do something
     pass
 elif another_statement is True: # else if
-    # do something else
+    # Do something else
     pass
 else:
-    # do another thing
+    # Do another thing
     pass
 ```
 
@@ -161,7 +162,7 @@ Here are some examples for objects which are considered as **empty**:
 1. An empty **list**: `[]`
 1. An empty **string**: `""`
 1. The **number** zero: `0`
-1. The false **boolean** variable: `False`
+1. The false **boolean**: `False`
 
 ## `is` Operator
 
