@@ -153,16 +153,16 @@ X equals two!
 
 A statement is evaluated as `True` if one of the following is correct:
 
-1. The `True` boolean variable is given,
+1. The `True` **boolean** variable is given,
    or calculated using an expression (such as an arithmetic comparison).
-2. An object which is not considered **empty** is passed.
+1. An **object** which is **not** considered **empty** is passed.
 
 Here are some examples for objects which are considered as **empty**:
 
-1. An empty **list**: `[]`
-1. An empty **string**: `""`
-1. The **number** zero: `0`
-1. The false **boolean**: `False`
+1. Empty **List** : `[]`
+1. Empty **String** : `""`
+1. **Number** Zero : `0`
+1. False **Boolean** : `False`
 
 ## `is` Operator
 
