@@ -17,8 +17,8 @@
 
 ## Boolean Expressions
 
-> Python uses boolean variables to evaluate conditions.<br />
-> The boolean values `True` and `False` are returned
+> Python uses **boolean variables** to evaluate conditions.<br />
+> The **boolean values** (`True` and `False`) are returned
 > when an expression is compared or evaluated.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=boolean_expression.py) -->
