@@ -155,6 +155,8 @@ A statement is evaluated as `True` if one of the following is correct:
    or calculated using an expression (such as an arithmetic comparison).
 1. An **object** which is **not** considered **empty** is passed.
 
+<br />
+
 Here are some examples for objects which are considered as **empty**:
 
 1. Empty **List** : `[]`
