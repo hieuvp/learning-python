@@ -111,17 +111,14 @@ Your name is either John or Rick.
 ## `if` Statements
 
 ```python
-statement = False
-another_statement = True
-
 if statement is True:
-    # Do something
+    # Do Something
     pass
 elif another_statement is True: # else if
-    # Do something else
+    # Do Something Else
     pass
 else:
-    # Do another thing
+    # Do Another Thing
     pass
 ```
 
