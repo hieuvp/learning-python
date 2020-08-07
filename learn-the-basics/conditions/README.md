@@ -157,7 +157,7 @@ A statement is evaluated as `True` if one of the following is correct:
 
 <br />
 
-Here are some examples for objects which are considered as **empty**:
+Here are some examples for **objects** which are considered as **empty**:
 
 1. Empty **List** : `[]`
 1. Empty **String** : `""`
