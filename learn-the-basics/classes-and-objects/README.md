@@ -18,8 +18,6 @@ Objects are an encapsulation of variables and functions into a single entity.
 Objects get their variables and functions from classes.
 Classes are essentially a template to create your objects.
 
-A very basic class would look something like this:
-
 ```python
 class MyClass:
     variable = "blah"
@@ -28,13 +26,13 @@ class MyClass:
         print("This is a message inside the class.")
 ```
 
-We'll explain why you have to include that `self` as a parameter a little bit later.
-First, to assign the above class(template) to an object you would do the following:
+We will explain why you have to include that `self` as a parameter a little bit later.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.py) -->
 <!-- The below code snippet is automatically added from class_and_object.py -->
 
 ```py
+# A very basic class would look something like this
 class MyClass:
     variable = "blah"
 
@@ -42,6 +40,7 @@ class MyClass:
         print("This is a message inside the class.")
 
 
+# First, to assign the above class(template) to an object you would do the following
 myobjectx = MyClass()
 ```
 
@@ -56,8 +55,8 @@ myobjectx = MyClass()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Now the variable "myobjectx" holds an object of the class "MyClass"
-that contains the variable and the function defined within the class called "MyClass".
+Now the variable `myobjectx` holds an object of the class `MyClass`
+that contains the variable and the function defined within the class called `MyClass`.
 
 ## Accessing Object Variables
 
