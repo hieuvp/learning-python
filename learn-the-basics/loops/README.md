@@ -50,11 +50,11 @@ for prime in PRIMES:
 range(start, stop, step)
 ```
 
-| Parameter          | Description                                         |
-| ------------------ | --------------------------------------------------- |
-| `start` (optional) | The position to start. Default is `0`.              |
-| `stop` (required)  | The position to stop (but not include this number). |
-| `step` (optional)  | The incrementation. Default is `1`.                 |
+| Parameter          | Description                                   |
+| ------------------ | --------------------------------------------- |
+| `start` (optional) | The position to start. Default is `0`.        |
+| `stop` (required)  | The position to stop, but not include itself. |
+| `step` (optional)  | The incrementation. Default is `1`.           |
 
 <br />
 
