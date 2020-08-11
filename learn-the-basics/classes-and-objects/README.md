@@ -5,11 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Accessing Object Variables](#accessing-object-variables)
 - [Accessing Object Functions](#accessing-object-functions)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 Objects are an encapsulation of variables and functions into a single entity.
 Objects get their variables and functions from classes.
@@ -37,6 +40,31 @@ class MyClass:
 
 myobjectx = MyClass()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.py) -->
+<!-- The below code snippet is automatically added from class_and_object.py -->
+
+```py
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+
+myobjectx = MyClass()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.console) -->
+<!-- The below code snippet is automatically added from class_and_object.console -->
+
+```console
++ python class_and_object.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Now the variable "myobjectx" holds an object of the class "MyClass"
 that contains the variable and the function defined within the class called "MyClass".
