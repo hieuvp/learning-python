@@ -176,17 +176,17 @@ for x in range(10):
 <br />
 
 When the loop terminates **normally**, the `else` is executed.
+For example:
 
-1. When the loop condition of `for` or `while` statement fails
-   then code part in `else` is executed.
-1. Even if there is a `continue` statement,
-   `else` part is still executed.
+1. When the loop condition of `for` or `while` statement fails.
+1. Even if there is a `continue` statement, `else` is still executed.
 
 <br />
 
 When the loop terminates **forcefully**, the `else` is skipped.
+For example:
 
-1. If `break` statement is executed inside for loop then the `else` part is skipped.
+1. `break` statement is executed inside a `for` loop.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=else_clause.py) -->
 <!-- The below code snippet is automatically added from else_clause.py -->
