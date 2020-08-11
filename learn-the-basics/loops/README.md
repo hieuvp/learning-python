@@ -141,11 +141,12 @@ while True:
 
 print()
 
+# Print out only odd numbers
 for x in range(10):
     if x % 2 == 0:
         # "continue" returns the control to the beginning of a loop
         continue
-    # Print out only odd numbers
+
     print(x)
 ```
 
@@ -246,8 +247,9 @@ count value reached 5
 
 ```py
 NUMBERS = [
-    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
-    743, 527
+    399, 162, 758, 219, 918,
+    237, 412, 566, 826, 248,
+    866, 950, 626
 ]
 
 for number in NUMBERS:
@@ -277,4 +279,4 @@ for number in NUMBERS:
 ## References
 
 - [Python `range()` Function](https://www.w3schools.com/python/ref_func_range.asp)
-- [Using `else` conditional statement with `for` loop in Python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)
+- [Using `else` Conditional Statement With `for` Loop In Python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)

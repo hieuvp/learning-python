@@ -8,9 +8,10 @@ while True:
 
 print()
 
+# Print out only odd numbers
 for x in range(10):
     if x % 2 == 0:
         # "continue" returns the control to the beginning of a loop
         continue
-    # Print out only odd numbers
+
     print(x)
