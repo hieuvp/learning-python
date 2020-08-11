@@ -140,7 +140,6 @@ while True:
 
 print()
 
-# Print out only odd numbers
 for x in range(10):
     if x % 2 == 0:
         continue  # return the control to beginning of the loop
