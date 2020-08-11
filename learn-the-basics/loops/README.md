@@ -176,17 +176,17 @@ for x in range(10):
 <br />
 
 When the **loop terminates normally**, the `else` is **executed**.
-For example:
+For instance:
 
-1. When the loop condition of `for` or `while` statement fails.
+1. When a loop condition fails.
 1. Even if there is a `continue` statement, `else` is still executed.
 
 <br />
 
 When the **loop terminates forcefully**, the `else` is **skipped**.
-For example:
+For instance:
 
-1. `break` statement is executed inside a `for` loop.
+1. `break` statement is executed inside a loop.
 
 <br />
 
