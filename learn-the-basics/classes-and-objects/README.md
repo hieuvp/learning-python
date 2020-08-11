@@ -14,19 +14,9 @@
 
 ## Concepts
 
-Objects are an encapsulation of variables and functions into a single entity.
-Objects get their variables and functions from classes.
-Classes are essentially a template to create your objects.
-
-```python
-class MyClass:
-    variable = "blah"
-
-    def function(self):
-        print("This is a message inside the class.")
-```
-
-We will explain why you have to include that `self` as a parameter a little bit later.
+- Objects are an encapsulation of variables and functions into a single entity.
+- Objects get their variables and functions from classes.
+- Classes are essentially a template to create your objects.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.py) -->
 <!-- The below code snippet is automatically added from class_and_object.py -->
@@ -54,6 +44,8 @@ myobjectx = MyClass()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+We will explain why you have to include that `self` as a parameter a little bit later.
 
 Now the variable `myobjectx` holds an object of the class `MyClass`
 that contains the variable and the function defined within the class called `MyClass`.
