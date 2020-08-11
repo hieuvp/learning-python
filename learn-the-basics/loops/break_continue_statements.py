@@ -3,15 +3,12 @@ while True:
     print(count)
     count += 1
     if count >= 5:
-        # "break" is used to exit a loop
-        break
+        break  # exit the loop
 
 print()
 
 # Print out only odd numbers
 for x in range(10):
     if x % 2 == 0:
-        # "continue" returns the control to the beginning of a loop
-        continue
-
+        continue  # return the control to beginning of the loop
     print(x)
