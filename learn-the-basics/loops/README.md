@@ -56,6 +56,8 @@ range(start, stop, step)
 | `stop` (required)  | The position to stop (but not include this number). |
 | `step` (optional)  | The incrementation. Default is `1`.                 |
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=for_range_loops.py) -->
 <!-- The below code snippet is automatically added from for_range_loops.py -->
 
