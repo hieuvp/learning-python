@@ -179,7 +179,7 @@ When the **loop terminates normally**, the `else` is **executed**.
 For instance:
 
 1. When a loop condition fails.
-1. Even if there is a `continue` statement, `else` is still executed.
+1. Even if there is a `continue` statement, it is still executed.
 
 <br />
 
