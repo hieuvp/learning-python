@@ -272,4 +272,4 @@ for number in NUMBERS:
 ## References
 
 - [Python `range()` Function](https://www.w3schools.com/python/ref_func_range.asp)
-- [Using `else` Conditional Statement With `for` Loop In Python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)
+- [Using `else` Conditional Statement with `for` Loop in Python](https://www.tutorialspoint.com/using-else-conditional-statement-with-for-loop-in-python)
