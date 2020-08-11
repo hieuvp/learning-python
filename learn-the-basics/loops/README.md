@@ -170,23 +170,21 @@ for x in range(10):
 
 ## `else` Clauses
 
-> In other languages, the `else` functionality is only provided in `if-else` pairs.<br />
-> But Python allows us to implement the `else` functionality with loops as well .
+> In other languages, `else` functionality is only provided in `if-else` pairs.<br />
+> But Python allows us to implement the `else` functionality with **loops** as well.
 
 <br />
 
-The `else` functionality is available for use only when the loop terminates normally.
+When the loop terminates **normally**, the `else` is executed.
 
 1. When the loop condition of `for` or `while` statement fails
    then code part in `else` is executed.
-1. Note that `else` part is executed
-   even if there is a `continue` statement.
+1. Even if there is a `continue` statement,
+   `else` part is still executed.
 
 <br />
 
-In case of forceful termination of loop,
-`else` statement is overlooked by the interpreter
-and hence its execution is skipped.
+When the loop terminates **forcefully**, the `else` is skipped.
 
 1. If `break` statement is executed inside for loop then the `else` part is skipped.
 
