@@ -130,16 +130,11 @@ The above would print out the message, "This is a message inside the class."
 
 ## Exercise
 
-We have a class defined for vehicles.
-Create two new vehicles called car1 and car2.
-Set car1 to be a red convertible worth $60,000.00 with a name of Fer,
-and car2 to be a blue van named Jump worth $10,000.00.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# define the Vehicle class
+# Define the Vehicle class
 class Vehicle:
     name = ""
     kind = "car"
@@ -151,11 +146,24 @@ class Vehicle:
         return desc_str
 
 
-# your code goes here
+# Create two new vehicles called car1 and car2
+car1 = Vehicle()
+car2 = Vehicle()
 
-# Test Code
-# print(car1.description())
-# print(car2.description())
+# Set car1 to be a red convertible worth $60,000.00 with a name of Fer
+car1.name = "Fer"
+car1.color = "red"
+car1.value = 60000.00
+
+print(car1.description())
+
+# Set car2 to be a blue van named Jump worth $10,000.00
+car2.name = "Jump"
+car2.kind = "van"
+car2.color = "blue"
+car2.value = 10000.00
+
+print(car2.description())
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -165,6 +173,8 @@ class Vehicle:
 
 ```console
 + python exercise.py
+Fer is a red car worth $60000.00.
+Jump is a blue van worth $10000.00.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

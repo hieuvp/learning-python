@@ -10,3 +10,5 @@ disable=
 
 # learn-the-basics/classes-and-objects/class_and_object.py:4:4: R0201: Method could be a function (no-self-use)
 # learn-the-basics/classes-and-objects/class_and_object.py:1:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+# learn-the-basics/classes-and-objects/access_object_function.py:4:4: R0201: Method could be a function (no-self-use)
+# learn-the-basics/classes-and-objects/access_object_function.py:1:0: R0903: Too few public methods (1/2) (too-few-public-methods)
