@@ -98,17 +98,33 @@ yackity
 
 To access a function inside of an object you use notation similar to accessing a variable:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_function.py) -->
+<!-- The below code snippet is automatically added from access_object_function.py -->
+
+```py
 class MyClass:
     variable = "blah"
 
     def function(self):
         print("This is a message inside the class.")
 
+
 myobjectx = MyClass()
 
 myobjectx.function()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_function.console) -->
+<!-- The below code snippet is automatically added from access_object_function.console -->
+
+```console
++ python access_object_function.py
+This is a message inside the class.
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The above would print out the message, "This is a message inside the class."
 
