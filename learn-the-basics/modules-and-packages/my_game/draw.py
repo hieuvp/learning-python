@@ -2,7 +2,7 @@
 
 
 def draw_game(result):
-    print("draw_game(result)")
+    print("draw_game(\"%s\")" % result)
 
 
 def clear_screen(screen):
