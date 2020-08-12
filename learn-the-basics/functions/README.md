@@ -35,43 +35,24 @@ Where a block line is more Python code (even another block),
 and the block head is of the following format: block_keyword block_name(argument1,argument2, ...)
 Block keywords you already know are "if", "for", and "while".
 
-Functions in python are defined using the block keyword "def",
-followed with the function's name as the block's name.
-For example:
-
-```python
-def my_function():
-    print("Hello From My Function!")
-```
-
-Functions may also receive arguments (variables passed from the caller to the function).
-For example:
-
-```python
-def my_function_with_args(username, greeting):
-    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
-```
-
-Functions may return a value to the caller, using the keyword- 'return' .
-For example:
-
-```python
-def sum_two_numbers(a, b):
-    return a + b
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.py) -->
 <!-- The below code snippet is automatically added from write_functions.py -->
 
 ```py
+# Functions in python are defined using the block keyword "def",
+# followed with the function's name as the block's name.
 def my_function():
     print("Hello From My Function!")
+
+
+# Functions may also receive arguments (variables passed from the caller to the function)
 
 
 def my_function_with_args(username, greeting):
     print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
 
 
+# Functions may return a value to the caller, using the keyword - 'return'
 def sum_two_numbers(a, b):
     return a + b
 ```
@@ -153,22 +134,22 @@ and while adding your own to create a fully functional program.
 
 ```py
 # Modify this function to return a list of strings as defined above
-def list_benefits():
-    pass
+# def list_benefits():
+#     pass
 
 
 # Modify this function to concatenate to each benefit - " is a benefit of functions!"
-def build_sentence(benefit):
-    pass
+# def build_sentence(benefit):
+#     pass
 
 
-def name_the_benefits_of_functions():
-    list_of_benefits = list_benefits()
-    for benefit in list_of_benefits:
-        print(build_sentence(benefit))
+# def name_the_benefits_of_functions():
+#     list_of_benefits = list_benefits()
+#     for benefit in list_of_benefits:
+#         print(build_sentence(benefit))
 
 
-name_the_benefits_of_functions()
+# name_the_benefits_of_functions()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -178,12 +159,6 @@ name_the_benefits_of_functions()
 
 ```console
 + python exercise.py
-Traceback (most recent call last):
-  File "exercise.py", line 17, in <module>
-    name_the_benefits_of_functions()
-  File "exercise.py", line 13, in name_the_benefits_of_functions
-    for benefit in list_of_benefits:
-TypeError: 'NoneType' object is not iterable
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

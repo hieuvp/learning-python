@@ -1,7 +1,1 @@
 + python exercise.py
-Traceback (most recent call last):
-  File "exercise.py", line 17, in <module>
-    name_the_benefits_of_functions()
-  File "exercise.py", line 13, in name_the_benefits_of_functions
-    for benefit in list_of_benefits:
-TypeError: 'NoneType' object is not iterable
