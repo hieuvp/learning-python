@@ -5,6 +5,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Iterating over dictionaries](#iterating-over-dictionaries)
 - [Removing a value](#removing-a-value)
 - [Exercise](#exercise)
@@ -18,26 +19,36 @@ Each value stored in a dictionary can be accessed using a key,
 which is any type of object (a string, a number, a list, etc.)
 instead of using its index to address it.
 
-For example, a database of phone numbers could be stored using a dictionary like this:
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=dictionary.py) -->
+<!-- The below code snippet is automatically added from dictionary.py -->
 
-```python
+```py
+# For example, a database of phone numbers could be stored using a dictionary like this:
+
 phonebook = {}
 phonebook["John"] = 938477566
 phonebook["Jack"] = 938377264
 phonebook["Jill"] = 947662781
 print(phonebook)
-```
 
-Alternatively, a dictionary can be initialized with the same values in the following notation:
+# Alternatively, a dictionary can be initialized with the same values in the following notation:
 
-```python
-phonebook = {
-    "John" : 938477566,
-    "Jack" : 938377264,
-    "Jill" : 947662781
-}
+phonebook = {"John": 938477566, "Jack": 938377264, "Jill": 947662781}
 print(phonebook)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=dictionary.console) -->
+<!-- The below code snippet is automatically added from dictionary.console -->
+
+```console
++ python dictionary.py
+{'John': 938477566, 'Jack': 938377264, 'Jill': 947662781}
+{'John': 938477566, 'Jack': 938377264, 'Jill': 947662781}
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Iterating over dictionaries
 
