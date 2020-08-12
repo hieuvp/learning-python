@@ -5,20 +5,13 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [What are Functions](#what-are-functions)
-- [How do you write functions in Python](#how-do-you-write-functions-in-python)
-- [How do you call functions in Python](#how-do-you-call-functions-in-python)
+- [Writing Functions](#writing-functions)
+- [Calling Functions](#calling-functions)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## What are Functions
-
-Functions are a convenient way to divide your code into useful blocks,
-allowing us to order our code, make it more readable, reuse it and save some time.
-Also functions are a key way to define interfaces so programmers can share their code.
-
-## How do you write functions in Python
+## Writing Functions
 
 As we have seen on previous tutorials, Python makes use of blocks.
 
@@ -45,9 +38,8 @@ def my_function():
     print("Hello From My Function!")
 
 
-# Functions may also receive arguments (variables passed from the caller to the function)
-
-
+# Functions may also receive arguments
+# (variables passed from the caller to the function)
 def my_function_with_args(username, greeting):
     print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
 
@@ -68,7 +60,7 @@ def sum_two_numbers(a, b):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## How do you call functions in Python
+## Calling Functions
 
 Simply write the function's name followed by (), placing any required arguments within the brackets.
 For example, lets call the functions written above (in the previous example):
