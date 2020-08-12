@@ -5,7 +5,7 @@ import draw
 
 
 def play_game():
-    ...
+    return "play_game"
 
 
 def main():
