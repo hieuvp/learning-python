@@ -179,15 +179,40 @@ so the import command may replace an existing object in the namespace.
 We may also use the `import *` command to import all objects from a specific module,
 like this:
 
-```python
-# game.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import-all-module-objects/game.py) -->
+<!-- The below code snippet is automatically added from import-all-module-objects/game.py -->
+
+```py
+# Source: import-all-module-objects/game.py
+
 # import the draw module
 from draw import *
+
+
+def play_game():
+    return "play_game"
+
 
 def main():
     result = play_game()
     draw_game(result)
+
+
+if __name__ == "__main__":
+    main()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_all_module_objects.console) -->
+<!-- The below code snippet is automatically added from import_all_module_objects.console -->
+
+```console
++ python import-all-module-objects/game.py
+draw_game("play_game")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 This might be a bit risky as changes in the module might affect the module which imports it,
 but it is shorter and also does not require you to specify

@@ -1,0 +1,2 @@
++ python import-all-module-objects/game.py
+draw_game("play_game")
