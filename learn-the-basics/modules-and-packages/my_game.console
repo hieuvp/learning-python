@@ -1,0 +1,6 @@
++ tree -a my_game
+my_game
+├── draw.py
+└── game.py
+
+0 directories, 2 files

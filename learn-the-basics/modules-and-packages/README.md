@@ -29,11 +29,19 @@ The name of the module will be the name of the file.
 A Python module can have a set of functions, classes or variables defined and implemented.
 In the example above, we will have two files, we will have:
 
-```python
-mygame/
-mygame/game.py
-mygame/draw.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game.console) -->
+<!-- The below code snippet is automatically added from my_game.console -->
+
+```console
++ tree -a my_game
+my_game
+├── draw.py
+└── game.py
+
+0 directories, 2 files
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The Python script `game.py` will implement the game.
 It will use the function `draw_game` from the file `draw.py`, or in other words, thedraw module,
