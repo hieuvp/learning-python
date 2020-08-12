@@ -40,7 +40,7 @@ my_game
 
 0 directories, 2 files
 + python my_game/game.py
-draw_game(result)
+draw_game("play_game")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -72,8 +72,8 @@ def main():
     draw.draw_game(result)
 
 
-# this means that if this script is executed, then
-# main() will be executed
+# This means that if this script is executed,
+# then "main()" will be executed
 if __name__ == "__main__":
     main()
 ```
@@ -90,7 +90,7 @@ The `draw` module may look something like this:
 
 
 def draw_game(result):
-    print("draw_game(result)")
+    print('draw_game("%s")' % result)
 
 
 def clear_screen(screen):
@@ -129,18 +129,43 @@ We may also import the function `draw_game` directly
 into the main script's namespace,
 by using the from command.
 
-```python
-# game.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import-module-objects/game.py) -->
+<!-- The below code snippet is automatically added from import-module-objects/game.py -->
+
+```py
+# Source: import-module-objects/game.py
+
 # import the draw module
 from draw import draw_game
+
+
+def play_game():
+    return "play_game"
+
 
 def main():
     result = play_game()
     draw_game(result)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_module_objects.console) -->
+<!-- The below code snippet is automatically added from import_module_objects.console -->
+
+```console
++ python import-module-objects/game.py
+draw_game("play_game")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 You may have noticed that in this example,
-draw_game does not precede with the name of the module it is imported from,
+`draw_game` does not precede with the name of the module it is imported from,
 because we've specified the module name in the import command.
 
 The advantages of using this notation is that
