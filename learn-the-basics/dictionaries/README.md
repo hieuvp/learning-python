@@ -113,23 +113,25 @@ print(phonebook)
 
 ## Exercise
 
-Add "Jake" to the phonebook with the phone number 938273443,
-and remove Jill from the phonebook.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
 phonebook = {"John": 938477566, "Jack": 938377264, "Jill": 947662781}
 
-# write your code here
 
+# Remove "Jill" from the phonebook
+phonebook.pop("Jill")
 
-# testing code
-if "Jake" in phonebook:
-    print("Jake is listed in the phonebook.")
 if "Jill" not in phonebook:
     print("Jill is not listed in the phonebook.")
+
+
+# Add "Jake" to the phonebook with the phone number "938273443"
+phonebook["Jake"] = 938273443
+
+if "Jake" in phonebook:
+    print("Jake is listed in the phonebook.")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -139,6 +141,8 @@ if "Jill" not in phonebook:
 
 ```console
 + python exercise.py
+Jill is not listed in the phonebook.
+Jake is listed in the phonebook.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
