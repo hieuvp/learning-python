@@ -33,12 +33,14 @@ In the example above, we will have two files, we will have:
 <!-- The below code snippet is automatically added from my_game.console -->
 
 ```console
-+ tree -a my_game
++ tree -a -I __pycache__ my_game
 my_game
 ├── draw.py
 └── game.py
 
 0 directories, 2 files
++ python my_game/game.py
+draw_game(result)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -87,8 +89,8 @@ The `draw` module may look something like this:
 # Source: my_game/draw.py
 
 
-def draw_game():
-    print("draw_game")
+def draw_game(result):
+    print("draw_game(result)")
 
 
 def clear_screen(screen):
