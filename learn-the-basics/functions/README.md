@@ -13,9 +13,7 @@
 
 ## Writing Functions
 
-As we have seen on previous tutorials, Python makes use of blocks.
-
-A block is a area of code of written in the format of:
+A block is an area of code of written in the format of:
 
 ```python
 block_head:
@@ -24,9 +22,10 @@ block_head:
     ...
 ```
 
-Where a block line is more Python code (even another block),
-and the block head is of the following format: block_keyword block_name(argument1,argument2, ...)
-Block keywords you already know are "if", "for", and "while".
+Where a **block_line** is more Python code (even another block),
+and the **block_head** is of the following format:
+`block_keyword block_name(argument1, argument2, ...)`
+Block keywords you already know are `if`, `for`, and `while`.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.py) -->
 <!-- The below code snippet is automatically added from write_functions.py -->
@@ -62,7 +61,8 @@ def sum_two_numbers(a, b):
 
 ## Calling Functions
 
-Simply write the function's name followed by (), placing any required arguments within the brackets.
+Simply write the function's name followed by `()`,
+placing any required arguments within the brackets.
 For example, lets call the functions written above (in the previous example):
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=call_functions.py) -->
@@ -107,24 +107,24 @@ Hello, John Doe , From My Function!, I wish you a great year!
 
 ## Exercise
 
-In this exercise you'll use an existing function,
-and while adding your own to create a fully functional program.
-
-1. Add a function named `list_benefits()` that returns the following list of strings:
-   "More organized code",
-   "More readable code",
-   "Easier code reuse",
-   "Allowing programmers to share and connect code together"
-1. Add a function named `build_sentence(info)`
-   which receives a single argument containing a string
-   and returns a sentence starting with the given string
-   and ending with the string " is a benefit of functions!"
-1. Run and see all the functions work together!
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+# In this exercise you'll use an existing function,
+# and while adding your own to create a fully functional program.
+#
+# 1. Add a function named `list_benefits()` that returns the following list of strings:
+#    "More organized code",
+#    "More readable code",
+#    "Easier code reuse",
+#    "Allowing programmers to share and connect code together"
+# 1. Add a function named `build_sentence(info)`
+#    which receives a single argument containing a string
+#    and returns a sentence starting with the given string
+#    and ending with the string " is a benefit of functions!"
+# 1. Run and see all the functions work together!
+
 # Modify this function to return a list of strings as defined above
 # def list_benefits():
 #     pass
