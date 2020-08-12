@@ -16,9 +16,13 @@ import-all-module-objects:
 custom-import-name:
 	./custom_import_name.sh &> custom_import_name.console
 
+.PHONY: module-initialization
+module-initialization:
+	./module_initialization.sh &> module_initialization.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: my-game import-module-objects import-all-module-objects custom-import-name exercise
+all: my-game import-module-objects import-all-module-objects custom-import-name module-initialization exercise
