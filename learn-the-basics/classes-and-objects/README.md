@@ -52,34 +52,6 @@ that contains the variable and the function defined within the class called `MyC
 
 ## Accessing Object Variables
 
-To access the variable inside of the newly created object "myobjectx" you would do the following:
-
-```python
-class MyClass:
-    variable = "blah"
-
-    def function(self):
-        print("This is a message inside the class.")
-
-myobjectx = MyClass()
-
-myobjectx.variable
-```
-
-So for instance the below would output the string "blah":
-
-```python
-class MyClass:
-    variable = "blah"
-
-    def function(self):
-        print("This is a message inside the class.")
-
-myobjectx = MyClass()
-
-print(myobjectx.variable)
-```
-
 You can create multiple different objects that are of the same class
 (have the same variables and functions defined).
 However, each object contains independent copies of the variables defined in the class.
@@ -97,13 +69,15 @@ class MyClass:
         print("This is a message inside the class.")
 
 
+# To access the variable inside of the newly created object "myobjectx" you would do the following:
+# So for instance the below would output the string "blah":
 myobjectx = MyClass()
-myobjecty = MyClass()
+print(myobjectx.variable)
 
+myobjecty = MyClass()
 myobjecty.variable = "yackity"
 
 # Then print out both values
-print(myobjectx.variable)
 print(myobjecty.variable)
 ```
 
