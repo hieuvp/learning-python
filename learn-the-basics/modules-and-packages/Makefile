@@ -12,9 +12,13 @@ import-module-objects:
 import-all-module-objects:
 	./import_all_module_objects.sh &> import_all_module_objects.console
 
+.PHONY: custom-import-name
+custom-import-name:
+	./custom_import_name.sh &> custom_import_name.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: my-game import-module-objects import-all-module-objects exercise
+all: my-game import-module-objects import-all-module-objects custom-import-name exercise

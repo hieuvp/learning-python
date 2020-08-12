@@ -227,8 +227,12 @@ to use the same name in the rest of the code.
 For example, if you have two draw modules with slighty different names -
 you may do the following:
 
-```python
-# game.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom-import-name/game.py) -->
+<!-- The below code snippet is automatically added from custom-import-name/game.py -->
+
+```py
+# Source: custom-import-name/game.py
+
 # import the draw module
 if visual_mode:
     # in visual mode, we draw using graphics
@@ -237,11 +241,35 @@ else:
     # in textual mode, we print out text
     import draw_textual as draw
 
+
+def play_game():
+    return "play_game"
+
+
 def main():
     result = play_game()
     # this can either be visual or textual depending on visual_mode
     draw.draw_game(result)
+
+
+if __name__ == "__main__":
+    main()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name.console) -->
+<!-- The below code snippet is automatically added from custom_import_name.console -->
+
+```console
++ python custom-import-name/game.py
+Traceback (most recent call last):
+  File "custom-import-name/game.py", line 4, in <module>
+    if visual_mode:
+NameError: name 'visual_mode' is not defined
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Module Initialization
 
