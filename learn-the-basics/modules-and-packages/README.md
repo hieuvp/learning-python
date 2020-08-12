@@ -50,35 +50,51 @@ that implements the logic for drawing the game on the screen.
 Modules are imported from other modules using the import command.
 In this example, the `game.py` script may look something like this:
 
-```python
-# game.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game/game.py) -->
+<!-- The below code snippet is automatically added from my_game/game.py -->
+
+```py
+# Source: my_game/game.py
+
 # import the draw module
 import draw
 
+
 def play_game():
     ...
+
 
 def main():
     result = play_game()
     draw.draw_game(result)
 
+
 # this means that if this script is executed, then
 # main() will be executed
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 ```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 The draw module may look something like this:
 
-```python
-# draw.py
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game/draw.py) -->
+<!-- The below code snippet is automatically added from my_game/draw.py -->
+
+```py
+# Source: my_game/draw.py
+
 
 def draw_game():
-    ...
+    print("draw_game")
+
 
 def clear_screen(screen):
-    ...
+    print("clear_screen(screen)")
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 In this example, the game module imports the draw module,
 which enables it to use functions implemented in that module.
