@@ -11,6 +11,8 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Concepts
+
 A dictionary is a data type similar to arrays, but works with keys and values instead of indexes.
 Each value stored in a dictionary can be accessed using a key,
 which is any type of object (a string, a number, a list, etc.)
