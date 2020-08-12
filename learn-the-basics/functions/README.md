@@ -88,8 +88,9 @@ my_function()
 # prints - "Hello, John Doe, From My Function!, I wish you a great year!"
 my_function_with_args("John Doe", "a great year!")
 
-# after this line x will hold the value 3!
+# After this line x will hold the value 3!
 x = sum_two_numbers(1, 2)
+print("x = %s" % x)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -101,6 +102,7 @@ x = sum_two_numbers(1, 2)
 + python call_functions.py
 Hello From My Function!
 Hello, John Doe , From My Function!, I wish you a great year!
+x = 3
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
