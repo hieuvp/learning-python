@@ -1,4 +1,4 @@
-# A very basic class would look something like this
+# One very basic class
 class MyClass:
     variable = "blah"
 
@@ -6,5 +6,5 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# First, to assign the above class(template) to an object you would do the following
-myobjectx = MyClass()
+# Assign the above class (template) to an object
+my_object_x = MyClass()

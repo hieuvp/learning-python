@@ -5,6 +5,6 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-myobjectx = MyClass()
+my_object_x = MyClass()
 
-myobjectx.function()
+my_object_x.function()

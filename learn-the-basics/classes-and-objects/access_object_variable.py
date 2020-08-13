@@ -5,13 +5,10 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# To access the variable inside of the newly created object "myobjectx" you would do the following:
-# So for instance the below would output the string "blah":
-myobjectx = MyClass()
-print(myobjectx.variable)
+my_object_x = MyClass()
+# Access the variable inside of the newly created object
+print("my_object_x.variable = %s" % my_object_x.variable)
 
-myobjecty = MyClass()
-myobjecty.variable = "yackity"
-
-# Then print out both values
-print(myobjecty.variable)
+my_object_y = MyClass()
+my_object_y.variable = "yackity"
+print("my_object_y.variable = %s" % my_object_y.variable)

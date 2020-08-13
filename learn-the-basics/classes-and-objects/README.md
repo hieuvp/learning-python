@@ -22,7 +22,7 @@
 <!-- The below code snippet is automatically added from class_and_object.py -->
 
 ```py
-# A very basic class would look something like this
+# One very basic class
 class MyClass:
     variable = "blah"
 
@@ -30,8 +30,8 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# First, to assign the above class(template) to an object you would do the following
-myobjectx = MyClass()
+# Assign the above class (template) to an object
+my_object_x = MyClass()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -69,16 +69,13 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# To access the variable inside of the newly created object "myobjectx" you would do the following:
-# So for instance the below would output the string "blah":
-myobjectx = MyClass()
-print(myobjectx.variable)
+my_object_x = MyClass()
+# Access the variable inside of the newly created object
+print("my_object_x.variable = %s" % my_object_x.variable)
 
-myobjecty = MyClass()
-myobjecty.variable = "yackity"
-
-# Then print out both values
-print(myobjecty.variable)
+my_object_y = MyClass()
+my_object_y.variable = "yackity"
+print("my_object_y.variable = %s" % my_object_y.variable)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -88,8 +85,8 @@ print(myobjecty.variable)
 
 ```console
 + python access_object_variable.py
-blah
-yackity
+my_object_x.variable = blah
+my_object_y.variable = yackity
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -109,9 +106,9 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-myobjectx = MyClass()
+my_object_x = MyClass()
 
-myobjectx.function()
+my_object_x.function()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
