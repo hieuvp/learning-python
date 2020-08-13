@@ -374,40 +374,22 @@ clear_screen(screen)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-# draw.py
-
-def draw_game():
-    # when clearing the screen we can use the main screen object initialized in this module
-    clear_screen(main_screen)
-    ...
-
-def clear_screen(screen):
-    ...
-
-class Screen():
-    ...
-
-# initialize main_screen as a singleton
-main_screen = Screen()
-```
-
 ## Extending Module Load Path
 
 There are a couple of ways we could tell the Python interpreter where to look for modules,
 aside from the default, which is the local directory and the built-in modules.
-You could either use the environment variable PYTHONPATH
+You could either use the environment variable `PYTHONPATH`
 to specify additional directories to look for modules in,
 like this:
 
-```python
+```shell script
 PYTHONPATH=/foo python game.py
 ```
 
-This will execute game.py,
+This will execute `game.py`,
 and will enable the script to load modules from the foo directory as well as the local directory.
 
-Another method is the sys.path.append function.
+Another method is the `sys.path.append` function.
 You may execute it before running an import command:
 
 ```python
