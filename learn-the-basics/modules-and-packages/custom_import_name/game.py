@@ -1,4 +1,6 @@
-# Source: custom-import-name/game.py
+# Source: custom_import_name/game.py
+
+visual_mode = True
 
 # import the draw module
 if visual_mode:

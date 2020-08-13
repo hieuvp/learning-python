@@ -1,2 +1,2 @@
-+ python import-all-module-objects/game.py
++ python import_all_module_objects/game.py
 draw_game("play_game")

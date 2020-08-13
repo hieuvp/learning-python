@@ -129,8 +129,8 @@ We may also import the function `draw_game` directly
 into the main script's namespace,
 by using the from command.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import-module-objects/game.py) -->
-<!-- The below code snippet is automatically added from import-module-objects/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_module_objects/game.py) -->
+<!-- The below code snippet is automatically added from import_module_objects/game.py -->
 
 ```py
 # Source: import-module-objects/game.py
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from import_module_objects.console -->
 
 ```console
-+ python import-module-objects/game.py
++ python import_module_objects/game.py
 draw_game("play_game")
 ```
 
@@ -179,8 +179,8 @@ so the import command may replace an existing object in the namespace.
 We may also use the `import *` command to import all objects from a specific module,
 like this:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import-all-module-objects/game.py) -->
-<!-- The below code snippet is automatically added from import-all-module-objects/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_all_module_objects/game.py) -->
+<!-- The below code snippet is automatically added from import_all_module_objects/game.py -->
 
 ```py
 # Source: import-all-module-objects/game.py
@@ -208,7 +208,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from import_all_module_objects.console -->
 
 ```console
-+ python import-all-module-objects/game.py
++ python import_all_module_objects/game.py
 draw_game("play_game")
 ```
 
@@ -227,11 +227,13 @@ to use the same name in the rest of the code.
 For example, if you have two draw modules with slighty different names -
 you may do the following:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom-import-name/game.py) -->
-<!-- The below code snippet is automatically added from custom-import-name/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/game.py) -->
+<!-- The below code snippet is automatically added from custom_import_name/game.py -->
 
 ```py
-# Source: custom-import-name/game.py
+# Source: custom_import_name/game.py
+
+visual_mode = True
 
 # import the draw module
 if visual_mode:
@@ -258,15 +260,46 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/draw_textual.py) -->
+<!-- The below code snippet is automatically added from custom_import_name/draw_textual.py -->
+
+```py
+# Source: custom_import_name/draw.py
+
+
+def draw_game(result):
+    print('draw_game("%s") in textual mode' % result)
+
+
+def clear_screen(screen):
+    print("clear_screen(screen)")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/draw_visual.py) -->
+<!-- The below code snippet is automatically added from custom_import_name/draw_visual.py -->
+
+```py
+# Source: custom_import_name/draw.py
+
+
+def draw_game(result):
+    print('draw_game("%s") in visual mode' % result)
+
+
+def clear_screen(screen):
+    print("clear_screen(screen)")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name.console) -->
 <!-- The below code snippet is automatically added from custom_import_name.console -->
 
 ```console
-+ python custom-import-name/game.py
-Traceback (most recent call last):
-  File "custom-import-name/game.py", line 4, in <module>
-    if visual_mode:
-NameError: name 'visual_mode' is not defined
++ python custom_import_name/game.py
+draw_game("play_game") in visual mode
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

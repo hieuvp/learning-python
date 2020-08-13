@@ -1,2 +1,7 @@
-+ python module-initialization/game.py
-draw_game("play_game")
++ python module_initialization/game.py
+Traceback (most recent call last):
+  File "module_initialization/game.py", line 19, in <module>
+    main()
+  File "module_initialization/game.py", line 13, in main
+    draw.draw_game(result)
+TypeError: draw_game() takes 0 positional arguments but 1 was given

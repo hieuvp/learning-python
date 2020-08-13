@@ -1,5 +1,2 @@
-+ python custom-import-name/game.py
-Traceback (most recent call last):
-  File "custom-import-name/game.py", line 4, in <module>
-    if visual_mode:
-NameError: name 'visual_mode' is not defined
++ python custom_import_name/game.py
+draw_game("play_game") in visual mode

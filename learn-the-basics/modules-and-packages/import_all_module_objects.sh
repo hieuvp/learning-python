@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python import-all-module-objects/game.py
+python import_all_module_objects/game.py
