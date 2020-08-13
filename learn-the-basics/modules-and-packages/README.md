@@ -482,17 +482,21 @@ __all__ = ["bar"]
 
 ## Exercise
 
-In this exercise,
-you will need to print an alphabetically sorted list of all functions in the `re` module,
-which contain the word `find`.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# import re
+# Print an alphabetically sorted list of all functions in the "re" module
 
-# Your code goes here
+import re
+from inspect import getmembers, isfunction
+
+# inspect.getmembers(object[, predicate])
+# https://docs.python.org/3/library/inspect.html#inspect.getmembers
+for member in getmembers(re):
+    name, value = member
+    if isfunction(value):
+        print(name)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -502,6 +506,22 @@ which contain the word `find`.
 
 ```console
 + python exercise.py
+_compile
+_expand
+_pickle
+_subx
+compile
+escape
+findall
+finditer
+fullmatch
+match
+purge
+search
+split
+sub
+subn
+template
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
