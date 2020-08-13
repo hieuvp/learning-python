@@ -401,10 +401,10 @@ This will add the foo directory to the list of paths to look for modules in as w
 ## Exploring Built-in Modules
 
 Check out the full list of built-in modules in the Python standard library here.
-<https://docs.python.org/3/library/>
+[The Python Standard Library](https://docs.python.org/3/library/index.html)
 
 Two very important functions come in handy when exploring modules in Python -
-the dir and help functions.
+the `dir` and `help` functions.
 
 If we want to import the module urllib,
 which enables us to create read data from URLs,
@@ -420,25 +420,18 @@ urllib.urlopen(...)
 
 We can look for which functions are implemented in each module by using the dir function:
 
-```python
+```shell script
+$ python
+Python 3.8.3 (default, Jul  8 2020, 14:27:55)
+[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
 >>> import urllib
 >>> dir(urllib)
-['ContentTooShortError', 'FancyURLopener', 'MAXFTPCACHE', 'URLopener', '__all__', '__builtins__',
-'__doc__', '__file__', '__name__', '__package__', '__version__', '_ftperrors', '_get_proxies',
-'_get_proxy_settings', '_have_ssl', '_hexdig', '_hextochr', '_hostprog', '_is_unicode', '_localhost',
-'_noheaders', '_nportprog', '_passwdprog', '_portprog', '_queryprog', '_safe_map', '_safe_quoters',
-'_tagprog', '_thishost', '_typeprog', '_urlopener', '_userprog', '_valueprog', 'addbase', 'addclosehook',
-'addinfo', 'addinfourl', 'always_safe', 'basejoin', 'c', 'ftpcache', 'ftperrors', 'ftpwrapper', 'getproxies',
-'getproxies_environment', 'getproxies_macosx_sysconf', 'i', 'localhost', 'main', 'noheaders', 'os',
-'pathname2url', 'proxy_bypass', 'proxy_bypass_environment', 'proxy_bypass_macosx_sysconf', 'quote',
-'quote_plus', 'reporthook', 'socket', 'splitattr', 'splithost', 'splitnport', 'splitpasswd', 'splitport',
-'splitquery', 'splittag', 'splittype', 'splituser', 'splitvalue', 'ssl', 'string', 'sys', 'test', 'test1',
-'thishost', 'time', 'toBytes', 'unquote', 'unquote_plus', 'unwrap', 'url2pathname', 'urlcleanup', 'urlencode',
-'urlopen', 'urlretrieve']
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
 ```
 
 When we find the function in the module we want to use,
-we can read about it more using the help function,
+we can read about it more using the `help` function,
 inside the Python interpreter:
 
 ```python
