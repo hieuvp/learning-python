@@ -43,12 +43,6 @@ that contains the variable, and the function defined within the class called `My
 
 ## Accessing Object Variables
 
-You can create multiple different objects that are of the same class
-(have the same variables and functions defined).
-However, each object contains independent copies of the variables defined in the class.
-For instance, if we were to define another object with the "MyClass" class
-and then change the string in the variable above:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_variable.py) -->
 <!-- The below code snippet is automatically added from access_object_variable.py -->
 
