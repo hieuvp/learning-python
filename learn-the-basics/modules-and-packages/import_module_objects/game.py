@@ -5,7 +5,7 @@ from draw import draw_game
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():

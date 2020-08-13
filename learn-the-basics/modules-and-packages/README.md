@@ -40,7 +40,7 @@ my_game
 
 0 directories, 2 files
 + python my_game/game.py
-draw_game("play_game")
+draw_game("winner")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -64,7 +64,7 @@ import draw
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():
@@ -94,7 +94,7 @@ def draw_game(result):
 
 
 def clear_screen(screen):
-    print("clear_screen(screen)")
+    print('clear_screen("%s")' % screen)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -140,7 +140,7 @@ from draw import draw_game
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():
@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 ```console
 + python import_module_objects/game.py
-draw_game("play_game")
+draw_game("winner")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -183,14 +183,14 @@ like this:
 <!-- The below code snippet is automatically added from import_all_module_objects/game.py -->
 
 ```py
-# Source: import-all-module-objects/game.py
+# Source: import_all_module_objects/game.py
 
 # import the draw module
 from draw import *
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():
@@ -209,7 +209,7 @@ if __name__ == "__main__":
 
 ```console
 + python import_all_module_objects/game.py
-draw_game("play_game")
+draw_game("winner")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -235,22 +235,22 @@ you may do the following:
 
 VISUAL_MODE = True
 
-# import the draw module
+# Import the draw module
 if VISUAL_MODE:
-    # in visual mode, we draw using graphics
+    # In the visual mode, we draw using graphics
     import draw_visual as draw
 else:
-    # in textual mode, we print out text
+    # In the textual mode, we print out text
     import draw_textual as draw
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():
     result = play_game()
-    # this can either be visual or textual depending on visual_mode
+    # This can either be visual or textual depending on VISUAL_MODE
     draw.draw_game(result)
 
 
@@ -291,7 +291,7 @@ def draw_game(result):
 
 ```console
 + python custom_import_name/game.py
-draw_game("play_game") in visual mode
+draw_game("winner") in visual mode
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -320,7 +320,7 @@ import draw
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():

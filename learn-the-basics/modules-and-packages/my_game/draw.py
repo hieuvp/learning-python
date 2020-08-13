@@ -6,4 +6,4 @@ def draw_game(result):
 
 
 def clear_screen(screen):
-    print("clear_screen(screen)")
+    print('clear_screen("%s")' % screen)

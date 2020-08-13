@@ -2,22 +2,22 @@
 
 VISUAL_MODE = True
 
-# import the draw module
+# Import the draw module
 if VISUAL_MODE:
-    # in visual mode, we draw using graphics
+    # In the visual mode, we draw using graphics
     import draw_visual as draw
 else:
-    # in textual mode, we print out text
+    # In the textual mode, we print out text
     import draw_textual as draw
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():
     result = play_game()
-    # this can either be visual or textual depending on visual_mode
+    # This can either be visual or textual depending on VISUAL_MODE
     draw.draw_game(result)
 
 

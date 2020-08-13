@@ -6,5 +6,4 @@ class MyClass:
 
 
 my_object_x = MyClass()
-
 my_object_x.function()

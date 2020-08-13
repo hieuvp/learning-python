@@ -5,4 +5,4 @@ my_game
 
 0 directories, 2 files
 + python my_game/game.py
-draw_game("play_game")
+draw_game("winner")

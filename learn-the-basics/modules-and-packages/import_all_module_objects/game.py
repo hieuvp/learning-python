@@ -1,11 +1,11 @@
-# Source: import-all-module-objects/game.py
+# Source: import_all_module_objects/game.py
 
 # import the draw module
 from draw import *
 
 
 def play_game():
-    return "play_game"
+    return "winner"
 
 
 def main():

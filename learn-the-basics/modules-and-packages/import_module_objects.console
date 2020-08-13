@@ -1,2 +1,2 @@
 + python import_module_objects/game.py
-draw_game("play_game")
+draw_game("winner")
