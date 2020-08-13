@@ -233,10 +233,10 @@ you may do the following:
 ```py
 # Source: custom_import_name/game.py
 
-visual_mode = True
+VISUAL_MODE = True
 
 # import the draw module
-if visual_mode:
+if VISUAL_MODE:
     # in visual mode, we draw using graphics
     import draw_visual as draw
 else:
@@ -269,10 +269,6 @@ if __name__ == "__main__":
 
 def draw_game(result):
     print('draw_game("%s") in textual mode' % result)
-
-
-def clear_screen(screen):
-    print("clear_screen(screen)")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -286,10 +282,6 @@ def clear_screen(screen):
 
 def draw_game(result):
     print('draw_game("%s") in visual mode' % result)
-
-
-def clear_screen(screen):
-    print("clear_screen(screen)")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -316,6 +308,71 @@ they are initialized only once.
 This is useful to know, because this means that
 you can rely on this behavior for initializing objects.
 For example:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization/game.py) -->
+<!-- The below code snippet is automatically added from module_initialization/game.py -->
+
+```py
+# Source: module-initialization/game.py
+
+# import the draw module
+import draw
+
+
+def play_game():
+    return "play_game"
+
+
+def main():
+    result = play_game()
+    draw.draw_game(result)
+
+
+# This means that if this script is executed,
+# then "main()" will be executed
+if __name__ == "__main__":
+    main()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization/draw.py) -->
+<!-- The below code snippet is automatically added from module_initialization/draw.py -->
+
+```py
+# draw.py
+
+
+def draw_game(result):
+    # when clearing the screen
+    # we can use the main screen object initialized in this module
+    clear_screen(main_screen)
+
+
+def clear_screen(screen):
+    print("clear_screen(screen)")
+
+
+class Screen:
+    x = 0
+    y = 0
+
+
+# initialize main_screen as a singleton
+main_screen = Screen()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization.console) -->
+<!-- The below code snippet is automatically added from module_initialization.console -->
+
+```console
++ python module_initialization/game.py
+clear_screen(screen)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 # draw.py

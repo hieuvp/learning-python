@@ -1,9 +1,9 @@
 # Source: custom_import_name/game.py
 
-visual_mode = True
+VISUAL_MODE = True
 
 # import the draw module
-if visual_mode:
+if VISUAL_MODE:
     # in visual mode, we draw using graphics
     import draw_visual as draw
 else:
