@@ -8,4 +8,3 @@ class MyClass:
 
 # Assign the above class (template) to an object
 my_object_x = MyClass()
-print("my_object_x = %s" % my_object_x)

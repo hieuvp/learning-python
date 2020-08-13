@@ -32,17 +32,6 @@ class MyClass:
 
 # Assign the above class (template) to an object
 my_object_x = MyClass()
-print("my_object_x = %s" % my_object_x)
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.console) -->
-<!-- The below code snippet is automatically added from class_and_object.console -->
-
-```console
-+ python class_and_object.py
-my_object_x = <__main__.MyClass object at 0x1036d4d60>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

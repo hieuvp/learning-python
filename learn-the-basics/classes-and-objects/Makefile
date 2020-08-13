@@ -2,7 +2,7 @@ export PATH := ../../venv/bin:$(PATH)
 
 .PHONY: class-and-object
 class-and-object:
-	./class_and_object.sh &> class_and_object.console
+	./class_and_object.sh
 
 .PHONY: access-object-variable
 access-object-variable:
