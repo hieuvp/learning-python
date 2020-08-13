@@ -5,18 +5,18 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Concepts](#concepts)
+- [Fundamentals](#fundamentals)
 - [Accessing Object Variables](#accessing-object-variables)
 - [Accessing Object Functions](#accessing-object-functions)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Concepts
+## Fundamentals
 
-- Objects are an encapsulation of variables and functions into a single entity.
-- Objects get their variables and functions from classes.
-- Classes are essentially a template to create your objects.
+- **Objects** are an encapsulation of variables and functions into a single entity.
+- **Objects** get their variables and functions from classes.
+- **Classes** are essentially a template to create your objects.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.py) -->
 <!-- The below code snippet is automatically added from class_and_object.py -->
@@ -32,6 +32,7 @@ class MyClass:
 
 # Assign the above class (template) to an object
 my_object_x = MyClass()
+print("my_object_x = %s" % my_object_x)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -41,14 +42,15 @@ my_object_x = MyClass()
 
 ```console
 + python class_and_object.py
+my_object_x = <__main__.MyClass object at 0x1036d4d60>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 We will explain why you have to include that `self` as a parameter a little bit later.
 
-Now the variable `myobjectx` holds an object of the class `MyClass`
-that contains the variable and the function defined within the class called `MyClass`.
+Now the variable `my_object_x` holds an object of the class `MyClass`
+that contains the variable, and the function defined within the class called `MyClass`.
 
 ## Accessing Object Variables
 
@@ -93,8 +95,6 @@ my_object_y.variable = yackity
 
 ## Accessing Object Functions
 
-To access a function inside of an object you use notation similar to accessing a variable:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_object_function.py) -->
 <!-- The below code snippet is automatically added from access_object_function.py -->
 
@@ -107,7 +107,8 @@ class MyClass:
 
 
 my_object_x = MyClass()
-
+# To access a function inside of an object,
+# you use notation similar to accessing a variable
 my_object_x.function()
 ```
 
@@ -122,8 +123,6 @@ This is a message inside the class.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-The above would print out the message, "This is a message inside the class."
 
 ## Exercise
 
