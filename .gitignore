@@ -10,10 +10,5 @@
 # Virtual Python Environment
 venv/
 
-# When you run a program in python,
-# the interpreter compiles it to bytecode first
-# (this is an oversimplification) and stores it in the __pycache__/ folder.
-# If you look in there you will find a bunch of files sharing the names of the .py files in your project's folder,
-# only their extensions will be either .pyc or .pyo.
-# These are bytecode-compiled and optimized bytecode-compiled versions of your program's files, respectively.
+# Compiled Python Bytecode Files
 __pycache__/
