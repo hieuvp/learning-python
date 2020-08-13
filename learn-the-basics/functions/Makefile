@@ -2,7 +2,7 @@ export PATH := ../../venv/bin:$(PATH)
 
 .PHONY: write-functions
 write-functions:
-	./write_functions.sh &> write_functions.console
+	./write_functions.sh
 
 .PHONY: call-functions
 call-functions:

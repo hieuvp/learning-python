@@ -50,20 +50,7 @@ def sum_two_numbers(a, b):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.console) -->
-<!-- The below code snippet is automatically added from write_functions.console -->
-
-```console
-+ python write_functions.py
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 ## Calling Functions
-
-Simply write the function's name followed by `()`,
-placing any required arguments within the brackets.
-For example, lets call the functions written above (in the previous example):
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=call_functions.py) -->
 <!-- The below code snippet is automatically added from call_functions.py -->
@@ -81,6 +68,8 @@ def my_function_with_args(username, greeting):
 def sum_two_numbers(a, b):
     return a + b
 
+
+# Let's call the functions written above
 
 # print(a simple greeting)
 my_function()

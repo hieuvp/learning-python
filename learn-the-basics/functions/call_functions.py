@@ -11,6 +11,8 @@ def sum_two_numbers(a, b):
     return a + b
 
 
+# Let's call the functions written above
+
 # print(a simple greeting)
 my_function()
 
