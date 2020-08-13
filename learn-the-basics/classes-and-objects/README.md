@@ -9,6 +9,7 @@
 - [Accessing Object Variables](#accessing-object-variables)
 - [Accessing Object Functions](#accessing-object-functions)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -36,7 +37,12 @@ my_object_x = MyClass()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-We will explain why you have to include that `self` as a parameter a little bit later.
+- The `self` parameter is a reference to the current instance of the class,
+  and is used to access variables that belongs to the class.
+
+- It does not have to be named `self`,
+  you can call it whatever you like,
+  but it has to be the first parameter of any function in the class.
 
 Now the variable `my_object_x` holds an object of the class `MyClass`
 that contains the variable, and the function defined within the class called `MyClass`.
@@ -157,3 +163,7 @@ Jump is a blue van worth $10000.00.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Python Self](https://www.w3schools.com/python/gloss_python_self.asp)
