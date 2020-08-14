@@ -39,6 +39,8 @@ my_game
 └── game.py
 
 0 directories, 2 files
++ set +x
+
 + python my_game/game.py
 draw_game("winner")
 ```

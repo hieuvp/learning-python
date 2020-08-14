@@ -29,7 +29,7 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/modules-and-packages/import_all_module_objects/draw.py"
   "learn-the-basics/modules-and-packages/import_all_module_objects/game.py"
   "learn-the-basics/modules-and-packages/import_module_objects/draw.py"
-  "learn-the-basics/modules-and-packages/module_initialization/draw.py"
+  "learn-the-basics/modules-and-packages/initialize_module/draw.py"
   "learn-the-basics/modules-and-packages/my_game/draw.py"
   "learn-the-basics/modules-and-packages/my_game/game.py"
   "learn-the-basics/modules-and-packages/write_packages/__init__.py"
