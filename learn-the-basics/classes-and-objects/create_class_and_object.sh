@@ -2,4 +2,4 @@
 
 set -eou pipefail
 
-python class_and_object.py
+python create_class_and_object.py

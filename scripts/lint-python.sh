@@ -13,7 +13,7 @@ declare -ra FILES
 declare -ra IGNORING_FILES=(
   "learn-the-basics/classes-and-objects/access_object_function.py"
   "learn-the-basics/classes-and-objects/access_object_variable.py"
-  "learn-the-basics/classes-and-objects/class_and_object.py"
+  "learn-the-basics/classes-and-objects/create_class_and_object.py"
   "learn-the-basics/classes-and-objects/exercise.py"
   "learn-the-basics/conditions/boolean_operators.py"
   "learn-the-basics/conditions/in_operator.py"

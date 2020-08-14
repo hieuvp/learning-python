@@ -19,8 +19,8 @@
 - **Objects** get their variables and functions from classes.
 - **Classes** are essentially a template to create your objects.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=class_and_object.py) -->
-<!-- The below code snippet is automatically added from class_and_object.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_class_and_object.py) -->
+<!-- The below code snippet is automatically added from create_class_and_object.py -->
 
 ```py
 # One very basic class

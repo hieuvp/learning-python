@@ -1,8 +1,8 @@
 export PATH := ../../venv/bin:$(PATH)
 
-.PHONY: class-and-object
-class-and-object:
-	./class_and_object.sh
+.PHONY: create-class-and-object
+create-class-and-object:
+	./create_class_and_object.sh
 
 .PHONY: access-object-variable
 access-object-variable:
@@ -17,4 +17,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: class-and-object access-object-variable access-object-function exercise
+all: create-class-and-object access-object-variable access-object-function exercise
