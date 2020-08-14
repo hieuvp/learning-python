@@ -229,8 +229,8 @@ to use the same name in the rest of the code.
 For example, if you have two draw modules with slighty different names -
 you may do the following:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/game.py) -->
-<!-- The below code snippet is automatically added from custom_import_name/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/game.py) -->
+<!-- The below code snippet is automatically added from customize_import_name/game.py -->
 
 ```py
 # Source: custom_import_name/game.py
@@ -262,8 +262,8 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/draw_textual.py) -->
-<!-- The below code snippet is automatically added from custom_import_name/draw_textual.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_textual.py) -->
+<!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
 
 ```py
 # Source: custom_import_name/draw.py
@@ -275,8 +275,8 @@ def draw_game(result):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name/draw_visual.py) -->
-<!-- The below code snippet is automatically added from custom_import_name/draw_visual.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_visual.py) -->
+<!-- The below code snippet is automatically added from customize_import_name/draw_visual.py -->
 
 ```py
 # Source: custom_import_name/draw.py
@@ -288,11 +288,11 @@ def draw_game(result):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=custom_import_name.console) -->
-<!-- The below code snippet is automatically added from custom_import_name.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name.console) -->
+<!-- The below code snippet is automatically added from customize_import_name.console -->
 
 ```console
-+ python custom_import_name/game.py
++ python customize_import_name/game.py
 draw_game("winner") in visual mode
 ```
 

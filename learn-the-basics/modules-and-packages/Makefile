@@ -12,9 +12,9 @@ import-module-objects:
 import-all-module-objects:
 	./import_all_module_objects.sh &> import_all_module_objects.console
 
-.PHONY: custom-import-name
-custom-import-name:
-	./custom_import_name.sh &> custom_import_name.console
+.PHONY: customize-import-name
+customize-import-name:
+	./customize_import_name.sh &> customize_import_name.console
 
 .PHONY: initialize-module
 initialize-module:
@@ -25,4 +25,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: my-game import-module-objects import-all-module-objects custom-import-name initialize-module exercise
+all: my-game import-module-objects import-all-module-objects customize-import-name initialize-module exercise

@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python custom_import_name/game.py
+python customize_import_name/game.py
