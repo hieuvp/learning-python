@@ -7,6 +7,7 @@ disable=
     C0114,  # Missing module docstring (missing-module-docstring)
     C0115,  # Missing class docstring (missing-class-docstring)
     C0116,  # Missing function or method docstring (missing-function-docstring)
+<<<<<<< HEAD
 
 # learn-the-basics/classes-and-objects/class_and_object.py:4:4: R0201: Method could be a function (no-self-use)
 # learn-the-basics/classes-and-objects/class_and_object.py:1:0: R0903: Too few public methods (1/2) (too-few-public-methods)
@@ -19,3 +20,5 @@ disable=
 
 # learn-the-basics/modules-and-packages/import-all-module-objects/game.py:4:1: F403 'from draw import *' used; unable to detect undefined names
 # learn-the-basics/modules-and-packages/import-all-module-objects/game.py:13:5: F405 'draw_game' may be undefined, or defined from star imports: draw
+=======
+>>>>>>> master
