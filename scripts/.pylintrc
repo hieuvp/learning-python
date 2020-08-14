@@ -4,4 +4,6 @@
 [MASTER]
 
 disable=
-    C0114, # Missing module docstring (missing-module-docstring)
+    C0114,  # Missing module docstring (missing-module-docstring)
+    C0115,  # Missing class docstring (missing-class-docstring)
+    C0116,  # Missing function or method docstring (missing-function-docstring)
