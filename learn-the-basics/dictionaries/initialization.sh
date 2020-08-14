@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python dictionary.py
+python initialization.py

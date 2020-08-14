@@ -1,8 +1,8 @@
 export PATH := ../../venv/bin:$(PATH)
 
-.PHONY: dictionary
-dictionary:
-	./dictionary.sh &> dictionary.console
+.PHONY: initialization
+initialization:
+	./initialization.sh &> initialization.console
 
 .PHONY: iteration
 iteration:
@@ -17,4 +17,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: dictionary iteration remove exercise
+all: initialization iteration remove exercise

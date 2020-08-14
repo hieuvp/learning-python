@@ -19,8 +19,8 @@ Each value stored in a dictionary can be accessed using a key,
 which is any type of object (a string, a number, a list, etc.)
 instead of using its index to address it.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=dictionary.py) -->
-<!-- The below code snippet is automatically added from dictionary.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialization.py) -->
+<!-- The below code snippet is automatically added from initialization.py -->
 
 ```py
 # For example, a database of phone numbers could be stored using a dictionary like this:
@@ -39,11 +39,11 @@ print(phonebook)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=dictionary.console) -->
-<!-- The below code snippet is automatically added from dictionary.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialization.console) -->
+<!-- The below code snippet is automatically added from initialization.console -->
 
 ```console
-+ python dictionary.py
++ python initialization.py
 {'John': 938477566, 'Jack': 938377264, 'Jill': 947662781}
 {'John': 938477566, 'Jack': 938377264, 'Jill': 947662781}
 ```
