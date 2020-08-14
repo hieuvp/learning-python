@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python module_initialization/game.py
+python initialize_module/game.py

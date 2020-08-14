@@ -309,8 +309,8 @@ This is useful to know, because this means that
 you can rely on this behavior for initializing objects.
 For example:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization/game.py) -->
-<!-- The below code snippet is automatically added from module_initialization/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/game.py) -->
+<!-- The below code snippet is automatically added from initialize_module/game.py -->
 
 ```py
 # Source: module-initialization/game.py
@@ -336,8 +336,8 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization/draw.py) -->
-<!-- The below code snippet is automatically added from module_initialization/draw.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/draw.py) -->
+<!-- The below code snippet is automatically added from initialize_module/draw.py -->
 
 ```py
 # draw.py
@@ -364,11 +364,11 @@ main_screen = Screen()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=module_initialization.console) -->
-<!-- The below code snippet is automatically added from module_initialization.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module.console) -->
+<!-- The below code snippet is automatically added from initialize_module.console -->
 
 ```console
-+ python module_initialization/game.py
++ python initialize_module/game.py
 clear_screen(screen)
 ```
 
