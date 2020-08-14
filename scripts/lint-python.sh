@@ -20,6 +20,7 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/loops/else_clause.py"
   "learn-the-basics/loops/for_range_loops.py"
   "learn-the-basics/loops/while_loop.py"
+  "learn-the-basics/modules-and-packages/import_all_module_objects/game.py"
 )
 
 main() {

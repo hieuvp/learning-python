@@ -348,11 +348,11 @@ if __name__ == "__main__":
 def draw_game(result):
     # when clearing the screen
     # we can use the main screen object initialized in this module
-    clear_screen(main_screen)
+    clear_screen(result)
 
 
 def clear_screen(screen):
-    print("clear_screen(screen)")
+    print('clear_screen("%s")' % screen)
 
 
 class Screen:
@@ -477,7 +477,7 @@ while keeping other modules internal, by overriding the `__all__` variable, like
 ```py
 # Source: write_packages/__init__.py
 
-__all__ = ["bar"]
+# __all__ = ["bar"]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
