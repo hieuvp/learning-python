@@ -1,0 +1,2 @@
++ python customize_import_name/game.py
+draw_game("winner") in visual mode

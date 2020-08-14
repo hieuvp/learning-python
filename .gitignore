@@ -9,3 +9,6 @@
 
 # Virtual Python Environment
 venv/
+
+# Compiled Python Bytecode Files
+__pycache__/
