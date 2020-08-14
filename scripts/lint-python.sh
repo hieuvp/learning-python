@@ -11,7 +11,6 @@ readarray -t FILES < <(printf "%s" "$FILES")
 declare -ra FILES
 
 declare -ra IGNORING_FILES=(
-  "learn-the-basics/classes-and-objects/access_object_function.py"
   "learn-the-basics/classes-and-objects/access_object_variable.py"
   "learn-the-basics/classes-and-objects/create_class_and_object.py"
   "learn-the-basics/classes-and-objects/exercise.py"
