@@ -17,10 +17,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-In programming, a module is a piece of software that has a specific functionality.
-For example, when building a ping pong game, one module would be responsible for the game logic,
+When building a ping pong game,
+one module would be responsible for the game logic,
 and another module would be responsible for drawing the game on the screen.
-Each module is a different file, which can be edited separately.
 
 ## Writing Modules
 
@@ -29,19 +28,19 @@ The name of the module will be the name of the file.
 A Python module can have a set of functions, classes or variables defined and implemented.
 In the example above, we will have two files, we will have:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game.console) -->
-<!-- The below code snippet is automatically added from my_game.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong.console) -->
+<!-- The below code snippet is automatically added from ping_pong.console -->
 
 ```console
-+ tree -a -I __pycache__ my_game
-my_game
++ tree -a -I __pycache__ ping_pong
+ping_pong
 ├── draw.py
 └── game.py
 
 0 directories, 2 files
 + set +x
 
-+ python my_game/game.py
++ python ping_pong/game.py
 draw_game("winner")
 ```
 
@@ -55,8 +54,8 @@ that implements the logic for drawing the game on the screen.
 Modules are imported from other modules using the `import` command.
 In this example, the `game.py` script may look something like this:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game/game.py) -->
-<!-- The below code snippet is automatically added from my_game/game.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong/game.py) -->
+<!-- The below code snippet is automatically added from ping_pong/game.py -->
 
 ```py
 # Source: my_game/game.py
@@ -84,8 +83,8 @@ if __name__ == "__main__":
 
 The `draw` module may look something like this:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=my_game/draw.py) -->
-<!-- The below code snippet is automatically added from my_game/draw.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong/draw.py) -->
+<!-- The below code snippet is automatically added from ping_pong/draw.py -->
 
 ```py
 # Source: my_game/draw.py
@@ -371,7 +370,7 @@ main_screen = Screen()
 
 ```console
 + python initialize_module/game.py
-clear_screen(screen)
+clear_screen("winner")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

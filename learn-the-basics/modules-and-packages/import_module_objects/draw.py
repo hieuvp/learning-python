@@ -1,1 +1,1 @@
-../my_game/draw.py
+../ping_pong/draw.py
