@@ -474,7 +474,38 @@ while keeping other modules internal, by overriding the `__all__` variable, like
 ```py
 # Source: write_package/pkg/__init__.py
 
-# __all__ = ["bar"]
+from .game import play_game
+from .draw import draw_game
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/draw.py) -->
+<!-- The below code snippet is automatically added from write_package/pkg/draw.py -->
+
+```py
+# Source: write_package/pkg/draw.py
+
+
+def draw_game(result):
+    print('draw_game("%s")' % result)
+
+
+def clear_screen(screen):
+    print('clear_screen("%s")' % screen)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/game.py) -->
+<!-- The below code snippet is automatically added from write_package/pkg/game.py -->
+
+```py
+# Source: write_package/pkg/game.py
+
+
+def play_game():
+    return "winner"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -484,6 +515,11 @@ while keeping other modules internal, by overriding the `__all__` variable, like
 
 ```py
 # Source: write_package/ping_pong.py
+
+import pkg
+
+RESULT = pkg.play_game()
+pkg.draw_game(RESULT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -497,13 +533,14 @@ write_package
 ├── ping_pong.py
 └── pkg
     ├── __init__.py
-    ├── draw.py -> ../../ping_pong/draw.py
-    └── game.py -> ../../ping_pong/game.py
+    ├── draw.py
+    └── game.py
 
 1 directory, 4 files
 + set +x
 
 + python write_package/ping_pong.py
+draw_game("winner")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

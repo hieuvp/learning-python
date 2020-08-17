@@ -1,3 +1,4 @@
 # Source: write_package/pkg/__init__.py
 
-# __all__ = ["bar"]
+from .game import play_game
+from .draw import draw_game

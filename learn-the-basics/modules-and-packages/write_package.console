@@ -3,10 +3,11 @@ write_package
 ├── ping_pong.py
 └── pkg
     ├── __init__.py
-    ├── draw.py -> ../../ping_pong/draw.py
-    └── game.py -> ../../ping_pong/game.py
+    ├── draw.py
+    └── game.py
 
 1 directory, 4 files
 + set +x
 
 + python write_package/ping_pong.py
+draw_game("winner")
