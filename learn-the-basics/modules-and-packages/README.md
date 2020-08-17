@@ -468,13 +468,31 @@ In the second method, we don't, because we import the module to our module's nam
 The `__init__.py` file can also decide which modules the package exports as the API,
 while keeping other modules internal, by overriding the `__all__` variable, like so:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_packages/__init__.py) -->
-<!-- The below code snippet is automatically added from write_packages/__init__.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/__init__.py) -->
+<!-- The below code snippet is automatically added from write_package/pkg/__init__.py -->
 
 ```py
-# Source: write_packages/__init__.py
+# Source: write_package/pkg/__init__.py
 
 # __all__ = ["bar"]
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/ping_pong.py) -->
+<!-- The below code snippet is automatically added from write_package/ping_pong.py -->
+
+```py
+# Source: write_package/ping_pong.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package.console) -->
+<!-- The below code snippet is automatically added from write_package.console -->
+
+```console
++ python write_package/ping_pong.py
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

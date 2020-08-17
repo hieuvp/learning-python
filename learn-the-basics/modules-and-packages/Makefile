@@ -20,9 +20,13 @@ customize-import-name:
 initialize-module:
 	./initialize_module.sh &> initialize_module.console
 
+.PHONY: write-package
+write-package:
+	./write_package.sh &> write_package.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module exercise
+all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module write-package exercise
