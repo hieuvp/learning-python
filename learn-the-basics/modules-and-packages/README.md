@@ -476,6 +476,8 @@ while keeping other modules internal, by overriding the `__all__` variable, like
 
 from .game import play_game
 from .draw import draw_game
+
+__all__ = ["play_game", "draw_game"]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
