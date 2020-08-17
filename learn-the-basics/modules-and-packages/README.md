@@ -132,7 +132,7 @@ by using the from command.
 <!-- The below code snippet is automatically added from import_module_objects/game.py -->
 
 ```py
-# Source: import-module-objects/game.py
+# Source: import_module_objects/game.py
 
 # import the draw module
 from draw import draw_game
@@ -230,7 +230,7 @@ you may do the following:
 <!-- The below code snippet is automatically added from customize_import_name/game.py -->
 
 ```py
-# Source: custom_import_name/game.py
+# Source: customize_import_name/game.py
 
 VISUAL_MODE = True
 
@@ -263,7 +263,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
 
 ```py
-# Source: custom_import_name/draw.py
+# Source: customize_import_name/draw.py
 
 
 def draw_game(result):
@@ -276,7 +276,7 @@ def draw_game(result):
 <!-- The below code snippet is automatically added from customize_import_name/draw_visual.py -->
 
 ```py
-# Source: custom_import_name/draw.py
+# Source: customize_import_name/draw.py
 
 
 def draw_game(result):
@@ -312,7 +312,7 @@ For example:
 <!-- The below code snippet is automatically added from initialize_module/game.py -->
 
 ```py
-# Source: module-initialization/game.py
+# Source: initialize_module/game.py
 
 # import the draw module
 import draw
@@ -339,7 +339,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from initialize_module/draw.py -->
 
 ```py
-# draw.py
+# Source: initialize_module/draw.py
 
 
 def draw_game(result):

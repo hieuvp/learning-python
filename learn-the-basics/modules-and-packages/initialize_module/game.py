@@ -1,4 +1,4 @@
-# Source: module-initialization/game.py
+# Source: initialize_module/game.py
 
 # import the draw module
 import draw

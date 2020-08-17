@@ -1,4 +1,4 @@
-# Source: custom_import_name/game.py
+# Source: customize_import_name/game.py
 
 VISUAL_MODE = True
 

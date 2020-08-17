@@ -1,4 +1,4 @@
-# draw.py
+# Source: initialize_module/draw.py
 
 
 def draw_game(result):

@@ -1,4 +1,4 @@
-# Source: custom_import_name/draw.py
+# Source: customize_import_name/draw.py
 
 
 def draw_game(result):

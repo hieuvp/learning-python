@@ -1,4 +1,4 @@
-# Source: import-module-objects/game.py
+# Source: import_module_objects/game.py
 
 # import the draw module
 from draw import draw_game
