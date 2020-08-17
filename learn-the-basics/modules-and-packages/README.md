@@ -492,6 +492,17 @@ while keeping other modules internal, by overriding the `__all__` variable, like
 <!-- The below code snippet is automatically added from write_package.console -->
 
 ```console
++ tree -a -I __pycache__ write_package
+write_package
+├── ping_pong.py
+└── pkg
+    ├── __init__.py
+    ├── draw.py -> ../../ping_pong/draw.py
+    └── game.py -> ../../ping_pong/game.py
+
+1 directory, 4 files
++ set +x
+
 + python write_package/ping_pong.py
 ```
 
