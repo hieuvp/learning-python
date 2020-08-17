@@ -377,7 +377,8 @@ clear_screen("winner")
 
 There are a couple of ways we could tell the Python interpreter where to look for modules,
 aside from the default, which is the local directory and the built-in modules.
-You could either use the environment variable `PYTHONPATH`
+You could either use the environment variable
+[`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
 to specify additional directories to look for modules in,
 like this:
 
@@ -386,7 +387,7 @@ PYTHONPATH=/foo python game.py
 ```
 
 This will execute `game.py`,
-and will enable the script to load modules from the foo directory as well as the local directory.
+and will enable the script to load modules from the `/foo` directory as well as the local directory.
 
 Another method is the `sys.path.append` function.
 You may execute it before running an import command:
@@ -446,19 +447,17 @@ Each package in Python is a directory which MUST contain a special file called `
 This file can be empty, and it indicates that the directory it contains is a Python package,
 so it can be imported the same way a module can be imported.
 
-If we create a directory called foo, which marks the package name,
-we can then create a module inside that package called bar.
+If we create a directory called `foo`, which marks the package name,
+we can then create a module inside that package called `bar`.
 We also must not forget to add the `__init__.py` file inside the foo directory.
 
-To use the module bar, we can import it in two ways:
+To use the module `bar`, we can import it in two ways:
 
 ```python
 import foo.bar
-```
 
-or:
+# Or
 
-```python
 from foo import bar
 ```
 
