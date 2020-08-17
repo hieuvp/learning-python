@@ -17,10 +17,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-When building a ping pong game,
-one module would be responsible for the game logic,
-and another module would be responsible for drawing the game on the screen.
-
 ## Writing Modules
 
 Modules in Python are simply Python files with a `.py` extension.
@@ -58,7 +54,8 @@ In this example, the `game.py` script may look something like this:
 <!-- The below code snippet is automatically added from ping_pong/game.py -->
 
 ```py
-# Source: my_game/game.py
+# Source: ping_pong/game.py
+# This module is responsible for the game logic
 
 # import the draw module
 import draw
@@ -87,7 +84,8 @@ The `draw` module may look something like this:
 <!-- The below code snippet is automatically added from ping_pong/draw.py -->
 
 ```py
-# Source: my_game/draw.py
+# Source: ping_pong/draw.py
+# This module is responsible for drawing the game on the screen
 
 
 def draw_game(result):
