@@ -96,8 +96,7 @@ class MyClass:
 
 
 my_object_x = MyClass()
-# To access a function inside of an object,
-# you use notation similar to accessing a variable
+# Access a function inside of an object
 my_object_x.function()
 ```
 

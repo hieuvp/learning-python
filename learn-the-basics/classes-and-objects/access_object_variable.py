@@ -6,6 +6,7 @@ class MyClass:
 
 
 my_object_x = MyClass()
+
 # Access the variable inside of the newly created object
 print("my_object_x.variable = %s" % my_object_x.variable)
 
