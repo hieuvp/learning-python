@@ -1,3 +1,4 @@
 + python exercise.py
 Jill is not listed in the phonebook.
 Jake is listed in the phonebook.
+phonebook = {'John': 938477566, 'Jack': 938377264, 'Jake': 938273443}

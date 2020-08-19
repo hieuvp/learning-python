@@ -128,6 +128,8 @@ if "Jill" not in phonebook:
 phonebook["Jake"] = 938273443
 if "Jake" in phonebook:
     print("Jake is listed in the phonebook.")
+
+print("phonebook = %s" % phonebook)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -139,6 +141,7 @@ if "Jake" in phonebook:
 + python exercise.py
 Jill is not listed in the phonebook.
 Jake is listed in the phonebook.
+phonebook = {'John': 938477566, 'Jack': 938377264, 'Jake': 938273443}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

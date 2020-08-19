@@ -9,3 +9,5 @@ if "Jill" not in phonebook:
 phonebook["Jake"] = 938273443
 if "Jake" in phonebook:
     print("Jake is listed in the phonebook.")
+
+print("phonebook = %s" % phonebook)
