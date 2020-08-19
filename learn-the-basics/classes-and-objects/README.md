@@ -23,7 +23,7 @@
 <!-- The below code snippet is automatically added from create_class_and_object.py -->
 
 ```py
-# One very basic class
+# One basic class
 class MyClass:
     variable = "blah"
 
@@ -31,7 +31,7 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# Assign the above class (template) to an object
+# Assign the above class (or template) to an object
 my_object_x = MyClass()
 ```
 
