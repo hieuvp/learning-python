@@ -3,10 +3,10 @@
 set -eou pipefail
 
 set -x
-tree -a -I __pycache__ my_game
+tree -a -I __pycache__ ping_pong
 
 set +x
 
 echo
 set -x
-python my_game/game.py
+python ping_pong/game.py

@@ -1,8 +1,8 @@
 export PATH := ../../venv/bin:$(PATH)
 
-.PHONY: my-game
-my-game:
-	./my_game.sh &> my_game.console
+.PHONY: ping-pong-game
+ping-pong-game:
+	./ping_pong.sh &> ping_pong.console
 
 .PHONY: import-module-objects
 import-module-objects:
@@ -20,9 +20,17 @@ customize-import-name:
 initialize-module:
 	./initialize_module.sh &> initialize_module.console
 
+.PHONY: system
+system:
+	./system.sh &> system.console
+
+.PHONY: write-package
+write-package:
+	./write_package.sh &> write_package.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: my-game import-module-objects import-all-module-objects customize-import-name initialize-module exercise
+all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module system write-package exercise
