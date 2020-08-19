@@ -1,0 +1,3 @@
++ python access_object_variable.py
+my_object_x.variable = blah
+my_object_y.variable = yackity
