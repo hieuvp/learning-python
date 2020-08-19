@@ -1,2 +1,0 @@
-+ python initialize_module/game.py
-clear_screen("winner")
