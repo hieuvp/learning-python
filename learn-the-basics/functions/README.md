@@ -56,7 +56,9 @@ def sum_two_numbers(a, b):
 <!-- The below code snippet is automatically added from call_functions.py -->
 
 ```py
-# Define our 3 functions
+# Define functions
+
+
 def my_function():
     print("Hello From My Function!")
 
@@ -69,15 +71,12 @@ def sum_two_numbers(a, b):
     return a + b
 
 
-# Let's call the functions written above
+# Call the functions written above
 
-# print(a simple greeting)
 my_function()
 
-# prints - "Hello, John Doe, From My Function!, I wish you a great year!"
 my_function_with_args("John Doe", "a great year!")
 
-# After this line x will hold the value 3!
 x = sum_two_numbers(1, 2)
 print("x = %s" % x)
 ```
