@@ -263,7 +263,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
 
 ```py
-# Source: customize_import_name/draw.py
+# Source: customize_import_name/draw_textual.py
 
 
 def draw_game(result):
@@ -276,7 +276,7 @@ def draw_game(result):
 <!-- The below code snippet is automatically added from customize_import_name/draw_visual.py -->
 
 ```py
-# Source: customize_import_name/draw.py
+# Source: customize_import_name/draw_visual.py
 
 
 def draw_game(result):
