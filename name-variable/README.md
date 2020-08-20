@@ -5,7 +5,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [An introduction to the `__name__` variable and its usage in Python](#an-introduction-to-the-__name__-variable-and-its-usage-in-python)
+- [Introduction](#introduction)
 - [Why is the `__name__` variable used](#why-is-the-__name__-variable-used)
 - [What values can the `__name__` variable contain](#what-values-can-the-__name__-variable-contain)
 - [Scenario 1 - Run the script](#scenario-1---run-the-script)
@@ -15,15 +15,25 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## An introduction to the `__name__` variable and its usage in Python
+## Introduction
 
 You've most likely seen the `__name__` variable
 when you've gone through Python code.
 Below you see an example code snippet of how it may look:
 
-```python
-if __name__ == '__main__':    main()
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/name_script.py) -->
+<!-- The below code snippet is automatically added from labs/name_script.py -->
+
+```py
+def main():
+    print("Hello")
+
+
+if __name__ == "__main__":
+    main()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 In this article,
 I want to show you how you can make use of this variable to create modules in Python.
@@ -66,9 +76,7 @@ if __name__ == '__main__':    main()
 
 If you run `nameScript.py`, the process below is followed.
 
-<div align="center">
-<img src="https://cdn-media-1.freecodecamp.org/images/PljpjxnM1OMMW7IkexNxVfwrKhP0RH-isapH" width="900">
-</div>
+<div align="center"><img src="assets/1.png" width="900"></div>
 
 Before all other code is run,
 the `__name__` variable is set to `__main__`.
@@ -95,9 +103,7 @@ We then have two scopes: one of importingScript and the second scope of nameScri
 In the illustration,
 you'll see how it differs from the first use case.
 
-<div align="center">
-<img src="https://cdn-media-1.freecodecamp.org/images/k9OxzvJAP-s5qeZg88jUCOCVy1syrQu4oKds" width="900">
-</div>
+<div align="center"><img src="assets/2.png" width="900"></div>
 
 In importingScript.py the `__name__` variable is set to `__main__`.
 By importing nameScript, Python starts looking for a file by adding `.py` to the module name.
