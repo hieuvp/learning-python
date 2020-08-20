@@ -1,5 +1,5 @@
-# Functions in python are defined using the block keyword "def",
-# followed with the function's name as the block's name.
+# Functions are defined using the block keyword "def",
+# followed with the function's name as the block's name
 def my_function():
     print("Hello From My Function!")
 
@@ -10,6 +10,7 @@ def my_function_with_args(username, greeting):
     print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
 
 
-# Functions may return a value to the caller, using the keyword - 'return'
+# Functions may return a value to the caller,
+# using the keyword "return"
 def sum_two_numbers(a, b):
     return a + b
