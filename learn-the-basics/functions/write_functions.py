@@ -4,7 +4,7 @@ def my_function():
     print("Hello, From My Function!")
 
 
-# Functions may also receive arguments
+# Functions may also receive arguments,
 # which are variables passed from the caller to the function
 def my_function_with_args(username, greeting):
     print("Hello, %s, From My Function! I wish you %s" % (username, greeting))

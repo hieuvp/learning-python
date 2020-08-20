@@ -38,7 +38,7 @@ def my_function():
 
 
 # Functions may also receive arguments
-# (variables passed from the caller to the function)
+# which are variables passed from the caller to the function
 def my_function_with_args(username, greeting):
     print("Hello, %s, From My Function! I wish you %s" % (username, greeting))
 
