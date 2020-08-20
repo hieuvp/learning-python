@@ -1,4 +1,4 @@
-# `__name__` Variable
+# `__name__` - A Special Variable
 
 ## Table of Contents
 
