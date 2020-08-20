@@ -92,27 +92,21 @@ This, in turn, calls myFunction. This prints out the value of `__main__`.
 
 ## Scenario 2 - Import The Script In Another Script
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
-<!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
-
-```py
-
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 If we want to re-use myFunction in another script,
 for example importingScript.py, we can import nameScript.py as a module.
 
 The code in importingScript.py could be as follows:
 
-```python
-import nameScript as ns
-```
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
+<!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
 
-```python
+```py
+import name_script as ns
+
 ns.myFunction()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 We then have two scopes: one of importingScript and the second scope of nameScript.
 In the illustration,
