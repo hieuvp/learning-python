@@ -62,7 +62,7 @@ def sum_two_numbers(a, b):
 
 
 def my_function():
-    print("Hello From My Function!")
+    print("Hello, From My Function!")
 
 
 def my_function_with_args(username, greeting):
@@ -93,7 +93,7 @@ print("x = %s" % x)
 
 ```console
 + python call_functions.py
-Hello From My Function!
+Hello, From My Function!
 Hello, John Doe, From My Function! I wish you a great year!
 x = 3
 ```
