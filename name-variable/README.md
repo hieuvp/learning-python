@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Scenario 1 - Run the script](#scenario-1---run-the-script)
-- [Scenario 2 - Import the script in another script](#scenario-2---import-the-script-in-another-script)
+- [Scenario 1 - Run The Script](#scenario-1---run-the-script)
+- [Scenario 2 - Import The Script In Another Script](#scenario-2---import-the-script-in-another-script)
 - [Conclusion](#conclusion)
 - [References](#references)
 
@@ -18,8 +18,8 @@
 You've most likely seen the `__name__` variable
 when you've gone through Python code.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/example.py) -->
-<!-- The below code snippet is automatically added from labs/example.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/example.py) -->
+<!-- The below code snippet is automatically added from labs/introduction/example.py -->
 
 ```py
 def main():
@@ -28,6 +28,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/example.console) -->
+<!-- The below code snippet is automatically added from labs/introduction/example.console -->
+
+```console
++ python example.py
+Hello
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,7 +58,7 @@ Or that you want to import the functions defined in the script.
   the `__name__` variable equals `__main__`.
 - When you import the containing script, it will contain the name of the script.
 
-## Scenario 1 - Run the script
+## Scenario 1 - Run The Script
 
 Suppose we wrote the script nameScript.py as follows:
 
@@ -74,7 +84,7 @@ After that, the main and myFunction def statements are run.
 Because the condition evaluates to true, the main function is called.
 This, in turn, calls myFunction. This prints out the value of `__main__`.
 
-## Scenario 2 - Import the script in another script
+## Scenario 2 - Import The Script In Another Script
 
 If we want to re-use myFunction in another script,
 for example importingScript.py, we can import nameScript.py as a module.

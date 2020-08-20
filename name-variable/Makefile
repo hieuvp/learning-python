@@ -1,8 +1,8 @@
 export PATH := ../venv/bin:$(PATH)
 
-.PHONY: example
-example:
-	cd labs && ./example.sh &> ./example.console
+.PHONY: introduction
+introduction:
+	cd labs/introduction && ./example.sh &> ./example.console
 
 .PHONY: all
-all: example
+all: introduction
