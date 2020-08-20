@@ -6,8 +6,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Why is the `__name__` variable used](#why-is-the-__name__-variable-used)
-- [What values can the `__name__` variable contain](#what-values-can-the-__name__-variable-contain)
 - [Scenario 1 - Run the script](#scenario-1---run-the-script)
 - [Scenario 2 - Import the script in another script](#scenario-2---import-the-script-in-another-script)
 - [Conclusion](#conclusion)
@@ -19,10 +17,9 @@
 
 You've most likely seen the `__name__` variable
 when you've gone through Python code.
-Below you see an example code snippet of how it may look:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/name_script.py) -->
-<!-- The below code snippet is automatically added from labs/name_script.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/example.py) -->
+<!-- The below code snippet is automatically added from labs/example.py -->
 
 ```py
 def main():
@@ -35,12 +32,9 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-In this article,
-I want to show you how you can make use of this variable to create modules in Python.
+> How you can make use of this variable to create modules in Python.
 
-## Why is the `__name__` variable used
-
-The `__name__` variable (two underscores before and after) is a special Python variable.
+The `__name__` variable is a special Python variable.
 It gets its value depending on how we execute the containing script.
 
 Sometimes you write a script with functions that might be useful in other scripts as well.
@@ -50,13 +44,9 @@ Thanks to this special variable,
 you can decide whether you want to run the script.
 Or that you want to import the functions defined in the script.
 
-## What values can the `__name__` variable contain
-
-When you run your script,
-the `__name__` variable equals `__main__`.
-When you import the containing script, it will contain the name of the script.
-
-Let us take a look at these two use cases and describe the process with two illustrations.
+- When you run your script,
+  the `__name__` variable equals `__main__`.
+- When you import the containing script, it will contain the name of the script.
 
 ## Scenario 1 - Run the script
 
