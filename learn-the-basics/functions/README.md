@@ -66,7 +66,7 @@ def my_function():
 
 
 def my_function_with_args(username, greeting):
-    print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
+    print("Hello, %s, From My Function! I wish you %s" % (username, greeting))
 
 
 def sum_two_numbers(a, b):
@@ -94,7 +94,7 @@ print("x = %s" % x)
 ```console
 + python call_functions.py
 Hello From My Function!
-Hello, John Doe , From My Function!, I wish you a great year!
+Hello, John Doe, From My Function! I wish you a great year!
 x = 3
 ```
 
