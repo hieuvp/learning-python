@@ -8,7 +8,7 @@ def my_function():
 
 
 def my_function_with_args(username, greeting):
-    print("Hello, %s , From My Function!, I wish you %s" % (username, greeting))
+    print("Hello, %s, From My Function! I wish you %s" % (username, greeting))
 
 
 def sum_two_numbers(a, b):

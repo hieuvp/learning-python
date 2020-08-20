@@ -56,9 +56,9 @@ def sum_two_numbers(a, b):
 <!-- The below code snippet is automatically added from call_functions.py -->
 
 ```py
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Define functions
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Define Functions
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 def my_function():
@@ -73,9 +73,9 @@ def sum_two_numbers(a, b):
     return a + b
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Call the functions written above
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Call Functions
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 my_function()
