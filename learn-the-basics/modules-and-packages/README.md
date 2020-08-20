@@ -14,6 +14,7 @@
 - [Exploring Built-in Modules](#exploring-built-in-modules)
 - [Writing Packages](#writing-packages)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -619,3 +620,7 @@ template
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [What's in a (Python's) `__name__`?](https://www.freecodecamp.org/news/whats-in-a-python-s-name-506262fe61e8)
