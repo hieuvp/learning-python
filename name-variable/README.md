@@ -62,17 +62,23 @@ Or that you want to import the functions defined in the script.
 
 Suppose we wrote the script nameScript.py as follows:
 
-```python
-def myFunction():    print 'The value of __name__ is ' + __name__
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/name_script.py) -->
+<!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
+
+```py
+def myFunction():
+    print("The value of __name__ is " + __name__)
+
+
+def main():
+    myFunction()
+
+
+if __name__ == "__main__":
+    main()
 ```
 
-```python
-def main():    myFunction()
-```
-
-```python
-if __name__ == '__main__':    main()
-```
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 If you run `nameScript.py`, the process below is followed.
 
@@ -85,6 +91,15 @@ Because the condition evaluates to true, the main function is called.
 This, in turn, calls myFunction. This prints out the value of `__main__`.
 
 ## Scenario 2 - Import The Script In Another Script
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
+<!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 If we want to re-use myFunction in another script,
 for example importingScript.py, we can import nameScript.py as a module.

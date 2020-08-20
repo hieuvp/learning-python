@@ -4,5 +4,13 @@ export PATH := ../venv/bin:$(PATH)
 introduction:
 	cd labs/introduction && ./example.sh &> ./example.console
 
+.PHONY: scenario-1
+scenario-1:
+	cd labs/scenario-1
+
+.PHONY: scenario-2
+scenario-2:
+	cd labs/scenario-2
+
 .PHONY: all
-all: introduction
+all: introduction scenario-1 scenario-2
