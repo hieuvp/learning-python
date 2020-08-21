@@ -54,13 +54,11 @@ Thanks to this special variable,
 you can decide whether you want to run the script.
 Or that you want to import the functions defined in the script.
 
-- When you run your script,
-  the `__name__` variable equals `__main__`.
-- When you import the containing script, it will contain the name of the script.
+1. When you run your script,
+   the `__name__` variable equals `__main__`.
+1. When you import the containing script, it will contain the name of the script.
 
 ## Scenario 1 - Run The Script
-
-Suppose we wrote the script nameScript.py as follows:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/name_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
@@ -102,16 +100,8 @@ The value of "__name__" is "__main__"
 
 Before all other code is run,
 the `__name__` variable is set to `__main__`.
-After that, the main and myFunction def statements are run.
-Because the condition evaluates to true, the main function is called.
-This, in turn, calls myFunction. This prints out the value of `__main__`.
 
 ## Scenario 2 - Import The Script In Another Script
-
-If we want to re-use myFunction in another script,
-for example importingScript.py, we can import nameScript.py as a module.
-
-The code in importingScript.py could be as follows:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
