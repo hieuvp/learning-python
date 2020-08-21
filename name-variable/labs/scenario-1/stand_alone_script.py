@@ -1,4 +1,4 @@
-# Source: scenario-1/name_script.py
+# Source: scenario-1/stand_alone_script.py
 
 
 def my_function():

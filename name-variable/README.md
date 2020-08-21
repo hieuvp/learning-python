@@ -56,11 +56,11 @@ type(__name__) = <type 'str'>
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/name_script.py) -->
-<!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/stand_alone_script.py) -->
+<!-- The below code snippet is automatically added from labs/scenario-1/stand_alone_script.py -->
 
 ```py
-# Source: scenario-1/name_script.py
+# Source: scenario-1/stand_alone_script.py
 
 
 def my_function():
@@ -83,12 +83,12 @@ if __name__ == "__main__":
 ```console
 + tree -a scenario-1
 scenario-1
-└── name_script.py
+└── stand_alone_script.py
 
 0 directories, 1 file
 + set +x
 
-+ python scenario-1/name_script.py
++ python scenario-1/stand_alone_script.py
 The value of "__name__" is "__main__"
 ```
 
@@ -112,9 +112,12 @@ the `__name__` variable is set to `__main__`.
 ```py
 # Source: scenario-2/importing_script.py
 
-import name_script as ns
+import stand_alone_script as sas
 
-ns.my_function()
+
+print('The value of "__name__" is "%s"' % __name__)
+
+sas.my_function()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -126,14 +129,15 @@ ns.my_function()
 + tree -a scenario-2
 scenario-2
 ├── importing_script.py
-├── name_script.py -> ../scenario-1/name_script.py
-└── name_script.pyc
+├── stand_alone_script.py -> ../scenario-1/stand_alone_script.py
+└── stand_alone_script.pyc
 
 0 directories, 3 files
 + set +x
 
 + python scenario-2/importing_script.py
-The value of "__name__" is "name_script"
+The value of "__name__" is "__main__"
+The value of "__name__" is "stand_alone_script"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

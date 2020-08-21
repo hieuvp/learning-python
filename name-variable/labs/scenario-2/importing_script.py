@@ -1,5 +1,8 @@
 # Source: scenario-2/importing_script.py
 
-import name_script as ns
+import stand_alone_script as sas
 
-ns.my_function()
+
+print('The value of "__name__" is "%s"' % __name__)
+
+sas.my_function()

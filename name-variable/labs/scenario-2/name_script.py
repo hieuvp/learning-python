@@ -1,1 +1,0 @@
-../scenario-1/name_script.py
