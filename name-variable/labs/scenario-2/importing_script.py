@@ -1,3 +1,3 @@
 import name_script as ns
 
-ns.myFunction()
+ns.my_function()

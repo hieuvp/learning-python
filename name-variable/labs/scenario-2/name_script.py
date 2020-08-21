@@ -1,9 +1,9 @@
-def myFunction():
+def my_function():
     print("The value of __name__ is " + __name__)
 
 
 def main():
-    myFunction()
+    my_function()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,2 @@
++ python scenario-2/importing_script.py
+The value of __name__ is name_script

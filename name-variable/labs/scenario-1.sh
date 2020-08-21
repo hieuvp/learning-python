@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python example.py
+python scenario-1/name_script.py

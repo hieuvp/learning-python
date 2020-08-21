@@ -36,7 +36,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from labs/introduction/example.console -->
 
 ```console
-+ python example.py
++ python introduction/example.py
 Hello
 ```
 
@@ -66,12 +66,12 @@ Suppose we wrote the script nameScript.py as follows:
 <!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
 
 ```py
-def myFunction():
+def my_function():
     print("The value of __name__ is " + __name__)
 
 
 def main():
-    myFunction()
+    my_function()
 
 
 if __name__ == "__main__":
@@ -81,8 +81,6 @@ if __name__ == "__main__":
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 If you run `nameScript.py`, the process below is followed.
-
-<div align="center"><img src="assets/1.png" width="900"></div>
 
 Before all other code is run,
 the `__name__` variable is set to `__main__`.
@@ -103,7 +101,7 @@ The code in importingScript.py could be as follows:
 ```py
 import name_script as ns
 
-ns.myFunction()
+ns.my_function()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -111,8 +109,6 @@ ns.myFunction()
 We then have two scopes: one of importingScript and the second scope of nameScript.
 In the illustration,
 you'll see how it differs from the first use case.
-
-<div align="center"><img src="assets/2.png" width="900"></div>
 
 In importingScript.py the `__name__` variable is set to `__main__`.
 By importing nameScript, Python starts looking for a file by adding `.py` to the module name.
