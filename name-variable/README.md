@@ -1,5 +1,11 @@
 # `__name__` - A Special Variable
 
+> Unlike other programming languages,
+> python is not designed to start execution of the code from a main function explicitly.
+> A special variable called `__name__` provides the functionality of the main function.
+> As it is an in-built variable in python language,
+> we can write a program just to see the value of this variable as below.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -24,6 +30,7 @@ when you've gone through Python code.
 ```py
 def main():
     print("Hello")
+    print(type(__name__))
 
 
 if __name__ == "__main__":
@@ -38,6 +45,7 @@ if __name__ == "__main__":
 ```console
 + python introduction/example.py
 Hello
+<type 'str'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -57,6 +65,15 @@ Or that you want to import the functions defined in the script.
 1. When you run your script,
    the `__name__` variable equals `__main__`.
 1. When you import the containing script, it will contain the name of the script.
+
+1. When you run any well-written stand-alone python script which is not referring to any other script,
+   the value of `__name__` variable is equal to `__main__`.
+1. The second feature is about importing one python script into another.
+   In such a scenario, there seem to be two different scopes
+   which can be considered as the `main()` function.
+   The first scope can be the `__main__` variable of the currently running program
+   and the second the scope of the `__main__` variable of the imported script
+   used in the current program.
 
 ## Scenario 1 - Run The Script
 
@@ -161,6 +178,13 @@ I explained how you can use the `__name__` variable to write modules.
 You can also run these modules on their own.
 This can be done by making use of how the values of these variables change
 depending on where they occur.
+
+The usefulness of this approach is when the code `if __name__ == "__main__":` is used,
+the python interpreter checks if it's parsing the currently executed script,
+or if it's temporarily parsing another external script.
+This way the programmer has the ability to control the behaviors of different parts of the program
+by choosing to run lines of code from the external script
+as well as the currently executed script depending on the scenarios.
 
 ## References
 
