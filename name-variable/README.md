@@ -50,10 +50,11 @@ type(__name__) = <type 'str'>
 
 ## Scenario 1 - Run The Script
 
-1. When you run your script,
-   the `__name__` variable equals `__main__`.
-1. When you run any well-written stand-alone python script which is not referring to any other script,
-   the value of `__name__` variable is equal to `__main__`.
+> When you run any well-written stand-alone python script
+> which is not referring to any other script,
+> the value of `__name__` variable is equal to `__main__`.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/name_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
