@@ -66,6 +66,9 @@ Suppose we wrote the script nameScript.py as follows:
 <!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
 
 ```py
+# Source: scenario-1/name_script.py
+
+
 def my_function():
     print('The value of "__name__" is "%s"' % __name__)
 
@@ -97,8 +100,6 @@ The value of "__name__" is "__main__"
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-If you run `nameScript.py`, the process below is followed.
-
 Before all other code is run,
 the `__name__` variable is set to `__main__`.
 After that, the main and myFunction def statements are run.
@@ -116,6 +117,8 @@ The code in importingScript.py could be as follows:
 <!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
 
 ```py
+# Source: scenario-2/importing_script.py
+
 import name_script as ns
 
 ns.my_function()
