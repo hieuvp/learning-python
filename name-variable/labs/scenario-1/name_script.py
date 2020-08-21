@@ -1,5 +1,5 @@
 def my_function():
-    print("The value of __name__ is " + __name__)
+    print('The value of "__name__" is "%s"' % __name__)
 
 
 def main():

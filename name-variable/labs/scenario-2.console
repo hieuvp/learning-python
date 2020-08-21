@@ -2,11 +2,10 @@
 scenario-2
 ├── importing_script.py
 ├── name_script.py -> ../scenario-1/name_script.py
-├── name_script.pyc
-└── output.console
+└── name_script.pyc
 
-0 directories, 4 files
+0 directories, 3 files
 + set +x
 
 + python scenario-2/importing_script.py
-The value of __name__ is name_script
+The value of "__name__" is "name_script"

@@ -1,0 +1,9 @@
++ tree -a scenario-1
+scenario-1
+└── name_script.py
+
+0 directories, 1 file
++ set +x
+
++ python scenario-1/name_script.py
+The value of "__name__" is "__main__"

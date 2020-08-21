@@ -32,8 +32,8 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/output.console) -->
-<!-- The below code snippet is automatically added from labs/introduction/output.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction.console) -->
+<!-- The below code snippet is automatically added from labs/introduction.console -->
 
 ```console
 + python introduction/example.py
@@ -67,7 +67,7 @@ Suppose we wrote the script nameScript.py as follows:
 
 ```py
 def my_function():
-    print("The value of __name__ is " + __name__)
+    print('The value of "__name__" is "%s"' % __name__)
 
 
 def main():
@@ -80,20 +80,19 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/output.console) -->
-<!-- The below code snippet is automatically added from labs/scenario-1/output.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1.console) -->
+<!-- The below code snippet is automatically added from labs/scenario-1.console -->
 
 ```console
 + tree -a scenario-1
 scenario-1
-├── name_script.py
-└── output.console
+└── name_script.py
 
-0 directories, 2 files
+0 directories, 1 file
 + set +x
 
 + python scenario-1/name_script.py
-The value of __name__ is __main__
+The value of "__name__" is "__main__"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -124,22 +123,21 @@ ns.my_function()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/output.console) -->
-<!-- The below code snippet is automatically added from labs/scenario-2/output.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2.console) -->
+<!-- The below code snippet is automatically added from labs/scenario-2.console -->
 
 ```console
 + tree -a scenario-2
 scenario-2
 ├── importing_script.py
 ├── name_script.py -> ../scenario-1/name_script.py
-├── name_script.pyc
-└── output.console
+└── name_script.pyc
 
-0 directories, 4 files
+0 directories, 3 files
 + set +x
 
 + python scenario-2/importing_script.py
-The value of __name__ is name_script
+The value of "__name__" is "name_script"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
