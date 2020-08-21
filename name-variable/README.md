@@ -32,8 +32,8 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/example.console) -->
-<!-- The below code snippet is automatically added from labs/introduction/example.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/output.console) -->
+<!-- The below code snippet is automatically added from labs/introduction/output.console -->
 
 ```console
 + python introduction/example.py
@@ -80,6 +80,24 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/output.console) -->
+<!-- The below code snippet is automatically added from labs/scenario-1/output.console -->
+
+```console
++ tree -a scenario-1
+scenario-1
+├── name_script.py
+└── output.console
+
+0 directories, 2 files
++ set +x
+
++ python scenario-1/name_script.py
+The value of __name__ is __main__
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 If you run `nameScript.py`, the process below is followed.
 
 Before all other code is run,
@@ -102,6 +120,26 @@ The code in importingScript.py could be as follows:
 import name_script as ns
 
 ns.my_function()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/output.console) -->
+<!-- The below code snippet is automatically added from labs/scenario-2/output.console -->
+
+```console
++ tree -a scenario-2
+scenario-2
+├── importing_script.py
+├── name_script.py -> ../scenario-1/name_script.py
+├── name_script.pyc
+└── output.console
+
+0 directories, 4 files
++ set +x
+
++ python scenario-2/importing_script.py
+The value of __name__ is name_script
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
