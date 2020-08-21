@@ -19,13 +19,15 @@
 > Python is not designed to start execution of the code from a **main function** explicitly.
 > <br />A special variable called `__name__` provides the functionality of the **main function**.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/example.py) -->
 <!-- The below code snippet is automatically added from labs/introduction/example.py -->
 
 ```py
 def main():
-    print("Hello")
-    print(type(__name__))
+    print("__name__       = %s" % __name__)
+    print("type(__name__) = %s" % type(__name__))
 
 
 if __name__ == "__main__":
@@ -39,13 +41,11 @@ if __name__ == "__main__":
 
 ```console
 + python introduction/example.py
-Hello
-<type 'str'>
+__name__       = __main__
+type(__name__) = <type 'str'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-> How you can make use of this variable to create modules in Python.
 
 The `__name__` variable is a special Python variable.
 It gets its value depending on how we execute the containing script.
@@ -57,20 +57,12 @@ Thanks to this special variable,
 you can decide whether you want to run the script.
 Or that you want to import the functions defined in the script.
 
+## Scenario 1 - Run The Script
+
 1. When you run your script,
    the `__name__` variable equals `__main__`.
-1. When you import the containing script, it will contain the name of the script.
-
 1. When you run any well-written stand-alone python script which is not referring to any other script,
    the value of `__name__` variable is equal to `__main__`.
-1. The second feature is about importing one python script into another.
-   In such a scenario, there seem to be two different scopes
-   which can be considered as the `main()` function.
-   The first scope can be the `__main__` variable of the currently running program
-   and the second the scope of the `__main__` variable of the imported script
-   used in the current program.
-
-## Scenario 1 - Run The Script
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/name_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-1/name_script.py -->
@@ -114,6 +106,14 @@ Before all other code is run,
 the `__name__` variable is set to `__main__`.
 
 ## Scenario 2 - Import The Script In Another Script
+
+1. When you import the containing script, it will contain the name of the script.
+1. The second feature is about importing one python script into another.
+   In such a scenario, there seem to be two different scopes
+   which can be considered as the `main()` function.
+   The first scope can be the `__main__` variable of the currently running program
+   and the second the scope of the `__main__` variable of the imported script
+   used in the current program.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
@@ -169,7 +169,7 @@ The reason for this is that Python uses the value known in the scope of importin
 ## Conclusion
 
 In this short article,
-I explained how you can use the `__name__` variable to write modules.
+I explained how you can use the `__name__` variable to write Python modules.
 You can also run these modules on their own.
 This can be done by making use of how the values of these variables change
 depending on where they occur.
