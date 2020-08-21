@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Scenario 1 - Run The Script](#scenario-1---run-the-script)
-- [Scenario 2 - Import The Script In Another Script](#scenario-2---import-the-script-in-another-script)
+- [Scenario 1: Stand-alone Script](#scenario-1-stand-alone-script)
+- [Scenario 2: Importing Script](#scenario-2-importing-script)
 - [Conclusion](#conclusion)
 - [References](#references)
 
@@ -48,7 +48,7 @@ type(__name__) = <type 'str'>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Scenario 1 - Run The Script
+## Scenario 1: Stand-alone Script
 
 > When you run any well-written stand-alone python script
 > which is not referring to any other script,
@@ -97,7 +97,7 @@ The value of "__name__" is "__main__"
 Before all other code is run,
 the `__name__` variable is set to `__main__`.
 
-## Scenario 2 - Import The Script In Another Script
+## Scenario 2: Importing Script
 
 > When you import one python script into another.
 > In such a scenario, there seem to be two different scopes
