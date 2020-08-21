@@ -26,6 +26,7 @@
 
 ```py
 def main():
+    # "__name__" value depending on how we execute the containing script
     print("__name__       = %s" % __name__)
     print("type(__name__) = %s" % type(__name__))
 
@@ -46,16 +47,6 @@ type(__name__) = <type 'str'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-The `__name__` variable is a special Python variable.
-It gets its value depending on how we execute the containing script.
-
-Sometimes you write a script with functions that might be useful in other scripts as well.
-In Python, you can import that script as a module in another script.
-
-Thanks to this special variable,
-you can decide whether you want to run the script.
-Or that you want to import the functions defined in the script.
 
 ## Scenario 1 - Run The Script
 
@@ -167,6 +158,10 @@ this would output `__main__`.
 The reason for this is that Python uses the value known in the scope of importingScript.
 
 ## Conclusion
+
+Thanks to this special variable,
+you can decide whether you want to run the script.
+Or that you want to import the functions defined in the script.
 
 In this short article,
 I explained how you can use the `__name__` variable to write Python modules.
