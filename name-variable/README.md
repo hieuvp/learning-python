@@ -99,13 +99,12 @@ the `__name__` variable is set to `__main__`.
 
 ## Scenario 2 - Import The Script In Another Script
 
-1. When you import the containing script, it will contain the name of the script.
-1. The second feature is about importing one python script into another.
-   In such a scenario, there seem to be two different scopes
-   which can be considered as the `main()` function.
-   The first scope can be the `__main__` variable of the currently running program
-   and the second the scope of the `__main__` variable of the imported script
-   used in the current program.
+> When you import one python script into another.
+> In such a scenario, there seem to be two different scopes
+> which can be considered as the `main()` function.
+> The first scope can be the `__main__` variable of the currently running program
+> and the second the scope of the `__main__` variable of the imported script
+> used in the current program.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
