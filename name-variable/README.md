@@ -1,11 +1,5 @@
 # `__name__` - A Special Variable
 
-> Unlike other programming languages,
-> python is not designed to start execution of the code from a main function explicitly.
-> A special variable called `__name__` provides the functionality of the main function.
-> As it is an in-built variable in python language,
-> we can write a program just to see the value of this variable as below.
-
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -21,8 +15,9 @@
 
 ## Introduction
 
-You've most likely seen the `__name__` variable
-when you've gone through Python code.
+> Unlike other programming languages,
+> Python is not designed to start execution of the code from a **main function** explicitly.
+> <br />A special variable called `__name__` provides the functionality of the **main function**.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/introduction/example.py) -->
 <!-- The below code snippet is automatically added from labs/introduction/example.py -->
