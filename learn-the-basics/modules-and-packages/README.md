@@ -338,7 +338,7 @@ class Screen:
 
     # The "__init__()" method is called the Constructor
     def __init__(self):
-        print('Instantiating a Screen object for the "draw" module...\n')
+        print('Instantiating a Screen object in the "draw" module...\n')
         self.x = 100
         self.y = 200
 
@@ -354,7 +354,7 @@ main_screen = Screen()
 
 ```console
 + python initialize_module/game.py
-Instantiating a Screen object for the "draw" module...
+Instantiating a Screen object in the "draw" module...
 
 draw_game("ping pong")
 clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200

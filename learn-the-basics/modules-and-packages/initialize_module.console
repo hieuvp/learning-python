@@ -1,5 +1,5 @@
 + python initialize_module/game.py
-Instantiating a Screen object for the "draw" module...
+Instantiating a Screen object in the "draw" module...
 
 draw_game("ping pong")
 clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200

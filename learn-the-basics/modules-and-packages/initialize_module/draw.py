@@ -21,7 +21,7 @@ class Screen:
 
     # The "__init__()" method is called the Constructor
     def __init__(self):
-        print('Instantiating a Screen object for the "draw" module...\n')
+        print('Instantiating a Screen object in the "draw" module...\n')
         self.x = 100
         self.y = 200
 
