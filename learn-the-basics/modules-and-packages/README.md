@@ -584,8 +584,8 @@ draw_game("ping pong")
 import re
 from inspect import getmembers, isfunction
 
-# inspect.getmembers(object[, predicate])
 # https://docs.python.org/3/library/inspect.html#inspect.getmembers
+# inspect.getmembers(object[, predicate])
 for member in getmembers(re):
     name, value = member
     if isfunction(value):
