@@ -298,21 +298,13 @@ For example:
 ```py
 # Source: initialize_module/game.py
 
-# import the draw module
 import draw
 
 
-def play_game():
-    return "ping pong"
-
-
 def main():
-    name = play_game()
-    draw.draw_game(name)
+    draw.draw_game("ping pong")
 
 
-# This means that if this script is executed,
-# then "main()" will be executed
 if __name__ == "__main__":
     main()
 ```
@@ -327,26 +319,31 @@ if __name__ == "__main__":
 
 
 def draw_game(name):
-    # when clearing the screen
-    # we can use the main screen object initialized in this module
+    print('draw_game("%s")' % name)
     clear_screen(name)
 
 
 def clear_screen(game):
     print('clear_screen("%s")' % game)
 
+    # When clearing the screen,
+    # we can use the "main_screen" object initialized in this module
+    print("main_screen.x = %s" % main_screen.x)
+    print("main_screen.y = %s" % main_screen.y)
+
 
 class Screen:
     x = 0
     y = 0
 
-    # Default constructor
+    # The "__init__()" method is called the "constructor"
     def __init__(self):
-        print("Screen __init__")
-        self.geek = "GeekforGeeks"
+        print("Instantiating a Screen object...")
+        self.x = 100
+        self.y = 200
 
 
-# Initialize main_screen as a singleton
+# Initialize "main_screen" as a singleton
 main_screen = Screen()
 ```
 
@@ -357,8 +354,11 @@ main_screen = Screen()
 
 ```console
 + python initialize_module/game.py
-Screen __init__
+Instantiating a Screen object...
+draw_game("ping pong")
 clear_screen("ping pong")
+main_screen.x = 100
+main_screen.y = 200
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

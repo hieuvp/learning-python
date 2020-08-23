@@ -31,6 +31,8 @@ def main():
     print("type(__name__) = %s" % type(__name__))
 
 
+# This means that if this script is executed,
+# then "main()" will be executed
 if __name__ == "__main__":
     main()
 ```
