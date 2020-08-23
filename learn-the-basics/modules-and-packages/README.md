@@ -340,8 +340,13 @@ class Screen:
     x = 0
     y = 0
 
+    # Default constructor
+    def __init__(self):
+        print("Screen __init__")
+        self.geek = "GeekforGeeks"
 
-# initialize main_screen as a singleton
+
+# Initialize main_screen as a singleton
 main_screen = Screen()
 ```
 
@@ -352,6 +357,7 @@ main_screen = Screen()
 
 ```console
 + python initialize_module/game.py
+Screen __init__
 clear_screen("ping pong")
 ```
 
