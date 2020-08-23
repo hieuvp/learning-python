@@ -2,6 +2,4 @@
 Instantiating a Screen object...
 
 draw_game("ping pong")
-clear_screen("ping pong")
-main_screen.x = 100
-main_screen.y = 200
+clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200

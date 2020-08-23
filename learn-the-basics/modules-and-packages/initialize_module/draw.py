@@ -7,12 +7,12 @@ def draw_game(name):
 
 
 def clear_screen(game):
-    print('clear_screen("%s")' % game)
-
     # When clearing the screen,
     # we can use the "main_screen" object initialized in this module
-    print("main_screen.x = %s" % main_screen.x)
-    print("main_screen.y = %s" % main_screen.y)
+    print(
+        'clear_screen("%s") with main_screen.x = %s and main_screen.y = %s'
+        % (game, main_screen.x, main_screen.y)
+    )
 
 
 class Screen:
