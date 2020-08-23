@@ -2,5 +2,5 @@
 
 import pkg
 
-RESULT = pkg.play_game()
-pkg.draw_game(RESULT)
+NAME = pkg.play_game()
+pkg.draw_game(NAME)
