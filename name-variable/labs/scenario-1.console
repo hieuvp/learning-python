@@ -1,4 +1,4 @@
-+ tree -a scenario-1
++ tree -a -I '*.pyc' scenario-1
 scenario-1
 └── stand_alone_script.py
 

@@ -3,7 +3,7 @@
 set -eou pipefail
 
 set -x
-tree -a scenario-2
+tree -a -I "*.pyc" scenario-2
 
 set +x
 
