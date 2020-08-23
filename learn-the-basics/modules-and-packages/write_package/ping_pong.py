@@ -2,5 +2,11 @@
 
 import pkg
 
-NAME = pkg.play_game()
-pkg.draw_game(NAME)
+
+def main():
+    name = pkg.play_game()
+    pkg.draw_game(name)
+
+
+if __name__ == "__main__":
+    main()
