@@ -1,5 +1,6 @@
 + python initialize_module/game.py
 Instantiating a Screen object...
+
 draw_game("ping pong")
 clear_screen("ping pong")
 main_screen.x = 100
