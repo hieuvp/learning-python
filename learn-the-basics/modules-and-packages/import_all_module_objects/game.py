@@ -5,13 +5,8 @@
 from draw import *
 
 
-def play_game():
-    return "ping pong"
-
-
 def main():
-    name = play_game()
-    draw_game(name)
+    draw_game("ping pong")
 
 
 if __name__ == "__main__":
