@@ -2,4 +2,4 @@
 
 
 def play_game():
-    return "winner"
+    return "ping pong"

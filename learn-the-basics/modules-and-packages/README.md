@@ -37,7 +37,7 @@ ping_pong
 + set +x
 
 + python ping_pong/game.py
-draw_game("winner")
+draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -62,12 +62,12 @@ import draw
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw.draw_game(result)
+    name = play_game()
+    draw.draw_game(name)
 
 
 # This means that if this script is executed,
@@ -88,12 +88,12 @@ The `draw` module may look something like this:
 # This module is responsible for drawing the game on the screen
 
 
-def draw_game(result):
-    print('draw_game("%s")' % result)
+def draw_game(name):
+    print('draw_game("%s")' % name)
 
 
-def clear_screen(screen):
-    print('clear_screen("%s")' % screen)
+def clear_screen(game):
+    print('clear_screen("%s")' % game)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -139,12 +139,12 @@ from draw import draw_game
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw_game(result)
+    name = play_game()
+    draw_game(name)
 
 
 if __name__ == "__main__":
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 ```console
 + python import_module_objects/game.py
-draw_game("winner")
+draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -189,12 +189,12 @@ from draw import *
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw_game(result)
+    name = play_game()
+    draw_game(name)
 
 
 if __name__ == "__main__":
@@ -208,7 +208,7 @@ if __name__ == "__main__":
 
 ```console
 + python import_all_module_objects/game.py
-draw_game("winner")
+draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -244,13 +244,13 @@ else:
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
+    name = play_game()
     # This can either be visual or textual depending on VISUAL_MODE
-    draw.draw_game(result)
+    draw.draw_game(name)
 
 
 if __name__ == "__main__":
@@ -266,8 +266,8 @@ if __name__ == "__main__":
 # Source: customize_import_name/draw_textual.py
 
 
-def draw_game(result):
-    print('draw_game("%s") in textual mode' % result)
+def draw_game(name):
+    print('draw_game("%s") in textual mode' % name)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -279,8 +279,8 @@ def draw_game(result):
 # Source: customize_import_name/draw_visual.py
 
 
-def draw_game(result):
-    print('draw_game("%s") in visual mode' % result)
+def draw_game(name):
+    print('draw_game("%s") in visual mode' % name)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -290,7 +290,7 @@ def draw_game(result):
 
 ```console
 + python customize_import_name/game.py
-draw_game("winner") in visual mode
+draw_game("ping pong") in visual mode
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -319,12 +319,12 @@ import draw
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw.draw_game(result)
+    name = play_game()
+    draw.draw_game(name)
 
 
 # This means that if this script is executed,
@@ -342,14 +342,14 @@ if __name__ == "__main__":
 # Source: initialize_module/draw.py
 
 
-def draw_game(result):
+def draw_game(name):
     # when clearing the screen
     # we can use the main screen object initialized in this module
-    clear_screen(result)
+    clear_screen(name)
 
 
-def clear_screen(screen):
-    print('clear_screen("%s")' % screen)
+def clear_screen(game):
+    print('clear_screen("%s")' % game)
 
 
 class Screen:
@@ -368,7 +368,7 @@ main_screen = Screen()
 
 ```console
 + python initialize_module/game.py
-clear_screen("winner")
+clear_screen("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -516,12 +516,12 @@ __all__ = ["play_game", "draw_game"]
 # Source: write_package/pkg/draw.py
 
 
-def draw_game(result):
-    print('draw_game("%s")' % result)
+def draw_game(name):
+    print('draw_game("%s")' % name)
 
 
-def clear_screen(screen):
-    print('clear_screen("%s")' % screen)
+def clear_screen(game):
+    print('clear_screen("%s")' % game)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -534,7 +534,7 @@ def clear_screen(screen):
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -569,7 +569,7 @@ write_package
 + set +x
 
 + python write_package/ping_pong.py
-draw_game("winner")
+draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

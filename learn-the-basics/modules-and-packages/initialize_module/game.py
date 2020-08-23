@@ -5,12 +5,12 @@ import draw
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw.draw_game(result)
+    name = play_game()
+    draw.draw_game(name)
 
 
 # This means that if this script is executed,

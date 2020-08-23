@@ -5,12 +5,12 @@ from draw import *
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
-    draw_game(result)
+    name = play_game()
+    draw_game(name)
 
 
 if __name__ == "__main__":

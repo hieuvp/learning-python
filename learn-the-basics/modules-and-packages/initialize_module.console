@@ -1,2 +1,2 @@
 + python initialize_module/game.py
-clear_screen("winner")
+clear_screen("ping pong")

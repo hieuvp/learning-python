@@ -10,4 +10,4 @@ write_package
 + set +x
 
 + python write_package/ping_pong.py
-draw_game("winner")
+draw_game("ping pong")

@@ -12,13 +12,13 @@ else:
 
 
 def play_game():
-    return "winner"
+    return "ping pong"
 
 
 def main():
-    result = play_game()
+    name = play_game()
     # This can either be visual or textual depending on VISUAL_MODE
-    draw.draw_game(result)
+    draw.draw_game(name)
 
 
 if __name__ == "__main__":

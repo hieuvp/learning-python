@@ -7,4 +7,4 @@ ping_pong
 + set +x
 
 + python ping_pong/game.py
-draw_game("winner")
+draw_game("ping pong")

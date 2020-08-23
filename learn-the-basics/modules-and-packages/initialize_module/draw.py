@@ -1,14 +1,14 @@
 # Source: initialize_module/draw.py
 
 
-def draw_game(result):
+def draw_game(name):
     # when clearing the screen
     # we can use the main screen object initialized in this module
-    clear_screen(result)
+    clear_screen(name)
 
 
-def clear_screen(screen):
-    print('clear_screen("%s")' % screen)
+def clear_screen(game):
+    print('clear_screen("%s")' % game)
 
 
 class Screen:
