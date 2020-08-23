@@ -1,0 +1,3 @@
++ python introduction/example.py
+__name__       = __main__
+type(__name__) = <type 'str'>

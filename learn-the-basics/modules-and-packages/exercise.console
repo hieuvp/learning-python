@@ -1,0 +1,17 @@
++ python exercise.py
+_compile
+_expand
+_pickle
+_subx
+compile
+escape
+findall
+finditer
+fullmatch
+match
+purge
+search
+split
+sub
+subn
+template
