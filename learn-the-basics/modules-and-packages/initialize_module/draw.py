@@ -10,7 +10,7 @@ def clear_screen(game):
     # When clearing the screen,
     # we can use the "main_screen" object initialized in this module
     print(
-        'clear_screen("%s") with main_screen.x = %s and main_screen.y = %s'
+        'clear_screen("%s") with main_screen.x = %d and main_screen.y = %d'
         % (game, main_screen.x, main_screen.y)
     )
 
