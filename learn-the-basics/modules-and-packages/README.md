@@ -57,7 +57,7 @@ In this example, the `game.py` script may look something like this:
 # Source: ping_pong/game.py
 # This module is responsible for the game logic
 
-# import the draw module
+# Importing the "draw" module
 import draw
 
 
@@ -70,8 +70,7 @@ def main():
     draw.draw_game(name)
 
 
-# This means that if this script is executed,
-# then "main()" will be executed
+# https://github.com/hieuvp/learning-python/blob/master/name-variable/README.md
 if __name__ == "__main__":
     main()
 ```

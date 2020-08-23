@@ -8,3 +8,4 @@ ping_pong
 
 + python ping_pong/game.py
 draw_game("ping pong")
+clear_screen("ping pong")

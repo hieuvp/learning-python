@@ -1,7 +1,7 @@
 # Source: ping_pong/game.py
 # This module is responsible for the game logic
 
-# import the draw module
+# Importing the "draw" module
 import draw
 
 
@@ -12,9 +12,10 @@ def play_game():
 def main():
     name = play_game()
     draw.draw_game(name)
+    draw.clear_screen(name)
 
 
-# This means that if this script is executed,
-# then "main()" will be executed
+# Special "__name__" variable
+# https://github.com/hieuvp/learning-python/blob/master/name-variable/README.md
 if __name__ == "__main__":
     main()
