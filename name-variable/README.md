@@ -5,18 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<<<<<<< HEAD
 - [Introduction](#introduction)
 - [Scenario 1: Stand-alone Script](#scenario-1-stand-alone-script)
 - [Scenario 2: Importing Script](#scenario-2-importing-script)
 - [Conclusion](#conclusion)
-=======
->>>>>>> master
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-<<<<<<< HEAD
 ## Introduction
 
 > Unlike other programming languages,
@@ -189,6 +185,3 @@ as well as the currently executed script depending on the scenarios.
 
 - [What's in a (Python's) `__name__`?](https://www.freecodecamp.org/news/whats-in-a-python-s-name-506262fe61e8)
 - [`__name__` (A Special variable) in Python](https://www.tutorialspoint.com/name-a-special-variable-in-python)
-=======
-## References
->>>>>>> master
