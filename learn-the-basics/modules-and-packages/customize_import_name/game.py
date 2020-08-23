@@ -15,8 +15,8 @@ def play_game():
 
 def main():
     name = play_game()
-    # This can either be visual or textual
-    # depending on "VISUAL_MODE"
+
+    # This can either be "visual" or "textual" depending on "VISUAL_MODE"
     draw.draw_game(name)
 
 

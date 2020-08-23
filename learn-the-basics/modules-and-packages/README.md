@@ -236,11 +236,9 @@ VISUAL_MODE = True
 
 # Importing the "draw" module
 if VISUAL_MODE:
-    # In the visual mode, we draw using graphics
-    import draw_visual as draw
+    import draw_visual as draw  # In the visual mode, we draw using graphics
 else:
-    # In the textual mode, we print out text
-    import draw_textual as draw
+    import draw_textual as draw  # In the textual mode, we print out text
 
 
 def play_game():
