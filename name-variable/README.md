@@ -83,7 +83,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from labs/scenario-1.console -->
 
 ```console
-+ tree -a scenario-1
++ tree -a -I '*.pyc' scenario-1
 scenario-1
 └── stand_alone_script.py
 
@@ -128,13 +128,12 @@ sas.my_function()
 <!-- The below code snippet is automatically added from labs/scenario-2.console -->
 
 ```console
-+ tree -a scenario-2
++ tree -a -I '*.pyc' scenario-2
 scenario-2
 ├── importing_script.py
-├── stand_alone_script.py -> ../scenario-1/stand_alone_script.py
-└── stand_alone_script.pyc
+└── stand_alone_script.py -> ../scenario-1/stand_alone_script.py
 
-0 directories, 3 files
+0 directories, 2 files
 + set +x
 
 + python scenario-2/importing_script.py
