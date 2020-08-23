@@ -124,17 +124,14 @@ but this process is transparent to the user.
 
 ## Importing Module Objects To The Current Namespace
 
-We may also import the function `draw_game` directly
-into the main script's namespace,
-by using the from command.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_module_objects/game.py) -->
 <!-- The below code snippet is automatically added from import_module_objects/game.py -->
 
 ```py
 # Source: import_module_objects/game.py
 
-# import the draw module
+# Using the "from" command
+# to import the function "draw_game" directly into the main script's namespace
 from draw import draw_game
 
 

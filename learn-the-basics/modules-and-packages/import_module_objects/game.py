@@ -1,6 +1,7 @@
 # Source: import_module_objects/game.py
 
-# import the draw module
+# Using the "from" command
+# to import the function "draw_game" directly into the main script's namespace
 from draw import draw_game
 
 
