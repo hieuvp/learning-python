@@ -2,7 +2,7 @@
 
 VISUAL_MODE = True
 
-# Import the draw module
+# Importing the "draw" module
 if VISUAL_MODE:
     # In the visual mode, we draw using graphics
     import draw_visual as draw
@@ -17,7 +17,8 @@ def play_game():
 
 def main():
     name = play_game()
-    # This can either be visual or textual depending on VISUAL_MODE
+    # This can either be visual or textual
+    # depending on "VISUAL_MODE"
     draw.draw_game(name)
 
 
