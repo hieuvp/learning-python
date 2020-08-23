@@ -38,6 +38,7 @@ ping_pong
 
 + python ping_pong/game.py
 draw_game("ping pong")
+clear_screen("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -68,8 +69,10 @@ def play_game():
 def main():
     name = play_game()
     draw.draw_game(name)
+    draw.clear_screen(name)
 
 
+# Special "__name__" variable
 # https://github.com/hieuvp/learning-python/blob/master/name-variable/README.md
 if __name__ == "__main__":
     main()
