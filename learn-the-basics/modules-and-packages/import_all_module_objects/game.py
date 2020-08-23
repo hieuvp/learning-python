@@ -1,6 +1,7 @@
 # Source: import_all_module_objects/game.py
 
-# import the draw module
+# Using the "import *" command
+# to import all objects from a specific module
 from draw import *
 
 

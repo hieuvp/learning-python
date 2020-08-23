@@ -175,16 +175,14 @@ so the import command may replace an existing object in the namespace.
 
 ## Importing All Objects From A Module
 
-We may also use the `import *` command to import all objects from a specific module,
-like this:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=import_all_module_objects/game.py) -->
 <!-- The below code snippet is automatically added from import_all_module_objects/game.py -->
 
 ```py
 # Source: import_all_module_objects/game.py
 
-# import the draw module
+# Using the "import *" command
+# to import all objects from a specific module
 from draw import *
 
 
