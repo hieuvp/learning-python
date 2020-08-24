@@ -56,7 +56,7 @@ def main():
     # The main function would use the local function "play_game" to run the game,
     # and then draw the result of the game
     # using a function implemented in the draw module called "draw_game".
-    # To use the function "draw_game" from the `draw` module,
+    # To use the function "draw_game" from the "draw" module,
     # we would need to specify in which module the function is implemented,
     # using the dot operator.
     # To reference the "draw_game" function from the "game" module,
@@ -141,6 +141,10 @@ from draw import draw_game
 def main():
     draw_game("ping pong")
 
+    # You may have noticed that,
+    # "draw_game" does not precede with the name of the module it is imported from,
+    # because we've specified the module name in the import command.
+
 
 if __name__ == "__main__":
     main()
@@ -157,10 +161,6 @@ draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-You may have noticed that in this example,
-`draw_game` does not precede with the name of the module it is imported from,
-because we've specified the module name in the import command.
 
 The advantages of using this notation is that
 it is easier to use the functions inside the current module

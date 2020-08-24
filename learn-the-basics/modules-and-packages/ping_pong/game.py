@@ -25,7 +25,7 @@ def main():
     # The main function would use the local function "play_game" to run the game,
     # and then draw the result of the game
     # using a function implemented in the draw module called "draw_game".
-    # To use the function "draw_game" from the `draw` module,
+    # To use the function "draw_game" from the "draw" module,
     # we would need to specify in which module the function is implemented,
     # using the dot operator.
     # To reference the "draw_game" function from the "game" module,
