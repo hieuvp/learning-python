@@ -1,4 +1,4 @@
-+ python system.py
++ python extend_module_search_path.py
 ['/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics/modules-and-packages',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8',
@@ -7,7 +7,7 @@
 + set +x
 
 + PYTHONPATH=..
-+ python system.py
++ python extend_module_search_path.py
 ['/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics/modules-and-packages',
  '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',

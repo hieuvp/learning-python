@@ -392,23 +392,28 @@ This will add the foo directory to the list of paths to look for modules in as w
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=system.py) -->
-<!-- The below code snippet is automatically added from system.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.py) -->
+<!-- The below code snippet is automatically added from extend_module_search_path.py -->
 
 ```py
 import sys
 from pprint import pprint
 
+# sys.path
+# https://docs.python.org/3/library/sys.html#sys.path
+# A list of strings that specifies the search path for modules.
+# Initialized from the environment variable "PYTHONPATH",
+# plus an installation-dependent default.
 pprint(sys.path)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=system.console) -->
-<!-- The below code snippet is automatically added from system.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.console) -->
+<!-- The below code snippet is automatically added from extend_module_search_path.console -->
 
 ```console
-+ python system.py
++ python extend_module_search_path.py
 ['/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics/modules-and-packages',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8',
@@ -417,7 +422,7 @@ pprint(sys.path)
 + set +x
 
 + PYTHONPATH=..
-+ python system.py
++ python extend_module_search_path.py
 ['/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics/modules-and-packages',
  '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',

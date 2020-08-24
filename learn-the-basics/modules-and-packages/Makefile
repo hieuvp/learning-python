@@ -20,9 +20,9 @@ customize-import-name:
 initialize-module:
 	./initialize_module.sh &> initialize_module.console
 
-.PHONY: system
-system:
-	./system.sh &> system.console
+.PHONY: extend-module-search-path
+extend-module-search-path:
+	./extend_module_search_path.sh &> extend_module_search_path.console
 
 .PHONY: write-package
 write-package:
@@ -33,4 +33,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module system write-package exercise
+all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module extend-module-search-path write-package exercise
