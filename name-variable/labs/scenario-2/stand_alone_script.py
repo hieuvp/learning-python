@@ -1,1 +1,0 @@
-../scenario-1/stand_alone_script.py

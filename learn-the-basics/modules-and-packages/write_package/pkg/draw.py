@@ -1,5 +1,4 @@
-# Source: ping_pong/draw.py
-# This module is responsible for drawing the game on the screen
+# Source: write_package/pkg/draw.py
 
 
 def draw_game(name):
