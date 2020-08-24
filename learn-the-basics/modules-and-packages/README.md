@@ -372,6 +372,28 @@ You could either use the environment variable
 [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
 to specify additional directories to look for modules in.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
+<!-- The below code snippet is automatically added from extend_module_search_path.sh -->
+
+```sh
+#!/usr/bin/env bash
+
+set -eou pipefail
+
+set -x
+python extend_module_search_path.py
+
+set +x
+echo
+
+set -x
+PYTHONPATH=".." python extend_module_search_path.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.py) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.py -->
 
