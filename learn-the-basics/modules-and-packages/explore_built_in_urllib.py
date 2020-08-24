@@ -11,8 +11,8 @@ import urllib.request
 
 # Two very important functions come in handy when exploring modules in Python
 # The "dir" and "help" functions
+print("\n+ print(dir(urllib.request))")
 print(dir(urllib.request))
 
-print()
-
+print("\n+ help(urllib.request.urlopen)")
 help(urllib.request.urlopen)
