@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Fundamentals](#fundamentals)
+  - [The `self` Parameter](#the-self-parameter)
 - [Accessing Object Variables](#accessing-object-variables)
 - [Accessing Object Functions](#accessing-object-functions)
 - [Exercise](#exercise)
@@ -39,15 +40,17 @@ my_object_x = MyClass()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+Now the variable `my_object_x` holds an object of the class `MyClass`
+that contains the variable, and the function defined within the class called `MyClass`.
+
+### The `self` Parameter
+
 - The `self` parameter is a reference to the current instance of the class,
   and is used to access variables that belongs to the class.
 
 - It does not have to be named `self`,
   you can call it whatever you like,
   but it has to be the first parameter of any function in the class.
-
-Now the variable `my_object_x` holds an object of the class `MyClass`
-that contains the variable, and the function defined within the class called `MyClass`.
 
 ## Accessing Object Variables
 

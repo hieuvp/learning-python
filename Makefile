@@ -23,8 +23,16 @@ git-add: fmt lint
 	git add --all .
 	@printf "\n"
 
-.PHONY: all
-all:
+.PHONY: git-pre-merge
+git-pre-merge: run-submakefiles git-add
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Utils
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.PHONY: run-submakefiles
+run-submakefiles:
 	@printf "\n"
-	scripts/all.sh
+	scripts/run-submakefiles.sh
 	@printf "\n"
