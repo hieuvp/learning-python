@@ -5,15 +5,16 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Block](#block)
 - [Writing Functions](#writing-functions)
 - [Calling Functions](#calling-functions)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Writing Functions
+## Block
 
-A block is an area of code of written in the format of:
+> A block is an area of code of written in the format of:
 
 ```python
 block_head:
@@ -22,12 +23,12 @@ block_head:
     ...
 ```
 
-Where a **block_line** is more Python code (even another block),
-and the **block_head** is of the following format:
-`block_keyword block_name(argument1, argument2, ...)`
-Block keywords you already know are `if`, `for`, and `while`.
+- **block_line**: is more Python code (even another block).
+- **block_head**: is of the following format:
+  `block_keyword block_name(argument1, argument2, ...)`.
+- **block_keyword**: block keywords you already know are `if`, `for`, and `while`.
 
-<br />
+## Writing Functions
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.py) -->
 <!-- The below code snippet is automatically added from write_functions.py -->
