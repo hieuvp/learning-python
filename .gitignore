@@ -13,3 +13,6 @@ venv/
 # Compiled Python Bytecode Files
 __pycache__/
 *.pyc
+
+# Duplicated Files
+/name-variable/labs/scenario-2/stand_alone_script.py
