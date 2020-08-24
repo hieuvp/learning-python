@@ -22,3 +22,9 @@ git-add: fmt lint
 	@printf "\n"
 	git add --all .
 	@printf "\n"
+
+.PHONY: all
+all:
+	@printf "\n"
+	scripts/all.sh
+	@printf "\n"

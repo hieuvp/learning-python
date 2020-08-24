@@ -15,9 +15,11 @@
 
 ## Fundamentals
 
-- **Objects** are an encapsulation of variables and functions into a single entity.
-- **Objects** get their variables and functions from classes.
-- **Classes** are essentially a template to create your objects.
+1. **Objects** are an encapsulation of variables and functions into a single entity.
+1. **Objects** get their variables and functions from classes.
+1. **Classes** are essentially a template to create your objects.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_class_and_object.py) -->
 <!-- The below code snippet is automatically added from create_class_and_object.py -->
