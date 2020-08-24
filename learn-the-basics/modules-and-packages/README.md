@@ -211,8 +211,35 @@ We may also load modules under any name we want.
 This is useful when we want to import a module conditionally
 to use the same name in the rest of the code.
 
-For example, if you have two draw modules with slighty different names -
-you may do the following:
+For example, if you have two draw modules with slighty different names.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_textual.py) -->
+<!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
+
+```py
+# Source: customize_import_name/draw_textual.py
+
+
+def draw_game(name):
+    print('draw_game("%s") in textual mode' % name)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_visual.py) -->
+<!-- The below code snippet is automatically added from customize_import_name/draw_visual.py -->
+
+```py
+# Source: customize_import_name/draw_visual.py
+
+
+def draw_game(name):
+    print('draw_game("%s") in visual mode' % name)
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/game.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/game.py -->
@@ -242,32 +269,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_textual.py) -->
-<!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
-
-```py
-# Source: customize_import_name/draw_textual.py
-
-
-def draw_game(name):
-    print('draw_game("%s") in textual mode' % name)
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_visual.py) -->
-<!-- The below code snippet is automatically added from customize_import_name/draw_visual.py -->
-
-```py
-# Source: customize_import_name/draw_visual.py
-
-
-def draw_game(name):
-    print('draw_game("%s") in visual mode' % name)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
