@@ -1,0 +1,11 @@
++ tree -a -I __pycache__ ping_pong
+ping_pong
+├── draw.py
+└── game.py
+
+0 directories, 2 files
++ set +x
+
++ python ping_pong/game.py
+draw_game("ping pong")
+clear_screen("ping pong")
