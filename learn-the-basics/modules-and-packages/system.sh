@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
-set -eoux pipefail
+set -eou pipefail
 
+set -x
 python system.py
+
+set +x
+echo
+
+set -x
+PYTHONPATH=".." python system.py
