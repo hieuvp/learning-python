@@ -22,34 +22,6 @@
 Modules in Python are simply Python files with a `.py` extension.
 The name of the module will be the name of the file.
 A Python module can have a set of functions, classes or variables defined and implemented.
-In the example above, we will have two files, we will have:
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong.console) -->
-<!-- The below code snippet is automatically added from ping_pong.console -->
-
-```console
-+ tree -a -I __pycache__ ping_pong
-ping_pong
-├── draw.py
-└── game.py
-
-0 directories, 2 files
-+ set +x
-
-+ python ping_pong/game.py
-draw_game("ping pong")
-clear_screen("ping pong")
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-The Python script `game.py` will implement the game.
-It will use the function `draw_game` from the file `draw.py`,
-or in other words, the `draw` module,
-that implements the logic for drawing the game on the screen.
-
-Modules are imported from other modules using the `import` command.
-In this example, the `game.py` script may look something like this:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong/game.py) -->
 <!-- The below code snippet is automatically added from ping_pong/game.py -->
@@ -99,6 +71,33 @@ def clear_screen(game):
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong.console) -->
+<!-- The below code snippet is automatically added from ping_pong.console -->
+
+```console
++ tree -a -I __pycache__ ping_pong
+ping_pong
+├── draw.py
+└── game.py
+
+0 directories, 2 files
++ set +x
+
++ python ping_pong/game.py
+draw_game("ping pong")
+clear_screen("ping pong")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+The Python script `game.py` will implement the game.
+It will use the function `draw_game` from the file `draw.py`,
+or in other words, the `draw` module,
+that implements the logic for drawing the game on the screen.
+
+Modules are imported from other modules using the `import` command.
+In this example, the `game.py` script may look something like this:
 
 In this example, the game module imports the draw module,
 which enables it to use functions implemented in that module.
