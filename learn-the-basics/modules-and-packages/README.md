@@ -351,8 +351,6 @@ main_screen = Screen()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module.console) -->
 <!-- The below code snippet is automatically added from initialize_module.console -->
 
@@ -372,26 +370,7 @@ There are a couple of ways we could tell the Python interpreter where to look fo
 aside from the default, which is the local directory and the built-in modules.
 You could either use the environment variable
 [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
-to specify additional directories to look for modules in,
-like this:
-
-```shell script
-PYTHONPATH=/foo python game.py
-```
-
-This will execute `game.py`,
-and will enable the script to load modules from the `/foo` directory as well as the local directory.
-
-Another method is the `sys.path.append` function.
-You may execute it before running an import command:
-
-```python
-sys.path.append("/foo")
-```
-
-This will add the foo directory to the list of paths to look for modules in as well.
-
-<br />
+to specify additional directories to look for modules in.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.py) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.py -->
@@ -434,10 +413,23 @@ pprint(sys.path)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
+This will execute `game.py`,
+and will enable the script to load modules from the `/foo` directory as well as the local directory.
+
+Another method is the `sys.path.append` function.
+You may execute it before running an import command:
+
+```python
+sys.path.append("/foo")
+```
+
+This will add the foo directory to the list of paths to look for modules in as well.
+
 ## Exploring Built-in Modules
 
-Check out the full list of built-in modules in the Python standard library here.
-[The Python Standard Library](https://docs.python.org/3/library/index.html)
+Check out the full list of built-in modules in [The Python Standard Library](https://docs.python.org/3/library/index.html).
 
 Two very important functions come in handy when exploring modules in Python -
 the `dir` and `help` functions.
