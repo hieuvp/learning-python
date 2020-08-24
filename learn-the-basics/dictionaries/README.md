@@ -14,10 +14,12 @@
 
 ## Concepts
 
-A dictionary is a data type similar to arrays, but works with keys and values instead of indexes.
-Each value stored in a dictionary can be accessed using a key,
-which is any type of object (a string, a number, a list, etc.)
-instead of using its index to address it.
+> A dictionary is a data type similar to arrays, but works with keys and values instead of indexes.
+> Each value stored in a dictionary can be accessed using a key,
+> which is any type of object (a string, a number, a list, etc.)
+> instead of using its index to address it.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialization.py) -->
 <!-- The below code snippet is automatically added from initialization.py -->
