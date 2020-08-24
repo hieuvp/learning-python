@@ -139,7 +139,7 @@ if __name__ == "__main__":
 + tree -a -I '*.pyc' scenario-2
 scenario-2
 ├── importing_script.py
-└── stand_alone_script.py -> ../scenario-1/stand_alone_script.py
+└── stand_alone_script.py
 
 0 directories, 2 files
 + set +x
