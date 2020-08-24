@@ -378,15 +378,17 @@ to specify additional directories to look for modules in.
 ```sh
 #!/usr/bin/env bash
 
-set -eou pipefail
+set -eoux pipefail
 
-set -x
 python extend_module_search_path.py
 
 set +x
 echo
-
 set -x
+
+# Enable this script to load modules
+# from ".." (means "./learning-python/learn-the-basics") directory
+# as well as the local directory
 PYTHONPATH=".." python extend_module_search_path.py
 ```
 
@@ -437,9 +439,6 @@ pprint(sys.path)
 
 <br />
 
-This will execute `game.py`,
-and will enable the script to load modules from the `/foo` directory as well as the local directory.
-
 Another method is the `sys.path.append` function.
 You may execute it before running an import command:
 
@@ -447,7 +446,7 @@ You may execute it before running an import command:
 sys.path.append("/foo")
 ```
 
-This will add the foo directory to the list of paths to look for modules in as well.
+This will add the `foo` directory to the list of paths to look for modules in as well.
 
 ## Exploring Built-in Modules
 
