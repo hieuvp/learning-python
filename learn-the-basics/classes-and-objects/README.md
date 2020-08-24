@@ -16,9 +16,9 @@
 
 ## Fundamentals
 
-1. **Objects** are an encapsulation of variables and functions into a single entity.
-1. **Objects** get their variables and functions from classes.
-1. **Classes** are essentially a template to create your objects.
+1. **Objects** are an encapsulation of **variables** and **functions** into a single entity.
+1. **Objects** get their **variables** and **functions** from **classes**.
+1. **Classes** are essentially a template to create **objects**.
 
 <br />
 
