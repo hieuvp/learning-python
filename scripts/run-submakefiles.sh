@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
+args=("$@")
 set -eou pipefail
+
+readonly TARGET_NAME="${args[0]}"
 
 readarray -t MAKEFILES < <(find . -name "Makefile")
 declare -ra MAKEFILES
@@ -14,7 +17,7 @@ main() {
   (
     set -x
     cd "$dirname"
-    make all
+    make "$TARGET_NAME"
   )
 }
 

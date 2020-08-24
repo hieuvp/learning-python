@@ -34,5 +34,5 @@ git-pre-merge: run-submakefiles git-add
 .PHONY: run-submakefiles
 run-submakefiles:
 	@printf "\n"
-	scripts/run-submakefiles.sh
+	scripts/run-submakefiles.sh "all"
 	@printf "\n"
