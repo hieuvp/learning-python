@@ -19,9 +19,11 @@
 
 ## Writing Modules
 
-Modules in Python are simply Python files with a `.py` extension.
-The name of the module will be the name of the file.
-A Python module can have a set of functions, classes or variables defined and implemented.
+1. Modules in Python are simply Python files with a `.py` extension.
+1. The name of the module will be the name of the file.
+1. A Python module can have a set of functions, classes or variables defined and implemented.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong/game.py) -->
 <!-- The below code snippet is automatically added from ping_pong/game.py -->
@@ -59,7 +61,7 @@ The `draw` module may look something like this:
 
 ```py
 # Source: ping_pong/draw.py
-# This module is responsible for drawing the game on the screen
+# This "draw" module is responsible for drawing the game on the screen
 
 
 def draw_game(name):
