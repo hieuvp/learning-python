@@ -452,6 +452,8 @@ This will add the `foo` directory to the list of paths to look for modules in as
 
 Check out the full list of built-in modules in [The Python Standard Library](https://docs.python.org/3/library/index.html).
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=explore_built_in_urllib.py) -->
 <!-- The below code snippet is automatically added from explore_built_in_urllib.py -->
 
@@ -551,17 +553,24 @@ $ python
 Python 3.8.3 (default, Jul  8 2020, 14:27:55)
 [Clang 11.0.3 (clang-1103.0.32.62)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
->>> import urllib
->>> dir(urllib)
-['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+>>> import urllib.request
+>>> dir(urllib.request)
+['AbstractBasicAuthHandler', 'AbstractDigestAuthHandler', 'AbstractHTTPHandler', 'BaseHandler', 'CacheFTPHandler', 'ContentTooShortError', 'DataHandler', 'FTPHandler', 'FancyURLopener', 'FileHandler', 'HTTPBasicAuthHandler', 'HTTPCookieProcessor', 'HTTPDefaultErrorHandler', 'HTTPDigestAuthHandler', 'HTTPError', 'HTTPErrorProcessor', 'HTTPHandler', 'HTTPPasswordMgr', 'HTTPPasswordMgrWithDefaultRealm', 'HTTPPasswordMgrWithPriorAuth', 'HTTPRedirectHandler', 'HTTPSHandler', 'MAXFTPCACHE', 'OpenerDirector', 'ProxyBasicAuthHandler', 'ProxyDigestAuthHandler', 'ProxyHandler', 'Request', 'URLError', 'URLopener', 'UnknownHandler', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_cut_port_re', '_ftperrors', '_get_proxies', '_get_proxy_settings', '_have_ssl', '_localhost', '_noheaders', '_opener', '_parse_proxy', '_proxy_bypass_macosx_sysconf', '_randombytes', '_safe_gethostbyname', '_splitattr', '_splithost', '_splitpasswd', '_splitport', '_splitquery', '_splittag', '_splittype', '_splituser', '_splitvalue', '_thishost', '_to_bytes', '_url_tempfiles', 'addclosehook', 'addinfourl', 'base64', 'bisect', 'build_opener', 'contextlib', 'email', 'ftpcache', 'ftperrors', 'ftpwrapper', 'getproxies', 'getproxies_environment', 'getproxies_macosx_sysconf', 'hashlib', 'http', 'install_opener', 'io', 'localhost', 'noheaders', 'os', 'parse_http_list', 'parse_keqv_list', 'pathname2url', 'posixpath', 'proxy_bypass', 'proxy_bypass_environment', 'proxy_bypass_macosx_sysconf', 'quote', 're', 'request_host', 'socket', 'ssl', 'string', 'sys', 'tempfile', 'thishost', 'time', 'unquote', 'unquote_to_bytes', 'unwrap', 'url2pathname', 'urlcleanup', 'urljoin', 'urlopen', 'urlparse', 'urlretrieve', 'urlsplit', 'urlunparse', 'warnings']
 ```
 
 When we find the function in the module we want to use,
 we can read about it more using the `help` function,
 inside the Python interpreter:
 
-```python
-help(urllib.urlopen)
+```shell script
+$ python
+Python 3.8.3 (default, Jul  8 2020, 14:27:55)
+[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import urllib.request
+>>> help(urllib.request.urlopen)
+
+>>>
 ```
 
 ## Writing Packages
