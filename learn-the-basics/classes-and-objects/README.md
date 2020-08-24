@@ -40,7 +40,7 @@ my_object_x = MyClass()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Now, the variable `my_object_x` holds an object of the class `MyClass`<br />
+Now, the variable `my_object_x` holds an **object** of the **class** `MyClass`<br />
 that contains the **variable**, and the **function** defined within the **class** called `MyClass`.
 
 ### The `self` Parameter
