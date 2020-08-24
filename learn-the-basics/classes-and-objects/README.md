@@ -34,7 +34,7 @@ class MyClass:
         print("This is a message inside the class.")
 
 
-# Assign the above class (or template) to an object
+# Assign the above class to an object
 my_object_x = MyClass()
 ```
 
