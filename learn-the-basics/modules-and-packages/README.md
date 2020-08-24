@@ -54,8 +54,6 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-The `draw` module may look something like this:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong/draw.py) -->
 <!-- The below code snippet is automatically added from ping_pong/draw.py -->
 
