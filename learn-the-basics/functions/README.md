@@ -17,8 +17,8 @@ A block is an area of code of written in the format of:
 
 ```python
 block_head:
-    1st block line
-    2nd block line
+    1st block_line
+    2nd block_line
     ...
 ```
 
@@ -26,6 +26,8 @@ Where a **block_line** is more Python code (even another block),
 and the **block_head** is of the following format:
 `block_keyword block_name(argument1, argument2, ...)`
 Block keywords you already know are `if`, `for`, and `while`.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_functions.py) -->
 <!-- The below code snippet is automatically added from write_functions.py -->
