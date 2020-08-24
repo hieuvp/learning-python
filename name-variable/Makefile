@@ -10,7 +10,9 @@ scenario-1:
 
 .PHONY: scenario-2
 scenario-2:
-	cd labs && ./scenario-2.sh &> ./scenario-2.console
+	cd labs \
+	&& cp scenario-1/stand_alone_script.py scenario-2/ \
+	&& ./scenario-2.sh &> ./scenario-2.console
 
 .PHONY: all
 all: introduction scenario-1 scenario-2
