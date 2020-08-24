@@ -296,25 +296,6 @@ This is useful to know, because this means that
 you can rely on this behavior for initializing objects.
 For example:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/game.py) -->
-<!-- The below code snippet is automatically added from initialize_module/game.py -->
-
-```py
-# Source: initialize_module/game.py
-
-import draw
-
-
-def main():
-    draw.draw_game("ping pong")
-
-
-if __name__ == "__main__":
-    main()
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/draw.py) -->
 <!-- The below code snippet is automatically added from initialize_module/draw.py -->
 
@@ -349,6 +330,27 @@ class Screen:
 
 # Initialize "main_screen" as a Singleton
 main_screen = Screen()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/game.py) -->
+<!-- The below code snippet is automatically added from initialize_module/game.py -->
+
+```py
+# Source: initialize_module/game.py
+
+import draw
+
+
+def main():
+    draw.draw_game("ping pong")
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
