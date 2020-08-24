@@ -23,10 +23,10 @@ block_head:
     ...
 ```
 
-- **block_line**: is more Python code (even another block).
 - **block_head**: is of the following format:
   `block_keyword block_name(argument1, argument2, ...)`.
 - **block_keyword**: block keywords you already know are `if`, `for`, and `while`.
+- **block_line**: is more Python code or even another block.
 
 ## Writing Functions
 
