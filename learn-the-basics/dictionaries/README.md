@@ -53,9 +53,11 @@ print(phonebook)
 
 ## Iterating over dictionaries
 
-Dictionaries can be iterated over, just like a list.
-However, a dictionary, unlike a list, does not keep the order of the values stored in it.
-To iterate over key value pairs, use the following syntax:
+> Dictionaries can be iterated over, just like a list.
+> However, a dictionary, unlike a list, does not keep the order of the values stored in it.
+> To iterate over key value pairs, use the following syntax:
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=iteration.py) -->
 <!-- The below code snippet is automatically added from iteration.py -->
@@ -83,12 +85,13 @@ Phone number of Jill is 947662781
 
 ## Removing a value
 
-To remove a specified index, use either one of the following notations:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=remove.py) -->
 <!-- The below code snippet is automatically added from remove.py -->
 
 ```py
+# To remove a specified index,
+# use either one of the following notations
+
 phonebook = {"John": 938477566, "Jack": 938377264, "Jill": 947662781}
 del phonebook["John"]
 print(phonebook)
