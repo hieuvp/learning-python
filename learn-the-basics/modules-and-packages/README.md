@@ -285,16 +285,33 @@ draw_game("ping pong") in visual mode
 
 ## Module Initialization
 
-- The first time a module is loaded into a running Python script,
-  it is initialized by executing the code in the module once.
-- If another module in your code imports the same module again,
-  it will not be loaded twice but once only.
-- So local variables inside the module act as a **singleton**,
-  they are initialized only once.
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/game.py) -->
+<!-- The below code snippet is automatically added from initialize_module/game.py -->
 
-This is useful to know, because this means that
-you can rely on this behavior for initializing objects.
-For example:
+```py
+# Source: initialize_module/game.py
+
+import draw
+
+# The first time a module is loaded into a running Python script,
+# it is initialized by executing the code in the module once.
+#
+# If another module in your code imports the same module again,
+# it will not be loaded twice but once only.
+#
+# So local variables inside the module act as a Singleton,
+# they are initialized only once.
+
+
+def main():
+    draw.draw_game("ping pong")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/draw.py) -->
 <!-- The below code snippet is automatically added from initialize_module/draw.py -->
@@ -328,6 +345,8 @@ class Screen:
         self.y = 200
 
 
+# This is useful to know, because this means that
+# you can rely on this behavior for initializing objects.
 # Initialize "main_screen" as a Singleton
 main_screen = Screen()
 ```
@@ -335,25 +354,6 @@ main_screen = Screen()
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 <br />
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module/game.py) -->
-<!-- The below code snippet is automatically added from initialize_module/game.py -->
-
-```py
-# Source: initialize_module/game.py
-
-import draw
-
-
-def main():
-    draw.draw_game("ping pong")
-
-
-if __name__ == "__main__":
-    main()
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=initialize_module.console) -->
 <!-- The below code snippet is automatically added from initialize_module.console -->
