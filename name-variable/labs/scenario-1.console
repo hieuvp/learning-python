@@ -6,4 +6,4 @@ scenario-1
 + set +x
 
 + python scenario-1/stand_alone_script.py
-The value of "__name__" is "__main__"
+In "stand_alone_script.py", the value of "__name__" is "__main__".

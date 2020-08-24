@@ -7,5 +7,5 @@ scenario-2
 + set +x
 
 + python scenario-2/importing_script.py
-The value of "__name__" is "__main__"
-The value of "__name__" is "stand_alone_script"
+In "importing_script.py", the value of "__name__" is "__main__".
+In "stand_alone_script.py", the value of "__name__" is "stand_alone_script".

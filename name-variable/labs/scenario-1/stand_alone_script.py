@@ -1,8 +1,10 @@
 # Source: scenario-1/stand_alone_script.py
 
+from os import path
+
 
 def my_function():
-    print('The value of "__name__" is "%s"' % __name__)
+    print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
 
 
 def main():

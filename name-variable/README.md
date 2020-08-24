@@ -65,9 +65,11 @@ type(__name__) = <type 'str'>
 ```py
 # Source: scenario-1/stand_alone_script.py
 
+from os import path
+
 
 def my_function():
-    print('The value of "__name__" is "%s"' % __name__)
+    print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
 
 
 def main():
@@ -92,7 +94,7 @@ scenario-1
 + set +x
 
 + python scenario-1/stand_alone_script.py
-The value of "__name__" is "__main__"
+In "stand_alone_script.py", the value of "__name__" is "__main__".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -115,12 +117,17 @@ the `__name__` variable is set to `__main__`.
 ```py
 # Source: scenario-2/importing_script.py
 
+from os import path
 import stand_alone_script as sas
 
 
-print('The value of "__name__" is "%s"' % __name__)
+def main():
+    print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
+    sas.my_function()
 
-sas.my_function()
+
+if __name__ == "__main__":
+    main()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -138,8 +145,8 @@ scenario-2
 + set +x
 
 + python scenario-2/importing_script.py
-The value of "__name__" is "__main__"
-The value of "__name__" is "stand_alone_script"
+In "importing_script.py", the value of "__name__" is "__main__".
+In "stand_alone_script.py", the value of "__name__" is "stand_alone_script".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
