@@ -14,5 +14,5 @@ venv/
 __pycache__/
 *.pyc
 
-# Duplicated Files
+# Duplicate Files
 /name-variable/labs/scenario-2/stand_alone_script.py
