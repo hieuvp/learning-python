@@ -345,9 +345,7 @@ class Screen:
         self.y = 200
 
 
-# This is useful to know, because this means that
-# you can rely on this behavior for initializing objects.
-# Initialize "main_screen" as a Singleton
+# Initialize "main_screen" object as a Singleton
 main_screen = Screen()
 ```
 
