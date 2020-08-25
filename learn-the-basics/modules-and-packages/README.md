@@ -139,11 +139,9 @@ from draw import draw_game
 
 
 def main():
-    draw_game("ping pong")
-
-    # You may have noticed that,
     # "draw_game" does not precede with the name of the module it is imported from,
-    # because we've specified the module name in the import command.
+    # because we've specified the "module name" in the "import" command
+    draw_game("ping pong")
 
 
 if __name__ == "__main__":
@@ -490,7 +488,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x10611af30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x1030c7f30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     *data* must be an object specifying additional data to be sent to
