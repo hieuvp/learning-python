@@ -10,8 +10,13 @@
 from .game import play_game
 from .draw import draw_game
 
+# Note that the "." before the module name is necessary as of Python 3
+# since it is more strict regarding relative imports
+# https://stackoverflow.com/questions/12172791/changes-in-import-statement-python3
+
+__all__ = ["play_game", "draw_game"]
+
 # This "__init__.py" file can also decide
 # which "modules" "the package" exports as the API, while keeping other modules internal,
 # by overriding the "__all__" variable
-
-__all__ = ["play_game", "draw_game"]
+# https://riptutorial.com/python/example/2894/the---all---special-variable

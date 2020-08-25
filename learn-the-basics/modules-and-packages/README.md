@@ -530,6 +530,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 > Packages are namespaces which contain multiple packages and modules themselves.
 > <br />They are simply directories, but with a twist.
 
+- A Python package is simply an organized collection of python modules.
+- A python module is simply a single python file.
+
 <br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/__init__.py) -->
@@ -548,11 +551,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 from .game import play_game
 from .draw import draw_game
 
+# Note that the "." before the module name is necessary as of Python 3
+# since it is more strict regarding relative imports
+# https://stackoverflow.com/questions/12172791/changes-in-import-statement-python3
+
+__all__ = ["play_game", "draw_game"]
+
 # This "__init__.py" file can also decide
 # which "modules" "the package" exports as the API, while keeping other modules internal,
 # by overriding the "__all__" variable
-
-__all__ = ["play_game", "draw_game"]
+# https://riptutorial.com/python/example/2894/the---all---special-variable
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
