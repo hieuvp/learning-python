@@ -541,19 +541,18 @@ Type "help", "copyright", "credits" or "license" for more information.
 # Each package in Python is a directory
 # which MUST contain a special file called "__init__.py"
 #
-# This file can be empty,
-# and it indicates that the directory it contains is a Python package,
+# This file can be empty, and it indicates
+# that the directory it contains is a "Python package",
 # so it can be imported the same way a module can be imported
 
 from .game import play_game
 from .draw import draw_game
 
-__all__ = ["play_game", "draw_game"]
+# This "__init__.py" file can also decide
+# which "modules" "the package" exports as the API, while keeping other modules internal,
+# by overriding the "__all__" variable
 
-# References
-# https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html
-# https://towardsdatascience.com/whats-init-for-me-d70a312da583
-# https://yasoob.me/2013/07/28/what-is-__init__-py/
+__all__ = ["play_game", "draw_game"]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -649,9 +648,6 @@ from foo import bar
 
 In the first method, we must use the foo prefix whenever we access the module bar.
 In the second method, we don't, because we import the module to our module's namespace.
-
-The `__init__.py` file can also decide which modules the package exports as the API,
-while keeping other modules internal, by overriding the `__all__` variable, like so:
 
 ## Exercise
 
