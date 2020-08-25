@@ -292,12 +292,12 @@ draw_game("ping pong") in visual mode
 import draw
 
 # The first time a module is loaded into a running Python script,
-# it is initialized by executing the code in the module once.
+# it is initialized by executing the code in the module "once".
 #
 # If another module in your code imports the same module again,
-# it will not be loaded twice but once only.
+# it will not be loaded twice but "once only".
 #
-# So local variables inside the module act as a Singleton,
+# So local variables inside the module act as a "Singleton",
 # they are initialized only once.
 
 
@@ -488,7 +488,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x1030c7f30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x10484df30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     *data* must be an object specifying additional data to be sent to
