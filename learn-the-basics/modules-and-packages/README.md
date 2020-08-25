@@ -5,19 +5,19 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Writing Modules](#writing-modules)
+- [Writing **Modules**](#writing-modules)
 - [Importing Module Objects To The Current Namespace](#importing-module-objects-to-the-current-namespace)
 - [Importing All Objects From A Module](#importing-all-objects-from-a-module)
 - [Custom Import Name](#custom-import-name)
 - [Module Initialization](#module-initialization)
 - [Extending Module Load Path](#extending-module-load-path)
 - [Exploring Built-in Modules](#exploring-built-in-modules)
-- [Writing Packages](#writing-packages)
+- [Writing **Packages**](#writing-packages)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Writing Modules
+## Writing **Modules**
 
 1. Modules in Python are simply Python files with a `.py` extension.
 1. The name of the module will be the name of the file.
@@ -525,7 +525,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-## Writing Packages
+## Writing **Packages**
 
 Packages are namespaces which contain multiple packages and modules themselves.
 They are simply directories, but with a twist.
