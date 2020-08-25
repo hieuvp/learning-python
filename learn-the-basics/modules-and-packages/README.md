@@ -8,7 +8,7 @@
 - [Writing **Modules**](#writing-modules)
 - [Importing Module Objects To The Current Namespace](#importing-module-objects-to-the-current-namespace)
 - [Importing All Objects From A Module](#importing-all-objects-from-a-module)
-- [Custom Import Name](#custom-import-name)
+- [Customizing Import Name](#customizing-import-name)
 - [Module Initialization](#module-initialization)
 - [Extending Module Load Path](#extending-module-load-path)
 - [Exploring Built-in Modules](#exploring-built-in-modules)
@@ -203,7 +203,7 @@ This might be a bit risky as changes in the module might affect the module which
 but it is shorter and also does not require you to specify
 which objects you wish to import from the module.
 
-## Custom Import Name
+## Customizing Import Name
 
 We may also load modules under any name we want.
 This is useful when we want to import a module conditionally
