@@ -16,9 +16,9 @@
 
 > A **dictionary** is a data type similar to **array**,
 > but works with **keys** and **values** instead of **indexes**.
-> <br />Each value stored in a dictionary can be accessed using a key,
+> <br />Each **value** stored in a **dictionary** can be accessed using a **key**,
 > which is any type of object (string, number, list,...)
-> <br />instead of using its index to address it.
+> <br />instead of using its **index** to address it.
 
 <br />
 
