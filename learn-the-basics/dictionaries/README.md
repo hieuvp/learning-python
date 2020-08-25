@@ -56,7 +56,7 @@ print(phonebook)
 
 > Dictionaries can be iterated over, just like lists.
 > <br />However, a dictionary, unlike a list,
-> **does not keep the order of the values** stored in it.
+> it **does not keep the order of the values** stored in it.
 
 <br />
 
