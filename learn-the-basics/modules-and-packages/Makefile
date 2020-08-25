@@ -26,7 +26,8 @@ extend-module-search-path:
 
 .PHONY: explore-built-in-urllib
 explore-built-in-urllib:
-	./explore_built_in_urllib.sh &> explore_built_in_urllib.console
+	# Notice: the output is too long and likely to change
+	# ./explore_built_in_urllib.sh &> explore_built_in_urllib.console
 
 .PHONY: write-package
 write-package:
