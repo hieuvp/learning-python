@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Scenario 1: Stand-alone Script](#scenario-1-stand-alone-script)
+- [Scenario 1: Standalone Script](#scenario-1-standalone-script)
 - [Scenario 2: Importing Script](#scenario-2-importing-script)
 - [Conclusion](#conclusion)
 - [References](#references)
@@ -51,7 +51,7 @@ type(__name__) = <type 'str'>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Scenario 1: Stand-alone Script
+## Scenario 1: Standalone Script
 
 > When you run any well-written stand-alone python script
 > which is not referring to any other script,
@@ -59,11 +59,11 @@ type(__name__) = <type 'str'>
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/stand_alone_script.py) -->
-<!-- The below code snippet is automatically added from labs/scenario-1/stand_alone_script.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1/standalone_script.py) -->
+<!-- The below code snippet is automatically added from labs/scenario-1/standalone_script.py -->
 
 ```py
-# Source: scenario-1/stand_alone_script.py
+# Source: scenario-1/standalone_script.py
 
 from os import path
 
@@ -88,13 +88,13 @@ if __name__ == "__main__":
 ```console
 + tree -a -I '*.pyc' scenario-1
 scenario-1
-└── stand_alone_script.py
+└── standalone_script.py
 
 0 directories, 1 file
 + set +x
 
-+ python scenario-1/stand_alone_script.py
-In "stand_alone_script.py", the value of "__name__" is "__main__".
++ python scenario-1/standalone_script.py
+In "standalone_script.py", the value of "__name__" is "__main__".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -118,12 +118,12 @@ the `__name__` variable is set to `__main__`.
 # Source: scenario-2/importing_script.py
 
 from os import path
-import stand_alone_script as sas
+import standalone_script as ss
 
 
 def main():
     print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
-    sas.function()
+    ss.function()
 
 
 if __name__ == "__main__":
@@ -139,14 +139,14 @@ if __name__ == "__main__":
 + tree -a -I '*.pyc' scenario-2
 scenario-2
 ├── importing_script.py
-└── stand_alone_script.py
+└── standalone_script.py
 
 0 directories, 2 files
 + set +x
 
 + python scenario-2/importing_script.py
 In "importing_script.py", the value of "__name__" is "__main__".
-In "stand_alone_script.py", the value of "__name__" is "stand_alone_script".
+In "standalone_script.py", the value of "__name__" is "standalone_script".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
