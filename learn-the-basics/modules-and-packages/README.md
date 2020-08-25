@@ -386,9 +386,8 @@ set +x
 echo
 set -x
 
-# Enable this script to load modules
-# from ".." (means "./learning-python/learn-the-basics") directory
-# as well as the local directory
+# Enabling the Python script to load modules
+# from ".." (meaning: "/learning-python/learn-the-basics") directory
 PYTHONPATH=".." python extend_module_search_path.py
 ```
 
@@ -405,7 +404,7 @@ from pprint import pprint
 
 # sys.path
 # https://docs.python.org/3/library/sys.html#sys.path
-# A list of strings that specifies the search path for modules.
+# Return a list of strings that specifies the search path for modules.
 # Initialized from the environment variable "PYTHONPATH",
 # plus an installation-dependent default.
 pprint(sys.path)
@@ -491,7 +490,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x10d32cf30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x10611af30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     *data* must be an object specifying additional data to be sent to
