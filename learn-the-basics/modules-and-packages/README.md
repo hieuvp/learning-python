@@ -491,7 +491,7 @@ Help on function urlopen in module urllib.request:
 urlopen(url, data=None, timeout=<object object at 0x109c6ff30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
-...
+    ...
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
