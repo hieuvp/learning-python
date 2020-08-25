@@ -294,7 +294,7 @@ import draw
 # The first time a module is loaded into a running Python script,
 # it is initialized by executing the code in the module "once".
 #
-# If another module in your code imports the same module again,
+# If another module in the code imports the same module again,
 # it will not be loaded twice but "once only".
 #
 # So local variables inside the module act as a "Singleton",

@@ -9,7 +9,7 @@ import draw
 # it will not be loaded twice but "once only".
 #
 # So local variables inside the module act as a "Singleton",
-# they are initialized only once.
+# they are initialized "only once".
 
 
 def main():
