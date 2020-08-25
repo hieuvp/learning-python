@@ -530,6 +530,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 > Packages are namespaces which contain multiple packages and modules themselves.
 > <br />They are simply directories, but with a twist.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/__init__.py) -->
 <!-- The below code snippet is automatically added from write_package/pkg/__init__.py -->
 
@@ -586,6 +588,8 @@ def play_game():
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/ping_pong.py) -->
 <!-- The below code snippet is automatically added from write_package/ping_pong.py -->
 
@@ -626,6 +630,8 @@ draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 If we create a directory called `foo`, which marks the package name,
 we can then create a module inside that package called `bar`.
