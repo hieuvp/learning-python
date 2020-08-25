@@ -8,7 +8,6 @@
 - [Introduction](#introduction)
 - [Scenario 1 - Standalone Script](#scenario-1---standalone-script)
 - [Scenario 2 - Importing Script](#scenario-2---importing-script)
-- [Conclusion](#conclusion)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -100,7 +99,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 
 ## Scenario 2 - Importing Script
 
-> When you import one Python script into another,
+> When importing one Python script into another,
 > <br />there seem to be two different scopes
 > which can be considered as the **main function**:
 
@@ -148,32 +147,6 @@ In "standalone_script.py", the value of "__name__" is "standalone_script".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-In `importing_script` we call `function` which outputs `standalone_script`.
-`standalone_script` is known to `function` when that function was defined.
-
-If you would print `__name__` in the `importing_script`,
-this would output `__main__`.
-The reason for this is that Python uses the value known in the scope of `importing_script`.
-
-## Conclusion
-
-Thanks to this special variable,
-you can decide whether you want to run the script.
-Or that you want to import the functions defined in the script.
-
-In this short article,
-I explained how you can use the `__name__` variable to write Python modules.
-You can also run these modules on their own.
-This can be done by making use of how the values of these variables change
-depending on where they occur.
-
-The usefulness of this approach is when the code `if __name__ == "__main__":` is used,
-the python interpreter checks if it's parsing the currently executed script,
-or if it's temporarily parsing another external script.
-This way the programmer has the ability to control the behaviors of different parts of the program
-by choosing to run lines of code from the external script
-as well as the currently executed script depending on the scenarios.
 
 ## References
 
