@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [Iterating over dictionaries](#iterating-over-dictionaries)
-- [Removing a value](#removing-a-value)
+- [Iterating Over Dictionaries](#iterating-over-dictionaries)
+- [Removing A Value](#removing-a-value)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -52,7 +52,7 @@ print(phonebook)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Iterating over dictionaries
+## Iterating Over Dictionaries
 
 > Dictionaries can be iterated over, just like a list.
 > However, a dictionary, unlike a list, does not keep the order of the values stored in it.
@@ -84,7 +84,7 @@ Phone number of Jill is 947662781
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Removing a value
+## Removing A Value
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=remove.py) -->
 <!-- The below code snippet is automatically added from remove.py -->
