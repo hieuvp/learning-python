@@ -52,7 +52,7 @@ type(__name__) = <type 'str'>
 
 ## Scenario 1 - Standalone Script
 
-> When you run any well-written standalone python script
+> When you run any well-written standalone Python script
 > which is not referring to any other script,
 > <br />the value of `__name__` variable is equal to `__main__`.
 
@@ -81,8 +81,6 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Before all other code is run, the `__name__` variable is set to `__main__`.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1.console) -->
 <!-- The below code snippet is automatically added from labs/scenario-1.console -->
 
@@ -102,7 +100,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 
 ## Scenario 2 - Importing Script
 
-> When you import one python script into another.
+> When you import one Python script into another.
 > In such a scenario, there seem to be two different scopes
 > which can be considered as the `main()` function.
 
