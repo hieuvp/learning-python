@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Scenario 1: Standalone Script](#scenario-1-standalone-script)
-- [Scenario 2: Importing Script](#scenario-2-importing-script)
+- [Scenario 1 - Standalone Script](#scenario-1---standalone-script)
+- [Scenario 2 - Importing Script](#scenario-2---importing-script)
 - [Conclusion](#conclusion)
 - [References](#references)
 
@@ -51,11 +51,11 @@ type(__name__) = <type 'str'>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Scenario 1: Standalone Script
+## Scenario 1 - Standalone Script
 
-> When you run any well-written stand-alone python script
+> When you run any well-written standalone python script
 > which is not referring to any other script,
-> the value of `__name__` variable is equal to `__main__`.
+> <br />the value of `__name__` variable is equal to `__main__`.
 
 <br />
 
@@ -82,6 +82,8 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+Before all other code is run, the `__name__` variable is set to `__main__`.
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-1.console) -->
 <!-- The below code snippet is automatically added from labs/scenario-1.console -->
 
@@ -99,17 +101,17 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Before all other code is run,
-the `__name__` variable is set to `__main__`.
-
-## Scenario 2: Importing Script
+## Scenario 2 - Importing Script
 
 > When you import one python script into another.
 > In such a scenario, there seem to be two different scopes
 > which can be considered as the `main()` function.
-> The first scope can be the `__main__` variable of the currently running program
-> and the second the scope of the `__main__` variable of the imported script
-> used in the current program.
+
+1. The first scope can be the `__main__` variable of the currently running program.
+1. The second the scope of the `__main__` variable of the imported script
+  used in the current program.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=labs/scenario-2/importing_script.py) -->
 <!-- The below code snippet is automatically added from labs/scenario-2/importing_script.py -->
@@ -151,7 +153,7 @@ In "standalone_script.py", the value of "__name__" is "standalone_script".
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-We then have two scopes: one of importingScript and the second scope of nameScript.
+We then have two scopes: one of `importing_script` and the second scope of `standalone_script`.
 In the illustration,
 you'll see how it differs from the first use case.
 
@@ -163,12 +165,12 @@ But this time it is set to nameScript.
 Again the def statements for main and myFunction are run.
 But, now the condition evaluates to false and main is not called.
 
-In `importingScript.py` we call myFunction which outputs nameScript.
+In `importing_script` we call `function` which outputs `standalone_script`.
 NameScript is known to myFunction when that function was defined.
 
-If you would print `__name__` in the importingScript,
+If you would print `__name__` in the `importing_script`,
 this would output `__main__`.
-The reason for this is that Python uses the value known in the scope of importingScript.
+The reason for this is that Python uses the value known in the scope of `importing_script`.
 
 ## Conclusion
 
