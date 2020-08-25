@@ -68,12 +68,12 @@ type(__name__) = <type 'str'>
 from os import path
 
 
-def my_function():
+def function():
     print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
 
 
 def main():
-    my_function()
+    function()
 
 
 if __name__ == "__main__":
@@ -123,7 +123,7 @@ import stand_alone_script as sas
 
 def main():
     print('In "%s", the value of "__name__" is "%s".' % (path.basename(__file__), __name__))
-    sas.my_function()
+    sas.function()
 
 
 if __name__ == "__main__":

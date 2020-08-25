@@ -9,8 +9,8 @@ readarray -t MAKEFILES < <(find . -name "Makefile")
 declare -ra MAKEFILES
 
 main() {
-  local -r file=$1
-  local -r dirname="$(dirname "$file")"
+  local -r file_path=$1
+  local -r dirname="$(dirname "$file_path")"
 
   echo
 
