@@ -1,0 +1,11 @@
++ tree -a -I '*.pyc' scenario-2
+scenario-2
+├── importing_script.py
+└── stand_alone_script.py
+
+0 directories, 2 files
++ set +x
+
++ python scenario-2/importing_script.py
+In "importing_script.py", the value of "__name__" is "__main__".
+In "stand_alone_script.py", the value of "__name__" is "stand_alone_script".
