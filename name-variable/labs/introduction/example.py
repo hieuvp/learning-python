@@ -5,7 +5,6 @@ def main():
     print("type(__name__) = %s" % type(__name__))
 
 
-# If this script is executed,
-# then "main()" will be executed
+# When this script is executed, the "main()" will be executed
 if __name__ == "__main__":
     main()

@@ -32,8 +32,7 @@ def main():
     print("type(__name__) = %s" % type(__name__))
 
 
-# If this script is executed,
-# then "main()" will be executed
+# When this script is executed, the "main()" will be executed
 if __name__ == "__main__":
     main()
 ```
@@ -109,7 +108,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 
 1. The first scope can be the `__main__` variable of the currently running program.
 1. The second the scope of the `__main__` variable of the imported script
-  used in the current program.
+   used in the current program.
 
 <br />
 
@@ -157,16 +156,17 @@ We then have two scopes: one of `importing_script` and the second scope of `stan
 In the illustration,
 you'll see how it differs from the first use case.
 
-In importingScript.py the `__name__` variable is set to `__main__`.
-By importing nameScript, Python starts looking for a file by adding `.py` to the module name.
+In `importing_script.py` the `__name__` variable is set to `__main__`.
+By importing `standalone_script`,
+Python starts looking for a file by adding `.py` to the module name.
 It then runs the code contained in the imported file.
 
-But this time it is set to nameScript.
-Again the def statements for main and myFunction are run.
+But this time it is set to `standalone_script`.
+Again the `def` statements for `main` and `function` are run.
 But, now the condition evaluates to false and main is not called.
 
 In `importing_script` we call `function` which outputs `standalone_script`.
-NameScript is known to myFunction when that function was defined.
+`standalone_script` is known to `function` when that function was defined.
 
 If you would print `__name__` in the `importing_script`,
 this would output `__main__`.
