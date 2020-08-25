@@ -488,7 +488,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x10484df30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x101b50f30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     *data* must be an object specifying additional data to be sent to
