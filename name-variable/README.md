@@ -101,11 +101,11 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 ## Scenario 2 - Importing Script
 
 > When you import one Python script into another,
-> there seem to be two different scopes
-> which can be considered as the **main function**.
+> <br />there seem to be two different scopes
+> which can be considered as the **main function**:
 
-1. The `__name__` variable of the currently running program.
-1. The `__name__` variable of the imported script used in the current program.
+1. `__name__` variable of the currently running program.
+1. `__name__` variable of the imported script used in the current program.
 
 <br />
 
@@ -148,19 +148,6 @@ In "standalone_script.py", the value of "__name__" is "standalone_script".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-We then have two scopes: one of `importing_script` and the second scope of `standalone_script`.
-In the illustration,
-you'll see how it differs from the first use case.
-
-In `importing_script.py` the `__name__` variable is set to `__main__`.
-By importing `standalone_script`,
-Python starts looking for a file by adding `.py` to the module name.
-It then runs the code contained in the imported file.
-
-But this time it is set to `standalone_script`.
-Again the `def` statements for `main` and `function` are run.
-But, now the condition evaluates to false and main is not called.
 
 In `importing_script` we call `function` which outputs `standalone_script`.
 `standalone_script` is known to `function` when that function was defined.
