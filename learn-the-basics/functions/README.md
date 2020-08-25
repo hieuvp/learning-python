@@ -14,7 +14,7 @@
 
 ## Block
 
-> A block is an area of code of written in the format of:
+> A block is an area of code that written in the format of:
 
 ```python
 block_head:
