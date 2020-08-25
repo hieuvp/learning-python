@@ -23,9 +23,9 @@ block_head:
     ...
 ```
 
-- `block_head`: `block_keyword block_name(argument1, argument2, ...)`.
-- `block_keyword`: e.g. `if`, `for`, and `while`.
-- `block_line`: Python code or even another block.
+- **block_head**: `block_keyword block_name(argument1, argument2, ...)`.
+- **block_keyword**: e.g. `if`, `for`, and `while`.
+- **block_line**: Python code or even another block.
 
 ## Writing Functions
 
