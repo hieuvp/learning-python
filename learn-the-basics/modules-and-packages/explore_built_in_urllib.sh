@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python system.py
+python explore_built_in_urllib.py

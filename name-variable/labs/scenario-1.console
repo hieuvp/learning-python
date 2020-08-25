@@ -1,0 +1,9 @@
++ tree -a -I '*.pyc' scenario-1
+scenario-1
+└── stand_alone_script.py
+
+0 directories, 1 file
++ set +x
+
++ python scenario-1/stand_alone_script.py
+In "stand_alone_script.py", the value of "__name__" is "__main__".

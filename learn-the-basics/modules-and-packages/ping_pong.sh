@@ -3,7 +3,7 @@
 set -eou pipefail
 
 set -x
-tree -a -I __pycache__ ping_pong
+tree -a ping_pong
 
 set +x
 
