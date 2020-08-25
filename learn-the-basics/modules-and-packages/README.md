@@ -458,15 +458,14 @@ Check out the full list of built-in modules in [The Python Standard Library](htt
 <!-- The below code snippet is automatically added from explore_built_in_urllib.py -->
 
 ```py
-# If we want to import the module urllib,
-# which enables us to create read data from URLs,
-# we simply import the module:
-import urllib.request
-
 # urllib.request - Extensible library for opening URLs
 # https://docs.python.org/3/library/urllib.request.html
 
-# Use it
+# Importing the "urllib.request" module
+import urllib.request
+
+
+# Usage:
 # urllib.request.urlopen("https://www.shopback.com")
 
 # Two very important functions come in handy when exploring modules in Python
@@ -492,7 +491,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x106e7df30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x10d32cf30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     *data* must be an object specifying additional data to be sent to
