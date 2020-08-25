@@ -1,5 +1,5 @@
 # Source: ping_pong/draw.py
-# This module is responsible for drawing the game on the screen
+# This "draw" module is responsible for drawing the game on the screen
 
 
 def draw_game(name):

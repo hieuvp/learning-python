@@ -26,5 +26,5 @@ class Screen:
         self.y = 200
 
 
-# Initialize "main_screen" as a Singleton
+# Initialize "main_screen" object as a Singleton
 main_screen = Screen()

@@ -1,8 +1,3 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Define Functions
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 def my_function():
     print("Hello, From My Function!")
 
@@ -15,10 +10,7 @@ def sum_two_numbers(a, b):
     return a + b
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Call Functions
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+# Call functions from above
 
 my_function()
 
