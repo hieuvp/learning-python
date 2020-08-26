@@ -20,22 +20,22 @@ in rows of observations and columns of variables.
 There are several ways to create a DataFrame. One way way is to use a dictionary.
 For example:
 
-```python
-dict = {"country": ["Brazil", "Russia", "India", "China", "South Africa"],
-       "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
-       "area": [8.516, 17.10, 3.286, 9.597, 1.221],
-       "population": [200.4, 143.5, 1252, 1357, 52.98] }
-
-import pandas as pd
-brics = pd.DataFrame(dict)
-print(brics)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
 <!-- The below code snippet is automatically added from create_dataframe.py -->
 
 ```py
+import pandas as pd
 
+dict = {
+    "country": ["Brazil", "Russia", "India", "China", "South Africa"],
+    "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
+    "area": [8.516, 17.10, 3.286, 9.597, 1.221],
+    "population": [200.4, 143.5, 1252, 1357, 52.98],
+}
+
+
+brics = pd.DataFrame(dict)
+print(brics)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -45,6 +45,12 @@ print(brics)
 
 ```console
 + python create_dataframe.py
+        country    capital    area  population
+0        Brazil   Brasilia   8.516      200.40
+1        Russia     Moscow  17.100      143.50
+2         India  New Dehli   3.286     1252.00
+3         China    Beijing   9.597     1357.00
+4  South Africa   Pretoria   1.221       52.98
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -87,26 +93,23 @@ You can either use a single bracket or a double bracket.
 The single bracket with output a Pandas Series,
 while a double bracket will output a Pandas DataFrame.
 
-```python
-# Import pandas and cars.csv
-import pandas as pd
-cars = pd.read_csv('cars.csv', index_col = 0)
-
-# Print out country column as Pandas Series
-print(cars['cars_per_cap'])
-
-# Print out country column as Pandas DataFrame
-print(cars[['cars_per_cap']])
-
-# Print out DataFrame with country and drives_right columns
-print(cars[['cars_per_cap', 'country']])
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=index_dataframe.py) -->
 <!-- The below code snippet is automatically added from index_dataframe.py -->
 
 ```py
+# Import pandas and cars.csv
+import pandas as pd
 
+cars = pd.read_csv("cars.csv", index_col=0)
+
+# Print out country column as Pandas Series
+print(cars["cars_per_cap"])
+
+# Print out country column as Pandas DataFrame
+print(cars[["cars_per_cap"]])
+
+# Print out DataFrame with country and drives_right columns
+print(cars[["cars_per_cap", "country"]])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -116,6 +119,30 @@ print(cars[['cars_per_cap', 'country']])
 
 ```console
 + python index_dataframe.py
+US     809
+AUS    731
+JAP    588
+IN      18
+RU     200
+MOR     70
+EG      45
+Name: cars_per_cap, dtype: int64
+     cars_per_cap
+US            809
+AUS           731
+JAP           588
+IN             18
+RU            200
+MOR            70
+EG             45
+     cars_per_cap        country
+US            809  United States
+AUS           731      Australia
+JAP           588          Japan
+IN             18          India
+RU            200         Russia
+MOR            70        Morocco
+EG             45          Egypt
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
