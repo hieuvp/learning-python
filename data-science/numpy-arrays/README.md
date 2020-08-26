@@ -77,11 +77,14 @@ They are particularly helpful when you have 1000s of observations in your data.
 <!-- The below code snippet is automatically added from calculate_bmi.py -->
 
 ```py
-# Calculate bmi
-# bmi = np_weight / np_height ** 2
+from getting_started import np_weight, np_height
 
-# Print the result
-# print(bmi)
+# Calculate bmi
+bmi = np_weight / np_height ** 2
+
+if __name__ == "__main__":
+    # Print the result
+    print("bmi = %s" % bmi)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -91,6 +94,7 @@ They are particularly helpful when you have 1000s of observations in your data.
 
 ```console
 + python calculate_bmi.py
+bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -105,7 +109,14 @@ we could quickly subset it to find out.
 <!-- The below code snippet is automatically added from subset.py -->
 
 ```py
+from calculate_bmi import bmi
 
+
+# For a boolean response
+print("(bmi > 23) = %s" % (bmi > 23))
+
+# Print only those observations above 23
+print("bmi[bmi > 23] = %s" % bmi[bmi > 23])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -115,17 +126,11 @@ we could quickly subset it to find out.
 
 ```console
 + python subset.py
+(bmi > 23) = [ True  True  True  True  True  True]
+bmi[bmi > 23] = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-# For a boolean response
-bmi > 23
-
-# Print only those observations above 23
-bmi[bmi > 23]
-```
 
 ## Exercise
 
