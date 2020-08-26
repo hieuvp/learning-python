@@ -26,7 +26,7 @@ For example:
 ```py
 import pandas as pd
 
-dict = {
+dictionary = {
     "country": ["Brazil", "Russia", "India", "China", "South Africa"],
     "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
     "area": [8.516, 17.10, 3.286, 9.597, 1.221],
@@ -34,7 +34,7 @@ dict = {
 }
 
 
-brics = pd.DataFrame(dict)
+brics = pd.DataFrame(dictionary)
 print(brics)
 ```
 
@@ -70,6 +70,24 @@ print(brics)
 
 Another way to create a DataFrame is by importing a csv file using Pandas.
 Now, the csv cars.csv is stored and can be imported using `pd.read_csv`:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=read_csv.py) -->
+<!-- The below code snippet is automatically added from read_csv.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=read_csv.console) -->
+<!-- The below code snippet is automatically added from read_csv.console -->
+
+```console
++ python read_csv.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 # Import pandas as pd

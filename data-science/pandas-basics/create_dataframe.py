@@ -1,6 +1,6 @@
 import pandas as pd
 
-dict = {
+dictionary = {
     "country": ["Brazil", "Russia", "India", "China", "South Africa"],
     "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
     "area": [8.516, 17.10, 3.286, 9.597, 1.221],
@@ -8,5 +8,5 @@ dict = {
 }
 
 
-brics = pd.DataFrame(dict)
+brics = pd.DataFrame(dictionary)
 print(brics)
