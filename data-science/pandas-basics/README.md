@@ -200,7 +200,16 @@ For example:
 <!-- The below code snippet is automatically added from access_observations.py -->
 
 ```py
+# Import cars data
+import pandas as pd
 
+cars = pd.read_csv("cars.csv", index_col=0)
+
+# Print out first 4 observations
+print(cars[0:4])
+
+# Print out fifth and sixth observation
+print(cars[4:6])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -210,21 +219,17 @@ For example:
 
 ```console
 + python access_observations.py
+     cars_per_cap        country  drives_right
+US            809  United States          True
+AUS           731      Australia         False
+JAP           588          Japan         False
+IN             18          India         False
+     cars_per_cap  country  drives_right
+RU            200   Russia          True
+MOR            70  Morocco          True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-# Import cars data
-import pandas as pd
-cars = pd.read_csv('cars.csv', index_col = 0)
-
-# Print out first 4 observations
-print(cars[0:4])
-
-# Print out fifth and sixth observation
-print(cars[4:6])
-```
 
 You can also use loc and iloc to perform just about any data selection operation.
 loc is label-based,
@@ -236,7 +241,16 @@ so you have to specify rows and columns by their integer index like you did in t
 <!-- The below code snippet is automatically added from select_data.py -->
 
 ```py
+# Import cars data
+import pandas as pd
 
+cars = pd.read_csv("cars.csv", index_col=0)
+
+# Print out observation for Japan
+print(cars.iloc[2])
+
+# Print out observations for Australia and Egypt
+print(cars.loc[["AUS", "EG"]])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -246,18 +260,13 @@ so you have to specify rows and columns by their integer index like you did in t
 
 ```console
 + python select_data.py
+cars_per_cap      588
+country         Japan
+drives_right    False
+Name: JAP, dtype: object
+     cars_per_cap    country  drives_right
+AUS           731  Australia         False
+EG             45      Egypt          True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-# Import cars data
-import pandas as pd
-cars = pd.read_csv('cars.csv', index_col = 0)
-
-# Print out observation for Japan
-print(cars.iloc[2])
-
-# Print out observations for Australia and Egypt
-print(cars.loc[['AUS', 'EG']])
-```
