@@ -34,9 +34,10 @@ dictionary = {
     "population": [200.4, 143.5, 1252, 1357, 52.98],
 }
 
-
 brics = pd.DataFrame(dictionary)
-print(brics)
+
+if __name__ == "__main__":
+    print(brics)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -61,19 +62,17 @@ Pandas has assigned a key for each country as the numerical values 0 through 4.
 If you would like to have different index values, say, the two letter country code,
 you can do that easily as well.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.py) -->
+<!-- The below code snippet is automatically added from set_index.py -->
+
+```py
+from create_dataframe import brics
+
 # Set the index for brics
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
 # Print out brics with new index values
 print(brics)
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.py) -->
-<!-- The below code snippet is automatically added from set_index.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -83,6 +82,12 @@ print(brics)
 
 ```console
 + python set_index.py
+         country    capital    area  population
+BR        Brazil   Brasilia   8.516      200.40
+RU        Russia     Moscow  17.100      143.50
+IN         India  New Dehli   3.286     1252.00
+CH         China    Beijing   9.597     1357.00
+SA  South Africa   Pretoria   1.221       52.98
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

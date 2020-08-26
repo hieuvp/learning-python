@@ -1,1 +1,7 @@
 + python set_index.py
+         country    capital    area  population
+BR        Brazil   Brasilia   8.516      200.40
+RU        Russia     Moscow  17.100      143.50
+IN         India  New Dehli   3.286     1252.00
+CH         China    Beijing   9.597     1357.00
+SA  South Africa   Pretoria   1.221       52.98

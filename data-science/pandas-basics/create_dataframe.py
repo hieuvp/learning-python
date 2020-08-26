@@ -7,6 +7,7 @@ dictionary = {
     "population": [200.4, 143.5, 1252, 1357, 52.98],
 }
 
-
 brics = pd.DataFrame(dictionary)
-print(brics)
+
+if __name__ == "__main__":
+    print(brics)
