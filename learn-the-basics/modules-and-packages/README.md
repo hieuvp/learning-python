@@ -453,7 +453,7 @@ from pprint import pprint
 
 # This will add the "foo" directory
 # to the list of paths to look for modules in as well
-# sys.path.append("/foo")
+sys.path.append("/foo")
 
 pprint(sys.path)
 ```
@@ -469,7 +469,8 @@ pprint(sys.path)
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8',
  '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/lib-dynload',
- '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/venv/lib/python3.8/site-packages']
+ '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/venv/lib/python3.8/site-packages',
+ '/foo']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
