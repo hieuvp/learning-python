@@ -75,7 +75,14 @@ Now, the csv cars.csv is stored and can be imported using `pd.read_csv`:
 <!-- The below code snippet is automatically added from read_csv.py -->
 
 ```py
+# Import pandas as pd
+import pandas as pd
 
+# Import the cars.csv data: cars
+cars = pd.read_csv("cars.csv")
+
+# Print out cars
+print(cars)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -85,20 +92,17 @@ Now, the csv cars.csv is stored and can be imported using `pd.read_csv`:
 
 ```console
 + python read_csv.py
+  Unnamed: 0  cars_per_cap        country  drives_right
+0         US           809  United States          True
+1        AUS           731      Australia         False
+2        JAP           588          Japan         False
+3         IN            18          India         False
+4         RU           200         Russia          True
+5        MOR            70        Morocco          True
+6         EG            45          Egypt          True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-# Import pandas as pd
-import pandas as pd
-
-# Import the cars.csv data: cars
-cars = pd.read_csv('cars.csv')
-
-# Print out cars
-print(cars)
-```
 
 ## Indexing DataFrames
 
