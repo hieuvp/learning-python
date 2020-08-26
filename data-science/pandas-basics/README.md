@@ -196,6 +196,24 @@ EG             45          Egypt
 Square brackets can also be used to access observations (rows) from a DataFrame.
 For example:
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_observations.py) -->
+<!-- The below code snippet is automatically added from access_observations.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_observations.console) -->
+<!-- The below code snippet is automatically added from access_observations.console -->
+
+```console
++ python access_observations.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 # Import cars data
 import pandas as pd
@@ -213,6 +231,24 @@ loc is label-based,
 which means that you have to specify rows and columns based on their row and column labels.
 iloc is integer index based,
 so you have to specify rows and columns by their integer index like you did in the previous exercise.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=select_data.py) -->
+<!-- The below code snippet is automatically added from select_data.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=select_data.console) -->
+<!-- The below code snippet is automatically added from select_data.console -->
+
+```console
++ python select_data.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 # Import cars data

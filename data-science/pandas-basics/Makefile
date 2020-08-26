@@ -16,5 +16,13 @@ read-csv:
 index-dataframe:
 	./index_dataframe.sh &> index_dataframe.console
 
+.PHONY: access-observations
+access-observations:
+	./access_observations.sh &> access_observations.console
+
+.PHONY: select-data
+select-data:
+	./select_data.sh &> select_data.console
+
 .PHONY: all
-all: create-dataframe set-index read-csv index-dataframe
+all: create-dataframe set-index read-csv index-dataframe access-observations select-data
