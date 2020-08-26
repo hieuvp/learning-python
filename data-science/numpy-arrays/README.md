@@ -111,7 +111,6 @@ we could quickly subset it to find out.
 ```py
 from calculate_bmi import bmi
 
-
 # For a boolean response
 print("(bmi > 23) = %s" % (bmi > 23))
 
