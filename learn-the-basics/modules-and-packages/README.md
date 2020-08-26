@@ -368,12 +368,14 @@ clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200
 ## Extending Module Load Path
 
 > There are a couple of ways we could tell the Python interpreter where to look for modules,
-> aside from the default, which is the local directory and the built-in modules.
+> <br />aside from the default, which is the local directory and the built-in modules.
 
-- You could either use the environment variable
-  [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
-  to specify additional directories to look for modules in
-  (augment the default search path for module files).
+<br />
+
+You could either use the environment variable
+[`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
+to specify additional directories to look for modules in
+(augment the default search path for module files).
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.sh -->
@@ -441,8 +443,8 @@ pprint(sys.path)
 
 <br />
 
-- Another method is the `sys.path.append` function.
-  You may execute it before running an `import` command:
+Another method is the `sys.path.append` function.
+You may execute it before running an `import` command:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=append_module_search_path.py) -->
 <!-- The below code snippet is automatically added from append_module_search_path.py -->
@@ -477,7 +479,36 @@ pprint(sys.path)
 
 ## Exploring Built-in Modules
 
-Check out the full list of built-in modules in [The Python Standard Library](https://docs.python.org/3/library/index.html).
+> Check out the full list of built-in modules in [The Python Standard Library](https://docs.python.org/3/library/index.html).
+
+<br />
+
+We can look for which functions are implemented in each module
+by using the `dir` function:
+
+```shell script
+$ python
+Python 3.8.3 (default, Jul  8 2020, 14:27:55)
+[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import urllib.request
+>>> dir(urllib.request)
+['AbstractBasicAuthHandler', 'AbstractDigestAuthHandler', 'AbstractHTTPHandler', 'BaseHandler', 'CacheFTPHandler', 'ContentTooShortError', 'DataHandler', 'FTPHandler', 'FancyURLopener', 'FileHandler', 'HTTPBasicAuthHandler', 'HTTPCookieProcessor', 'HTTPDefaultErrorHandler', 'HTTPDigestAuthHandler', 'HTTPError', 'HTTPErrorProcessor', 'HTTPHandler', 'HTTPPasswordMgr', 'HTTPPasswordMgrWithDefaultRealm', 'HTTPPasswordMgrWithPriorAuth', 'HTTPRedirectHandler', 'HTTPSHandler', 'MAXFTPCACHE', 'OpenerDirector', 'ProxyBasicAuthHandler', 'ProxyDigestAuthHandler', 'ProxyHandler', 'Request', 'URLError', 'URLopener', 'UnknownHandler', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_cut_port_re', '_ftperrors', '_get_proxies', '_get_proxy_settings', '_have_ssl', '_localhost', '_noheaders', '_opener', '_parse_proxy', '_proxy_bypass_macosx_sysconf', '_randombytes', '_safe_gethostbyname', '_splitattr', '_splithost', '_splitpasswd', '_splitport', '_splitquery', '_splittag', '_splittype', '_splituser', '_splitvalue', '_thishost', '_to_bytes', '_url_tempfiles', 'addclosehook', 'addinfourl', 'base64', 'bisect', 'build_opener', 'contextlib', 'email', 'ftpcache', 'ftperrors', 'ftpwrapper', 'getproxies', 'getproxies_environment', 'getproxies_macosx_sysconf', 'hashlib', 'http', 'install_opener', 'io', 'localhost', 'noheaders', 'os', 'parse_http_list', 'parse_keqv_list', 'pathname2url', 'posixpath', 'proxy_bypass', 'proxy_bypass_environment', 'proxy_bypass_macosx_sysconf', 'quote', 're', 'request_host', 'socket', 'ssl', 'string', 'sys', 'tempfile', 'thishost', 'time', 'unquote', 'unquote_to_bytes', 'unwrap', 'url2pathname', 'urlcleanup', 'urljoin', 'urlopen', 'urlparse', 'urlretrieve', 'urlsplit', 'urlunparse', 'warnings']
+```
+
+When we find the function in the module we want to use,
+we can read about it more using the `help` function:
+
+```shell script
+$ python
+Python 3.8.3 (default, Jul  8 2020, 14:27:55)
+[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import urllib.request
+>>> help(urllib.request.urlopen)
+
+>>>
+```
 
 <br />
 
@@ -525,35 +556,6 @@ urlopen(url, data=None, timeout=<object object at 0x109c6ff30>, *, cafile=None, 
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-<br />
-
-We can look for which functions are implemented in each module by using the `dir` function:
-
-```shell script
-$ python
-Python 3.8.3 (default, Jul  8 2020, 14:27:55)
-[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import urllib.request
->>> dir(urllib.request)
-['AbstractBasicAuthHandler', 'AbstractDigestAuthHandler', 'AbstractHTTPHandler', 'BaseHandler', 'CacheFTPHandler', 'ContentTooShortError', 'DataHandler', 'FTPHandler', 'FancyURLopener', 'FileHandler', 'HTTPBasicAuthHandler', 'HTTPCookieProcessor', 'HTTPDefaultErrorHandler', 'HTTPDigestAuthHandler', 'HTTPError', 'HTTPErrorProcessor', 'HTTPHandler', 'HTTPPasswordMgr', 'HTTPPasswordMgrWithDefaultRealm', 'HTTPPasswordMgrWithPriorAuth', 'HTTPRedirectHandler', 'HTTPSHandler', 'MAXFTPCACHE', 'OpenerDirector', 'ProxyBasicAuthHandler', 'ProxyDigestAuthHandler', 'ProxyHandler', 'Request', 'URLError', 'URLopener', 'UnknownHandler', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_cut_port_re', '_ftperrors', '_get_proxies', '_get_proxy_settings', '_have_ssl', '_localhost', '_noheaders', '_opener', '_parse_proxy', '_proxy_bypass_macosx_sysconf', '_randombytes', '_safe_gethostbyname', '_splitattr', '_splithost', '_splitpasswd', '_splitport', '_splitquery', '_splittag', '_splittype', '_splituser', '_splitvalue', '_thishost', '_to_bytes', '_url_tempfiles', 'addclosehook', 'addinfourl', 'base64', 'bisect', 'build_opener', 'contextlib', 'email', 'ftpcache', 'ftperrors', 'ftpwrapper', 'getproxies', 'getproxies_environment', 'getproxies_macosx_sysconf', 'hashlib', 'http', 'install_opener', 'io', 'localhost', 'noheaders', 'os', 'parse_http_list', 'parse_keqv_list', 'pathname2url', 'posixpath', 'proxy_bypass', 'proxy_bypass_environment', 'proxy_bypass_macosx_sysconf', 'quote', 're', 'request_host', 'socket', 'ssl', 'string', 'sys', 'tempfile', 'thishost', 'time', 'unquote', 'unquote_to_bytes', 'unwrap', 'url2pathname', 'urlcleanup', 'urljoin', 'urlopen', 'urlparse', 'urlretrieve', 'urlsplit', 'urlunparse', 'warnings']
-```
-
-When we find the function in the module we want to use,
-we can read about it more using the `help` function,
-inside the Python interpreter:
-
-```shell script
-$ python
-Python 3.8.3 (default, Jul  8 2020, 14:27:55)
-[Clang 11.0.3 (clang-1103.0.32.62)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import urllib.request
->>> help(urllib.request.urlopen)
-
->>>
-```
 
 ## Writing **Packages**
 
