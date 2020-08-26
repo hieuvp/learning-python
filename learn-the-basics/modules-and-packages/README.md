@@ -205,11 +205,11 @@ which objects you wish to import from the module.
 
 ## Customizing Import Name
 
-We may also load modules under any name we want.
-This is useful when we want to import a module conditionally
-to use the same name in the rest of the code.
+> We are able to load modules under any name we want.
 
-For example, if you have two draw modules with slighty different names.
+<br />
+
+For example, if we have two `draw` modules with slightly different names.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_textual.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
@@ -237,7 +237,7 @@ def draw_game(name):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+We want to import a module conditionally to use the same name in the rest of the code.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/game.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/game.py -->
