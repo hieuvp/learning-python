@@ -31,6 +31,24 @@ brics = pd.DataFrame(dict)
 print(brics)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
+<!-- The below code snippet is automatically added from create_dataframe.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.console) -->
+<!-- The below code snippet is automatically added from create_dataframe.console -->
+
+```console
++ python create_dataframe.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 As you can see with the new brics DataFrame,
 Pandas has assigned a key for each country as the numerical values 0 through 4.
 If you would like to have different index values, say, the two letter country code,
@@ -83,6 +101,24 @@ print(cars[['cars_per_cap']])
 # Print out DataFrame with country and drives_right columns
 print(cars[['cars_per_cap', 'country']])
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=index_dataframe.py) -->
+<!-- The below code snippet is automatically added from index_dataframe.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=index_dataframe.console) -->
+<!-- The below code snippet is automatically added from index_dataframe.console -->
+
+```console
++ python index_dataframe.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Square brackets can also be used to access observations (rows) from a DataFrame.
 For example:
