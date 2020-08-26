@@ -15,4 +15,4 @@ __pycache__/
 *.pyc
 
 # Duplicate Files
-/name-variable/labs/scenario-2/stand_alone_script.py
+/name-variable/labs/scenario-2/standalone_script.py

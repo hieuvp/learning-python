@@ -24,9 +24,14 @@ initialize-module:
 extend-module-search-path:
 	./extend_module_search_path.sh &> extend_module_search_path.console
 
+.PHONY: append-module-search-path
+append-module-search-path:
+	./append_module_search_path.sh &> append_module_search_path.console
+
 .PHONY: explore-built-in-urllib
 explore-built-in-urllib:
-	./explore_built_in_urllib.sh &> explore_built_in_urllib.console
+	# Notice: the output is too long and likely to change
+	# ./explore_built_in_urllib.sh &> explore_built_in_urllib.console
 
 .PHONY: write-package
 write-package:
@@ -37,4 +42,4 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module extend-module-search-path explore-built-in-urllib write-package exercise
+all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module extend-module-search-path append-module-search-path explore-built-in-urllib write-package exercise

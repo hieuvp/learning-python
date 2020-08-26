@@ -1,4 +1,4 @@
-# Source: scenario-1/stand_alone_script.py
+# Source: scenario-1/standalone_script.py
 
 from os import path
 
