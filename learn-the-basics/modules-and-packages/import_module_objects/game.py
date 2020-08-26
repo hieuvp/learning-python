@@ -6,8 +6,6 @@ from draw import draw_game
 
 
 def main():
-    # "draw_game" does not precede with the name of the module it is imported from,
-    # because we've specified the "module name" in the "import" command
     draw_game("ping pong")
 
 
