@@ -367,11 +367,13 @@ clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200
 
 ## Extending Module Load Path
 
-There are a couple of ways we could tell the Python interpreter where to look for modules,
-aside from the default, which is the local directory and the built-in modules.
-You could either use the environment variable
-[`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
-to specify additional directories to look for modules in.
+> There are a couple of ways we could tell the Python interpreter where to look for modules,
+> aside from the default, which is the local directory and the built-in modules.
+
+- You could either use the environment variable
+  [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
+  to specify additional directories to look for modules in
+  (augment the default search path for module files).
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.sh -->
@@ -439,14 +441,14 @@ pprint(sys.path)
 
 <br />
 
-Another method is the `sys.path.append` function.
-You may execute it before running an import command:
+- Another method is the `sys.path.append` function.
+  You may execute it before running an `import` command:
 
 ```python
+# This will add the "foo" directory
+# to the list of paths to look for modules in as well
 sys.path.append("/foo")
 ```
-
-This will add the `foo` directory to the list of paths to look for modules in as well.
 
 ## Exploring Built-in Modules
 
