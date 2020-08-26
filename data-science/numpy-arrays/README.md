@@ -5,15 +5,14 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Getting started](#getting-started)
-- [Print out the type of `np_height`](#print-out-the-type-of-np_height)
-- [Element-wise calculations](#element-wise-calculations)
+- [Getting Started](#getting-started)
+- [Element-wise Calculations](#element-wise-calculations)
 - [Subsetting](#subsetting)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Getting started
+## Getting Started
 
 Numpy arrays are great alternatives to Python Lists.
 Some of the key advantages of Numpy arrays are that they are fast,
@@ -33,15 +32,30 @@ import numpy as np
 # Create 2 numpy arrays from height and weight
 np_height = np.array(height)
 np_weight = np.array(weight)
-```
 
-## Print out the type of `np_height`
-
-```python
+# Print out the type of np_height
 print(type(np_height))
 ```
 
-## Element-wise calculations
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.py) -->
+<!-- The below code snippet is automatically added from getting_started.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.console) -->
+<!-- The below code snippet is automatically added from getting_started.console -->
+
+```console
++ python getting_started.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+## Element-wise Calculations
 
 Now we can perform element-wise calculations on height and weight.
 For example, you could take all 6 of the height and weight observations above,
@@ -90,3 +104,21 @@ import numpy as np
 
 # Print out np_weight_lbs
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
