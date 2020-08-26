@@ -237,7 +237,10 @@ def draw_game(name):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-We want to import a module conditionally to use the same name in the rest of the code.
+<br />
+
+We can import these modules conditionally
+to use the same name in the rest of the code.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/game.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/game.py -->
