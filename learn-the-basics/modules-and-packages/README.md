@@ -444,11 +444,35 @@ pprint(sys.path)
 - Another method is the `sys.path.append` function.
   You may execute it before running an `import` command:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=append_module_search_path.py) -->
+<!-- The below code snippet is automatically added from append_module_search_path.py -->
+
+```py
+import sys
+from pprint import pprint
+
 # This will add the "foo" directory
 # to the list of paths to look for modules in as well
-sys.path.append("/foo")
+# sys.path.append("/foo")
+
+pprint(sys.path)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=append_module_search_path.console) -->
+<!-- The below code snippet is automatically added from append_module_search_path.console -->
+
+```console
++ python append_module_search_path.py
+['/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/learn-the-basics/modules-and-packages',
+ '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python38.zip',
+ '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8',
+ '/usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/lib-dynload',
+ '/Users/hieu.van/Desktop/Workspace/Experiment/learning-python/venv/lib/python3.8/site-packages']
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Exploring Built-in Modules
 
