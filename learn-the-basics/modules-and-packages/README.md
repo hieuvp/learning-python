@@ -563,12 +563,12 @@ urlopen(url, data=None, timeout=<object object at 0x109c6ff30>, *, cafile=None, 
 | :-------------------: | :----------------------------------------: |
 | A single Python file. | An organized collection of Python modules. |
 
-<br />
-
 > Packages are namespaces which contain multiple packages and modules themselves.
 > <br />They are simply directories, but with a twist.
 
 <br />
+
+For example, this directory called `pkg`, which marks the package name:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/__init__.py) -->
 <!-- The below code snippet is automatically added from write_package/pkg/__init__.py -->
@@ -599,6 +599,8 @@ __all__ = ["play_game", "draw_game"]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+We then create two modules inside this package called `game` and `draw`:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/draw.py) -->
 <!-- The below code snippet is automatically added from write_package/pkg/draw.py -->
@@ -672,25 +674,6 @@ draw_game("ping pong")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-<br />
-
-If we create a directory called `foo`, which marks the package name,
-we can then create a module inside that package called `bar`.
-We also must not forget to add the `__init__.py` file inside the foo directory.
-
-To use the module `bar`, we can import it in two ways:
-
-```python
-import foo.bar
-
-# Or
-
-from foo import bar
-```
-
-In the first method, we must use the foo prefix whenever we access the module bar.
-In the second method, we don't, because we import the module to our module's namespace.
 
 ## Exercise
 
