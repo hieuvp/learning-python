@@ -17,7 +17,8 @@ It is built on the Numpy package and its key data structure is called the DataFr
 DataFrames allow you to store and manipulate tabular data
 in rows of observations and columns of variables.
 
-There are several ways to create a DataFrame. One way way is to use a dictionary.
+There are several ways to create a DataFrame.
+One way is to use a dictionary.
 For example:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
@@ -67,6 +68,24 @@ brics.index = ["BR", "RU", "IN", "CH", "SA"]
 # Print out brics with new index values
 print(brics)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.py) -->
+<!-- The below code snippet is automatically added from set_index.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.console) -->
+<!-- The below code snippet is automatically added from set_index.console -->
+
+```console
++ python set_index.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Another way to create a DataFrame is by importing a csv file using Pandas.
 Now, the csv cars.csv is stored and can be imported using `pd.read_csv`:
