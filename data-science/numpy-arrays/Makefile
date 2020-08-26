@@ -8,9 +8,13 @@ getting-started:
 calculate-bmi:
 	./calculate_bmi.sh &> calculate_bmi.console
 
+.PHONY: subset
+subset:
+	./subset.sh &> subset.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: getting-started calculate-bmi exercise
+all: getting-started calculate-bmi subset exercise

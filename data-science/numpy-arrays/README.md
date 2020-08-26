@@ -9,6 +9,7 @@
 - [Element-wise Calculations](#element-wise-calculations)
 - [Subsetting](#subsetting)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -100,6 +101,24 @@ Another great feature of Numpy arrays is the ability to subset.
 For instance, if you wanted to know which observations in our BMI array are above 23,
 we could quickly subset it to find out.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=subset.py) -->
+<!-- The below code snippet is automatically added from subset.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=subset.console) -->
+<!-- The below code snippet is automatically added from subset.console -->
+
+```console
++ python subset.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 # For a boolean response
 bmi > 23
@@ -142,3 +161,7 @@ weight_kg = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Day 7: Python - Calculate BMI](https://liyenz.wordpress.com/2019/01/04/day-7-python-calculate-bmi)
