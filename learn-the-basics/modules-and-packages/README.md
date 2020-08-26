@@ -562,8 +562,9 @@ urlopen(url, data=None, timeout=<object object at 0x109c6ff30>, *, cafile=None, 
 > Packages are namespaces which contain multiple packages and modules themselves.
 > <br />They are simply directories, but with a twist.
 
-- A Python package is simply an organized collection of python modules.
-- A python module is simply a single python file.
+|             **Python Package**             |   **Python Module**   |
+| :----------------------------------------: | :-------------------: |
+| An organized collection of Python modules. | A single Python file. |
 
 <br />
 
