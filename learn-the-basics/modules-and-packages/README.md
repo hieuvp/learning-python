@@ -111,12 +111,14 @@ clear_screen("ping pong")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-You may have noticed that when importing a module,
-a `.pyc` file appears, which is a compiled Python file.
-Python compiles files into Python bytecode
-so that it won't have to parse the files each time modules are loaded.
-If a `.pyc` file exists, it gets loaded instead of the `.py` file,
-but this process is transparent to the user.
+<br />
+
+- You may have noticed that when importing a module,
+  a `.pyc` file appears, which is a compiled Python file.
+- Python compiles files into Python bytecode
+  so that it won't have to parse the files each time modules are loaded.
+- If a `.pyc` file exists, it gets loaded instead of the `.py` file,
+  but this process is transparent to the user.
 
 ## Importing Module Objects To The Current Namespace
 
