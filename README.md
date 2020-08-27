@@ -7,9 +7,9 @@
 
 - [Courses](#courses)
   - [Learn the Basics](#learn-the-basics)
-  - [Data Science Tutorials](#data-science-tutorials)
+  - [Data Science](#data-science)
   - [Advanced Tutorials](#advanced-tutorials)
-  - [Unit Testing with Python](#unit-testing-with-python)
+  - [Unit Testing](#unit-testing)
 - [Topics](#topics)
 - [References](#references)
 
@@ -32,10 +32,10 @@
 1. [Dictionaries](learn-the-basics/dictionaries/README.md)
 1. [Modules and Packages](learn-the-basics/modules-and-packages/README.md)
 
-### Data Science Tutorials
+### Data Science
 
-1. [ ] [Numpy Arrays](data-science-tutorials/numpy-arrays/README.md)
-1. [ ] [Pandas Basics](data-science-tutorials/pandas-basics/README.md)
+1. [Numpy Arrays](data-science/numpy-arrays/README.md)
+1. [Pandas Basics](data-science/pandas-basics/README.md)
 
 ### Advanced Tutorials
 
@@ -52,7 +52,7 @@
 1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
 1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
 
-### Unit Testing with Python
+### Unit Testing
 
 1. [ ] [Course Overview](README.md)
 1. [ ] [Unit Test Fundamentals](README.md)
