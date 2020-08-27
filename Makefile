@@ -36,3 +36,9 @@ run-submakefiles:
 	@printf "\n"
 	scripts/run-submakefiles.sh "all"
 	@printf "\n"
+
+.PHONY: setup-venv
+setup-venv:
+	@printf "\n"
+	scripts/setup-venv.sh
+	@printf "\n"
