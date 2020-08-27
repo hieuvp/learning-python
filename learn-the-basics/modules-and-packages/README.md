@@ -586,7 +586,7 @@ For example, this directory called `pkg`, which marks the package name:
 #
 # This file can be empty, and it indicates
 # that the directory it contains is a "Python package",
-# so it can be imported the same way a module can be imported
+# so it can be imported the same way a "Python module" can be imported
 
 from .game import play_game
 from .draw import draw_game
