@@ -453,8 +453,7 @@ You may execute it before running an `import` command:
 import sys
 from pprint import pprint
 
-# This will add the "foo" directory
-# to the list of paths to look for modules in as well
+# Add "/foo" directory to the list of paths to look for modules
 sys.path.append("/foo")
 
 pprint(sys.path)
