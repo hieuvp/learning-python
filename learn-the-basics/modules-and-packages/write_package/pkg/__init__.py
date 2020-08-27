@@ -16,7 +16,6 @@ from .draw import draw_game
 
 __all__ = ["play_game", "draw_game"]
 
-# This "__init__.py" file can also decide
-# which "modules" the "package" exports as the API, while keeping other "modules" internal,
-# by overwriting the "__all__" variable
+# By overwriting the "__all__" variable, we can decide
+# which "modules" the "package" exports as the API, while keeping other "modules" internal
 # https://riptutorial.com/python/example/2894/the---all---special-variable
