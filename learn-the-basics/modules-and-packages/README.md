@@ -155,11 +155,13 @@ draw_game("ping pong")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-The advantages of using this notation is that
-it is easier to use the functions inside the current module
-because you don't need to specify which module the function comes from.
-However, any namespace cannot have two objects with the exact same name,
-so the import command may replace an existing object in the namespace.
+<br />
+
+- The advantages of using this notation is that
+  it is easier to use the functions inside the current module
+  because you don't need to specify which module the function comes from.
+- However, any namespace cannot have two objects with the exact same name,
+  so the import command may replace an existing object in the namespace.
 
 ## Importing All Objects From A Module
 
@@ -194,9 +196,11 @@ draw_game("ping pong")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-This might be a bit risky as changes in the module might affect the module which imports it,
-but it is shorter and also does not require you to specify
-which objects you wish to import from the module.
+<br />
+
+- This might be a bit risky as changes in the module might affect the module which imports it.
+- But it is shorter and also does not require you to specify
+  which objects you wish to import from the module.
 
 ## Customizing Import Name
 
