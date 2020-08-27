@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Courses](#courses)
-  - [Learn the Basics](#learn-the-basics)
+  - [Learn The Basics](#learn-the-basics)
   - [Data Science](#data-science)
   - [Advanced Tutorials](#advanced-tutorials)
   - [Unit Testing](#unit-testing)
@@ -17,7 +17,7 @@
 
 ## Courses
 
-### Learn the Basics
+### Learn The Basics
 
 1. [Hello, World!](learn-the-basics/hello-world/README.md)
 1. [Variables and Types](learn-the-basics/variables-and-types/README.md)
