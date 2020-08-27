@@ -1,0 +1,8 @@
++ python select_data.py
+cars_per_cap      588
+country         Japan
+drives_right    False
+Name: JAP, dtype: object
+     cars_per_cap    country  drives_right
+AUS           731  Australia         False
+EG             45      Egypt          True
