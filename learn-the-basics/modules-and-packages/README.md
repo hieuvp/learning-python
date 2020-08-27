@@ -591,7 +591,7 @@ For example, this directory called `pkg`, which marks the package name:
 from .game import play_game
 from .draw import draw_game
 
-# The "." before the module name is necessary as of Python 3
+# The "." before the module name is necessary as of (Vietnamese: kể từ) Python 3
 # since it is more strict regarding relative imports
 # https://stackoverflow.com/questions/12172791/changes-in-import-statement-python3
 
