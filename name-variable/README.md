@@ -100,8 +100,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 ## Scenario 2: Importing Script
 
 > When importing one Python script into another,
-> <br />there seem to be two different scopes
-> which can be considered as the **main function**:
+> there seem to be two different scopes.
 
 1. `__name__` variable of the currently running program.
 1. `__name__` variable of the imported script used in the current program.
