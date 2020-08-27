@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Introduction](#introduction)
-- [Scenario 1 - Standalone Script](#scenario-1---standalone-script)
-- [Scenario 2 - Importing Script](#scenario-2---importing-script)
+- [Scenario 1: Standalone Script](#scenario-1-standalone-script)
+- [Scenario 2: Importing Script](#scenario-2-importing-script)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -49,7 +49,7 @@ type(__name__) = <type 'str'>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Scenario 1 - Standalone Script
+## Scenario 1: Standalone Script
 
 > When you run any well-written standalone Python script
 > which is not referring to any other script,
@@ -97,7 +97,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Scenario 2 - Importing Script
+## Scenario 2: Importing Script
 
 > When importing one Python script into another,
 > <br />there seem to be two different scopes
