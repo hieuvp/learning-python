@@ -1,4 +1,4 @@
-# urllib.request - Extensible library for opening URLs
+# Extensible library for opening URLs
 # https://docs.python.org/3/library/urllib.request.html
 import urllib.request
 

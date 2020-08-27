@@ -516,7 +516,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 <!-- The below code snippet is automatically added from explore_built_in_urllib.py -->
 
 ```py
-# urllib.request - Extensible library for opening URLs
+# Extensible library for opening URLs
 # https://docs.python.org/3/library/urllib.request.html
 import urllib.request
 
