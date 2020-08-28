@@ -34,6 +34,8 @@ dictionary = {
     "population": [200.4, 143.5, 1252, 1357, 52.98],
 }
 
+# BRICS is the acronym coined for an association of five major emerging national economies:
+# Brazil, Russia, India, China and South Africa
 brics = pd.DataFrame(dictionary)
 
 if __name__ == "__main__":
@@ -57,16 +59,20 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-As you can see with the new brics DataFrame,
+As we can see with the new `brics` DataFrame,
 Pandas has assigned a key for each country as the numerical values 0 through 4.
-If you would like to have different index values, say, the two letter country code,
-you can do that easily as well.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.py) -->
 <!-- The below code snippet is automatically added from set_index.py -->
 
 ```py
 from create_dataframe import brics
+
+# If you would like to have different index values, say,
+# the two letter country code,
+# you can do that easily as well
 
 # Set the index for brics
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
@@ -92,8 +98,10 @@ SA  South Africa   Pretoria   1.221       52.98
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 Another way to create a DataFrame is by importing a csv file using Pandas.
-Now, the csv cars.csv is stored and can be imported using `pd.read_csv`:
+Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=read_csv.py) -->
 <!-- The below code snippet is automatically added from read_csv.py -->
@@ -130,19 +138,20 @@ print(cars)
 
 ## Indexing DataFrames
 
-There are several ways to index a Pandas DataFrame.
-One of the easiest ways to do this is by using square bracket notation.
+> There are several ways to index a Pandas DataFrame.
 
-In the example below,
-you can use square brackets to select one column of the cars DataFrame.
-You can either use a single bracket or a double bracket.
-The single bracket with output a Pandas Series,
-while a double bracket will output a Pandas DataFrame.
+One of the easiest ways to do this is by using square bracket notation.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=index_dataframe.py) -->
 <!-- The below code snippet is automatically added from index_dataframe.py -->
 
 ```py
+# In the example below,
+# you can use square brackets to select one column of the cars DataFrame.
+# You can either use a single bracket or a double bracket.
+# The single bracket with output a Pandas Series,
+# while a double bracket will output a Pandas DataFrame.
+
 # Import pandas and cars.csv
 import pandas as pd
 
@@ -193,8 +202,9 @@ EG             45          Egypt
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 Square brackets can also be used to access observations (rows) from a DataFrame.
-For example:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=access_observations.py) -->
 <!-- The below code snippet is automatically added from access_observations.py -->
@@ -231,11 +241,14 @@ MOR            70  Morocco          True
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-You can also use loc and iloc to perform just about any data selection operation.
-loc is label-based,
-which means that you have to specify rows and columns based on their row and column labels.
-iloc is integer index based,
-so you have to specify rows and columns by their integer index like you did in the previous exercise.
+<br />
+
+You can also use `loc` and `iloc` to perform just about any data selection operation.
+
+- `loc` is label-based,
+  which means that you have to specify rows and columns based on their row and column labels.
+- `iloc` is integer index based,
+  so you have to specify rows and columns by their integer index like you did in the previous exercise.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=select_data.py) -->
 <!-- The below code snippet is automatically added from select_data.py -->

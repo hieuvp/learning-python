@@ -7,6 +7,8 @@ dictionary = {
     "population": [200.4, 143.5, 1252, 1357, 52.98],
 }
 
+# BRICS is the acronym coined for an association of five major emerging national economies:
+# Brazil, Russia, India, China and South Africa
 brics = pd.DataFrame(dictionary)
 
 if __name__ == "__main__":
