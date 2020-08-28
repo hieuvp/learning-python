@@ -100,15 +100,19 @@ bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 
 ## Subsetting
 
-Another great feature of Numpy arrays is the ability to subset.
-For instance, if you wanted to know which observations in our BMI array are above 23,
-we could quickly subset it to find out.
+> Another great feature of Numpy arrays is the ability to subset.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=subset.py) -->
 <!-- The below code snippet is automatically added from subset.py -->
 
 ```py
 from calculate_bmi import bmi
+
+# For instance,
+# if you wanted to know which observations in our BMI array are above 23,
+# we could quickly subset it to find out
 
 # For a boolean response
 print("(bmi > 23) = %s" % (bmi > 23))
