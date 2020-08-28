@@ -12,6 +12,7 @@
 
 - [DataFrames](#dataframes)
 - [Indexing DataFrames](#indexing-dataframes)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -211,6 +212,28 @@ EG             45          Egypt
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+- Two-dimensional size-mutable,
+  potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+  Arithmetic operations align on both row and column labels.
+  Can be thought of as a dict-like container for Series objects.
+  The primary pandas data structure.
+
+- So, the Series is the data structure for a single column of a DataFrame,
+  not only conceptually, but literally,
+  i.e. the data in a DataFrame is actually stored in memory as a collection of Series.
+
+- Analogously: We need both lists and matrices,
+  because matrices are built with lists.
+  Single row matricies,
+  while equivalent to lists in functionality still cannot exists
+  without the list(s) they're composed of.
+
+- They both have extremely similar APIs,
+  but you'll find that DataFrame methods always cater to the possibility
+  that you have more than one column.
+  And, of course, you can always add another Series (or equivalent object) to a DataFrame,
+  while adding a Series to another Series involves creating a DataFrame.
+
 <br />
 
 Square brackets can also be used to access observations (rows) from a DataFrame.
@@ -292,3 +315,7 @@ EG             45      Egypt          True
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [What is the difference between a pandas Series and a single-column DataFrame?](https://stackoverflow.com/questions/26047209/what-is-the-difference-between-a-pandas-series-and-a-single-column-dataframe)
