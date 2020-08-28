@@ -15,9 +15,9 @@
 
 ## Getting Started
 
-> **Numpy Arrays** are great alternatives to Python Lists.
+> **Numpy Arrays** are great alternatives to **Python Lists**.
 > <br />Some of the key advantages of Numpy Arrays are that they are fast, easy to work with,
-> and give users the opportunity to perform calculations across entire arrays.
+> <br />and give users the opportunity to perform calculations across entire arrays.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.py) -->
 <!-- The below code snippet is automatically added from getting_started.py -->
@@ -63,20 +63,23 @@ type(np_height) = <class 'numpy.ndarray'>
 
 ## Element-wise Calculations
 
-Now we can perform element-wise calculations on height and weight.
-For example, you could take all 6 of the height and weight observations above,
-and calculate the BMI (Body Mass Index) for each observation with a single equation.
-These operations are very fast and computationally efficient.
-They are particularly helpful when you have 1000s of observations in your data.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=calculate_bmi.py) -->
 <!-- The below code snippet is automatically added from calculate_bmi.py -->
 
 ```py
 from getting_started import np_weight, np_height
 
-# Calculate bmi
+# Now we can perform element-wise calculations on height and weight.
+#
+# For example,
+# you could take all 6 of the height and weight observations above,
+# and calculate the BMI (Body Mass Index) for each observation with a single equation.
+
+
 bmi = np_weight / np_height ** 2
+
+# These operations are very fast and computationally efficient.
+# They are particularly helpful when you have 1000s of observations in your data.
 
 if __name__ == "__main__":
     # Print the result
