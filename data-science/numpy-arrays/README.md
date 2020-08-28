@@ -15,36 +15,32 @@
 
 ## Getting Started
 
-Numpy arrays are great alternatives to Python Lists.
-Some of the key advantages of Numpy arrays are that they are fast,
-easy to work with, and give users the opportunity to perform calculations across entire arrays.
+> **Numpy Arrays** are great alternatives to Python Lists.
+> <br />Some of the key advantages of Numpy Arrays are that they are fast, easy to work with,
+> and give users the opportunity to perform calculations across entire arrays.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.py) -->
 <!-- The below code snippet is automatically added from getting_started.py -->
 
 ```py
-# In the following example, you will first create two Python lists.
-# Then, you will import the numpy package and create numpy arrays out of the newly created lists.
-
 # Import the numpy package as np
 import numpy as np
 
-# Create 2 new lists height and weight
+# Create 2 new Python lists
 height = [1.87, 1.87, 1.82, 1.91, 1.90, 1.85]
 weight = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
 
-
-# Create 2 numpy arrays from height and weight
+# Create 2 numpy arrays out of the newly created lists
 np_height = np.array(height)
 np_weight = np.array(weight)
 
 
 def main():
-    print("np_height = %s" % np_height)
-    print("np_weight = %s" % np_weight)
+    print("np_height       = %s" % np_height)
+    print("np_weight       = %s" % np_weight)
 
     # Print out the type of np_height
-    print(type(np_height))
+    print("type(np_height) = %s" % type(np_height))
 
 
 if __name__ == "__main__":
@@ -58,9 +54,9 @@ if __name__ == "__main__":
 
 ```console
 + python getting_started.py
-np_height = [1.87 1.87 1.82 1.91 1.9  1.85]
-np_weight = [81.65 97.52 95.25 92.98 86.18 88.45]
-<class 'numpy.ndarray'>
+np_height       = [1.87 1.87 1.82 1.91 1.9  1.85]
+np_weight       = [81.65 97.52 95.25 92.98 86.18 88.45]
+type(np_height) = <class 'numpy.ndarray'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
