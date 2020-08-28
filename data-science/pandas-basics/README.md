@@ -156,13 +156,17 @@ import pandas as pd
 
 cars = pd.read_csv("cars.csv", index_col=0)
 
-# Print out country column as Pandas Series
+print()
+
+print("# Print out country column as Pandas Series")
 print(cars["cars_per_cap"])
+print()
 
-# Print out country column as Pandas DataFrame
+print("# Print out country column as Pandas DataFrame")
 print(cars[["cars_per_cap"]])
+print()
 
-# Print out DataFrame with country and drives_right columns
+print("# Print out DataFrame with country and drives_right columns")
 print(cars[["cars_per_cap", "country"]])
 ```
 
@@ -173,6 +177,8 @@ print(cars[["cars_per_cap", "country"]])
 
 ```console
 + python index_dataframe.py
+
+# Print out country column as Pandas Series
 US     809
 AUS    731
 JAP    588
@@ -181,6 +187,8 @@ RU     200
 MOR     70
 EG      45
 Name: cars_per_cap, dtype: int64
+
+# Print out country column as Pandas DataFrame
      cars_per_cap
 US            809
 AUS           731
@@ -189,6 +197,8 @@ IN             18
 RU            200
 MOR            70
 EG             45
+
+# Print out DataFrame with country and drives_right columns
      cars_per_cap        country
 US            809  United States
 AUS           731      Australia
