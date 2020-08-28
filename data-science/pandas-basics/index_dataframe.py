@@ -1,6 +1,6 @@
-# In the example below,
-# you can use square brackets to select one column of the cars DataFrame.
-# You can either use a single bracket or a double bracket.
+# Use square brackets to select one column of the cars DataFrame.
+#
+# We can either use a single bracket or a double bracket.
 # The single bracket with output a Pandas Series,
 # while a double bracket will output a Pandas DataFrame.
 

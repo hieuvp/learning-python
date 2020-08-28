@@ -70,9 +70,8 @@ Pandas has assigned a key for each country as the numerical values 0 through 4.
 ```py
 from create_dataframe import brics
 
-# If you would like to have different index values, say,
-# the two letter country code,
-# you can do that easily as well
+# If we would like to have different index values,
+# say, the two letter country code
 
 # Set the index for brics
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
@@ -146,9 +145,9 @@ One of the easiest ways to do this is by using square bracket notation.
 <!-- The below code snippet is automatically added from index_dataframe.py -->
 
 ```py
-# In the example below,
-# you can use square brackets to select one column of the cars DataFrame.
-# You can either use a single bracket or a double bracket.
+# Use square brackets to select one column of the cars DataFrame.
+#
+# We can either use a single bracket or a double bracket.
 # The single bracket with output a Pandas Series,
 # while a double bracket will output a Pandas DataFrame.
 
