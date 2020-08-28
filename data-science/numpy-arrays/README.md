@@ -100,7 +100,7 @@ bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 
 ## Subsetting
 
-> Another great feature of Numpy arrays is the ability to subset.
+> Another great feature of **Numpy Arrays** is the ability to **subset**.
 
 <br />
 
@@ -136,15 +136,15 @@ bmi[bmi > 23] = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.
 
 ## Exercise
 
-First, convert the list of weights from a list to a Numpy array.
-Then, convert all of the weights from kilograms to pounds.
-Use the scalar conversion of 2.2 lbs per kilogram to make your conversion.
-Lastly, print the resulting array of weights in pounds.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+# First, convert the list of weights from a list to a Numpy array.
+# Then, convert all of the weights from kilograms to pounds.
+# Use the scalar conversion of 2.2 lbs per kilogram to make your conversion.
+# Lastly, print the resulting array of weights in pounds.
+
 # import numpy as np
 
 weight_kg = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
