@@ -1,3 +1,6 @@
+# In the following example, you will first create two Python lists.
+# Then, you will import the numpy package and create numpy arrays out of the newly created lists.
+
 # Import the numpy package as np
 import numpy as np
 

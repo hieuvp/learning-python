@@ -19,13 +19,13 @@ Numpy arrays are great alternatives to Python Lists.
 Some of the key advantages of Numpy arrays are that they are fast,
 easy to work with, and give users the opportunity to perform calculations across entire arrays.
 
-In the following example, you will first create two Python lists.
-Then, you will import the numpy package and create numpy arrays out of the newly created lists.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.py) -->
 <!-- The below code snippet is automatically added from getting_started.py -->
 
 ```py
+# In the following example, you will first create two Python lists.
+# Then, you will import the numpy package and create numpy arrays out of the newly created lists.
+
 # Import the numpy package as np
 import numpy as np
 
