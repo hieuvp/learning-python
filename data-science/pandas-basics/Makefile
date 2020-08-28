@@ -26,3 +26,11 @@ select-data:
 
 .PHONY: all
 all: create-dataframe set-index read-csv index-dataframe access-observations select-data
+
+.PHONY: git-add
+git-add: all
+	@printf "\n"
+	$(MAKEFILE_SCRIPT_PATH)/fmt-markdown.sh
+
+	@printf "\n"
+	git add --all .

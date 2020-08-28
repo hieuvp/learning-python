@@ -1,25 +1,25 @@
 # Pandas Basics
 
+- **Pandas** is a high-level data manipulation tool.
+- It is built on the **Numpy** package and its key data structure is called the **DataFrame**.
+- **DataFrames** allow you to store and manipulate tabular data
+  in rows of observations and columns of variables.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Pandas DataFrames](#pandas-dataframes)
+- [DataFrames](#dataframes)
 - [Indexing DataFrames](#indexing-dataframes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Pandas DataFrames
+## DataFrames
 
-Pandas is a high-level data manipulation tool developed by Wes McKinney.
-It is built on the Numpy package and its key data structure is called the DataFrame.
-DataFrames allow you to store and manipulate tabular data
-in rows of observations and columns of variables.
+> There are several ways to create a **DataFrame**.
 
-There are several ways to create a DataFrame.
-One way is to use a dictionary.
-For example:
+One way is to use a dictionary:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
 <!-- The below code snippet is automatically added from create_dataframe.py -->
