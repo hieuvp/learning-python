@@ -18,3 +18,11 @@ exercise:
 
 .PHONY: all
 all: getting-started calculate-bmi subset exercise
+
+.PHONY: git-add
+git-add: all
+	@printf "\n"
+	$(MAKEFILE_SCRIPT_PATH)/fmt-markdown.sh
+
+	@printf "\n"
+	git add --all .
