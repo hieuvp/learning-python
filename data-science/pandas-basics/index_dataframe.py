@@ -1,8 +1,8 @@
 # Use square brackets to select one column of the cars DataFrame.
 #
-# We can either use a single bracket or a double bracket.
-# The single bracket with output a Pandas Series,
-# while a double bracket will output a Pandas DataFrame.
+# We can either use a single bracket or a double bracket:
+# - Single bracket will output a Pandas Series.
+# - Double bracket will output a Pandas DataFrame.
 
 # Import pandas and cars.csv
 import pandas as pd

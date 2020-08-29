@@ -149,9 +149,9 @@ One of the easiest ways to do this is by using square bracket notation.
 ```py
 # Use square brackets to select one column of the cars DataFrame.
 #
-# We can either use a single bracket or a double bracket.
-# The single bracket with output a Pandas Series,
-# while a double bracket will output a Pandas DataFrame.
+# We can either use a single bracket or a double bracket:
+# - Single bracket will output a Pandas Series.
+# - Double bracket will output a Pandas DataFrame.
 
 # Import pandas and cars.csv
 import pandas as pd
@@ -239,9 +239,9 @@ EG             45          Egypt
   Can be thought of as a dict-like container for Series objects.
   The primary `pandas` data structure.
 
-- So, the Series is the data structure for a single column of a DataFrame,
+- So, the **Series** is the data structure for a single column of a **DataFrame**,
   not only conceptually, but literally,
-  i.e. the data in a DataFrame is actually stored in memory as a collection of Series.
+  i.e. the data in a **DataFrame** is actually stored in memory as a collection of **Series**.
 
 - Analogously: We need both lists and matrices,
   because matrices are built with lists.
