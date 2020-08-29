@@ -5,6 +5,8 @@ def function(first, second, third, **options):
     if options.get("number") == "first":
         return first
 
+    return None
 
-result = function(1, 2, 3, action="sum", number="first")
-print("Result: %d" % result)
+
+RESULT = function(1, 2, 3, action="sum", number="first")
+print("Result: %d" % RESULT)

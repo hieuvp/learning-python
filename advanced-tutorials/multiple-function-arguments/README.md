@@ -74,16 +74,18 @@ The following code yields the following output: The sum is: 6 Result: 1
 <!-- The below code snippet is automatically added from kwargs.py -->
 
 ```py
-def bar(first, second, third, **options):
+def function(first, second, third, **options):
     if options.get("action") == "sum":
         print("The sum is: %d" % (first + second + third))
 
     if options.get("number") == "first":
         return first
 
+    return None
 
-result = bar(1, 2, 3, action="sum", number="first")
-print("Result: %d" % (result))
+
+RESULT = function(1, 2, 3, action="sum", number="first")
+print("Result: %d" % RESULT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
