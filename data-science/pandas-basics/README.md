@@ -22,14 +22,13 @@
 
 <br />
 
-One way is to use a dictionary:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
 <!-- The below code snippet is automatically added from create_dataframe.py -->
 
 ```py
 import pandas as pd
 
+# Using a dictionary
 dictionary = {
     "country": ["Brazil", "Russia", "India", "China", "South Africa"],
     "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
@@ -102,7 +101,8 @@ SA  South Africa   Pretoria   1.221       52.98
 
 <br />
 
-Another way to create a DataFrame is by importing a csv file using Pandas.
+Another way to create a **DataFrame** is
+by importing a **csv** file using **Pandas**.
 Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=read_csv.py) -->
@@ -111,7 +111,7 @@ Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 ```py
 import pandas as pd
 
-# Import the cars.csv data: cars
+# Import the "cars.csv" data
 cars = pd.read_csv("cars.csv")
 
 # Print out cars
