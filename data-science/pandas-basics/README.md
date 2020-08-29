@@ -107,7 +107,6 @@ Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 <!-- The below code snippet is automatically added from read_csv.py -->
 
 ```py
-# Import pandas as pd
 import pandas as pd
 
 # Import the cars.csv data: cars
@@ -286,9 +285,9 @@ You can also use `loc` and `iloc` to perform just about any data selection opera
 <!-- The below code snippet is automatically added from select_data.py -->
 
 ```py
-# Import cars data
 import pandas as pd
 
+# Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
 # Print out observation for Japan
