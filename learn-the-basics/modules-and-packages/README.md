@@ -39,9 +39,9 @@
 import draw
 
 
-# When the "import draw" directive run, the Python interpreter will look for a file
+# When the "import draw" directive run, Python interpreter will look for a file
 # in the directory which the script was executed from,
-# by the name of the module with a ".py" suffix (in this case, "draw.py")
+# by the name of the module with a ".py" suffix ("draw.py", in this case)
 #
 # - If found one, it will import it
 # - If not, it will continue to look for "built-in modules"
