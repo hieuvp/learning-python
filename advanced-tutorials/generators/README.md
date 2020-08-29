@@ -32,7 +32,21 @@ Here is a simple example of a generator function which returns 7 random integers
 <!-- The below code snippet is automatically added from generator_function.py -->
 
 ```py
+import random
 
+
+def lottery():
+    # returns 6 numbers between 1 and 40
+    for i in range(6):
+        print("i = %s" % i)
+        yield random.randint(1, 40)
+
+    # returns a 7th number between 1 and 15
+    yield random.randint(1, 15)
+
+
+for random_number in lottery():
+    print("And the next number is... %d!" % (random_number))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -42,24 +56,22 @@ Here is a simple example of a generator function which returns 7 random integers
 
 ```console
 + python generator_function.py
+i = 0
+And the next number is... 27!
+i = 1
+And the next number is... 12!
+i = 2
+And the next number is... 17!
+i = 3
+And the next number is... 1!
+i = 4
+And the next number is... 22!
+i = 5
+And the next number is... 29!
+And the next number is... 6!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-import random
-
-def lottery():
-    # returns 6 numbers between 1 and 40
-    for i in range(6):
-        yield random.randint(1, 40)
-
-    # returns a 7th number between 1 and 15
-    yield random.randint(1,15)
-
-for random_number in lottery():
-       print("And the next number is... %d!" %(random_number))
-```
 
 This function decides how to generate the random numbers on its own,
 and executes the yield statements one at a time,

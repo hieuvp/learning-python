@@ -5,9 +5,12 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 List Comprehensions is a very powerful tool,
 which creates a new list based on another list, in a single, readable line.
