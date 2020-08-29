@@ -13,6 +13,6 @@ import urllib.request
 print("\n+ print(dir(urllib.request))")
 print(dir(urllib.request))
 
-# A wrapper around pydoc.help that provides a helpful message
+# Provide a helpful message
 print("\n+ help(urllib.request.urlopen)")
 help(urllib.request.urlopen)
