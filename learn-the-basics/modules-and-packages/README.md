@@ -551,7 +551,7 @@ help(urllib.request.urlopen)
 + help(urllib.request.urlopen)
 Help on function urlopen in module urllib.request:
 
-urlopen(url, data=None, timeout=<object object at 0x109c6ff30>, *, cafile=None, capath=None, cadefault=False, context=None)
+urlopen(url, data=None, timeout=<object object at 0x101a5df30>, *, cafile=None, capath=None, cadefault=False, context=None)
     Open the URL url, which can be either a string or a Request object.
 
     ...
