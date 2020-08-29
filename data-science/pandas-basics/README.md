@@ -99,13 +99,10 @@ SA  South Africa   Pretoria   1.221       52.98
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
-
 ### From `.csv` Files
 
-Another way to create a **DataFrame** is
-by importing a **csv** file using **Pandas**.
-Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
+> Another way to create a **DataFrame** is
+> by importing a **csv** file using **Pandas**.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=read_csv.py) -->
 <!-- The below code snippet is automatically added from read_csv.py -->
@@ -113,6 +110,7 @@ Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 ```py
 import pandas as pd
 
+# Now, the csv `cars.csv` is stored and can be imported using `pd.read_csv`:
 # Import the "cars.csv" data
 cars = pd.read_csv("cars.csv")
 
