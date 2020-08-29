@@ -20,6 +20,8 @@
 
 > There are several ways to create a **DataFrame**.
 
+<br />
+
 One way is to use a dictionary:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->

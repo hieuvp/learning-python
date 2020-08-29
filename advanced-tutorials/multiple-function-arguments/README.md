@@ -13,14 +13,16 @@
 
 ## Concepts
 
-Every function in Python receives a predefined number of arguments,
-if declared normally, like this:
+> Every function in Python receives a predefined number of arguments,
+> if declared normally, like this:
 
 ```python
 def my_function(first, second, third):
     # do something with the 3 variables
     ...
 ```
+
+<br />
 
 It is possible to declare functions which receive a variable number of arguments,
 using the following syntax:
@@ -101,16 +103,18 @@ if the value of the "number" parameter, passed into the function, is equal to "f
 
 ## Exercise
 
-Fill in the foo and bar functions so they can receive a variable amount of arguments (3 or more)
-The foo function must return the amount of extra arguments received.
-The bar must return True if the argument with the keyword magicnumber is worth 7,
-and False otherwise.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# edit the functions prototype and implementation
+# Fill in the foo and bar functions
+# so they can receive a variable amount of arguments (3 or more)
+# The foo function must return the amount of extra arguments received.
+# The bar must return True if the argument with the keyword magicnumber is worth 7,
+# and False otherwise.
+
+
+# Edit the functions prototype and implementation
 # def foo(a, b, c):
 #     pass
 #
