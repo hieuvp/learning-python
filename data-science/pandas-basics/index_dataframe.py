@@ -11,16 +11,25 @@ cars = pd.read_csv("cars.csv", index_col=0)
 
 print()
 
-print("# Print out cars_per_cap column as Pandas Series")
+print("# Pandas Series with cars_per_cap column")
 print('+ cars["cars_per_cap"]')
 print(cars["cars_per_cap"])
 print()
 
-print("# Print out cars_per_cap column as Pandas DataFrame")
+print("# Pandas Series with cars_per_cap and country columns")
+try:
+    print('+ cars["cars_per_cap", "country"]')
+    print(cars["cars_per_cap", "country"])
+except Exception as err:
+    print("type(err) = %s" % type(err))
+    print("err       = %s" % err)
+print()
+
+print("# Pandas DataFrame with cars_per_cap column")
 print('+ cars[["cars_per_cap"]]')
 print(cars[["cars_per_cap"]])
 print()
 
-print("# Print out DataFrame with cars_per_cap and country columns")
+print("# Pandas DataFrame with cars_per_cap and country columns")
 print('+ cars[["cars_per_cap", "country"]]')
 print(cars[["cars_per_cap", "country"]])
