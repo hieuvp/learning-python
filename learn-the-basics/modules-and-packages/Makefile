@@ -43,3 +43,11 @@ exercise:
 
 .PHONY: all
 all: ping-pong-game import-module-objects import-all-module-objects customize-import-name initialize-module extend-module-search-path append-module-search-path explore-built-in-urllib write-package exercise
+
+.PHONY: git-add
+git-add: all
+	@printf "\n"
+	$(MAKEFILE_SCRIPT_PATH)/fmt-markdown.sh
+
+	@printf "\n"
+	git add --all .
