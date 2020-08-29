@@ -225,8 +225,8 @@ EG             45          Egypt
 
 - Analogously: We need both lists and matrices,
   because matrices are built with lists.
-  Single row matricies,
-  while equivalent to lists in functionality still cannot exists
+  Single row matrices,
+  while equivalent to lists in functionality still cannot exist
   without the list(s) they're composed of.
 
 - They both have extremely similar APIs,
