@@ -160,15 +160,18 @@ cars = pd.read_csv("cars.csv", index_col=0)
 
 print()
 
-print("# Print out country column as Pandas Series")
+print("# Print out cars_per_cap column as Pandas Series")
+print('+ cars["cars_per_cap"]')
 print(cars["cars_per_cap"])
 print()
 
-print("# Print out country column as Pandas DataFrame")
+print("# Print out cars_per_cap column as Pandas DataFrame")
+print('+ cars[["cars_per_cap"]]')
 print(cars[["cars_per_cap"]])
 print()
 
-print("# Print out DataFrame with country and drives_right columns")
+print("# Print out DataFrame with cars_per_cap and country columns")
+print('+ cars[["cars_per_cap", "country"]]')
 print(cars[["cars_per_cap", "country"]])
 ```
 
@@ -180,7 +183,8 @@ print(cars[["cars_per_cap", "country"]])
 ```console
 + python index_dataframe.py
 
-# Print out country column as Pandas Series
+# Print out cars_per_cap column as Pandas Series
++ cars["cars_per_cap"]
 US     809
 AUS    731
 JAP    588
@@ -190,7 +194,8 @@ MOR     70
 EG      45
 Name: cars_per_cap, dtype: int64
 
-# Print out country column as Pandas DataFrame
+# Print out cars_per_cap column as Pandas DataFrame
++ cars[["cars_per_cap"]]
      cars_per_cap
 US            809
 AUS           731
@@ -200,7 +205,8 @@ RU            200
 MOR            70
 EG             45
 
-# Print out DataFrame with country and drives_right columns
+# Print out DataFrame with cars_per_cap and country columns
++ cars[["cars_per_cap", "country"]]
      cars_per_cap        country
 US            809  United States
 AUS           731      Australia
@@ -217,7 +223,7 @@ EG             45          Egypt
   potentially heterogeneous tabular data structure with labeled axes (rows and columns).
   Arithmetic operations align on both row and column labels.
   Can be thought of as a dict-like container for Series objects.
-  The primary pandas data structure.
+  The primary `pandas` data structure.
 
 - So, the Series is the data structure for a single column of a DataFrame,
   not only conceptually, but literally,
