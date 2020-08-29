@@ -5,9 +5,12 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 Generators are very easy to implement, but a bit difficult to understand.
 
@@ -24,6 +27,24 @@ The generator function can generate as many values (possibly infinite) as it wan
 yielding each one in its turn.
 
 Here is a simple example of a generator function which returns 7 random integers:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.py) -->
+<!-- The below code snippet is automatically added from generator_function.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.console) -->
+<!-- The below code snippet is automatically added from generator_function.console -->
+
+```console
++ python generator_function.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ```python
 import random

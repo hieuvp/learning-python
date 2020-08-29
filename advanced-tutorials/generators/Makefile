@@ -1,11 +1,15 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: generator-function
+generator-function:
+	./generator_function.sh &> generator_function.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: exercise
+all: generator-function exercise
 
 .PHONY: git-add
 git-add: all
