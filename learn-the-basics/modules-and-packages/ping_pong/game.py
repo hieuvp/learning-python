@@ -4,7 +4,7 @@
 
 # Modules are imported from other modules using the "import" command.
 # In this example, this "game" module imports the "draw" module
-# which enables it to use functions implemented in that module.
+# which enables it to use functions implemented in that "draw" module.
 import draw
 
 
