@@ -17,7 +17,7 @@ Every function in Python receives a predefined number of arguments,
 if declared normally, like this:
 
 ```python
-def myfunction(first, second, third):
+def my_function(first, second, third):
     # do something with the 3 variables
     ...
 ```
@@ -25,22 +25,12 @@ def myfunction(first, second, third):
 It is possible to declare functions which receive a variable number of arguments,
 using the following syntax:
 
-```python
-def foo(first, second, third, *therest):
-    print("First: %s" % first)
-    print("Second: %s" % second)
-    print("Third: %s" % third)
-    print("And all the rest... %s" % list(therest))
-```
-
-The "therest" variable is a list of variables,
-which receives all arguments which were given to the "foo" function after the first 3 arguments.
-So calling foo(1,2,3,4,5) will print out:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=args.py) -->
 <!-- The below code snippet is automatically added from args.py -->
 
 ```py
+# The "therest" variable is a list of variables,
+# which receives all arguments which were given to the "foo" function after the first 3 arguments.
 def function(first, second, third, *therest):
     print("First: %s" % first)
     print("Second: %s" % second)
@@ -48,6 +38,7 @@ def function(first, second, third, *therest):
     print("And all the rest... %s" % (list(therest)))
 
 
+# So calling foo(1,2,3,4,5) will print out:
 function(1, 2, 3, 4, 5)
 ```
 
@@ -65,6 +56,8 @@ And all the rest... [4, 5]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 It is also possible to send functions arguments by keyword,
 so that the order of the argument does not matter, using the following syntax.
