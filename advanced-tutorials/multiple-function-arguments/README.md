@@ -7,6 +7,7 @@
 
 - [Concepts](#concepts)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -108,3 +109,8 @@ and False otherwise.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Python `*args`](https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp)
+- [Python `**kwargs`](https://www.w3schools.com/python/gloss_python_function_arbitrary_keyword_arguments.asp)
