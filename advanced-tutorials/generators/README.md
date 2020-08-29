@@ -62,14 +62,20 @@ print(a,b)
 
 will simultaneously switch the values of a and b.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+import types
+
 # fill in this function
 def fib():
-    pass
+    # pass
     # This is a null statement which does nothing when executed, useful as a placeholder.
+    return []
+
 
 # testing code
-import types
 if type(fib()) == types.GeneratorType:
     print("Good, The fib function is a generator.")
 
@@ -79,13 +85,6 @@ if type(fib()) == types.GeneratorType:
         counter += 1
         if counter == 10:
             break
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
-<!-- The below code snippet is automatically added from exercise.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
