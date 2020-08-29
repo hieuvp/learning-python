@@ -66,25 +66,27 @@ will simultaneously switch the values of a and b.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-import types
+# import types
+
 
 # fill in this function
 def fib():
+
     # pass
     # This is a null statement which does nothing when executed, useful as a placeholder.
     return []
 
 
-# testing code
-if type(fib()) == types.GeneratorType:
-    print("Good, The fib function is a generator.")
-
-    counter = 0
-    for n in fib():
-        print(n)
-        counter += 1
-        if counter == 10:
-            break
+# Testing code
+# if type(fib()) == types.GeneratorType:
+#     print("Good, The fib function is a generator.")
+#
+#     counter = 0
+#     for n in fib():
+#         print(n)
+#         counter += 1
+#         if counter == 10:
+#             break
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
