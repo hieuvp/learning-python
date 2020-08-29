@@ -41,6 +41,24 @@ print(words)
 print(word_lengths)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_comprehension.py) -->
+<!-- The below code snippet is automatically added from list_comprehension.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_comprehension.console) -->
+<!-- The below code snippet is automatically added from list_comprehension.console -->
+
+```console
++ python list_comprehension.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Exercise
 
 Using a list comprehension,

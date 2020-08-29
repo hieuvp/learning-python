@@ -1,11 +1,15 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: list-comprehension
+list-comprehension:
+	./list_comprehension.sh &> list_comprehension.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: exercise
+all: list-comprehension exercise
 
 .PHONY: git-add
 git-add: all
