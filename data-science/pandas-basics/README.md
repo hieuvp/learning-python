@@ -11,6 +11,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [DataFrames](#dataframes)
+  - [From Dictionaries](#from-dictionaries)
+  - [From `csv` Files](#from-csv-files)
 - [Indexing DataFrames](#indexing-dataframes)
 - [References](#references)
 
@@ -20,7 +22,7 @@
 
 > There are several ways to create a **DataFrame**.
 
-<br />
+### From Dictionaries
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
 <!-- The below code snippet is automatically added from create_dataframe.py -->
@@ -100,6 +102,8 @@ SA  South Africa   Pretoria   1.221       52.98
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 <br />
+
+### From `csv` Files
 
 Another way to create a **DataFrame** is
 by importing a **csv** file using **Pandas**.
