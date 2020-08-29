@@ -525,7 +525,7 @@ import urllib.request
 # urllib.request.urlopen("https://www.shopback.com")
 
 # Two very important functions come in handy when exploring modules in Python
-# The "dir" and "help" functions:
+# The "dir" and "help" functions.
 
 # Return an alphabetized list of names comprising (some of)
 # the attributes of the given object, and of attributes reachable from it
