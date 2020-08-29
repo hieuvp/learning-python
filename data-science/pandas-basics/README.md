@@ -63,7 +63,7 @@ if __name__ == "__main__":
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 As we can see with the new `brics` DataFrame,
-Pandas has assigned a key for each country as the numerical values 0 through 4.
+Pandas has assigned a key for each country as the numerical values `0` through `4`.
 
 <br />
 
