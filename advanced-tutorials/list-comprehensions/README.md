@@ -9,10 +9,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Get started learning Python with DataCamp's free Intro to Python tutorial.
-Learn Data Science by completing interactive coding challenges and watching videos by expert instructors.
-Start Now!
-
 List Comprehensions is a very powerful tool,
 which creates a new list based on another list, in a single, readable line.
 
@@ -53,7 +49,3 @@ numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
 newlist = []
 print(newlist)
 ```
-
-This site is generously supported by DataCamp.
-DataCamp offers online interactive Python Tutorials for Data Science.
-Join over a million other learners and get started learning Python for data science today!

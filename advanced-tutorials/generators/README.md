@@ -9,10 +9,6 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Get started learning Python with DataCamp's free Intro to Python tutorial.
-Learn Data Science by completing interactive coding challenges and watching videos by expert instructors.
-Start Now!
-
 Generators are very easy to implement, but a bit difficult to understand.
 
 Generators are used to create iterators, but with a different approach.
@@ -84,7 +80,3 @@ if type(fib()) == types.GeneratorType:
         if counter == 10:
             break
 ```
-
-This site is generously supported by DataCamp.
-DataCamp offers online interactive Python Tutorials for Data Science.
-Join over a million other learners and get started learning Python for data science today!
