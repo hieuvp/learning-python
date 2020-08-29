@@ -1,3 +1,0 @@
-+ python subset.py
-(bmi > 23) = [ True  True  True  True  True  True]
-bmi[bmi > 23] = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
