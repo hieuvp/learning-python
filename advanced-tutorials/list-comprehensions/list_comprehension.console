@@ -1,1 +1,5 @@
 + python list_comprehension.py
+['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+[5, 5, 3, 5, 4, 4, 3]
+['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+[5, 5, 3, 5, 4, 4, 3]
