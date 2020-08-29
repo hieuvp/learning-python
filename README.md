@@ -39,9 +39,9 @@
 
 ### Advanced Tutorials
 
-1. [ ] [Generators](advanced-tutorials/generators/README.md)
-1. [ ] [List Comprehensions](advanced-tutorials/list-comprehensions/README.md)
-1. [ ] [Multiple Function Arguments](advanced-tutorials/multiple-function-arguments/README.md)
+1. [Generators](advanced-tutorials/generators/README.md)
+1. [List Comprehensions](advanced-tutorials/list-comprehensions/README.md)
+1. [Multiple Function Arguments](advanced-tutorials/multiple-function-arguments/README.md)
 1. [ ] [Regular Expressions](advanced-tutorials/regular-expressions/README.md)
 1. [ ] [Exception Handling](advanced-tutorials/exception-handling/README.md)
 1. [ ] [Sets](advanced-tutorials/sets/README.md)
