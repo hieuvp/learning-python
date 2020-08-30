@@ -366,15 +366,16 @@ clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200
 
 ## Extending Module Load Path
 
-> There are a couple of ways we could tell the Python interpreter where to look for modules,
-> <br />aside from the default, which is the local directory and the built-in modules.
+> There are a couple of ways we could tell the **Python interpreter**
+> where to look for modules, aside from the default,
+> <br />which is the local directory and the built-in modules.
 
 <br />
 
 You could either use the environment variable
 [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
-to specify additional directories to look for modules in
-(augment the default search path for module files).
+to specify additional directories to look for modules in,
+or in other words, augment the default search path for module files.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.sh -->
@@ -396,8 +397,6 @@ PYTHONPATH=".." python extend_module_search_path.py
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.py) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.py -->
