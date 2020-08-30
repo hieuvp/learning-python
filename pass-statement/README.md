@@ -1,17 +1,33 @@
 # `pass` Statement
 
+> Create a placeholder for future code.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Definition and Usage](#definition-and-usage)
-- [More Examples](#more-examples)
+- [Examples](#examples)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Create a placeholder for future code:
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+## Definition and Usage
+
+- The `pass` statement is used as a placeholder for future code.
+
+- When the `pass` statement is executed, nothing happens,
+  but you avoid getting an error when empty code is not allowed.
+
+- Empty code is not allowed in
+  loops, function definitions, class definitions, or in if statements.
+
+## Examples
+
+Using the `pass` keyword in a `for` loop:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=loop.py) -->
 <!-- The below code snippet is automatically added from loop.py -->
@@ -31,18 +47,6 @@ for x in [0, 1, 2]:
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-## Definition and Usage
-
-- The `pass` statement is used as a placeholder for future code.
-
-- When the `pass` statement is executed, nothing happens,
-  but you avoid getting an error when empty code is not allowed.
-
-- Empty code is not allowed in
-  loops, function definitions, class definitions, or in if statements.
-
-## More Examples
 
 Using the `pass` keyword in a `function` definition:
 
