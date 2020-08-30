@@ -558,9 +558,9 @@ urlopen(url, data=None, timeout=<object object at 0x101a5df30>, *, cafile=None, 
 
 ## Writing **Packages**
 
-|   **Python Module**   |             **Python Package**             |
-| :-------------------: | :----------------------------------------: |
-| A single Python file. | An organized collection of Python modules. |
+|  **Python Module**   |            **Python Package**             |
+| :------------------: | :---------------------------------------: |
+| A single Python file | An organized collection of Python modules |
 
 > Packages are namespaces which contain multiple packages and modules themselves.
 > <br />They are simply directories, but with a twist.
