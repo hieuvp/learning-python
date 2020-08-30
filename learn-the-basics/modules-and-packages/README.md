@@ -197,7 +197,7 @@ draw_game("ping pong")
 
 <br />
 
-- A bit risky as changes in the module might affect the module which imports it.
+- A bit risky as changes in the module (`draw`) might affect the module (`game`) which imports it.
 - But it is shorter and also does not require you to specify
   which objects you wish to import from the module.
 
