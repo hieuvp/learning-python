@@ -562,16 +562,16 @@ urlopen(url, data=None, timeout=<object object at 0x101a5df30>, *, cafile=None, 
 
 ## Writing **Packages**
 
-|  **Python Module**   |            **Python Package**             |
-| :------------------: | :---------------------------------------: |
-| A single Python file | An organized collection of Python modules |
+|  **Python Module**   |              **Python Package**               |
+| :------------------: | :-------------------------------------------: |
+| A single Python file | An organized collection of **Python modules** |
 
-> **Packages** are namespaces which contain multiple packages and modules themselves.
+> **Packages** are namespaces which contain multiple **packages** and **modules** themselves.
 > <br />They are simply directories, but with a twist.
 
 <br />
 
-For example, this directory called `pkg`, which marks the package name:
+For example, this directory called `pkg`, which marks the **package name**:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/__init__.py) -->
 <!-- The below code snippet is automatically added from write_package/pkg/__init__.py -->
