@@ -368,14 +368,14 @@ clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200
 
 > There are a couple of ways we could tell the **Python interpreter**
 > where to look for modules, aside from the default,
-> <br />which is the local directory and the built-in modules.
+> <br />which is the **local directory** and the **built-in modules**.
 
 <br />
 
-You could either use the environment variable
+Using the **environment variable**
 [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
 to specify additional directories to look for modules in,
-or in other words, augment the default search path for module files.
+<br />or in other words, augment the default search path for module files:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.sh -->
@@ -441,7 +441,7 @@ pprint(sys.path)
 
 <br />
 
-Another method is the `sys.path.append` function.
+Another method is the `sys.path.append()` function.
 You may execute it before running an `import` command:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=append_module_search_path.py) -->
@@ -475,13 +475,9 @@ pprint(sys.path)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Exploring Built-in Modules
+## [Exploring Built-in Modules](<(https://docs.python.org/library/index.html)>)
 
-> Check out the full list of built-in modules in [The Python Standard Library](https://docs.python.org/3/library/index.html).
-
-<br />
-
-By using the `dir` function,
+By using the `dir()` function,
 we can look for which functions are implemented in each module:
 
 ```shell script
@@ -497,7 +493,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 <br />
 
 When found the function in the module we want to use, we can read about it more
-by starting an interactive help session using the `help` function:
+by starting an interactive help session using the `help()` function:
 
 ```shell script
 $ python
