@@ -1,5 +1,0 @@
-+ python args.py
-first    = 1
-second   = 2
-third    = 3
-the_rest = [4, 5]
