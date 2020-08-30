@@ -58,7 +58,7 @@
 1. [ ] [Unit Test Fundamentals](unit-testing/fundamentals/README.md)
 1. [ ] [Unit Testing Why and When](unit-testing/why-and-when/README.md)
 1. [ ] [Unit Testing with `pytest`](unit-testing/pytest/README.md)
-1. [ ] [Testable Documentation with `doctest`](unit-testing/testable-documentation/README.md)
+1. [ ] [Testable Documentation with `doctest`](unit-testing/doctest/README.md)
 1. [ ] [Using Test Doubles](README.md)
 1. [ ] [Parameterized Tests & Test Coverage](README.md)
 
