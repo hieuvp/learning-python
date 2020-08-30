@@ -157,7 +157,7 @@ draw_game("ping pong")
 <br />
 
 - The advantages of using this notation is that
-  it is easier to use the functions inside the current module
+  <br />it is easier to use the functions inside the current module
   because you don't need to specify which module the function comes from.
 - However, any namespace cannot have two objects with the exact same name,
   so the `import` command may replace an existing object in the namespace.
