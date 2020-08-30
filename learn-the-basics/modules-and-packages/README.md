@@ -475,7 +475,7 @@ pprint(sys.path)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## [Exploring Built-in Modules](<(https://docs.python.org/library/index.html)>)
+## [Exploring Built-in Modules](https://docs.python.org/library/index.html)
 
 By using the `dir()` function,
 we can look for which functions are implemented in each module:
