@@ -604,7 +604,7 @@ __all__ = ["play_game", "draw_game"]
 
 <br />
 
-We then create two modules inside this package called `game` and `draw`:
+We then create two modules inside this package called `draw` and `game`:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=write_package/pkg/draw.py) -->
 <!-- The below code snippet is automatically added from write_package/pkg/draw.py -->
