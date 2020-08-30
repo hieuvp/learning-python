@@ -5,13 +5,12 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Get started learning Python with DataCamp's free Intro to Python tutorial.
-Learn Data Science by completing interactive coding challenges and watching videos by expert instructors.
-Start Now!
+## Concepts
 
 Decorators allow you to make simple modifications
 to callable objects like functions, methods, or classes.
@@ -139,6 +138,20 @@ print(first_letter('Hello World'))
 first_letter(['Not', 'A', 'String'])
 ```
 
-This site is generously supported by DataCamp.
-DataCamp offers online interactive Python Tutorials for Data Science.
-Join over a million other learners and get started learning Python for data science today!
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
