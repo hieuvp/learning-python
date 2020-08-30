@@ -508,7 +508,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> exit()
 ```
 
-<div align="center"><img src="assets/help.png" width="900"></div>
+![Help](assets/help.png)
 
 <br />
 
