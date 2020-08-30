@@ -39,7 +39,25 @@ For example you could do this:
 <!-- The below code snippet is automatically added from repeater.py -->
 
 ```py
+def repeater(old_function):
+    def new_function(
+        *args, **kwargs
+    ):  # See learnpython.org/en/Multiple%20Function%20Arguments for how *args and **kwds works
+        old_function(*args, **kwargs)  # we run the old function
+        old_function(*args, **kwargs)  # we do it twice
 
+    return new_function  # we have to return the new_function, or it wouldn't reassign it to the value
+
+
+# This would make a function repeat twice
+
+
+@repeater
+def multiply(num1, num2):
+    print(num1 * num2)
+
+
+multiply(2, 3)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -49,29 +67,11 @@ For example you could do this:
 
 ```console
 + python repeater.py
+6
+6
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```python
-def repeater(old_function):
-    def new_function(*args, **kwds): # See learnpython.org/en/Multiple%20Function%20Arguments for how *args and **kwds works
-        old_function(*args, **kwds) # we run the old function
-        old_function(*args, **kwds) # we do it twice
-    return new_function # we have to return the new_function, or it wouldn't reassign it to the value
-```
-
-This would make a function repeat twice.
-
-```python
->>> @repeater
-def multiply(num1, num2):
-    print(num1 * num2)
-
->>> multiply(2, 3)
-6
-6
-```
 
 You can also make it change the output
 
