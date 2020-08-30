@@ -207,7 +207,7 @@ draw_game("ping pong")
 
 <br />
 
-For example, if we have two `draw` modules with slightly different names.
+For example, if we have two `draw` modules with slightly different names:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/draw_textual.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/draw_textual.py -->
@@ -237,8 +237,7 @@ def draw_game(name):
 
 <br />
 
-We can import these modules conditionally
-to use the same name in the rest of the code.
+We can import these modules conditionally to use the same name in the rest of the code:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name/game.py) -->
 <!-- The below code snippet is automatically added from customize_import_name/game.py -->
@@ -271,6 +270,8 @@ if __name__ == "__main__":
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=customize_import_name.console) -->
 <!-- The below code snippet is automatically added from customize_import_name.console -->
