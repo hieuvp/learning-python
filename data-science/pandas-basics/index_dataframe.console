@@ -1,0 +1,39 @@
++ python index_dataframe.py
+
+# Pandas Series with cars_per_cap column
++ cars["cars_per_cap"]
+US     809
+AUS    731
+JAP    588
+IN      18
+RU     200
+MOR     70
+EG      45
+Name: cars_per_cap, dtype: int64
+
+# Pandas Series with cars_per_cap and country columns
++ cars["cars_per_cap", "country"]
+type(err) = <class 'KeyError'>
+err       = ('cars_per_cap', 'country')
+
+# Pandas DataFrame with cars_per_cap column
++ cars[["cars_per_cap"]]
+     cars_per_cap
+US            809
+AUS           731
+JAP           588
+IN             18
+RU            200
+MOR            70
+EG             45
+
+# Pandas DataFrame with cars_per_cap and country columns
++ cars[["cars_per_cap", "country"]]
+     cars_per_cap        country
+US            809  United States
+AUS           731      Australia
+JAP           588          Japan
+IN             18          India
+RU            200         Russia
+MOR            70        Morocco
+EG             45          Egypt
