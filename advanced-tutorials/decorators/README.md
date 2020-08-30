@@ -35,6 +35,24 @@ As you may have seen,
 a decorator is just another function which takes a functions and returns one.
 For example you could do this:
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
+<!-- The below code snippet is automatically added from repeater.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.console) -->
+<!-- The below code snippet is automatically added from repeater.console -->
+
+```console
++ python repeater.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 def repeater(old_function):
     def new_function(*args, **kwds): # See learnpython.org/en/Multiple%20Function%20Arguments for how *args and **kwds works

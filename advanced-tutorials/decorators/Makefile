@@ -1,11 +1,15 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: repeater
+repeater:
+	./repeater.sh &> repeater.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: exercise
+all: repeater exercise
 
 .PHONY: git-add
 git-add: all
