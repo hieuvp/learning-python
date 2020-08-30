@@ -19,12 +19,12 @@ class Screen:
     x = 0
     y = 0
 
-    # The "__init__()" method is called the Constructor
+    # The "__init__()" method is called the "Constructor"
     def __init__(self):
         print('Initializing a Screen object in the "draw" module...\n')
         self.x = 100
         self.y = 200
 
 
-# Initialize "main_screen" object as a Singleton
+# Initialize "main_screen" object as a "Singleton"
 main_screen = Screen()
