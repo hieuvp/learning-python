@@ -1,7 +1,7 @@
 # Source: explore_built_in_urllib.py
 
 # Extensible library for opening URLs
-# https://docs.python.org/3/library/urllib.request.html
+# https://docs.python.org/library/urllib.request.html
 import urllib.request
 
 # Usage:
