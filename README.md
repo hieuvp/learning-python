@@ -49,7 +49,7 @@
 1. [ ] [Partial Functions](advanced-tutorials/partial-functions/README.md)
 1. [ ] [Code Introspection](advanced-tutorials/code-introspection/README.md)
 1. [ ] [Closures](advanced-tutorials/closures/README.md)
-1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
+1. [Decorators](advanced-tutorials/decorators/README.md)
 1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
 
 ### Unit Testing
