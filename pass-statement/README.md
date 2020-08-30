@@ -9,6 +9,10 @@
 
 - [Definition and Usage](#definition-and-usage)
 - [Examples](#examples)
+  - [Loops](#loops)
+  - [Function Definitions](#function-definitions)
+  - [Class Definitions](#class-definitions)
+  - [If Statements](#if-statements)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -27,6 +31,8 @@
 
 ## Examples
 
+### Loops
+
 Using the `pass` keyword in a `for` loop:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=loop.py) -->
@@ -34,7 +40,7 @@ Using the `pass` keyword in a `for` loop:
 
 ```py
 for x in [0, 1, 2]:
-  pass
+    pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,6 +54,8 @@ for x in [0, 1, 2]:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+### Function Definitions
+
 Using the `pass` keyword in a `function` definition:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=function.py) -->
@@ -55,7 +63,7 @@ Using the `pass` keyword in a `function` definition:
 
 ```py
 def my_function():
-  pass
+    pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -69,6 +77,8 @@ def my_function():
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+### Class Definitions
+
 Using the `pass` keyword in a `class` definition:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class.py) -->
@@ -76,7 +86,7 @@ Using the `pass` keyword in a `class` definition:
 
 ```py
 class Person:
-  pass
+    pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -90,6 +100,8 @@ class Person:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+### If Statements
+
 Using the `pass` keyword in an `if` statement:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.py) -->
@@ -100,7 +112,7 @@ a = 33
 b = 200
 
 if b > a:
-  pass
+    pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
