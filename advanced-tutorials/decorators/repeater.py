@@ -1,11 +1,10 @@
 def repeater(old_function):
-    def new_function(
-        *args, **kwargs
-    ):  # See learnpython.org/en/Multiple%20Function%20Arguments for how *args and **kwds works
+    def new_function(*args, **kwargs):
         old_function(*args, **kwargs)  # we run the old function
         old_function(*args, **kwargs)  # we do it twice
 
-    return new_function  # we have to return the new_function, or it wouldn't reassign it to the value
+    # we have to return the new_function, or it wouldn't reassign it to the value
+    return new_function
 
 
 # This would make a function repeat twice

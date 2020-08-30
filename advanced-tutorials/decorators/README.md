@@ -40,13 +40,12 @@ For example you could do this:
 
 ```py
 def repeater(old_function):
-    def new_function(
-        *args, **kwargs
-    ):  # See learnpython.org/en/Multiple%20Function%20Arguments for how *args and **kwds works
+    def new_function(*args, **kwargs):
         old_function(*args, **kwargs)  # we run the old function
         old_function(*args, **kwargs)  # we do it twice
 
-    return new_function  # we have to return the new_function, or it wouldn't reassign it to the value
+    # we have to return the new_function, or it wouldn't reassign it to the value
+    return new_function
 
 
 # This would make a function repeat twice
@@ -137,30 +136,31 @@ Look at the tutorial code and expected output to see
 what it is if you are confused (I know I would be.)
 Using `isinstance(object, type_of_object)` or `type(object)` might help.
 
-```python
-def type_check(correct_type):
-    #put code here
-
-@type_check(int)
-def times2(num):
-    return num*2
-
-print(times2(2))
-times2('Not A Number')
-
-@type_check(str)
-def first_letter(word):
-    return word[0]
-
-print(first_letter('Hello World'))
-first_letter(['Not', 'A', 'String'])
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+def type_check(correct_type):
+    # put code here
+    pass
 
+
+# @type_check(int)
+# def times2(num):
+#     return num * 2
+#
+#
+# print(times2(2))
+# times2("Not A Number")
+#
+#
+# @type_check(str)
+# def first_letter(word):
+#     return word[0]
+#
+#
+# print(first_letter("Hello World"))
+# first_letter(["Not", "A", "String"])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
