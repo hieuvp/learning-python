@@ -19,8 +19,9 @@
 
 ## Writing **Modules**
 
-1. Modules in Python are simply Python files with a `.py` extension.
-1. The name of the module will be the name of the file.
+> **Modules** in Python are simply **Python files** with a `.py` extension.
+
+1. The **name of the module** will be the **name of the file**.
 1. A Python module can have a set of functions, classes or variables defined and implemented.
 
 <br />
