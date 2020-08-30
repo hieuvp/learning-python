@@ -508,6 +508,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> exit()
 ```
 
+<div align="center"><img src="assets/help.png" width="900"></div>
+
 <br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=explore_built_in_urllib.py) -->
