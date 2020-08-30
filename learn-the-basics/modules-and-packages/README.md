@@ -493,9 +493,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 <br />
 
-When found the function in the module we want to use,
-<br />we can read about it more
-by starting an interactive help session using the `help()` function:
+When found the function in the module we want to use, we can read about it more
+<br />by starting an **interactive help session** with the `help()` function:
 
 ```shell script
 $ python
