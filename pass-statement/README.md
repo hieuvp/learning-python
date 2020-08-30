@@ -13,16 +13,12 @@
 
 Create a placeholder for future code:
 
-```python
-for x in [0, 1, 2]:
-  pass
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=loop.py) -->
 <!-- The below code snippet is automatically added from loop.py -->
 
 ```py
-
+for x in [0, 1, 2]:
+  pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -50,16 +46,12 @@ for x in [0, 1, 2]:
 
 Using the `pass` keyword in a `function` definition:
 
-```python
-def myfunction:
-  pass
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=function.py) -->
 <!-- The below code snippet is automatically added from function.py -->
 
 ```py
-
+def my_function():
+  pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -75,16 +67,12 @@ def myfunction:
 
 Using the `pass` keyword in a `class` definition:
 
-```python
-class Person:
-  pass
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class.py) -->
 <!-- The below code snippet is automatically added from class.py -->
 
 ```py
-
+class Person:
+  pass
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -100,19 +88,15 @@ class Person:
 
 Using the `pass` keyword in an `if` statement:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.py) -->
+<!-- The below code snippet is automatically added from if.py -->
+
+```py
 a = 33
 b = 200
 
 if b > a:
   pass
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.py) -->
-<!-- The below code snippet is automatically added from if.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
