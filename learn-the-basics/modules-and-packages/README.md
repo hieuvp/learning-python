@@ -113,7 +113,7 @@ clear_screen("ping pong")
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 - When importing a module, a `.pyc` file appears,
-  which is a compiled Python file.
+  which is a **compiled Python file**.
 - Python compiles files into Python bytecode
   so that it won't have to parse the files each time modules are loaded.
 - If a `.pyc` file exists, it gets loaded instead of the `.py` file,
