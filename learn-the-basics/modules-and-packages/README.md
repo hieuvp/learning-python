@@ -493,7 +493,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 <br />
 
-When found the function (e.g. `urlopen`) in the module we want to use,
+When found the function (`urlopen`) in the module (`urllib.request`) we want to use,
 we can read about it more
 <br />by starting an **interactive help session** with the **`help()`** function:
 
