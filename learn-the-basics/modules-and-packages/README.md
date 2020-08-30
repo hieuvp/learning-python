@@ -375,7 +375,7 @@ clear_screen("ping pong") with main_screen.x = 100 and main_screen.y = 200
 Using the **environment variable**
 [`PYTHONPATH`](https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH)
 to specify additional directories to look for modules in,
-<br />or in other words, augment the default search path for module files:
+<br />or in other words, augment the default **search path** for module files:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=extend_module_search_path.sh) -->
 <!-- The below code snippet is automatically added from extend_module_search_path.sh -->
