@@ -89,6 +89,8 @@ def clear_screen(game):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=ping_pong.console) -->
 <!-- The below code snippet is automatically added from ping_pong.console -->
 
@@ -110,10 +112,8 @@ clear_screen("ping pong")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
-
-- You may have noticed that when importing a module,
-  a `.pyc` file appears, which is a compiled Python file.
+- When importing a module, a `.pyc` file appears,
+  which is a compiled Python file.
 - Python compiles files into Python bytecode
   so that it won't have to parse the files each time modules are loaded.
 - If a `.pyc` file exists, it gets loaded instead of the `.py` file,
