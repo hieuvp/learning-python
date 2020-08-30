@@ -477,7 +477,7 @@ pprint(sys.path)
 
 ## [Exploring Built-in Modules](https://docs.python.org/library/index.html)
 
-By using the `dir()` function,
+By using the **`dir()`** function,
 we can look for which functions are implemented in each module:
 
 ```shell script
@@ -495,7 +495,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 When found the function (e.g. `urlopen`) in the module we want to use,
 we can read about it more
-<br />by starting an **interactive help session** with the `help()` function:
+<br />by starting an **interactive help session** with the **`help()`** function:
 
 ```shell script
 $ python
