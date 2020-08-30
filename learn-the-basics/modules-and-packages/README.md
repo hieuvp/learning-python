@@ -567,7 +567,7 @@ urlopen(url, data=None, timeout=<object object at 0x101a5df30>, *, cafile=None, 
 | A single Python file | An organized collection of **Python modules** |
 
 > **Packages** are namespaces which contain multiple **packages** and **modules** themselves.
-> <br />They are simply directories, but with a twist.
+> <br />They are simply **directories**, but with a twist.
 
 <br />
 
