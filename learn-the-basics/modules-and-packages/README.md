@@ -160,7 +160,7 @@ draw_game("ping pong")
   <br />it is easier to use the functions inside the current module
   because you don't need to specify which module the function comes from.
 - However, any namespace cannot have two objects with the exact same name,
-  so the `import` command may replace an existing object in the namespace.
+  <br />so the `import` command may replace an existing object in the namespace.
 
 ## Importing All Objects From A Module
 
