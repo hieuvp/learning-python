@@ -251,6 +251,13 @@ EG             45          Egypt
 - matrices `/ˈmeɪtrɪsiːz/`
   plural of matrix `/ˈmeɪtrɪks/`
 
+- cater `/ˈkeɪtə(r)/` verb
+  to provide food and drinks for a social event
+  cung cấp thực phẩm, lương thực
+  phục vụ cho, mua vui cho, giải trí cho
+  e.g. this programme caters for the masses
+  chương trình này phục vụ cho quảng đại quần chúng
+
 > Two-dimensional size-mutable,
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > Arithmetic operations align on both row and column labels.
@@ -268,10 +275,10 @@ EG             45          Egypt
   without the list(s) they're composed of.
 
 - They both have extremely similar APIs,
-  but you'll find that DataFrame methods always cater to the possibility
+  but you will find that **DataFrame** methods always cater to the possibility
   that you have more than one column.
-  And, of course, you can always add another Series (or equivalent object) to a DataFrame,
-  while adding a Series to another Series involves creating a DataFrame.
+  And, of course, you can always add another **Series** (or equivalent object) to a **DataFrame**,
+  while adding a **Series** to another **Series** involves creating a **DataFrame**.
 
 <br />
 
