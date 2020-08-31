@@ -140,9 +140,9 @@ Using `isinstance(object, type_of_object)` or `type(object)` might help.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-def type_check(correct_type):
-    # put code here
-    pass
+# def type_check(correct_type):
+#     # put code here
+#     pass
 
 
 # @type_check(int)

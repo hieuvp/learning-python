@@ -233,6 +233,16 @@ EG             45          Egypt
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
+  consisting of many different kinds of people or things
+  Hỗn tạp, đa dạng
+
+- tabular `/ˈtæbjələ(r)/` adjective
+  presented or arranged in a table (= in rows and columns)
+
+- axes `/ˈæk.siːz/`
+  plural of axis `/ˈæksɪs/`
+
 - Two-dimensional size-mutable,
   potentially heterogeneous tabular data structure with labeled axes (rows and columns).
   Arithmetic operations align on both row and column labels.

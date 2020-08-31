@@ -1,6 +1,6 @@
-def type_check(correct_type):
-    # put code here
-    pass
+# def type_check(correct_type):
+#     # put code here
+#     pass
 
 
 # @type_check(int)
