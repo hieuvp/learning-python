@@ -25,7 +25,9 @@
 > **Series** is a one-dimensional labeled array capable of holding any data type
 > (integers, strings, floating point numbers, Python objects, etc.).
 > The axis labels are collectively referred to as the index.
-> <br /> <br />
+
+<br />
+
 > **Pandas Series** is a one-dimensional labeled array
 > capable of holding data of any type (integer, string, float, python objects, etc.).
 > The axis labels are collectively called index.
@@ -41,7 +43,9 @@
 > **DataFrame** is a 2-dimensional labeled data structure with columns of potentially different types.
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > It is generally the most commonly used pandas object.
-> <br /> <br />
+
+<br />
+
 > **Pandas DataFrame** is two-dimensional size-mutable,
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > A DataFrame is a two-dimensional data structure,
@@ -327,10 +331,11 @@ import pandas as pd
 
 cars = pd.read_csv("cars.csv", index_col=0)
 
-# Print out first 4 observations
+print("# Print out first 4 observations")
 print(cars[0:4])
+print()
 
-# Print out fifth and sixth observation
+print("# Print out fifth and sixth observation")
 print(cars[4:6])
 ```
 
@@ -341,11 +346,14 @@ print(cars[4:6])
 
 ```console
 + python access_observations.py
+# Print out first 4 observations
      cars_per_cap        country  drives_right
 US            809  United States          True
 AUS           731      Australia         False
 JAP           588          Japan         False
 IN             18          India         False
+
+# Print out fifth and sixth observation
      cars_per_cap  country  drives_right
 RU            200   Russia          True
 MOR            70  Morocco          True
@@ -371,10 +379,11 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
-# Print out observation for Japan
+print("# Print out observation for Japan")
 print(cars.iloc[2])
+print()
 
-# Print out observations for Australia and Egypt
+print("# Print out observations for Australia and Egypt")
 print(cars.loc[["AUS", "EG"]])
 ```
 
@@ -385,10 +394,13 @@ print(cars.loc[["AUS", "EG"]])
 
 ```console
 + python select_data.py
+# Print out observation for Japan
 cars_per_cap      588
 country         Japan
 drives_right    False
 Name: JAP, dtype: object
+
+# Print out observations for Australia and Egypt
      cars_per_cap    country  drives_right
 AUS           731  Australia         False
 EG             45      Egypt          True

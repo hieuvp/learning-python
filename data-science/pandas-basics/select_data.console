@@ -1,8 +1,11 @@
 + python select_data.py
+# Print out observation for Japan
 cars_per_cap      588
 country         Japan
 drives_right    False
 Name: JAP, dtype: object
+
+# Print out observations for Australia and Egypt
      cars_per_cap    country  drives_right
 AUS           731  Australia         False
 EG             45      Egypt          True

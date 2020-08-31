@@ -1,9 +1,12 @@
 + python access_observations.py
+# Print out first 4 observations
      cars_per_cap        country  drives_right
 US            809  United States          True
 AUS           731      Australia         False
 JAP           588          Japan         False
 IN             18          India         False
+
+# Print out fifth and sixth observation
      cars_per_cap  country  drives_right
 RU            200   Russia          True
 MOR            70  Morocco          True
