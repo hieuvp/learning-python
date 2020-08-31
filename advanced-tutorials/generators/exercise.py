@@ -15,11 +15,17 @@ def fib():
 
 # Testing code
 if isinstance(fib(), GeneratorType):
-    print("Good! The fib() function is a generator.\n")
+    print("Good! The fib() function is a generator")
 
     counter = 0
     for n in fib():
-        print(n)
+
+        # To not add a newline to the end of the string
+        # https://docs.python.org/library/functions.html#print
+        print("%d, " % n, end="")
+
         counter += 1
         if counter == 10:
             break
+
+    print()

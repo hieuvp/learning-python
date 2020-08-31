@@ -1,14 +1,14 @@
 + python generator_function.py
 i = 0
-And the next number is... 37!
+And the next number is... 34!
 i = 1
-And the next number is... 1!
+And the next number is... 37!
 i = 2
-And the next number is... 32!
+And the next number is... 29!
 i = 3
-And the next number is... 25!
+And the next number is... 29!
 i = 4
-And the next number is... 5!
+And the next number is... 40!
 i = 5
-And the next number is... 18!
-And the next number is... 9!
+And the next number is... 6!
+And the next number is... 13!
