@@ -11,10 +11,16 @@ np_weight = np.array(weight)
 
 
 def main():
+    print()
+    print("height          = %s" % height)
     print("np_height       = %s" % np_height)
+
+    print()
+    print("weight          = %s" % weight)
     print("np_weight       = %s" % np_weight)
 
-    # Print out the type of np_height
+    print()
+    print("type(height)    = %s" % type(height))
     print("type(np_height) = %s" % type(np_height))
 
 
