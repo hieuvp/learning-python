@@ -10,6 +10,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Pandas Series](#pandas-series)
+- [Pandas DataFrame](#pandas-dataframe)
 - [Creating DataFrames](#creating-dataframes)
   - [From Dictionaries](#from-dictionaries)
   - [From `.csv` Files](#from-csv-files)
@@ -17,6 +19,83 @@
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Pandas Series
+
+> **Series** is a one-dimensional labeled array capable of holding any data type
+> (integers, strings, floating point numbers, Python objects, etc.).
+> The axis labels are collectively referred to as the index.
+> <br />
+> Pandas Series is a one-dimensional labeled array
+> capable of holding data of any type (integer, string, float, python objects, etc.).
+> The axis labels are collectively called index.
+> Pandas Series is nothing but a column in an excel sheet.
+> Labels need not be unique but must be a hashable type.
+> The object supports both integer and label-based indexing
+> and provides a host of methods for performing operations involving the index.
+
+<div align="center"><img src="assets/pandas-series.png" width="900"></div>
+
+## Pandas DataFrame
+
+> **DataFrame** is a 2-dimensional labeled data structure with columns of potentially different types.
+> You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
+> It is generally the most commonly used pandas object.
+> <br />
+> Pandas DataFrame is two-dimensional size-mutable,
+> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+> A Data frame is a two-dimensional data structure,
+> i.e., data is aligned in a tabular fashion in rows and columns.
+> Pandas DataFrame consists of three principal components, the data, rows, and columns.
+
+<div align="center"><img src="assets/pandas-dataframe.png" width="900"></div>
+
+- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
+  consisting of many different kinds of people or things
+  hỗn tạp, đa dạng
+
+- tabular `/ˈtæbjələ(r)/` adjective
+  presented or arranged in a table (= in rows and columns)
+
+- axes `/ˈæk.siːz/`
+  plural of axis `/ˈæksɪs/`
+
+- analogous `/əˈnæləɡəs/` adjective
+  analogous (to/with something)
+  similar in some way to another thing or situation and therefore able to be compared with it
+  tương tự
+
+- matrices `/ˈmeɪtrɪsiːz/`
+  plural of matrix `/ˈmeɪtrɪks/`
+
+- cater `/ˈkeɪtə(r)/` verb
+  to provide food and drinks for a social event
+  cung cấp thực phẩm, lương thực
+  phục vụ cho, mua vui cho, giải trí cho
+  e.g. this programme caters for the masses
+  chương trình này phục vụ cho quảng đại quần chúng
+
+> Two-dimensional size-mutable,
+> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+> Arithmetic operations align on both row and column labels.
+> Can be thought of as a dict-like container for Series objects.
+> The primary `pandas` data structure.
+
+- So, the **Series** is the data structure for a single column of a **DataFrame**,
+  not only conceptually, but literally,
+  i.e. the data in a **DataFrame** is actually stored in memory as a collection of **Series**.
+
+- Analogously: We need both lists and matrices,
+  because matrices are built with lists.
+  Single row matrices,
+  while equivalent to lists in functionality still cannot exist
+  without the list(s) they're composed of.
+
+- They both have extremely similar APIs,
+  but you will find that **DataFrame** methods always cater to the possibility
+  that you have more than one column.
+  And, of course, you can always add another **Series** (or equivalent object) to a **DataFrame**,
+  while adding a **Series** to another **Series** involves creating a **DataFrame**.
 
 ## Creating DataFrames
 
@@ -233,53 +312,6 @@ EG             45          Egypt
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
-  consisting of many different kinds of people or things
-  hỗn tạp, đa dạng
-
-- tabular `/ˈtæbjələ(r)/` adjective
-  presented or arranged in a table (= in rows and columns)
-
-- axes `/ˈæk.siːz/`
-  plural of axis `/ˈæksɪs/`
-
-- analogous `/əˈnæləɡəs/` adjective
-  analogous (to/with something)
-  similar in some way to another thing or situation and therefore able to be compared with it
-  tương tự
-
-- matrices `/ˈmeɪtrɪsiːz/`
-  plural of matrix `/ˈmeɪtrɪks/`
-
-- cater `/ˈkeɪtə(r)/` verb
-  to provide food and drinks for a social event
-  cung cấp thực phẩm, lương thực
-  phục vụ cho, mua vui cho, giải trí cho
-  e.g. this programme caters for the masses
-  chương trình này phục vụ cho quảng đại quần chúng
-
-> Two-dimensional size-mutable,
-> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
-> Arithmetic operations align on both row and column labels.
-> Can be thought of as a dict-like container for Series objects.
-> The primary `pandas` data structure.
-
-- So, the **Series** is the data structure for a single column of a **DataFrame**,
-  not only conceptually, but literally,
-  i.e. the data in a **DataFrame** is actually stored in memory as a collection of **Series**.
-
-- Analogously: We need both lists and matrices,
-  because matrices are built with lists.
-  Single row matrices,
-  while equivalent to lists in functionality still cannot exist
-  without the list(s) they're composed of.
-
-- They both have extremely similar APIs,
-  but you will find that **DataFrame** methods always cater to the possibility
-  that you have more than one column.
-  And, of course, you can always add another **Series** (or equivalent object) to a **DataFrame**,
-  while adding a **Series** to another **Series** involves creating a **DataFrame**.
-
 <br />
 
 Square brackets can also be used to access observations (rows) from a DataFrame.
@@ -364,4 +396,6 @@ EG             45      Egypt          True
 
 ## References
 
+- [Python | Pandas Series](https://www.geeksforgeeks.org/python-pandas-series)
+- [Python | Pandas DataFrame](https://www.geeksforgeeks.org/python-pandas-dataframe)
 - [What is the difference between a pandas Series and a single-column DataFrame?](https://stackoverflow.com/questions/26047209/what-is-the-difference-between-a-pandas-series-and-a-single-column-dataframe)
