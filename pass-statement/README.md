@@ -8,7 +8,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Definition and Usage](#definition-and-usage)
-- [Examples](#examples)
+- [Syntax](#syntax)
+- [More Examples](#more-examples)
   - [Loops](#loops)
   - [Function Definitions](#function-definitions)
   - [Class Definitions](#class-definitions)
@@ -29,20 +30,21 @@
 - Empty code is not allowed in
   loops, function definitions, class definitions, or in if statements.
 
-## Examples
+- It is used when a statement is required syntactically
+  but you do not want any command or code to execute.
 
-It is used when a statement is required syntactically
-but you do not want any command or code to execute.
+- The `pass` statement is a null operation; nothing happens when it executes.
 
-The pass statement is a null operation; nothing happens when it executes.
-The pass is also useful in places where your code will eventually go,
-but has not been written yet (e.g., in stubs for example) −
+- The `pass` is also useful in places where your code will eventually go,
+  but has not been written yet (e.g., in stubs for example)
 
-Syntax
+## Syntax
 
 ```python
 pass
 ```
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
 <!-- The below code snippet is automatically added from example.py -->
@@ -78,14 +80,16 @@ Good bye!
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### Loops
+## More Examples
 
-Using the `pass` keyword in a `for` loop:
+### Loops
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=loop.py) -->
 <!-- The below code snippet is automatically added from loop.py -->
 
 ```py
+# Using the `pass` keyword in a `for` loop
+
 for x in [0, 1, 2]:
     pass
 ```
@@ -103,12 +107,13 @@ for x in [0, 1, 2]:
 
 ### Function Definitions
 
-Using the `pass` keyword in a `function` definition:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=function.py) -->
 <!-- The below code snippet is automatically added from function.py -->
 
 ```py
+# Using the `pass` keyword in a `function` definition:
+
+
 def my_function():
     pass
 ```
@@ -126,12 +131,13 @@ def my_function():
 
 ### Class Definitions
 
-Using the `pass` keyword in a `class` definition:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=class.py) -->
 <!-- The below code snippet is automatically added from class.py -->
 
 ```py
+# Using the `pass` keyword in a `class` definition:
+
+
 class Person:
     pass
 ```
@@ -149,12 +155,12 @@ class Person:
 
 ### If Statements
 
-Using the `pass` keyword in an `if` statement:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.py) -->
 <!-- The below code snippet is automatically added from if.py -->
 
 ```py
+# Using the `pass` keyword in an `if` statement:
+
 a = 33
 b = 200
 
