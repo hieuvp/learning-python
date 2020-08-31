@@ -31,6 +31,53 @@
 
 ## Examples
 
+It is used when a statement is required syntactically
+but you do not want any command or code to execute.
+
+The pass statement is a null operation; nothing happens when it executes.
+The pass is also useful in places where your code will eventually go,
+but has not been written yet (e.g., in stubs for example) −
+
+Syntax
+
+```python
+pass
+```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
+<!-- The below code snippet is automatically added from example.py -->
+
+```py
+for letter in "Python":
+    if letter == "h":
+        pass
+        print("This is pass block")
+    print("Current Letter :%s" % letter)
+
+print("Good bye!")
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+When the above code is executed, it produces following result:
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
+<!-- The below code snippet is automatically added from example.console -->
+
+```console
++ python example.py
+Current Letter :P
+Current Letter :y
+Current Letter :t
+This is pass block
+Current Letter :h
+Current Letter :o
+Current Letter :n
+Good bye!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ### Loops
 
 Using the `pass` keyword in a `for` loop:
@@ -128,4 +175,5 @@ if b > a:
 
 ## References
 
-- [Python `pass` Statement](https://www.w3schools.com/python/ref_keyword_pass.asp)
+- [Python `pass` Statement - W3Schools](https://www.w3schools.com/python/ref_keyword_pass.asp)
+- [Python `pass` Statement - Tutorialspoint](https://www.tutorialspoint.com/python/python_pass_statement.htm)

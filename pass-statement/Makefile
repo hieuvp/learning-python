@@ -1,5 +1,9 @@
 export PATH := ../venv/bin:$(PATH)
 
+.PHONY: example
+example:
+	./example.sh &> ./example.console
+
 .PHONY: loop
 loop:
 	./loop.sh &> ./loop.console
@@ -17,7 +21,7 @@ if:
 	./if.sh &> ./if.console
 
 .PHONY: all
-all: loop function class if
+all: example loop function class if
 
 .PHONY: git-add
 git-add: all

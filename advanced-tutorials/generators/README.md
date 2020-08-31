@@ -57,18 +57,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 35!
-i = 1
 And the next number is... 2!
+i = 1
+And the next number is... 31!
 i = 2
-And the next number is... 7!
+And the next number is... 39!
 i = 3
-And the next number is... 3!
+And the next number is... 28!
 i = 4
-And the next number is... 27!
+And the next number is... 6!
 i = 5
-And the next number is... 22!
-And the next number is... 3!
+And the next number is... 8!
+And the next number is... 6!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
