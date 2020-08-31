@@ -20,7 +20,7 @@ one at a time, in a special way.
 
 When an iteration over a set of item starts using the for statement,
 the generator is run.
-Once the generator's function code reaches a "yield" statement,
+Once the generator's function code reaches a `yield` statement,
 the generator yields its execution back to the for loop,
 returning a new value from the set.
 The generator function can generate as many values (possibly infinite) as it wants,
@@ -36,17 +36,17 @@ import random
 
 
 def lottery():
-    # returns 6 numbers between 1 and 40
+    # Return 6 numbers between 1 and 40
     for i in range(6):
         print("i = %s" % i)
         yield random.randint(1, 40)
 
-    # returns a 7th number between 1 and 15
+    # Return a 7th number between 1 and 15
     yield random.randint(1, 15)
 
 
 for random_number in lottery():
-    print("And the next number is... %d!" % (random_number))
+    print("And the next number is... %d!" % random_number)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -57,25 +57,25 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 21!
+And the next number is... 15!
 i = 1
-And the next number is... 10!
+And the next number is... 5!
 i = 2
-And the next number is... 7!
-i = 3
-And the next number is... 34!
-i = 4
-And the next number is... 2!
-i = 5
-And the next number is... 29!
 And the next number is... 3!
+i = 3
+And the next number is... 29!
+i = 4
+And the next number is... 36!
+i = 5
+And the next number is... 5!
+And the next number is... 7!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 This function decides how to generate the random numbers on its own,
-and executes the yield statements one at a time,
-pausing in between to yield execution back to the main for loop.
+and executes the `yield` statements one at a time,
+pausing in between to `yield` execution back to the main for loop.
 
 ## Exercise
 
@@ -83,17 +83,18 @@ Write a generator function which returns the Fibonacci series.
 They are calculated using the following formula:
 The first two numbers of the series is always equal to 1,
 and each consecutive number returned is the sum of the last two numbers.
+
 Hint: Can you use only two variables in the generator function?
-Remember that assignments can be done simultaneously. The code
+Remember that assignments can be done simultaneously.
 
 ```python
 a = 1
 b = 2
-a, b = b, a
-print(a,b)
-```
 
-will simultaneously switch the values of a and b.
+# Simultaneously switch the values of a and b
+a, b = b, a
+print(a, b)
+```
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->

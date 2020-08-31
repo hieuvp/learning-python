@@ -33,7 +33,7 @@
 - It is used when a statement is required syntactically
   but you do not want any command or code to execute.
 
-- The `pass` statement is a null operation; nothing happens when it executes.
+- The `pass` statement is a **null** operation, nothing happens when it executes.
 
 - The `pass` is also useful in places where your code will eventually go,
   but has not been written yet (e.g., in stubs for example)
