@@ -21,12 +21,10 @@ one at a time, in a special way.
 When an iteration over a set of item starts using the for statement,
 the generator is run.
 Once the generator's function code reaches a `yield` statement,
-the generator yields its execution back to the for loop,
+the generator yields its execution back to the `for` loop,
 returning a new value from the set.
 The generator function can generate as many values (possibly infinite) as it wants,
 yielding each one in its turn.
-
-Here is a simple example of a generator function which returns 7 random integers:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.py) -->
 <!-- The below code snippet is automatically added from generator_function.py -->
@@ -35,6 +33,7 @@ Here is a simple example of a generator function which returns 7 random integers
 import random
 
 
+# A generator function which returns 7 random integers
 def lottery():
     # Return 6 numbers between 1 and 40
     for i in range(6):
@@ -57,18 +56,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 28!
-i = 1
-And the next number is... 25!
-i = 2
 And the next number is... 13!
+i = 1
+And the next number is... 11!
+i = 2
+And the next number is... 38!
 i = 3
-And the next number is... 30!
+And the next number is... 34!
 i = 4
-And the next number is... 30!
+And the next number is... 6!
 i = 5
-And the next number is... 39!
-And the next number is... 9!
+And the next number is... 37!
+And the next number is... 15!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
