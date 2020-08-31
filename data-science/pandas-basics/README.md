@@ -331,11 +331,15 @@ import pandas as pd
 
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print()
+
 print("# Print out first 4 observations")
+print("+ cars[0:4]")
 print(cars[0:4])
 print()
 
 print("# Print out fifth and sixth observation")
+print("+ cars[4:6]")
 print(cars[4:6])
 ```
 
@@ -346,7 +350,9 @@ print(cars[4:6])
 
 ```console
 + python access_observations.py
+
 # Print out first 4 observations
++ cars[0:4]
      cars_per_cap        country  drives_right
 US            809  United States          True
 AUS           731      Australia         False
@@ -354,6 +360,7 @@ JAP           588          Japan         False
 IN             18          India         False
 
 # Print out fifth and sixth observation
++ cars[4:6]
      cars_per_cap  country  drives_right
 RU            200   Russia          True
 MOR            70  Morocco          True
@@ -379,11 +386,15 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print()
+
 print("# Print out observation for Japan")
+print("+ cars.iloc[2]")
 print(cars.iloc[2])
 print()
 
 print("# Print out observations for Australia and Egypt")
+print('+ cars.loc[["AUS", "EG"]]')
 print(cars.loc[["AUS", "EG"]])
 ```
 
@@ -394,13 +405,16 @@ print(cars.loc[["AUS", "EG"]])
 
 ```console
 + python select_data.py
+
 # Print out observation for Japan
++ cars.iloc[2]
 cars_per_cap      588
 country         Japan
 drives_right    False
 Name: JAP, dtype: object
 
 # Print out observations for Australia and Egypt
++ cars.loc[["AUS", "EG"]]
      cars_per_cap    country  drives_right
 AUS           731  Australia         False
 EG             45      Egypt          True
