@@ -25,7 +25,7 @@
 > **Series** is a one-dimensional labeled array capable of holding any data type
 > (integers, strings, floating point numbers, Python objects, etc.).
 > The axis labels are collectively referred to as the index.
-> <br />
+> <br /> <br />
 > Pandas Series is a one-dimensional labeled array
 > capable of holding data of any type (integer, string, float, python objects, etc.).
 > The axis labels are collectively called index.
@@ -34,21 +34,21 @@
 > The object supports both integer and label-based indexing
 > and provides a host of methods for performing operations involving the index.
 
-<div align="center"><img src="assets/pandas-series.png" width="900"></div>
+<div align="center"><img src="assets/pandas-series.png" width="800"></div>
 
 ## Pandas DataFrame
 
 > **DataFrame** is a 2-dimensional labeled data structure with columns of potentially different types.
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > It is generally the most commonly used pandas object.
-> <br />
+> <br /> <br />
 > Pandas DataFrame is two-dimensional size-mutable,
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > A Data frame is a two-dimensional data structure,
 > i.e., data is aligned in a tabular fashion in rows and columns.
 > Pandas DataFrame consists of three principal components, the data, rows, and columns.
 
-<div align="center"><img src="assets/pandas-dataframe.png" width="900"></div>
+<div align="center"><img src="assets/pandas-dataframe.png" width="800"></div>
 
 - heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
