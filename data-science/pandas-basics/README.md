@@ -34,7 +34,7 @@
 > The object supports both integer and label-based indexing
 > and provides a host of methods for performing operations involving the index.
 
-<div align="center"><img src="assets/pandas-series.png" width="700"></div>
+<div align="center"><img src="assets/pandas-series.png" width="640"></div>
 
 ## Pandas DataFrame
 
@@ -48,7 +48,9 @@
 > i.e., data is aligned in a tabular fashion in rows and columns.
 > Pandas DataFrame consists of three principal components, the data, rows, and columns.
 
-<div align="center"><img src="assets/pandas-dataframe.png" width="700"></div>
+<div align="center"><img src="assets/pandas-dataframe.png" width="680"></div>
+
+<br />
 
 - heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
