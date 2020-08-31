@@ -26,7 +26,7 @@
 > (integers, strings, floating point numbers, Python objects, etc.).
 > The axis labels are collectively referred to as the index.
 > <br /> <br />
-> Pandas Series is a one-dimensional labeled array
+> **Pandas Series** is a one-dimensional labeled array
 > capable of holding data of any type (integer, string, float, python objects, etc.).
 > The axis labels are collectively called index.
 > Pandas Series is nothing but a column in an excel sheet.
@@ -42,7 +42,7 @@
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > It is generally the most commonly used pandas object.
 > <br /> <br />
-> Pandas DataFrame is two-dimensional size-mutable,
+> **Pandas DataFrame** is two-dimensional size-mutable,
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > A DataFrame is a two-dimensional data structure,
 > i.e., data is aligned in a tabular fashion in rows and columns.
@@ -400,4 +400,3 @@ EG             45      Egypt          True
 
 - [Python | Pandas Series](https://www.geeksforgeeks.org/python-pandas-series)
 - [Python | Pandas DataFrame](https://www.geeksforgeeks.org/python-pandas-dataframe)
-- [What is the difference between a pandas Series and a single-column DataFrame?](https://stackoverflow.com/questions/26047209/what-is-the-difference-between-a-pandas-series-and-a-single-column-dataframe)
