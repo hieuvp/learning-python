@@ -235,7 +235,7 @@ EG             45          Egypt
 
 - heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
-  Hỗn tạp, đa dạng
+  hỗn tạp, đa dạng
 
 - tabular `/ˈtæbjələ(r)/` adjective
   presented or arranged in a table (= in rows and columns)
