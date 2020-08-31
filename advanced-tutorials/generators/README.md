@@ -56,18 +56,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 13!
-i = 1
-And the next number is... 11!
-i = 2
-And the next number is... 38!
-i = 3
-And the next number is... 34!
-i = 4
-And the next number is... 6!
-i = 5
 And the next number is... 37!
-And the next number is... 15!
+i = 1
+And the next number is... 1!
+i = 2
+And the next number is... 32!
+i = 3
+And the next number is... 25!
+i = 4
+And the next number is... 5!
+i = 5
+And the next number is... 18!
+And the next number is... 9!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -77,11 +77,6 @@ and executes the `yield` statements one at a time,
 pausing in between to `yield` execution back to the main for loop.
 
 ## Exercise
-
-Write a generator function which returns the Fibonacci series.
-They are calculated using the following formula:
-The first two numbers of the series is always equal to 1,
-and each consecutive number returned is the sum of the last two numbers.
 
 Hint: Can you use only two variables in the generator function?
 Remember that assignments can be done simultaneously.
@@ -99,27 +94,31 @@ print(a, b)
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# import types
+from types import GeneratorType
 
 
-# fill in this function
+# Write a generator function which returns the Fibonacci series
 def fib():
+    # The first two numbers of the series is always equal to 1
+    a = b = 1
 
-    # pass
-    # This is a null statement which does nothing when executed, useful as a placeholder.
-    return []
+    while True:
+        yield a
+
+        # Each consecutive number returned is the sum of the last two numbers
+        a, b = b, a + b
 
 
 # Testing code
-# if type(fib()) == types.GeneratorType:
-#     print("Good, The fib function is a generator.")
-#
-#     counter = 0
-#     for n in fib():
-#         print(n)
-#         counter += 1
-#         if counter == 10:
-#             break
+if isinstance(fib(), GeneratorType):
+    print("Good! The fib() function is a generator.\n")
+
+    counter = 0
+    for n in fib():
+        print(n)
+        counter += 1
+        if counter == 10:
+            break
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -129,6 +128,18 @@ def fib():
 
 ```console
 + python exercise.py
+Good! The fib() function is a generator.
+
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
