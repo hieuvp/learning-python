@@ -243,11 +243,19 @@ EG             45          Egypt
 - axes `/ˈæk.siːz/`
   plural of axis `/ˈæksɪs/`
 
-- Two-dimensional size-mutable,
-  potentially heterogeneous tabular data structure with labeled axes (rows and columns).
-  Arithmetic operations align on both row and column labels.
-  Can be thought of as a dict-like container for Series objects.
-  The primary `pandas` data structure.
+- analogous `/əˈnæləɡəs/` adjective
+  analogous (to/with something)
+  similar in some way to another thing or situation and therefore able to be compared with it
+  tương tự
+
+- matrices `/ˈmeɪtrɪsiːz/`
+  plural of matrix `/ˈmeɪtrɪks/`
+
+> Two-dimensional size-mutable,
+> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+> Arithmetic operations align on both row and column labels.
+> Can be thought of as a dict-like container for Series objects.
+> The primary `pandas` data structure.
 
 - So, the **Series** is the data structure for a single column of a **DataFrame**,
   not only conceptually, but literally,
