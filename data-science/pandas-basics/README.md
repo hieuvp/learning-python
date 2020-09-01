@@ -10,26 +10,23 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Pandas Series](#pandas-series)
-- [Pandas DataFrame](#pandas-dataframe)
-- [Creating DataFrames](#creating-dataframes)
-  - [From Dictionaries](#from-dictionaries)
+- [Concepts](#concepts)
+  - [Pandas Series](#pandas-series)
+  - [Pandas DataFrame](#pandas-dataframe)
+- [Creating Pandas DataFrames](#creating-pandas-dataframes)
+  - [From Python Dictionaries](#from-python-dictionaries)
   - [From `.csv` Files](#from-csv-files)
-- [Indexing DataFrames](#indexing-dataframes)
+- [Indexing Pandas DataFrames](#indexing-pandas-dataframes)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Pandas Series
+## Concepts
 
-> **Series** is a one-dimensional labeled array capable of holding any data type
-> (integers, strings, floating point numbers, Python objects, etc.).
-> The axis labels are collectively referred to as the index.
-
-<br />
+### Pandas Series
 
 > **Pandas Series** is a one-dimensional labeled array
-> capable of holding data of any type (integer, string, float, python objects, etc.).
+> capable of holding data of any type (integer, string, float, Python objects, etc.).
 > The axis labels are collectively called index.
 > Pandas Series is nothing but a column in an excel sheet.
 > Labels need not be unique but must be a hashable type.
@@ -38,9 +35,10 @@
 
 <div align="center"><img src="assets/pandas-series.png" width="640"></div>
 
-## Pandas DataFrame
+### Pandas DataFrame
 
-> **DataFrame** is a 2-dimensional labeled data structure with columns of potentially different types.
+> **DataFrame** is a 2-dimensional
+> labeled data structure with columns of potentially different types.
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > It is generally the most commonly used pandas object.
 
@@ -81,8 +79,6 @@
   e.g. this programme caters for the masses
   chương trình này phục vụ cho quảng đại quần chúng
 
-> Two-dimensional size-mutable,
-> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > Arithmetic operations align on both row and column labels.
 > Can be thought of as a dict-like container for Series objects.
 > The primary `pandas` data structure.
@@ -103,9 +99,9 @@
   And, of course, you can always add another **Series** (or equivalent object) to a **DataFrame**,
   while adding a **Series** to another **Series** involves creating a **DataFrame**.
 
-## Creating DataFrames
+## Creating Pandas DataFrames
 
-### From Dictionaries
+### From Python Dictionaries
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
 <!-- The below code snippet is automatically added from create_dataframe.py -->
@@ -222,7 +218,7 @@ print(cars)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Indexing DataFrames
+## Indexing Pandas DataFrames
 
 > There are several ways to index a Pandas DataFrame.
 
