@@ -54,7 +54,7 @@
 
 <br />
 
-```md
+```txt
 - heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
   hỗn tạp, đa dạng
