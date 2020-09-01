@@ -37,13 +37,13 @@ def my_function(first, second, third):
 <!-- The below code snippet is automatically added from args.py -->
 
 ```py
-# "the_rest" variable is a list of variables,
+# "rest" variable is a list of variables,
 # which receives all arguments which were given to the function after the first 3 arguments
-def function(first, second, third, *the_rest):
-    print("first    = %s" % first)
-    print("second   = %s" % second)
-    print("third    = %s" % third)
-    print("the_rest = %s" % list(the_rest))
+def function(first, second, third, *rest):
+    print("first  = %s" % first)
+    print("second = %s" % second)
+    print("third  = %s" % third)
+    print("rest   = %s" % list(rest))
 
 
 function(1, 2, 3, 4, 5)
@@ -56,10 +56,10 @@ function(1, 2, 3, 4, 5)
 
 ```console
 + python args.py
-first    = 1
-second   = 2
-third    = 3
-the_rest = [4, 5]
+first  = 1
+second = 2
+third  = 3
+rest   = [4, 5]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -115,30 +115,34 @@ if the value of the "number" parameter, passed into the function, is equal to "f
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Fill in the foo and bar functions
-# so they can receive a variable amount of arguments (3 or more)
-# The foo function must return the amount of extra arguments received.
-# The bar must return True if the argument with the keyword magicnumber is worth 7,
-# and False otherwise.
+def foo(a, b, c, *rest):
+
+    # Return the amount of extra arguments received
+    return len(rest)
 
 
-# Edit the functions prototype and implementation
-# def foo(a, b, c):
-#     pass
-#
-# def bar(a, b, c):
-#     pass
+def bar(a, b, c, **options):
+
+    # Return True if the argument with the keyword "magic_number" is worth 7
+    if options.get("magic_number") == 7:
+        return True
+
+    # Otherwise, False
+    return False
 
 
-# Test code
-# if foo(1,2,3,4) == 1:
-#     print("Good.")
-# if foo(1,2,3,4,5) == 2:
-#     print("Better.")
-# if bar(1,2,3,magicnumber = 6) == False:
-#     print("Great.")
-# if bar(1,2,3,magicnumber = 7) == True:
-#     print("Awesome!")
+# Testing Code
+if foo(1, 2, 3, 4) == 1:
+    print("Good")
+
+if foo(1, 2, 3, 4, 5) == 2:
+    print("Better")
+
+if not bar(1, 2, 3, magic_number=6):
+    print("Great")
+
+if bar(1, 2, 3, magic_number=7):
+    print("Awesome")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -148,6 +152,10 @@ if the value of the "number" parameter, passed into the function, is equal to "f
 
 ```console
 + python exercise.py
+Good
+Better
+Great
+Awesome
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
