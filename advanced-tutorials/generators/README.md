@@ -17,15 +17,11 @@
 > These are objects that you can loop over like a list.
 > However, unlike lists, **lazy iterators** do not store their contents in memory.
 
-Generator-Function: A generator-function is defined like a normal function,
-but whenever it needs to generate a value,
-it does so with the yield keyword rather than return.
-If the body of a def contains yield,
-the function automatically becomes a generator function.
-
-Generators are used to create iterators, but with a different approach.
-Generators are simple functions which return an iterable set of items,
-one at a time, in a special way.
+- A generator-function is defined like a normal function,
+  but whenever it needs to generate a value,
+  it does so with the `yield` keyword rather than `return`.
+- If the body of a `def` contains `yield`,
+  the function automatically becomes a **generator function**.
 
 When an iteration over a set of item starts using the for statement,
 the generator is run.
@@ -65,18 +61,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 14!
-i = 1
-And the next number is... 13!
-i = 2
 And the next number is... 21!
+i = 1
+And the next number is... 36!
+i = 2
+And the next number is... 2!
 i = 3
-And the next number is... 11!
-i = 4
-And the next number is... 17!
-i = 5
 And the next number is... 34!
-And the next number is... 12!
+i = 4
+And the next number is... 21!
+i = 5
+And the next number is... 17!
+And the next number is... 7!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
