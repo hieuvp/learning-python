@@ -54,7 +54,6 @@
 
 <br />
 
-```txt
 - heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
   hỗn tạp, đa dạng
@@ -79,7 +78,6 @@
   phục vụ cho, mua vui cho, giải trí cho
   e.g. this programme caters for the masses
   chương trình này phục vụ cho quảng đại quần chúng
-```
 
 > Arithmetic operations align on both row and column labels.
 > Can be thought of as a dict-like container for Series objects.
