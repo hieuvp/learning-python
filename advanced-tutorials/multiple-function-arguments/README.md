@@ -6,6 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
+  - [`*args`: Arguments](#args-arguments)
+  - [`**kwargs`: Keyword Arguments](#kwargs-keyword-arguments)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -22,10 +24,10 @@ def my_function(first, second, third):
     ...
 ```
 
-<br />
+### `*args`: Arguments
 
-It is possible to declare functions which receive a variable number of arguments,
-using the following syntax:
+> It is possible to declare functions which receive a variable number of arguments,
+> using the following syntax:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=args.py) -->
 <!-- The below code snippet is automatically added from args.py -->
@@ -58,11 +60,11 @@ the_rest = [4, 5]
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+### `**kwargs`: Keyword Arguments
 
-It is also possible to send functions arguments by keyword,
-so that the order of the argument does not matter, using the following syntax.
-The following code yields the following output: The sum is: 6 Result: 1
+> It is also possible to send functions arguments by keyword,
+> so that the order of the argument does not matter, using the following syntax.
+> The following code yields the following output: The sum is: 6 Result: 1
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=kwargs.py) -->
 <!-- The below code snippet is automatically added from kwargs.py -->
