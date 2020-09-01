@@ -7,12 +7,21 @@
 
 - [Concepts](#concepts)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Concepts
 
-Generators are very easy to implement, but a bit difficult to understand.
+> Generator functions are a special kind of function that return a **lazy iterator**.
+> These are objects that you can loop over like a list.
+> However, unlike lists, **lazy iterators** do not store their contents in memory.
+
+Generator-Function: A generator-function is defined like a normal function,
+but whenever it needs to generate a value,
+it does so with the yield keyword rather than return.
+If the body of a def contains yield,
+the function automatically becomes a generator function.
 
 Generators are used to create iterators, but with a different approach.
 Generators are simple functions which return an iterable set of items,
@@ -56,25 +65,25 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 34!
+And the next number is... 14!
 i = 1
-And the next number is... 37!
-i = 2
-And the next number is... 29!
-i = 3
-And the next number is... 29!
-i = 4
-And the next number is... 40!
-i = 5
-And the next number is... 6!
 And the next number is... 13!
+i = 2
+And the next number is... 21!
+i = 3
+And the next number is... 11!
+i = 4
+And the next number is... 17!
+i = 5
+And the next number is... 34!
+And the next number is... 12!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 This function decides how to generate the random numbers on its own,
 and executes the `yield` statements one at a time,
-pausing in between to `yield` execution back to the main for loop.
+pausing in between to `yield` execution back to the main `for` loop.
 
 ## Exercise
 
@@ -139,3 +148,7 @@ Good! The fib() function is a generator
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [How to Use Generators and yield in Python](https://realpython.com/introduction-to-python-generators)
