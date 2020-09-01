@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-  - [`*args` - Arguments](#args---arguments)
-  - [`**kwargs` - Keyword Arguments](#kwargs---keyword-arguments)
+  - [`*args` (Arguments)](#args-arguments)
+  - [`**kwargs` (Keyword Arguments)](#kwargs-keyword-arguments)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -24,7 +24,7 @@ def my_function(first, second, third):
     ...
 ```
 
-### `*args` - Arguments
+### `*args` (Arguments)
 
 > It is possible to declare functions which receive a variable number of arguments,
 > using the following syntax:
@@ -60,7 +60,7 @@ the_rest = [4, 5]
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `**kwargs` - Keyword Arguments
+### `**kwargs` (Keyword Arguments)
 
 > It is also possible to send functions arguments by keyword,
 > so that the order of the argument does not matter, using the following syntax.
