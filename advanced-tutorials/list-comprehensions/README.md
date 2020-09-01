@@ -13,7 +13,9 @@
 ## Concepts
 
 > **List Comprehensions** is a very powerful tool,
-> which creates a new list based on another list, in a single, readable line.
+> <br />which creates a new list based on another list, in a single, readable line.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=list_comprehension.py) -->
 <!-- The below code snippet is automatically added from list_comprehension.py -->
@@ -69,8 +71,7 @@ numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
 print("numbers  = %s" % numbers)
 
 
-# Using a List Comprehension,
-# create a new list out of the list "numbers",
+# Using a "List Comprehension" to create a "new_list" out of the list "numbers",
 # which contains only the positive numbers from the list, as integers
 new_list = [int(number) for number in numbers if number > 0]
 print("new_list = %s" % new_list)
