@@ -23,13 +23,15 @@
 - If the body of a `def` contains `yield`,
   the function automatically becomes a **generator function**.
 
-When an iteration over a set of item starts using the for statement,
-the generator is run.
-Once the generator's function code reaches a `yield` statement,
-the generator yields its execution back to the `for` loop,
-returning a new value from the set.
-The generator function can generate as many values (possibly infinite) as it wants,
-yielding each one in its turn.
+<br />
+
+1. When an iteration over a set of item starts using the `for` statement,
+   the generator is run.
+1. Once the generator's function code reaches a `yield` statement,
+   the generator yields its execution back to the `for` loop,
+   returning a new value from the set.
+1. The generator function can generate as many values (possibly infinite) as it wants,
+   yielding each one in its turn.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.py) -->
 <!-- The below code snippet is automatically added from generator_function.py -->
@@ -61,18 +63,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 21!
+And the next number is... 23!
 i = 1
-And the next number is... 36!
+And the next number is... 39!
 i = 2
-And the next number is... 2!
+And the next number is... 19!
 i = 3
-And the next number is... 34!
+And the next number is... 3!
 i = 4
-And the next number is... 21!
-i = 5
 And the next number is... 17!
-And the next number is... 7!
+i = 5
+And the next number is... 40!
+And the next number is... 8!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
