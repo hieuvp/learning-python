@@ -12,7 +12,7 @@
 
 ## Concepts
 
-> **List Comprehensions** is a very powerful tool,
+> **List Comprehension** is a very powerful tool,
 > <br />which creates a new list based on another list, in a single, readable line.
 
 <br />
