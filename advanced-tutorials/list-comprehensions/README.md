@@ -25,22 +25,21 @@ SENTENCE = "the quick brown fox jumps over the lazy dog"
 WORDS = SENTENCE.split()
 
 
-# Create a list of integers which specify the length of each word in a certain sentence,
+# Create a list of integers
+# which specify the length of each word in a certain sentence,
 # but only if the word is not the word "the"
-
 word_lengths = []
 for word in WORDS:
     if word != "the":
         word_lengths.append(len(word))
+print()
 print(WORDS)
 print(word_lengths)
-print()
 
 
-# When using a "List Comprehension",
-# we could simplify this process to this notation:
-
+# When using a "List Comprehension", we could simplify this process
 word_lengths = [len(word) for word in WORDS if word != "the"]
+print()
 print(WORDS)
 print(word_lengths)
 ```
@@ -52,6 +51,7 @@ print(word_lengths)
 
 ```console
 + python list_comprehension.py
+
 ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 [5, 5, 3, 5, 4, 4, 3]
 
