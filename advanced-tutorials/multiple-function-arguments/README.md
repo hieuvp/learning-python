@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-  - [`*args` (Arguments)](#args-arguments)
-  - [`**kwargs` (Keyword Arguments)](#kwargs-keyword-arguments)
+  - [`*args` - Arguments](#args---arguments)
+  - [`**kwargs` - Keyword Arguments](#kwargs---keyword-arguments)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -18,16 +18,20 @@
 > Every function in Python receives a predefined number of arguments,
 > if declared normally, like this:
 
+<br />
+
 ```python
 def my_function(first, second, third):
     # do something with the 3 variables
     ...
 ```
 
-### `*args` (Arguments)
+### `*args` - Arguments
 
 > It is possible to declare functions which receive a variable number of arguments,
 > using the following syntax:
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=args.py) -->
 <!-- The below code snippet is automatically added from args.py -->
@@ -60,11 +64,13 @@ the_rest = [4, 5]
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `**kwargs` (Keyword Arguments)
+### `**kwargs` - Keyword Arguments
 
 > It is also possible to send functions arguments by keyword,
 > so that the order of the argument does not matter, using the following syntax.
 > The following code yields the following output: The sum is: 6 Result: 1
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=kwargs.py) -->
 <!-- The below code snippet is automatically added from kwargs.py -->
