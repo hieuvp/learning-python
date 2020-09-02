@@ -22,19 +22,21 @@ def type_check(correct_type):
     return decorator
 
 
+@type_check(str)
+def first_letter(word):
+    return word[0]
+
+
+print()
+print(first_letter("Hello World"))
+first_letter(["Not", "A", "String"])
+
+
 @type_check(int)
 def times(multiplier, multiplicand):
     return multiplier * multiplicand
 
 
+print()
 print(times(2, 3))
 times(2, "Not A Number")
-
-#
-# @type_check(str)
-# def first_letter(word):
-#     return word[0]
-#
-#
-# print(first_letter("Hello World"))
-# first_letter(["Not", "A", "String"])
