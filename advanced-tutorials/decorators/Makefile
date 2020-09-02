@@ -12,12 +12,16 @@ repeater:
 decorating-functions:
 	./decorating_functions.sh &> decorating_functions.console
 
+.PHONY: multiply
+multiply:
+	./multiply.sh &> multiply.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: example repeater decorating-functions exercise
+all: example repeater decorating-functions multiply exercise
 
 .PHONY: git-add
 git-add: all

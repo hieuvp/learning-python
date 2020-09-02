@@ -1,4 +1,4 @@
-# You can also make it change the output
+# Change the output
 def double_out(old_function):
     def new_function(*args, **kwargs):
         # modify the return value
@@ -7,8 +7,8 @@ def double_out(old_function):
     return new_function
 
 
-# Change input
-def double_Ii(old_function):
+# Change the input
+def double_input(old_function):
     # only works if the old function has one argument
     def new_function(args):
         # modify the argument passed
@@ -19,10 +19,10 @@ def double_Ii(old_function):
 
 # Do checking
 def check(old_function):
-    def new_function(arg):
-        if arg < 0:
-            # This causes an error, which is better than it doing the wrong thing
+    def new_function(args):
+        if args < 0:
+            # This causes an error, which is better than it does the wrong thing
             raise (ValueError, "Negative Argument")
-        old_function(arg)
+        old_function(args)
 
     return new_function

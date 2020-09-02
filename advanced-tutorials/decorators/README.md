@@ -103,7 +103,7 @@ multiply(2, 3)
 <!-- The below code snippet is automatically added from decorating_functions.py -->
 
 ```py
-# You can also make it change the output
+# Change the output
 def double_out(old_function):
     def new_function(*args, **kwargs):
         # modify the return value
@@ -112,8 +112,8 @@ def double_out(old_function):
     return new_function
 
 
-# Change input
-def double_Ii(old_function):
+# Change the input
+def double_input(old_function):
     # only works if the old function has one argument
     def new_function(args):
         # modify the argument passed
@@ -124,11 +124,11 @@ def double_Ii(old_function):
 
 # Do checking
 def check(old_function):
-    def new_function(arg):
-        if arg < 0:
-            # This causes an error, which is better than it doing the wrong thing
+    def new_function(args):
+        if args < 0:
+            # This causes an error, which is better than it does the wrong thing
             raise (ValueError, "Negative Argument")
-        old_function(arg)
+        old_function(args)
 
     return new_function
 ```
@@ -165,6 +165,24 @@ def return_num(num):
 # Now return_num is decorated and reassigned into itself
 return_num(5) # should return 15
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
+<!-- The below code snippet is automatically added from multiply.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.console) -->
+<!-- The below code snippet is automatically added from multiply.console -->
+
+```console
++ python multiply.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 You can do anything you want with the old function,
 even completely ignore it! Advanced decorators can also manipulate the doc string and argument number.
