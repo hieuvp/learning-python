@@ -1,26 +1,23 @@
 # You can also make it change the output
-
-
 def double_out(old_function):
-    def new_function(*args, **kwds):
-        return 2 * old_function(*args, **kwds)  # modify the return value
+    def new_function(*args, **kwargs):
+        # modify the return value
+        return 2 * old_function(*args, **kwargs)
 
     return new_function
 
 
-# change input
-
-
+# Change input
 def double_Ii(old_function):
-    def new_function(arg):  # only works if the old function has one argument
-        return old_function(arg * 2)  # modify the argument passed
+    # only works if the old function has one argument
+    def new_function(args):
+        # modify the argument passed
+        return old_function(args * 2)
 
     return new_function
 
 
-# and do checking.
-
-
+# Do checking
 def check(old_function):
     def new_function(arg):
         if arg < 0:
