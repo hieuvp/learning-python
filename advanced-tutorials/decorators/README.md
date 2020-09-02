@@ -167,13 +167,13 @@ def multiply(multiplier):
 # Usage
 # multiply is not a generator, but multiply(3) is
 @multiply(3)
-def return_num(num):
-    return num
+def return_number(number):
+    return number
 
 
-# Now return_num is decorated and reassigned into itself
-return_num(5)
-# should return 15
+# Now return_number is decorated and reassigned into itself
+output = return_number(5)
+print(output)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -183,14 +183,14 @@ return_num(5)
 
 ```console
 + python multiply.py
+15
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-You can do anything you want with the old function,
-even completely ignore it! Advanced decorators can also manipulate the doc string and argument number.
-For some snazzy decorators,
-go to <http://wiki.python.org/moin/PythonDecoratorLibrary.>
+You can do anything you want with the old function, even completely ignore it!
+Advanced decorators can also manipulate the doc string and argument number.
+For some snazzy decorators, go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
 
 ## Exercise
 

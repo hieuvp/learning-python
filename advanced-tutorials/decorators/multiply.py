@@ -12,10 +12,10 @@ def multiply(multiplier):
 # Usage
 # multiply is not a generator, but multiply(3) is
 @multiply(3)
-def return_num(num):
-    return num
+def return_number(number):
+    return number
 
 
-# Now return_num is decorated and reassigned into itself
-return_num(5)
-# should return 15
+# Now return_number is decorated and reassigned into itself
+output = return_number(5)
+print(output)
