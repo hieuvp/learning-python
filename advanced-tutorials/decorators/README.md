@@ -12,16 +12,39 @@
 
 ## Concepts
 
-Decorators allow you to make simple modifications
-to callable objects like functions, methods, or classes.
-We shall deal with functions for this tutorial.
-The syntax
+> **Decorators** allow you to make simple modifications
+> to callable objects like **functions**, **methods**, or **classes**.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
 <!-- The below code snippet is automatically added from example.py -->
 
 ```py
+# The syntax
 
+
+def decorator(func):
+    pass
+
+
+@decorator
+def functions(args):
+    return "value"
+
+
+# Is equivalent to
+# def function(arg):
+#     return "value"
+
+
+# This passes the function to the decorator,
+# and reassigns it to the functions
+# functions = decorator(function)
+
+
+# As you may have seen,
+# a decorator is just another function which takes a functions and returns one.
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -35,23 +58,7 @@ The syntax
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-```python
-@decorator
-def functions(arg):
-    return "value"
-```
-
-Is equivalent to:
-
-```python
-def function(arg):
-    return "value"
-function = decorator(function) # this passes the function to the decorator, and reassigns it to the functions
-```
-
-As you may have seen,
-a decorator is just another function which takes a functions and returns one.
-For example you could do this:
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
 <!-- The below code snippet is automatically added from repeater.py -->
