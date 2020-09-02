@@ -10,8 +10,11 @@ def functions(args):
     return "value"
 
 
-# Is equivalent to
-# def function(arg):
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Is Equivalent To
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def function(args):
 #     return "value"
 
 
