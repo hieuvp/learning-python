@@ -103,7 +103,37 @@ multiply(2, 3)
 <!-- The below code snippet is automatically added from decorating_functions.py -->
 
 ```py
+# You can also make it change the output
 
+
+def double_out(old_function):
+    def new_function(*args, **kwds):
+        return 2 * old_function(*args, **kwds)  # modify the return value
+
+    return new_function
+
+
+# change input
+
+
+def double_Ii(old_function):
+    def new_function(arg):  # only works if the old function has one argument
+        return old_function(arg * 2)  # modify the argument passed
+
+    return new_function
+
+
+# and do checking.
+
+
+def check(old_function):
+    def new_function(arg):
+        if arg < 0:
+            # This causes an error, which is better than it doing the wrong thing
+            raise (ValueError, "Negative Argument")
+        old_function(arg)
+
+    return new_function
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -117,33 +147,7 @@ multiply(2, 3)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-You can also make it change the output
-
-```python
-def double_out(old_function):
-    def new_function(*args, **kwds):
-        return 2 * old_function(*args, **kwds) # modify the return value
-    return new_function
-```
-
-change input
-
-```python
-def double_Ii(old_function):
-    def new_function(arg): # only works if the old function has one argument
-        return old_function(arg * 2) # modify the argument passed
-    return new_function
-```
-
-and do checking.
-
-```python
-def check(old_function):
-    def new_function(arg):
-        if arg < 0: raise (ValueError, "Negative Argument") # This causes an error, which is better than it doing the wrong thing
-        old_function(arg)
-    return new_function
-```
+<br />
 
 Let's say you want to multiply the output by a variable amount.
 You could define the decorator and use it as follows:
