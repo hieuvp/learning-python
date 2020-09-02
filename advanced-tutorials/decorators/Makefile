@@ -8,12 +8,16 @@ example:
 repeater:
 	./repeater.sh &> repeater.console
 
+.PHONY: decorating-functions
+decorating-functions:
+	./decorating_functions.sh &> decorating_functions.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: example repeater exercise
+all: example repeater decorating-functions exercise
 
 .PHONY: git-add
 git-add: all

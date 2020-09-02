@@ -97,6 +97,26 @@ multiply(2, 3)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=decorating_functions.py) -->
+<!-- The below code snippet is automatically added from decorating_functions.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=decorating_functions.console) -->
+<!-- The below code snippet is automatically added from decorating_functions.console -->
+
+```console
++ python decorating_functions.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 You can also make it change the output
 
 ```python
