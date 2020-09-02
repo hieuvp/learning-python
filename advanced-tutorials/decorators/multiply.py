@@ -1,12 +1,12 @@
 def multiply(multiplier):
-    def multiply_generator(old_function):
+    def multiply_decorator(old_function):
         def new_function(*args, **kwargs):
             return multiplier * old_function(*args, **kwargs)
 
         return new_function
 
-    # it returns the new generator
-    return multiply_generator
+    # it returns the new decorator
+    return multiply_decorator
 
 
 # Usage
