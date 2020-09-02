@@ -17,6 +17,24 @@ to callable objects like functions, methods, or classes.
 We shall deal with functions for this tutorial.
 The syntax
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
+<!-- The below code snippet is automatically added from example.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
+<!-- The below code snippet is automatically added from example.console -->
+
+```console
++ python example.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 @decorator
 def functions(arg):
