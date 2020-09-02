@@ -149,28 +149,31 @@ def check(old_function):
 Let's say you want to multiply the output by a variable amount.
 You could define the decorator and use it as follows:
 
-```python
-def multiply(multiplier):
-    def multiply_generator(old_function):
-        def new_function(*args, **kwds):
-            return multiplier * old_function(*args, **kwds)
-        return new_function
-    return multiply_generator # it returns the new generator
-
-# Usage
-@multiply(3) # multiply is not a generator, but multiply(3) is
-def return_num(num):
-    return num
-
-# Now return_num is decorated and reassigned into itself
-return_num(5) # should return 15
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
+def multiply(multiplier):
+    def multiply_generator(old_function):
+        def new_function(*args, **kwargs):
+            return multiplier * old_function(*args, **kwargs)
 
+        return new_function
+
+    # it returns the new generator
+    return multiply_generator
+
+
+# Usage
+# multiply is not a generator, but multiply(3) is
+@multiply(3)
+def return_num(num):
+    return num
+
+
+# Now return_num is decorated and reassigned into itself
+return_num(5)
+# should return 15
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
