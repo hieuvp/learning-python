@@ -1,7 +1,7 @@
 # Change the output
 def double_out(old_function):
     def new_function(*args, **kwargs):
-        # modify the return value
+        # Modify the return value
         return 2 * old_function(*args, **kwargs)
 
     return new_function
@@ -9,9 +9,9 @@ def double_out(old_function):
 
 # Change the input
 def double_input(old_function):
-    # only works if the old function has one argument
+    # Only works if the old function has one argument
     def new_function(args):
-        # modify the argument passed
+        # Modify the argument passed
         return old_function(args * 2)
 
     return new_function

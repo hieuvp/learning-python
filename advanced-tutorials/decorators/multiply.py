@@ -5,17 +5,17 @@ def multiply(multiplier):
 
         return new_function
 
-    # it returns the new decorator
+    # Return the new decorator
     return multiply_decorator
 
 
 # Usage
-# multiply is not a generator, but multiply(3) is
+# multiply is not a decorator, but multiply(3) is
 @multiply(3)
 def return_number(number):
     return number
 
 
-# Now return_number is decorated and reassigned into itself
+# Now, return_number is decorated and reassigned into itself
 output = return_number(5)
 print(output)

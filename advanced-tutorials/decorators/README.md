@@ -67,16 +67,14 @@ def functions(args):
 <!-- The below code snippet is automatically added from repeater.py -->
 
 ```py
+# This would make a function repeat twice
 def repeater(old_function):
     def new_function(*args, **kwargs):
         old_function(*args, **kwargs)  # we run the old function
         old_function(*args, **kwargs)  # we do it twice
 
-    # we have to return the new_function, or it wouldn't reassign it to the value
+    # Return the new_function, or it wouldn't reassign it to the value
     return new_function
-
-
-# This would make a function repeat twice
 
 
 @repeater
@@ -109,7 +107,7 @@ multiply(2, 3)
 # Change the output
 def double_out(old_function):
     def new_function(*args, **kwargs):
-        # modify the return value
+        # Modify the return value
         return 2 * old_function(*args, **kwargs)
 
     return new_function
@@ -117,9 +115,9 @@ def double_out(old_function):
 
 # Change the input
 def double_input(old_function):
-    # only works if the old function has one argument
+    # Only works if the old function has one argument
     def new_function(args):
-        # modify the argument passed
+        # Modify the argument passed
         return old_function(args * 2)
 
     return new_function
@@ -163,18 +161,18 @@ def multiply(multiplier):
 
         return new_function
 
-    # it returns the new decorator
+    # Return the new decorator
     return multiply_decorator
 
 
 # Usage
-# multiply is not a generator, but multiply(3) is
+# multiply is not a decorator, but multiply(3) is
 @multiply(3)
 def return_number(number):
     return number
 
 
-# Now return_number is decorated and reassigned into itself
+# Now, return_number is decorated and reassigned into itself
 output = return_number(5)
 print(output)
 ```
