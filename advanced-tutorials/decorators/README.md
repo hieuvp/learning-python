@@ -25,12 +25,15 @@
 
 
 def decorator(func):
-    pass
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+
+    return wrapper
 
 
 @decorator
-def functions(args):
-    return "value"
+def function(args):
+    return args
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -43,11 +46,16 @@ def functions(args):
 # Is Equivalent To
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 def decorator(func):
-    pass
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+
+    return wrapper
+
 
 def function(args):
-    return "value"
+    return args
 
 
 # This passes the function to the decorator,

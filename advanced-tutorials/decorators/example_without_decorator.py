@@ -2,11 +2,17 @@
 # Is Equivalent To
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 def decorator(func):
-    pass
+    def wrapper(*args, **kwargs):
+
+        return func(*args, **kwargs)
+
+    return wrapper
+
 
 def function(args):
-    return "value"
+    return args
 
 
 # This passes the function to the decorator,

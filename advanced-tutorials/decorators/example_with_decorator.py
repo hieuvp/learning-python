@@ -2,9 +2,13 @@
 
 
 def decorator(func):
-    pass
+    def wrapper(*args, **kwargs):
+
+        return func(*args, **kwargs)
+
+    return wrapper
 
 
 @decorator
-def functions(args):
-    return "value"
+def function(args):
+    return args
