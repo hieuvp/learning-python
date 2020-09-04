@@ -4,6 +4,18 @@
 
 Get started learning Python with DataCamp's free Intro to Python tutorial. Learn Data Science by completing interactive coding challenges and watching videos by expert instructors. Start Now!
 
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Concepts](#concepts)
+- [Exercise](#exercise)
+- [References](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 You can create partial functions in python by using the partial function from the functools library.
 
 Partial functions allow one to derive a function with x parameters to a function with fewer parameters and fixed values set for the more limited function.
