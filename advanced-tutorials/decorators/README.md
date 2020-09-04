@@ -203,8 +203,8 @@ def return_number(number):
 
 
 # Now, return_number is decorated and reassigned into itself
-output = return_number(5)
-print(output)
+OUTPUT = return_number(5)
+print(OUTPUT)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
