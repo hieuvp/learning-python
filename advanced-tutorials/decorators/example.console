@@ -1,2 +1,8 @@
 + python example_with_decorator.py
+Hello! Decorators
+Hello! Decorators
++ set +x
+
 + python example_without_decorator.py
+Hello! Decorators
+Hello! Decorators

@@ -3,12 +3,15 @@
 
 def decorator(func):
     def wrapper(*args, **kwargs):
-
-        return func(*args, **kwargs)
+        func(*args, **kwargs)
+        func(*args, **kwargs)
 
     return wrapper
 
 
 @decorator
-def function(args):
-    return args
+def function(message):
+    print(message)
+
+
+function("Hello! Decorators")
