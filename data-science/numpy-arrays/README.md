@@ -89,7 +89,7 @@ BMI applies to most adults 18-65 years.
 <!-- The below code snippet is automatically added from calculate_bmi.py -->
 
 ```py
-from getting_started import np_weight, np_height
+from getting_started import np_height, np_weight
 
 # Now we can perform element-wise calculations on height and weight.
 #

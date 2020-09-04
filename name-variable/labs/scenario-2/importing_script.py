@@ -1,6 +1,7 @@
 # Source: scenario-2/importing_script.py
 
 from os import path
+
 import standalone_script as ss
 
 

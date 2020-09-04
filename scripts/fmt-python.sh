@@ -25,6 +25,8 @@ main() {
   )
 
   black "${options[@]}" "$file"
+
+  isort "$file"
 }
 
 for file in "${FILES[@]}"; do

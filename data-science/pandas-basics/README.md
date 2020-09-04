@@ -79,6 +79,8 @@
   e.g. this programme caters for the masses
   chương trình này phục vụ cho quảng đại quần chúng
 
+<br />
+
 > Arithmetic operations align on both row and column labels.
 > Can be thought of as a dict-like container for Series objects.
 > The primary `pandas` data structure.
