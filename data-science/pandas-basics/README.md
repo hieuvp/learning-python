@@ -364,13 +364,6 @@ MOR            70  Morocco          True
 
 <br />
 
-You can also use `loc` and `iloc` to perform just about any data selection operation.
-
-- `loc` is label-based,
-  which means that you have to specify rows and columns based on their row and column labels.
-- `iloc` is integer index based,
-  so you have to specify rows and columns by their integer index like you did in the previous exercise.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=select_data.py) -->
 <!-- The below code snippet is automatically added from select_data.py -->
 
@@ -380,12 +373,21 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
+# You can also use "loc" and "iloc" to perform just about any data selection operation
+
 print()
+
+
+# "iloc" is integer index based,
+# so you have to specify rows and columns by their integer index like you did in the previous exercise
 
 print("# Print out observation for Japan")
 print("+ cars.iloc[2]")
 print(cars.iloc[2])
 print()
+
+# "loc" is label-based,
+# which means that you have to specify rows and columns based on their row and column labels
 
 print("# Print out observations for Australia and Egypt")
 print('+ cars.loc[["AUS", "EG"]]')
