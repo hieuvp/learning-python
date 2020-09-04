@@ -63,17 +63,17 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 40!
+And the next number is... 34!
 i = 1
-And the next number is... 14!
+And the next number is... 3!
 i = 2
-And the next number is... 34!
+And the next number is... 40!
 i = 3
-And the next number is... 34!
+And the next number is... 28!
 i = 4
-And the next number is... 18!
+And the next number is... 1!
 i = 5
-And the next number is... 11!
+And the next number is... 36!
 And the next number is... 13!
 ```
 
