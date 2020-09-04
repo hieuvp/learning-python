@@ -1,23 +1,21 @@
 # Exception Handling
 
-
-
-Get started learning Python with DataCamp's free Intro to Python tutorial. Learn Data Science by completing interactive coding challenges and watching videos by expert instructors. Start Now!
+Get started learning Python with DataCamp's free Intro to Python tutorial.
+Learn Data Science by completing interactive coding challenges and watching videos by expert instructors.
+Start Now!
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Concepts](#concepts)
 - [Exercise](#exercise)
-- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-When programming, errors happen. It's just a fact of life. Perhaps the user gave bad input. Maybe a network resource was unavailable. Maybe the program ran out of memory. Or the programmer may have even made a mistake!
+When programming, errors happen. It's just a fact of life.
+Perhaps the user gave bad input. Maybe a network resource was unavailable.
+Maybe the program ran out of memory. Or the programmer may have even made a mistake!
 
 Python's solution to errors are exceptions. You might have seen an exception before.
 
@@ -33,9 +31,16 @@ NameError: name 'a' is not defined
 
 Oops! Forgot to assign a value to the 'a' variable.
 
-But sometimes you don't want exceptions to completely stop the program. You might want to do something special when an exception is raised. This is done in a try/except block.
+But sometimes you don't want exceptions to completely stop the program.
+You might want to do something special when an exception is raised.
+This is done in a try/except block.
 
-Here's a trivial example: Suppose you're iterating over a list. You need to iterate over 20 numbers, but the list is made from user input, and might not have 20 numbers in it. After you reach the end of the list, you just want the rest of the numbers to be interpreted as a 0. Here's how you could do that:
+Here's a trivial example: Suppose you're iterating over a list.
+You need to iterate over 20 numbers, but the list is made from user input,
+and might not have 20 numbers in it.
+After you reach the end of the list,
+you just want the rest of the numbers to be interpreted as a 0.
+Here's how you could do that:
 
 ```python
 def do_stuff_with_number(n):
@@ -53,19 +58,21 @@ def catch_this():
 catch_this()
 ```
 
-There, that wasn't too hard! You can do that with any exception. For more details on handling exceptions, look no further than the Python Docs
-https://docs.python.org/tutorial/errors.html#handling-exceptions
+There, that wasn't too hard! You can do that with any exception.
+For more details on handling exceptions, look no further than the Python Docs
+<https://docs.python.org/tutorial/errors.html#handling-exceptions>
 
 ## Exercise
 
-Handle all the exception! Think back to the previous lessons to return the last name of the actor.
+Handle all the exception!
+Think back to the previous lessons to return the last name of the actor.
 
 ```python
 # Setup
 actor = {"name": "John Cleese", "rank": "awesome"}
 
 # Function to modify!!!
-def get_last_name(): 
+def get_last_name():
     return actor["last_name"]
 
 # Test code
@@ -74,4 +81,6 @@ print("All exceptions caught! Good job!")
 print("The actor's last name is %s" % get_last_name())
 ```
 
-This site is generously supported by DataCamp. DataCamp offers online interactive Python Tutorials for Data Science. Join over a million other learners and get started learning Python for data science today!
+This site is generously supported by DataCamp.
+DataCamp offers online interactive Python Tutorials for Data Science.
+Join over a million other learners and get started learning Python for data science today!
