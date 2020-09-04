@@ -27,32 +27,33 @@
 ### English Vocabulary
 
 - **collectively** `/kəˈlektɪvli/` adverb
-  chung, tập thể
+  <br />chung, tập thể
 
 - **heterogeneous** `/ˌhetərəˈdʒiːniəs/` adjective
-  consisting of many different kinds of people or things
-  hỗn tạp, đa dạng
+  <br />consisting of many different kinds of people or things
+  <br />hỗn tạp, đa dạng
 
 - **tabular** `/ˈtæbjələ(r)/` adjective
-  presented or arranged in a table (= in rows and columns)
+  <br />presented or arranged in a table (= in rows and columns)
 
 - **axes** `/ˈæk.siːz/`
-  plural of **axis** `/ˈæksɪs/`
+  <br />plural of **axis** `/ˈæksɪs/`
 
 - **analogous** `/əˈnæləɡəs/` adjective
-  analogous (to/with something)
-  similar in some way to another thing or situation and therefore able to be compared with it
-  tương tự
+  <br />analogous (to/with something)
+  <br />similar in some way to another thing or situation
+  and therefore able to be compared with it
+  <br />tương tự
 
 - **matrices** `/ˈmeɪtrɪsiːz/`
-  plural of **matrix** `/ˈmeɪtrɪks/`
+  <br />plural of **matrix** `/ˈmeɪtrɪks/`
 
 - **cater** `/ˈkeɪtə(r)/` verb
-  to provide food and drinks for a social event
-  cung cấp thực phẩm, lương thực
-  phục vụ cho, mua vui cho, giải trí cho
-  e.g. this programme caters for the masses
-  chương trình này phục vụ cho quảng đại quần chúng
+  <br />to provide food and drinks for a social event
+  <br />cung cấp thực phẩm, lương thực
+  <br />phục vụ cho, mua vui cho, giải trí cho
+  <br />e.g. this programme caters for the masses
+  <br />chương trình này phục vụ cho quảng đại quần chúng
 
 ### Pandas Series
 
