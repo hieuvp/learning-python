@@ -26,28 +26,28 @@
 
 ### English Vocabulary
 
-- collectively `/kəˈlektɪvli/` adverb
+- **collectively** `/kəˈlektɪvli/` adverb
   chung, tập thể
 
-- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
+- **heterogeneous** `/ˌhetərəˈdʒiːniəs/` adjective
   consisting of many different kinds of people or things
   hỗn tạp, đa dạng
 
-- tabular `/ˈtæbjələ(r)/` adjective
+- **tabular** `/ˈtæbjələ(r)/` adjective
   presented or arranged in a table (= in rows and columns)
 
-- axes `/ˈæk.siːz/`
-  plural of axis `/ˈæksɪs/`
+- **axes** `/ˈæk.siːz/`
+  plural of **axis** `/ˈæksɪs/`
 
-- analogous `/əˈnæləɡəs/` adjective
+- **analogous** `/əˈnæləɡəs/` adjective
   analogous (to/with something)
   similar in some way to another thing or situation and therefore able to be compared with it
   tương tự
 
-- matrices `/ˈmeɪtrɪsiːz/`
-  plural of matrix `/ˈmeɪtrɪks/`
+- **matrices** `/ˈmeɪtrɪsiːz/`
+  plural of **matrix** `/ˈmeɪtrɪks/`
 
-- cater `/ˈkeɪtə(r)/` verb
+- **cater** `/ˈkeɪtə(r)/` verb
   to provide food and drinks for a social event
   cung cấp thực phẩm, lương thực
   phục vụ cho, mua vui cho, giải trí cho
