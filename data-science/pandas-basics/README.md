@@ -65,6 +65,10 @@
 > The object supports both integer and label-based indexing
 > and provides a host of methods for performing operations involving the index.
 
+- So, the **Series** is the data structure for a single column of a **DataFrame**,
+  not only conceptually, but literally,
+  i.e. the data in a **DataFrame** is actually stored in memory as a collection of **Series**.
+
 <div align="center"><img src="assets/pandas-series.png" width="640"></div>
 
 ### Pandas DataFrame
@@ -73,21 +77,13 @@
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > **Pandas DataFrame** is a two-dimensional labeled data structure
 > with columns of potentially different types.
-> i.e., data is aligned in a tabular fashion in rows and columns.
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
-> Pandas DataFrame consists of three principal components, the data, rows, and columns.
+> i.e., data is aligned in a tabular fashion in rows and columns.
+> **Pandas DataFrame** consists of three principal components, the data, rows, and columns.
 
 <div align="center"><img src="assets/pandas-dataframe.png" width="680"></div>
 
 <br />
-
-> Arithmetic operations align on both row and column labels.
-> Can be thought of as a dict-like container for Series objects.
-> The primary `pandas` data structure.
-
-- So, the **Series** is the data structure for a single column of a **DataFrame**,
-  not only conceptually, but literally,
-  i.e. the data in a **DataFrame** is actually stored in memory as a collection of **Series**.
 
 - Analogously: We need both lists and matrices,
   because matrices are built with lists.
