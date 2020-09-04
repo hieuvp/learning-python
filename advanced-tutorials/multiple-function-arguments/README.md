@@ -67,8 +67,7 @@ rest   = [4, 5]
 ### `**kwargs` - Keyword Arguments
 
 > It is also possible to send functions arguments by keyword,
-> so that the order of the argument does not matter, using the following syntax.
-> The following code yields the following output: The sum is: 6 Result: 1
+> so that the order of the argument does not matter.
 
 <br />
 
