@@ -11,6 +11,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
+  - [English Vocabulary](#english-vocabulary)
   - [Pandas Series](#pandas-series)
   - [Pandas DataFrame](#pandas-dataframe)
 - [Creating Pandas DataFrames](#creating-pandas-dataframes)
@@ -22,6 +23,36 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Concepts
+
+### English Vocabulary
+
+- collectively `/kəˈlektɪvli/` adverb
+  chung, tập thể
+
+- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
+  consisting of many different kinds of people or things
+  hỗn tạp, đa dạng
+
+- tabular `/ˈtæbjələ(r)/` adjective
+  presented or arranged in a table (= in rows and columns)
+
+- axes `/ˈæk.siːz/`
+  plural of axis `/ˈæksɪs/`
+
+- analogous `/əˈnæləɡəs/` adjective
+  analogous (to/with something)
+  similar in some way to another thing or situation and therefore able to be compared with it
+  tương tự
+
+- matrices `/ˈmeɪtrɪsiːz/`
+  plural of matrix `/ˈmeɪtrɪks/`
+
+- cater `/ˈkeɪtə(r)/` verb
+  to provide food and drinks for a social event
+  cung cấp thực phẩm, lương thực
+  phục vụ cho, mua vui cho, giải trí cho
+  e.g. this programme caters for the masses
+  chương trình này phục vụ cho quảng đại quần chúng
 
 ### Pandas Series
 
@@ -51,33 +82,6 @@
 > Pandas DataFrame consists of three principal components, the data, rows, and columns.
 
 <div align="center"><img src="assets/pandas-dataframe.png" width="680"></div>
-
-<br />
-
-- heterogeneous `/ˌhetərəˈdʒiːniəs/` adjective
-  consisting of many different kinds of people or things
-  hỗn tạp, đa dạng
-
-- tabular `/ˈtæbjələ(r)/` adjective
-  presented or arranged in a table (= in rows and columns)
-
-- axes `/ˈæk.siːz/`
-  plural of axis `/ˈæksɪs/`
-
-- analogous `/əˈnæləɡəs/` adjective
-  analogous (to/with something)
-  similar in some way to another thing or situation and therefore able to be compared with it
-  tương tự
-
-- matrices `/ˈmeɪtrɪsiːz/`
-  plural of matrix `/ˈmeɪtrɪks/`
-
-- cater `/ˈkeɪtə(r)/` verb
-  to provide food and drinks for a social event
-  cung cấp thực phẩm, lương thực
-  phục vụ cho, mua vui cho, giải trí cho
-  e.g. this programme caters for the masses
-  chương trình này phục vụ cho quảng đại quần chúng
 
 <br />
 
