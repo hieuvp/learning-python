@@ -59,8 +59,8 @@
 
 > **Pandas Series** is a one-dimensional labeled array
 > capable of holding data of any type (integer, string, float, Python objects, etc.).
-> The axis labels are collectively called index.
-> Pandas Series is nothing but a column in an excel sheet.
+> The axis labels are collectively called **index**.
+> **Pandas Series** is nothing but a column in an excel sheet.
 > Labels need not be unique but must be a hashable type.
 > The object supports both integer and label-based indexing
 > and provides a host of methods for performing operations involving the index.
@@ -69,7 +69,7 @@
 
 ### Pandas DataFrame
 
-> **DataFrame** is a 2-dimensional
+> **Pandas DataFrame** is a 2-dimensional
 > labeled data structure with columns of potentially different types.
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > It is generally the most commonly used pandas object.
