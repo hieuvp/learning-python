@@ -17,11 +17,11 @@
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
-<!-- The below code snippet is automatically added from example.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example_with_decorator.py) -->
+<!-- The below code snippet is automatically added from example_with_decorator.py -->
 
 ```py
-# The syntax
+# The Syntax
 
 
 def decorator(func):
@@ -31,19 +31,28 @@ def decorator(func):
 @decorator
 def functions(args):
     return "value"
+```
 
+<!-- AUTO-GENERATED-CONTENT:END -->
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example_without_decorator.py) -->
+<!-- The below code snippet is automatically added from example_without_decorator.py -->
+
+```py
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Is Equivalent To
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# def function(args):
-#     return "value"
+def decorator(func):
+    pass
+
+def function(args):
+    return "value"
 
 
 # This passes the function to the decorator,
 # and reassigns it to the functions
-# functions = decorator(function)
+functions = decorator(function)
 
 
 # As you may have seen,
@@ -56,7 +65,8 @@ def functions(args):
 <!-- The below code snippet is automatically added from example.console -->
 
 ```console
-+ python example.py
++ python example_with_decorator.py
++ python example_without_decorator.py
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -1,26 +1,17 @@
-# The syntax
-
-
-def decorator(func):
-    pass
-
-
-@decorator
-def functions(args):
-    return "value"
-
-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Is Equivalent To
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# def function(args):
-#     return "value"
+def decorator(func):
+    pass
+
+def function(args):
+    return "value"
 
 
 # This passes the function to the decorator,
 # and reassigns it to the functions
-# functions = decorator(function)
+functions = decorator(function)
 
 
 # As you may have seen,

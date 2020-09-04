@@ -2,4 +2,5 @@
 
 set -eoux pipefail
 
-python example.py
+python example_with_decorator.py
+python example_without_decorator.py
