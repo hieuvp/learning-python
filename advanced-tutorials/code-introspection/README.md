@@ -1,39 +1,39 @@
 # Code Introspection
 
-
-Get started learning Python with DataCamp's free Intro to Python tutorial. Learn Data Science by completing interactive coding challenges and watching videos by expert instructors. Start Now!
+Get started learning Python with DataCamp's free Intro to Python tutorial.
+Learn Data Science by completing interactive coding challenges and watching videos by expert instructors.
+Start Now!
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Concepts](#concepts)
 - [Exercise](#exercise)
-- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-Code introspection is the ability to examine classes, functions and keywords to know what they are, what they do and what they know.
+Code introspection is the ability to examine classes, functions and keywords
+to know what they are, what they do and what they know.
 
 Python provides several functions and utilities for code introspection.
 
 ```python
 help()
-dir() 
-hasattr() 
-id() 
-type() 
-repr() 
-callable() 
-issubclass() 
-isinstance() 
-__doc__ 
+dir()
+hasattr()
+id()
+type()
+repr()
+callable()
+issubclass()
+isinstance()
+__doc__
 __name__
 ```
 
-Often the most important one is the help function, since you can use it to find what other functions do.
+Often the most important one is the help function,
+since you can use it to find what other functions do.
 
 ## Exercise
 
@@ -60,4 +60,6 @@ class Vehicle:
 # Your code goes here
 ```
 
-This site is generously supported by DataCamp. DataCamp offers online interactive Python Tutorials for Data Science. Join over a million other learners and get started learning Python for data science today!
+This site is generously supported by DataCamp.
+DataCamp offers online interactive Python Tutorials for Data Science.
+Join over a million other learners and get started learning Python for data science today!
