@@ -107,7 +107,7 @@ the second element in the list to two decimal places,
 the third element in the list to three decimal places, etc.
 With map() this is a piece of cake. Let's see how.
 
-Python already blesses us with the round() built-in function that takes two arguments --
+Python already blesses us with the `round()` built-in function that takes two arguments --
 the number to round up and the number of decimal places to round the number up to.
 So, since the function requires two arguments, we need to pass in two iterables.
 
