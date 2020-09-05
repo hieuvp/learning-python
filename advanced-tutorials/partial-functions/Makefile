@@ -1,14 +1,15 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: multiply
+multiply:
+	./multiply.sh &> ./multiply.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: exercise
-
-.PHONY: all
-all:
+all: multiply exercise
 
 .PHONY: git-add
 git-add: all
