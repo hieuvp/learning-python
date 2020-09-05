@@ -6,14 +6,15 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [Exercise](#exercise)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Regular Expressions (sometimes shortened to regexp, regex, or re)
+## Concepts
+
+Regular Expressions (sometimes shortened to `regexp`, `regex`, or `re`)
 are a tool for matching patterns in text.
-In Python, we have the re module.
+In Python, we have the `re` module.
 The applications for regular expressions are wide-spread,
 but they are fairly complex,
 so when contemplating using a regex for a certain task,
@@ -64,3 +65,5 @@ def test_email(your_pattern):
 pattern = r"" # Your pattern here!
 test_email(pattern)
 ```
+
+## References
