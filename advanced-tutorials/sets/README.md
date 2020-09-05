@@ -6,10 +6,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [Exercise](#exercise)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 Sets are lists with no duplicate entries.
 Let's say you want to collect a list of words used in a paragraph:
@@ -82,3 +83,5 @@ from event A which did not attend event B.
 a = ["Jake", "John", "Eric"]
 b = ["John", "Jill"]
 ```
+
+## References
