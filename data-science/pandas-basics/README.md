@@ -379,7 +379,8 @@ print()
 
 
 # "iloc" is integer index based,
-# so you have to specify rows and columns by their integer index like you did in the previous exercise
+# so you have to specify rows and columns by their integer index
+# like you did in the previous exercise
 
 print("# Print out observation for Japan")
 print("+ cars.iloc[2]")
