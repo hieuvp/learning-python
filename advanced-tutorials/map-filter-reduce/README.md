@@ -53,14 +53,25 @@ Traditionally, in normal Pythoning, I would do something like this:
 <!-- The below code snippet is automatically added from map_pets.py -->
 
 ```py
-my_pets = ["alfred", "tabitha", "william", "arla"]
-uppered_pets = []
+pets = ["alfred", "tabitha", "william", "arla"]
+upper_pets = []
 
-for pet in my_pets:
+for pet in pets:
     upper_pet = pet.upper()
-    uppered_pets.append(upper_pet)
+    upper_pets.append(upper_pet)
 
-print(uppered_pets)
+print(upper_pets)
+
+# Which would then output `['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']`
+
+# With "map()" functions, it's not only easier, but it's also much more flexible
+# I simply do this:
+
+pets = ["alfred", "tabitha", "william", "arla"]
+
+upper_pets = list(map(str.upper, pets))
+
+print(upper_pets)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -71,23 +82,10 @@ print(uppered_pets)
 ```console
 + python map_pets.py
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
+['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Which would then output `['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']`
-
-With `map()` functions, it's not only easier, but it's also much more flexible.
-I simply do this:
-
-```python
-# Python 3
-my_pets = ['alfred', 'tabitha', 'william', 'arla']
-
-uppered_pets = list(map(str.upper, my_pets))
-
-print(uppered_pets)
-```
 
 Which would also output the same result.
 Note that using the defined map() syntax above,
