@@ -25,22 +25,20 @@ from functools import partial
 
 This code will return 8.
 
-```python
-from functools import partial
-
-def multiply(x,y):
-        return x * y
-
-# create a new function that multiplies by 2
-dbl = partial(multiply,2)
-print(dbl(4))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
+from functools import partial
 
+
+def multiply(x, y):
+    return x * y
+
+
+# Create a new function that multiplies by 2
+dbl = partial(multiply, 2)
+print(dbl(4))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -50,6 +48,7 @@ print(dbl(4))
 
 ```console
 + python multiply.py
+8
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
