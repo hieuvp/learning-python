@@ -23,23 +23,21 @@ However, one can use the "nonlocal" keyword explicitly with these variables in o
 
 For example:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
+<!-- The below code snippet is automatically added from transmit_to_space.py -->
+
+```py
 def transmit_to_space(message):
     "This is the enclosing function"
+
     def data_transmitter():
         "The nested function"
         print(message)
 
     data_transmitter()
 
+
 print(transmit_to_space("Test message"))
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
-<!-- The below code snippet is automatically added from transmit_to_space.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -49,6 +47,8 @@ print(transmit_to_space("Test message"))
 
 ```console
 + python transmit_to_space.py
+Test message
+None
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -56,24 +56,22 @@ print(transmit_to_space("Test message"))
 This works well as the 'data_transmitter' function can access the 'message'.
 To demonstrate the use of the "nonlocal" keyword, consider this
 
-```python
-def print_msg(number):
-    def printer():
-        "Here we are using the nonlocal keyword"
-        nonlocal number
-        number=3
-        print(number)
-    printer()
-    print(number)
-
-print_msg(9)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.py) -->
 <!-- The below code snippet is automatically added from print_msg.py -->
 
 ```py
+def print_msg(number):
+    def printer():
+        "Here we are using the nonlocal keyword"
+        nonlocal number
+        number = 3
+        print(number)
 
+    printer()
+    print(number)
+
+
+print_msg(9)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -83,6 +81,8 @@ print_msg(9)
 
 ```console
 + python print_msg.py
+3
+3
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -133,18 +133,14 @@ to get multiple multiplication functions using closures.
 That is using closures,
 one could make functions to create multiply_with_5() or multiply_with_4() functions using closures.
 
-```python
-# your code goes here
-
-multiplywith5 = multiplier_of(5)
-multiplywith5(9)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+# your code goes here
 
+# multiply_with_5 = multiplier_of(5)
+# multiply_with_5(9)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
