@@ -8,8 +8,12 @@ json-dumps:
 pickle-dumps:
 	./pickle_dumps.sh &> ./pickle_dumps.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> ./exercise.console
+
 .PHONY: all
-all: json-dumps pickle-dumps
+all: json-dumps pickle-dumps exercise
 
 .PHONY: git-add
 git-add: all
