@@ -29,7 +29,7 @@ print(set("my name is Eric and Eric is my name".split()))
 
 ```console
 + python words.py
-{'is', 'name', 'my', 'and', 'Eric'}
+{'and', 'Eric', 'is', 'my', 'name'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,6 +48,7 @@ For example, say you have a list of participants in events A and B:
 ```py
 a = set(["Jake", "John", "Eric"])
 print(a)
+
 b = set(["John", "Jill"])
 print(b)
 ```
@@ -59,7 +60,7 @@ print(b)
 
 ```console
 + python participants.py
-{'John', 'Jake', 'Eric'}
+{'Jake', 'John', 'Eric'}
 {'John', 'Jill'}
 ```
 
@@ -112,8 +113,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jake', 'Jill', 'Eric'}
-{'Jill', 'Eric', 'Jake'}
+{'Eric', 'Jill', 'Jake'}
+{'Eric', 'Jill', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -139,7 +140,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -164,7 +165,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Eric', 'John', 'Jill', 'Jake'}
+{'Jill', 'Eric', 'Jake', 'John'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
