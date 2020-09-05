@@ -35,6 +35,24 @@ def transmit_to_space(message):
 print(transmit_to_space("Test message"))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
+<!-- The below code snippet is automatically added from transmit_to_space.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.console) -->
+<!-- The below code snippet is automatically added from transmit_to_space.console -->
+
+```console
++ python transmit_to_space.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 This works well as the 'data_transmitter' function can access the 'message'.
 To demonstrate the use of the "nonlocal" keyword, consider this
 
@@ -50,6 +68,24 @@ def print_msg(number):
 
 print_msg(9)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.py) -->
+<!-- The below code snippet is automatically added from print_msg.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.console) -->
+<!-- The below code snippet is automatically added from print_msg.console -->
+
+```console
++ python print_msg.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Without the nonlocal keyword, the output would be "3 9",
 however, with its usage, we get "3 3", that is the value of the "number" variable gets modified.
@@ -103,3 +139,21 @@ one could make functions to create multiply_with_5() or multiply_with_4() functi
 multiplywith5 = multiplier_of(5)
 multiplywith5(9)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
