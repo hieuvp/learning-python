@@ -12,18 +12,16 @@
 
 ## Concepts
 
-You can create partial functions in python by using the partial function from the functools library.
+You can create partial functions in python by using the partial function from the `functools` library.
 
-Partial functions allow one to derive a function with x parameters to a function with fewer parameters
-and fixed values set for the more limited function.
+Partial functions allow one to derive a function with x parameters
+to a function with fewer parameters and fixed values set for the more limited function.
 
 Import required:
 
 ```python
 from functools import partial
 ```
-
-This code will return 8.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
@@ -42,6 +40,8 @@ print(dbl(4))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+This code will return 8.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.console) -->
 <!-- The below code snippet is automatically added from multiply.console -->
