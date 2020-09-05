@@ -38,7 +38,10 @@ After you reach the end of the list,
 you just want the rest of the numbers to be interpreted as a 0.
 Here's how you could do that:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
+<!-- The below code snippet is automatically added from example.py -->
+
+```py
 def do_stuff_with_number(n):
     print(n)
 
@@ -53,6 +56,37 @@ def catch_this():
 
 catch_this()
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
+<!-- The below code snippet is automatically added from example.console -->
+
+```console
++ python example.py
+1
+2
+3
+4
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 There, that wasn't too hard! You can do that with any exception.
 For more details on handling exceptions, look no further than the Python Docs
