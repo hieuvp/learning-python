@@ -13,6 +13,7 @@ declare -ra FILES
 declare -ra IGNORING_FILES=(
   "advanced-tutorials/exception-handling/example.py"
   "advanced-tutorials/generators/exercise.py"
+  "advanced-tutorials/map-filter-reduce/map_pets.py"
   "advanced-tutorials/multiple-function-arguments/exercise.py"
   "advanced-tutorials/partial-functions/exercise.py"
   "advanced-tutorials/partial-functions/multiply.py"

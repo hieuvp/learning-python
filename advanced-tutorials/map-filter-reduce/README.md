@@ -57,8 +57,8 @@ my_pets = ["alfred", "tabitha", "william", "arla"]
 uppered_pets = []
 
 for pet in my_pets:
-    pet_ = pet.upper()
-    uppered_pets.append(pet_)
+    upper_pet = pet.upper()
+    uppered_pets.append(upper_pet)
 
 print(uppered_pets)
 ```
@@ -285,11 +285,11 @@ Let's filter out those who passed with scores more than 75...using filter.
 scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
 
-def is_A_student(score):
+def is_a_student(score):
     return score > 75
 
 
-over_75 = list(filter(is_A_student, scores))
+over_75 = list(filter(is_a_student, scores))
 
 print(over_75)
 ```
