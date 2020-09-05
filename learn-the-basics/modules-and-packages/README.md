@@ -39,7 +39,6 @@
 # which enables it to use functions implemented in that "draw" module.
 import draw
 
-
 # When the "import draw" directive run, Python interpreter will look for a file
 # in the directory which the script was executed from,
 # by the name of the module with a ".py" suffix ("draw.py", in this case)
@@ -586,8 +585,8 @@ For example, this directory called `pkg`, which marks the **package name**:
 # that the directory it contains is a "Python package",
 # so it can be imported the same way a "Python module" can be imported
 
-from .game import play_game
 from .draw import draw_game
+from .game import play_game
 
 # The "." before the module name is necessary as of (Vietnamese: kể từ) Python 3
 # since it is more strict regarding relative imports

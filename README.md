@@ -42,15 +42,15 @@
 1. [Generators](advanced-tutorials/generators/README.md)
 1. [List Comprehensions](advanced-tutorials/list-comprehensions/README.md)
 1. [Multiple Function Arguments](advanced-tutorials/multiple-function-arguments/README.md)
-1. [ ] [Regular Expressions](advanced-tutorials/regular-expressions/README.md)
-1. [ ] [Exception Handling](advanced-tutorials/exception-handling/README.md)
-1. [ ] [Sets](advanced-tutorials/sets/README.md)
-1. [ ] [Serialization](advanced-tutorials/serialization/README.md)
-1. [ ] [Partial Functions](advanced-tutorials/partial-functions/README.md)
-1. [ ] [Code Introspection](advanced-tutorials/code-introspection/README.md)
-1. [ ] [Closures](advanced-tutorials/closures/README.md)
-1. [ ] [Decorators](advanced-tutorials/decorators/README.md)
-1. [ ] [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
+1. [Regular Expressions](advanced-tutorials/regular-expressions/README.md)
+1. [Exception Handling](advanced-tutorials/exception-handling/README.md)
+1. [Sets](advanced-tutorials/sets/README.md)
+1. [Serialization](advanced-tutorials/serialization/README.md)
+1. [Partial Functions](advanced-tutorials/partial-functions/README.md)
+1. [Code Introspection](advanced-tutorials/code-introspection/README.md)
+1. [Closures](advanced-tutorials/closures/README.md)
+1. [Decorators](advanced-tutorials/decorators/README.md)
+1. [Map, Filter, Reduce](advanced-tutorials/map-filter-reduce/README.md)
 
 ### Unit Testing
 
@@ -66,6 +66,7 @@
 
 1. [ ] [Development Setup](development-setup/README.md)
 1. [`__name__` Variable](name-variable/README.md)
+1. [`pass` Statement](pass-statement/README.md)
 
 ## References
 
