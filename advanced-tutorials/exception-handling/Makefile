@@ -4,8 +4,12 @@ export PATH := ../../venv/bin:$(PATH)
 example:
 	./example.sh &> ./example.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> ./exercise.console
+
 .PHONY: all
-all: example
+all: example exercise
 
 .PHONY: git-add
 git-add: all

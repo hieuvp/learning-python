@@ -97,6 +97,24 @@ For more details on handling exceptions, look no further than the Python Docs
 Handle all the exception!
 Think back to the previous lessons to return the last name of the actor.
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ```python
 # Setup
 actor = {"name": "John Cleese", "rank": "awesome"}
