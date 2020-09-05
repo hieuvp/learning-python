@@ -41,17 +41,14 @@ print(json.loads(json_string))
 To encode a data structure to JSON, use the "dumps" method.
 This method takes an object and returns a String:
 
-```python
-import json
-json_string = json.dumps([1, 2, 3, "a", "b", "c"])
-print(json_string)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=json_dumps.py) -->
 <!-- The below code snippet is automatically added from json_dumps.py -->
 
 ```py
+import json
 
+json_string = json.dumps([1, 2, 3, "a", "b", "c"])
+print(json_string)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -61,6 +58,7 @@ print(json_string)
 
 ```console
 + python json_dumps.py
+[1, 2, 3, "a", "b", "c"]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -70,17 +68,14 @@ Python supports a Python proprietary data serialization method called pickle
 
 You can use it exactly the same way.
 
-```python
-import pickle
-pickled_string = pickle.dumps([1, 2, 3, "a", "b", "c"])
-print(pickle.loads(pickled_string))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=pickle_dumps.py) -->
 <!-- The below code snippet is automatically added from pickle_dumps.py -->
 
 ```py
+import pickle
 
+pickled_string = pickle.dumps([1, 2, 3, "a", "b", "c"])
+print(pickle.loads(pickled_string))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -90,6 +85,7 @@ print(pickle.loads(pickled_string))
 
 ```console
 + python pickle_dumps.py
+[1, 2, 3, 'a', 'b', 'c']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

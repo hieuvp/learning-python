@@ -1,1 +1,2 @@
 + python json_dumps.py
+[1, 2, 3, "a", "b", "c"]
