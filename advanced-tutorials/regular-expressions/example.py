@@ -8,6 +8,7 @@ print(re.search(pattern, "Nada...:-("))
 # Doesn't return anything.
 # End Example
 
+
 # Exercise: make a regular expression that will match an email
 def test_email(your_pattern):
     pattern = re.compile(your_pattern)
@@ -21,5 +22,6 @@ def test_email(your_pattern):
             print("Pass")
 
 
-pattern = r""  # Your pattern here!
+# Your pattern here!
+pattern = r""
 test_email(pattern)
