@@ -36,8 +36,6 @@ since you can use it to find what other functions do.
 
 ## Exercise
 
-Print a list of all attributes of the given Vehicle object.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
@@ -62,6 +60,7 @@ class Vehicle:
 
 
 # Print a list of all attributes of the Vehicle class.
+# Print a list of all attributes of the given Vehicle object.
 # Your code goes here
 ```
 

@@ -18,4 +18,5 @@ class Vehicle:
 
 
 # Print a list of all attributes of the Vehicle class.
+# Print a list of all attributes of the given Vehicle object.
 # Your code goes here
