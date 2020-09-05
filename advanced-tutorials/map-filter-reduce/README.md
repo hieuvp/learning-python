@@ -195,22 +195,18 @@ Like map(), in Python 3, it returns a generator object,
 which can be easily converted to a list by calling the built-in list function on it.
 Use the below interpreter session to get a grip of zip() before we create ours with map()
 
-```python
-# Python 3
-
-my_strings = ['a', 'b', 'c', 'd', 'e']
-my_numbers = [1,2,3,4,5]
-
-results = list(zip(my_strings, my_numbers))
-
-print(results)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=zip_strings_numbers.py) -->
 <!-- The below code snippet is automatically added from zip_strings_numbers.py -->
 
 ```py
+# Python 3
 
+my_strings = ["a", "b", "c", "d", "e"]
+my_numbers = [1, 2, 3, 4, 5]
+
+results = list(zip(my_strings, my_numbers))
+
+print(results)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -220,6 +216,7 @@ print(results)
 
 ```console
 + python zip_strings_numbers.py
+[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
