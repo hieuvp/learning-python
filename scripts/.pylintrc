@@ -7,5 +7,6 @@ disable=
     C0114,  # Missing module docstring (missing-module-docstring)
     C0115,  # Missing class docstring (missing-class-docstring)
     C0116,  # Missing function or method docstring (missing-function-docstring)
+    E0702,  # Raising tuple while only classes or instances are allowed (raising-bad-type)
     R0201,  # Method could be a function (no-self-use)
     R0903,  # Too few public methods (too-few-public-methods)

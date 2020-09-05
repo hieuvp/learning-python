@@ -7,8 +7,8 @@
 # that the directory it contains is a "Python package",
 # so it can be imported the same way a "Python module" can be imported
 
-from .game import play_game
 from .draw import draw_game
+from .game import play_game
 
 # The "." before the module name is necessary as of (Vietnamese: kể từ) Python 3
 # since it is more strict regarding relative imports

@@ -7,7 +7,6 @@
 # which enables it to use functions implemented in that "draw" module.
 import draw
 
-
 # When the "import draw" directive run, Python interpreter will look for a file
 # in the directory which the script was executed from,
 # by the name of the module with a ".py" suffix ("draw.py", in this case)

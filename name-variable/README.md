@@ -114,6 +114,7 @@ In "standalone_script.py", the value of "__name__" is "__main__".
 # Source: scenario-2/importing_script.py
 
 from os import path
+
 import standalone_script as ss
 
 
