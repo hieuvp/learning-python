@@ -41,10 +41,14 @@ A complete reference for the re syntax is available at the python docs.
 As an example of a "proper" email-matching regex (like the one in the exercise), see this
 <http://www.ex-parrot.com/pdw/Mail-RFC822-Address.html>
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
+<!-- The below code snippet is automatically added from example.py -->
+
+```py
 # Example:
 import re
-pattern = re.compile(r"\[(on|off)\]") # Slight optimization
+
+pattern = re.compile(r"\[(on|off)\]")  # Slight optimization
 print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
 # Returns a Match object!
 print(re.search(pattern, "Nada...:-("))
@@ -62,8 +66,26 @@ def test_email(your_pattern):
             print("Forgot to enter a pattern!")
         else:
             print("Pass")
-pattern = r"" # Your pattern here!
+
+
+pattern = r""  # Your pattern here!
 test_email(pattern)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
+<!-- The below code snippet is automatically added from example.console -->
+
+```console
++ python example.py
+<re.Match object; span=(35, 39), match='[on]'>
+None
+Forgot to enter a pattern!
+Forgot to enter a pattern!
+Forgot to enter a pattern!
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## References
