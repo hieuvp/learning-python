@@ -47,6 +47,24 @@ json_string = json.dumps([1, 2, 3, "a", "b", "c"])
 print(json_string)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=json_dumps.py) -->
+<!-- The below code snippet is automatically added from json_dumps.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=json_dumps.console) -->
+<!-- The below code snippet is automatically added from json_dumps.console -->
+
+```console
++ python json_dumps.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Python supports a Python proprietary data serialization method called pickle
 (and a faster alternative called cPickle).
 
@@ -57,6 +75,24 @@ import pickle
 pickled_string = pickle.dumps([1, 2, 3, "a", "b", "c"])
 print(pickle.loads(pickled_string))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=pickle_dumps.py) -->
+<!-- The below code snippet is automatically added from pickle_dumps.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=pickle_dumps.console) -->
+<!-- The below code snippet is automatically added from pickle_dumps.console -->
+
+```console
++ python pickle_dumps.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The aim of this exercise is
 to print out the JSON string with key-value pair "Me" : 800 added to it.
