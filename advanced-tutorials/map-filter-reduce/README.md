@@ -49,8 +49,11 @@ Say I have a list (`iterable`) of my favourite pet names,
 all in lower case and I need them in uppercase.
 Traditionally, in normal Pythoning, I would do something like this:
 
-```python
-my_pets = ['alfred', 'tabitha', 'william', 'arla']
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.py) -->
+<!-- The below code snippet is automatically added from map_pets.py -->
+
+```py
+my_pets = ["alfred", "tabitha", "william", "arla"]
 uppered_pets = []
 
 for pet in my_pets:
@@ -60,13 +63,6 @@ for pet in my_pets:
 print(uppered_pets)
 ```
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.py) -->
-<!-- The below code snippet is automatically added from map_pets.py -->
-
-```py
-
-```
-
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.console) -->
@@ -74,6 +70,7 @@ print(uppered_pets)
 
 ```console
 + python map_pets.py
+['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -116,21 +113,17 @@ Python already blesses us with the round() built-in function that takes two argu
 the number to round up and the number of decimal places to round the number up to.
 So, since the function requires two arguments, we need to pass in two iterables.
 
-```python
-# Python 3
-
-circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
-
-result = list(map(round, circle_areas, range(1,7)))
-
-print(result)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_circle_areas.py) -->
 <!-- The below code snippet is automatically added from map_circle_areas.py -->
 
 ```py
+# Python 3
 
+circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
+
+result = list(map(round, circle_areas, range(1, 7)))
+
+print(result)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -140,6 +133,7 @@ print(result)
 
 ```console
 + python map_circle_areas.py
+[3.6, 5.58, 4.009, 56.2424, 9.01344, 32.00013]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -268,23 +262,21 @@ Let's see some examples
 The following is a list (iterable) of the scores of 10 students in a Chemistry exam.
 Let's filter out those who passed with scores more than 75...using filter.
 
-```python
-# Python 3
-scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
-
-def is_A_student(score):
-    return score > 75
-
-over_75 = list(filter(is_A_student, scores))
-
-print(over_75)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_scores.py) -->
 <!-- The below code snippet is automatically added from filter_scores.py -->
 
 ```py
+# Python 3
+scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
+
+def is_A_student(score):
+    return score > 75
+
+
+over_75 = list(filter(is_A_student, scores))
+
+print(over_75)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -294,6 +286,7 @@ print(over_75)
 
 ```console
 + python filter_scores.py
+[90, 76, 88, 81]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -302,20 +295,16 @@ The next example will be a palindrome detector.
 A "palindrome" is a word, phrase, or sequence that reads the same backwards as forwards.
 Let's filter out words that are palindromes from a tuple (iterable) of suspected palindromes.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
+<!-- The below code snippet is automatically added from filter_dromes.py -->
+
+```py
 # Python 3
 dromes = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
 
 palindromes = list(filter(lambda word: word == word[::-1], dromes))
 
 print(palindromes)
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
-<!-- The below code snippet is automatically added from filter_dromes.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -325,6 +314,7 @@ print(palindromes)
 
 ```console
 + python filter_dromes.py
+['madam', 'anutforajaroftuna']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -361,24 +351,22 @@ As usual, let's see some examples.
 Let's create our own version of Python's built-in sum() function.
 The sum() function returns the sum of all the items in the iterable passed to it.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.py) -->
+<!-- The below code snippet is automatically added from reduce_numbers.py -->
+
+```py
 # Python 3
 from functools import reduce
 
 numbers = [3, 4, 6, 9, 34, 12]
 
+
 def custom_sum(first, second):
     return first + second
 
+
 result = reduce(custom_sum, numbers)
 print(result)
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.py) -->
-<!-- The below code snippet is automatically added from reduce_numbers.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -388,6 +376,7 @@ print(result)
 
 ```console
 + python reduce_numbers.py
+68
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
