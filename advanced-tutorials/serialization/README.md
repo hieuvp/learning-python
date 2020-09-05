@@ -6,10 +6,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [Exercise](#exercise)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 Python provides built-in JSON libraries to encode and decode JSON.
 
@@ -78,3 +79,5 @@ print(decoded_salaries["Alfred"])
 print(decoded_salaries["Jane"])
 print(decoded_salaries["Me"])
 ```
+
+## References
