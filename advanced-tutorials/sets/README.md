@@ -15,15 +15,11 @@
 Sets are lists with no duplicate entries.
 Let's say you want to collect a list of words used in a paragraph:
 
-```python
-print(set("my name is Eric and Eric is my name".split()))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=words.py) -->
 <!-- The below code snippet is automatically added from words.py -->
 
 ```py
-
+print(set("my name is Eric and Eric is my name".split()))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -33,6 +29,7 @@ print(set("my name is Eric and Eric is my name".split()))
 
 ```console
 + python words.py
+{'is', 'name', 'my', 'and', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -45,18 +42,14 @@ Sets are a powerful tool in Python since they have the ability to calculate diff
 and intersections between other sets.
 For example, say you have a list of participants in events A and B:
 
-```python
-a = set(["Jake", "John", "Eric"])
-print(a)
-b = set(["John", "Jill"])
-print(b)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=participants.py) -->
 <!-- The below code snippet is automatically added from participants.py -->
 
 ```py
-
+a = set(["Jake", "John", "Eric"])
+print(a)
+b = set(["John", "Jill"])
+print(b)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -66,25 +59,23 @@ print(b)
 
 ```console
 + python participants.py
+{'John', 'Jake', 'Eric'}
+{'John', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 To find out which members attended both events, you may use the "intersection" method:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.py) -->
+<!-- The below code snippet is automatically added from intersection.py -->
+
+```py
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
 print(a.intersection(b))
 print(b.intersection(a))
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.py) -->
-<!-- The below code snippet is automatically added from intersection.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -94,6 +85,8 @@ print(b.intersection(a))
 
 ```console
 + python intersection.py
+{'John'}
+{'John'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -101,19 +94,15 @@ print(b.intersection(a))
 To find out which members attended only one of the events,
 use the "symmetric_difference" method:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.py) -->
+<!-- The below code snippet is automatically added from symmetric_difference.py -->
+
+```py
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
 print(a.symmetric_difference(b))
 print(b.symmetric_difference(a))
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.py) -->
-<!-- The below code snippet is automatically added from symmetric_difference.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -123,6 +112,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
+{'Jake', 'Jill', 'Eric'}
+{'Jill', 'Eric', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -130,19 +121,15 @@ print(b.symmetric_difference(a))
 To find out which members attended only one event and not the other,
 use the "difference" method:
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.py) -->
+<!-- The below code snippet is automatically added from difference.py -->
+
+```py
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
 print(a.difference(b))
 print(b.difference(a))
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.py) -->
-<!-- The below code snippet is automatically added from difference.py -->
-
-```py
-
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -152,24 +139,22 @@ print(b.difference(a))
 
 ```console
 + python difference.py
+{'Jake', 'Eric'}
+{'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 To receive a list of all participants, use the "union" method:
 
-```python
-a = set(["Jake", "John", "Eric"])
-b = set(["John", "Jill"])
-
-print(a.union(b))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=union.py) -->
 <!-- The below code snippet is automatically added from union.py -->
 
 ```py
+a = set(["Jake", "John", "Eric"])
+b = set(["John", "Jill"])
 
+print(a.union(b))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -179,6 +164,7 @@ print(a.union(b))
 
 ```console
 + python union.py
+{'Eric', 'John', 'Jill', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -1,1 +1,3 @@
 + python participants.py
+{'John', 'Jake', 'Eric'}
+{'John', 'Jill'}
