@@ -14,7 +14,7 @@
 
 Map, Filter, and Reduce are paradigms of functional programming.
 They allow the programmer (you) to write simpler, shorter code,
-without neccessarily needing to bother about intricacies like loops and branching.
+without necessarily needing to bother about intricacies like loops and branching.
 
 Essentially,
 these three functions allow you to apply a function across a number of iterables,
@@ -205,6 +205,24 @@ results = list(zip(my_strings, my_numbers))
 
 print(results)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=zip_strings_numbers.py) -->
+<!-- The below code snippet is automatically added from zip_strings_numbers.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=zip_strings_numbers.console) -->
+<!-- The below code snippet is automatically added from zip_strings_numbers.console -->
+
+```console
++ python zip_strings_numbers.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 As a bonus,
 can you guess what would happen in the above session

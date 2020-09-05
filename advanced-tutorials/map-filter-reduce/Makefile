@@ -8,6 +8,10 @@ map-pets:
 map-circle-areas:
 	./map_circle_areas.sh &> ./map_circle_areas.console
 
+.PHONY: zip-strings-numbers
+zip-strings-numbers:
+	./zip_strings_numbers.sh &> ./zip_strings_numbers.console
+
 .PHONY: filter-scores
 filter-scores:
 	./filter_scores.sh &> ./filter_scores.console
@@ -25,7 +29,7 @@ exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas filter-scores filter-dromes reduce-numbers exercise
+all: map-pets map-circle-areas zip-strings-numbers filter-scores filter-dromes reduce-numbers exercise
 
 .PHONY: git-add
 git-add: all
