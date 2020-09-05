@@ -338,8 +338,11 @@ Try on the below exercises to help ascertain your understanding of each function
 
 In this exercise, you'll use each of map, filter, and reduce to fix broken code.
 
-```python
-from functools import reduce
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+# from functools import reduce
 
 # Use map to print the square of each numbers rounded
 # to two decimal places
@@ -353,20 +356,13 @@ my_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
 my_numbers = [4, 6, 9, 23, 5]
 
 # Fix all three respectively.
-map_result = list(map(lambda x: x, my_floats))
-filter_result = list(filter(lambda name: name, my_names, my_names))
-reduce_result = reduce(lambda num1, num2: num1 * num2, my_numbers, 0)
-
-print(map_result)
-print(filter_result)
-print(reduce_result)
-```
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
-<!-- The below code snippet is automatically added from exercise.py -->
-
-```py
-
+# map_result = list(map(lambda x: x, my_floats))
+# filter_result = list(filter(lambda name: name, my_names, my_names))
+# reduce_result = reduce(lambda num1, num2: num1 * num2, my_numbers, 0)
+#
+# print(map_result)
+# print(filter_result)
+# print(reduce_result)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
