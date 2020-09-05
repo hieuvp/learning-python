@@ -19,6 +19,24 @@ Let's say you want to collect a list of words used in a paragraph:
 print(set("my name is Eric and Eric is my name".split()))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=words.py) -->
+<!-- The below code snippet is automatically added from words.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=words.console) -->
+<!-- The below code snippet is automatically added from words.console -->
+
+```console
++ python words.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 This will print out a list containing "my", "name", "is", "Eric", and finally "and".
 Since the rest of the sentence uses words which are already in the set,
 they are not inserted twice.
@@ -34,6 +52,24 @@ b = set(["John", "Jill"])
 print(b)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=participants.py) -->
+<!-- The below code snippet is automatically added from participants.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=participants.console) -->
+<!-- The below code snippet is automatically added from participants.console -->
+
+```console
++ python participants.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 To find out which members attended both events, you may use the "intersection" method:
 
 ```python
@@ -43,6 +79,24 @@ b = set(["John", "Jill"])
 print(a.intersection(b))
 print(b.intersection(a))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.py) -->
+<!-- The below code snippet is automatically added from intersection.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.console) -->
+<!-- The below code snippet is automatically added from intersection.console -->
+
+```console
++ python intersection.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 To find out which members attended only one of the events,
 use the "symmetric_difference" method:
@@ -55,6 +109,24 @@ print(a.symmetric_difference(b))
 print(b.symmetric_difference(a))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.py) -->
+<!-- The below code snippet is automatically added from symmetric_difference.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.console) -->
+<!-- The below code snippet is automatically added from symmetric_difference.console -->
+
+```console
++ python symmetric_difference.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 To find out which members attended only one event and not the other,
 use the "difference" method:
 
@@ -66,6 +138,24 @@ print(a.difference(b))
 print(b.difference(a))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.py) -->
+<!-- The below code snippet is automatically added from difference.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.console) -->
+<!-- The below code snippet is automatically added from difference.console -->
+
+```console
++ python difference.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 To receive a list of all participants, use the "union" method:
 
 ```python
@@ -74,6 +164,24 @@ b = set(["John", "Jill"])
 
 print(a.union(b))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=union.py) -->
+<!-- The below code snippet is automatically added from union.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=union.console) -->
+<!-- The below code snippet is automatically added from union.console -->
+
+```console
++ python union.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 In the exercise below,
 use the given lists to print out a set containing all the participants
