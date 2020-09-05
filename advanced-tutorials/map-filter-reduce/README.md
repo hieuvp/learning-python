@@ -47,7 +47,7 @@ Let's see how these rules play out with the following examples.
 
 Say I have a list (`iterable`) of my favourite pet names,
 all in lower case and I need them in uppercase.
-Traditionally, in normal pythoning, I would do something like this:
+Traditionally, in normal Pythoning, I would do something like this:
 
 ```python
 my_pets = ['alfred', 'tabitha', 'william', 'arla']
@@ -361,3 +361,21 @@ print(map_result)
 print(filter_result)
 print(reduce_result)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
+
+```console
++ python exercise.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
