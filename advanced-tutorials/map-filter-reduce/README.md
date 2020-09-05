@@ -60,6 +60,24 @@ for pet in my_pets:
 print(uppered_pets)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.py) -->
+<!-- The below code snippet is automatically added from map_pets.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.console) -->
+<!-- The below code snippet is automatically added from map_pets.console -->
+
+```console
++ python map_pets.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Which would then output `['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']`
 
 With `map()` functions, it's not only easier, but it's also much more flexible.
@@ -107,6 +125,24 @@ result = list(map(round, circle_areas, range(1,7)))
 
 print(result)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_circle_areas.py) -->
+<!-- The below code snippet is automatically added from map_circle_areas.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_circle_areas.console) -->
+<!-- The below code snippet is automatically added from map_circle_areas.console -->
+
+```console
++ python map_circle_areas.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 See the beauty of `map()`? Can you imagine the flexibility this evokes?
 
@@ -244,6 +280,24 @@ over_75 = list(filter(is_A_student, scores))
 print(over_75)
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_scores.py) -->
+<!-- The below code snippet is automatically added from filter_scores.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_scores.console) -->
+<!-- The below code snippet is automatically added from filter_scores.console -->
+
+```console
++ python filter_scores.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 The next example will be a palindrome detector.
 A "palindrome" is a word, phrase, or sequence that reads the same backwards as forwards.
 Let's filter out words that are palindromes from a tuple (iterable) of suspected palindromes.
@@ -256,6 +310,24 @@ palindromes = list(filter(lambda word: word == word[::-1], dromes))
 
 print(palindromes)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
+<!-- The below code snippet is automatically added from filter_dromes.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.console) -->
+<!-- The below code snippet is automatically added from filter_dromes.console -->
+
+```console
++ python filter_dromes.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Which should output `['madam', 'anutforajaroftuna']`.
 
@@ -301,6 +373,24 @@ def custom_sum(first, second):
 result = reduce(custom_sum, numbers)
 print(result)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.py) -->
+<!-- The below code snippet is automatically added from reduce_numbers.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.console) -->
+<!-- The below code snippet is automatically added from reduce_numbers.console -->
+
+```console
++ python reduce_numbers.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The result, as you'll expect is 68.
 
