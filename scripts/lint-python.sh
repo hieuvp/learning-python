@@ -17,6 +17,8 @@ declare -ra IGNORING_FILES=(
   "advanced-tutorials/multiple-function-arguments/exercise.py"
   "advanced-tutorials/partial-functions/exercise.py"
   "advanced-tutorials/partial-functions/multiply.py"
+  "advanced-tutorials/regular-expressions/example.py"
+  "advanced-tutorials/serialization/exercise.py"
   "data-science/pandas-basics/index_dataframe.py"
   "learn-the-basics/conditions/boolean_operators.py"
   "learn-the-basics/conditions/in_operator.py"

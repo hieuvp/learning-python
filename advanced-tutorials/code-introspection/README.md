@@ -31,7 +31,7 @@ __doc__
 __name__
 ```
 
-Often the most important one is the help function,
+Often the most important one is the `help()` function,
 since you can use it to find what other functions do.
 
 ## Exercise
