@@ -12,8 +12,12 @@ multiply:
 sum:
 	./sum.sh &> sum.console
 
+.PHONY: functions
+functions:
+	./functions.sh &> functions.console
+
 .PHONY: all
-all: add multiply sum
+all: add multiply sum functions
 
 .PHONY: git-add
 git-add: all

@@ -100,7 +100,26 @@ print(x(5, 6, 2))
 
 ## Why Use Lambda Functions
 
-The power of lambda is better shown when you use them as an anonymous function inside another function.
+> The power of lambda is better shown
+> when you use them as an anonymous function inside another function.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=functions.py) -->
+<!-- The below code snippet is automatically added from functions.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=functions.console) -->
+<!-- The below code snippet is automatically added from functions.console -->
+
+```console
++ python functions.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Say you have a function definition that takes one argument,
 and that argument will be multiplied with an unknown number:
