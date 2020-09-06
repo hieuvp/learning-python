@@ -1,7 +1,19 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: transmit-to-space
+transmit-to-space:
+	./transmit_to_space.sh &> ./transmit_to_space.console
+
+.PHONY: print-msg
+print-msg:
+	./print_msg.sh &> ./print_msg.console
+
+.PHONY: exercise
+exercise:
+	./exercise.sh &> ./exercise.console
+
 .PHONY: all
-all:
+all: transmit-to-space print-msg exercise
 
 .PHONY: git-add
 git-add: all
