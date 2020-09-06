@@ -7,7 +7,6 @@
 - In Python, an anonymous function is a function that is defined without a name.
 - While normal functions are defined using the `def` keyword in Python,
   anonymous functions are defined using the `lambda` keyword.
-- Hence, anonymous functions are also called lambda functions.
 
 ## Table of Contents
 
@@ -46,6 +45,11 @@ The expression is executed and the result is returned:
 # and print the result:
 x = lambda a: a + 10
 print(x(5))
+
+# The statement
+# is nearly the same as:
+# def double(x):
+#    return x * 2
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -150,8 +154,9 @@ my_tripler(11) = 33
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 > Use lambda functions when an anonymous function is required for a short period of time.
+> Use lambda functions when we require a nameless function for a short period of time.
 
 ## References
 
 - [Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
-- [ ] [Python Anonymous/Lambda Function](https://www.programiz.com/python-programming/anonymous-function)
+- [Python Anonymous/Lambda Function](https://www.programiz.com/python-programming/anonymous-function)
