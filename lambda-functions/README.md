@@ -107,7 +107,12 @@ print(x(5, 6, 2))
 <!-- The below code snippet is automatically added from functions.py -->
 
 ```py
+# Say you have a function definition that takes one argument,
+# and that argument will be multiplied with an unknown number:
 
+
+def my_func(n):
+    return lambda a: a * n
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -120,14 +125,6 @@ print(x(5, 6, 2))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Say you have a function definition that takes one argument,
-and that argument will be multiplied with an unknown number:
-
-```python
-def myfunc(n):
-  return lambda a : a * n
-```
 
 Use that function definition to make a function that always doubles the number you send in:
 
