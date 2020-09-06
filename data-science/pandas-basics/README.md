@@ -12,6 +12,13 @@
 
 - [Concepts](#concepts)
   - [English Vocabulary](#english-vocabulary)
+    - [**collectively** `/kəˈlektɪvli/`](#collectively-k%C9%99%CB%88lekt%C9%AAvli)
+    - [**heterogeneous** `/ˌhetərəˈdʒiːniəs/`](#heterogeneous-%CB%8Chet%C9%99r%C9%99%CB%88d%CA%92i%CB%90ni%C9%99s)
+    - [**tabular** `/ˈtæbjələ(r)/`](#tabular-%CB%88t%C3%A6bj%C9%99l%C9%99r)
+    - [**axes** `/ˈæk.siːz/`](#axes-%CB%88%C3%A6ksi%CB%90z)
+    - [**analogous** `/əˈnæləɡəs/`](#analogous-%C9%99%CB%88n%C3%A6l%C9%99%C9%A1%C9%99s)
+    - [**matrices** `/ˈmeɪtrɪsiːz/`](#matrices-%CB%88me%C9%AAtr%C9%AAsi%CB%90z)
+    - [**cater** `/ˈkeɪtə(r)/`](#cater-%CB%88ke%C9%AAt%C9%99r)
   - [Pandas Series](#pandas-series)
   - [Pandas DataFrame](#pandas-dataframe)
 - [Creating Pandas DataFrames](#creating-pandas-dataframes)
@@ -26,35 +33,46 @@
 
 ### English Vocabulary
 
-- **collectively** `/kəˈlektɪvli/` adverb
-  <br />chung, tập thể
+#### **collectively** `/kəˈlektɪvli/`
 
-- **heterogeneous** `/ˌhetərəˈdʒiːniəs/` adjective
+- (adverb) chung, tập thể
+
+#### **heterogeneous** `/ˌhetərəˈdʒiːniəs/`
+
+- (adjective)
   <br />consisting of many different kinds of people or things
   <br />hỗn tạp, đa dạng
 
-- **tabular** `/ˈtæbjələ(r)/` adjective
-  <br />presented or arranged in a table (= in rows and columns)
-  <br />bảng, dạng bảng
+#### **tabular** `/ˈtæbjələ(r)/`
 
-- **axes** `/ˈæk.siːz/`
-  <br />plural of **axis** `/ˈæksɪs/`
+adjective
+<br />presented or arranged in a table (= in rows and columns)
+<br />bảng, dạng bảng
 
-- **analogous** `/əˈnæləɡəs/` adjective
-  <br />analogous (to/with something)
-  <br />similar in some way to another thing or situation
-  and therefore able to be compared with it
-  <br />tương tự
+#### **axes** `/ˈæk.siːz/`
 
-- **matrices** `/ˈmeɪtrɪsiːz/`
-  <br />plural of **matrix** `/ˈmeɪtrɪks/`
+<br />plural of **axis** `/ˈæksɪs/`
 
-- **cater** `/ˈkeɪtə(r)/` verb
-  <br />to provide food and drinks for a social event
-  <br />cung cấp thực phẩm, lương thực
-  <br />phục vụ cho, mua vui cho, giải trí cho
-  <br />e.g. this programme caters for the masses
-  <br />chương trình này phục vụ cho quảng đại quần chúng
+#### **analogous** `/əˈnæləɡəs/`
+
+adjective
+<br />analogous (to/with something)
+<br />similar in some way to another thing or situation
+and therefore able to be compared with it
+<br />tương tự
+
+#### **matrices** `/ˈmeɪtrɪsiːz/`
+
+<br />plural of **matrix** `/ˈmeɪtrɪks/`
+
+#### **cater** `/ˈkeɪtə(r)/`
+
+verb
+<br />to provide food and drinks for a social event
+<br />cung cấp thực phẩm, lương thực
+<br />phục vụ cho, mua vui cho, giải trí cho
+<br />e.g. this programme caters for the masses
+<br />chương trình này phục vụ cho quảng đại quần chúng
 
 ### Pandas Series
 
