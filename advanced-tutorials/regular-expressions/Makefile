@@ -1,7 +1,11 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: example
+example:
+	./example.sh &> ./example.console
+
 .PHONY: all
-all:
+all: example
 
 .PHONY: git-add
 git-add: all
