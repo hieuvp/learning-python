@@ -97,7 +97,7 @@ to print out the JSON string with key-value pair "Me" : 800 added to it.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-import json
+# import json
 
 
 # fix this function, so it adds the given name
