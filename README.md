@@ -67,6 +67,7 @@
 1. [Development Setup](development-setup/README.md)
 1. [`__name__` Variable](name-variable/README.md)
 1. [`pass` Statement](pass-statement/README.md)
+1. [Lambda Functions](lambda-functions/README.md)
 
 ## References
 
