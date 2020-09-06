@@ -110,9 +110,23 @@ print(x(5, 6, 2))
 # Say you have a function definition that takes one argument,
 # and that argument will be multiplied with an unknown number:
 
-
 def my_func(n):
     return lambda a: a * n
+
+
+# Use that function definition to make a function
+# that always doubles the number you send in:
+my_doubler = my_func(2)
+print(my_doubler(11))
+
+
+# Or, use the same function definition to make a function
+# that always triples the number you send in:
+my_tripler = my_func(3)
+print(my_tripler(11))
+
+
+# Or, use the same function definition to make both functions, in the same program:
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -122,46 +136,13 @@ def my_func(n):
 
 ```console
 + python functions.py
+22
+33
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Use that function definition to make a function that always doubles the number you send in:
-
-```python
-def myfunc(n):
-  return lambda a : a * n
-
-mydoubler = myfunc(2)
-
-print(mydoubler(11))
-```
-
-Or, use the same function definition to make a function that always triples the number you send in:
-
-```python
-def myfunc(n):
-  return lambda a : a * n
-
-mytripler = myfunc(3)
-
-print(mytripler(11))
-```
-
-Or, use the same function definition to make both functions, in the same program:
-
-```python
-def myfunc(n):
-  return lambda a : a * n
-
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
-
-print(mydoubler(11))
-print(mytripler(11))
-```
-
-Use lambda functions when an anonymous function is required for a short period of time.
+> Use lambda functions when an anonymous function is required for a short period of time.
 
 ## References
 
