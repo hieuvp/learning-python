@@ -30,6 +30,10 @@
 lambda arguments : expression
 ```
 
+Lambda functions can have any number of arguments but only one expression.
+The expression is evaluated and returned.
+Lambda functions can be used wherever function objects are required.
+
 The expression is executed and the result is returned:
 
 ## Examples
