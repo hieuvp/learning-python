@@ -1,3 +1,3 @@
 + python functions.py
-22
-33
+my_doubler(11) = 22
+my_tripler(11) = 33
