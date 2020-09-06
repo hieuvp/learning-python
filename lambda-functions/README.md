@@ -12,8 +12,8 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 > A lambda function is a small anonymous function.
-> A lambda function can take any number of arguments,
-> but can only have one expression.
+> <br />
+> A lambda function can take any number of arguments, but can only have one expression.
 
 ## Syntax
 
