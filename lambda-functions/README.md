@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Syntax](#syntax)
+- [Examples](#examples)
 - [Why Use Lambda Functions](#why-use-lambda-functions)
 - [References](#references)
 
@@ -23,7 +24,7 @@ lambda arguments : expression
 
 The expression is executed and the result is returned:
 
-<br />
+## Examples
 
 A lambda function that adds 10 to the number passed in as an argument, and print the result:
 
@@ -31,6 +32,24 @@ A lambda function that adds 10 to the number passed in as an argument, and print
 x = lambda a : a + 10
 print(x(5))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.py) -->
+<!-- The below code snippet is automatically added from add.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.console) -->
+<!-- The below code snippet is automatically added from add.console -->
+
+```console
++ python add.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Lambda functions can take any number of arguments:
 
@@ -43,6 +62,24 @@ x = lambda a, b : a * b
 print(x(5, 6))
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
+<!-- The below code snippet is automatically added from multiply.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.console) -->
+<!-- The below code snippet is automatically added from multiply.console -->
+
+```console
++ python multiply.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 <br />
 
 A lambda function that sums argument a, b, and c and print the result:
@@ -51,6 +88,24 @@ A lambda function that sums argument a, b, and c and print the result:
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.py) -->
+<!-- The below code snippet is automatically added from sum.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.console) -->
+<!-- The below code snippet is automatically added from sum.console -->
+
+```console
++ python sum.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Why Use Lambda Functions
 
