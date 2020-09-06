@@ -28,16 +28,12 @@ The expression is executed and the result is returned:
 
 A lambda function that adds 10 to the number passed in as an argument, and print the result:
 
-```python
-x = lambda a : a + 10
-print(x(5))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.py) -->
 <!-- The below code snippet is automatically added from add.py -->
 
 ```py
-
+x = lambda a : a + 10
+print(x(5))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -47,6 +43,7 @@ print(x(5))
 
 ```console
 + python add.py
+15
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -57,16 +54,12 @@ Lambda functions can take any number of arguments:
 
 A lambda function that multiplies argument a with argument b and print the result:
 
-```python
-x = lambda a, b : a * b
-print(x(5, 6))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
-
+x = lambda a, b : a * b
+print(x(5, 6))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -76,6 +69,7 @@ print(x(5, 6))
 
 ```console
 + python multiply.py
+30
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -84,16 +78,12 @@ print(x(5, 6))
 
 A lambda function that sums argument a, b, and c and print the result:
 
-```python
-x = lambda a, b, c : a + b + c
-print(x(5, 6, 2))
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.py) -->
 <!-- The below code snippet is automatically added from sum.py -->
 
 ```py
-
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -103,6 +93,7 @@ print(x(5, 6, 2))
 
 ```console
 + python sum.py
+13
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
