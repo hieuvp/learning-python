@@ -35,6 +35,7 @@
 
 - **tabular** `/ˈtæbjələ(r)/` adjective
   <br />presented or arranged in a table (= in rows and columns)
+  <br />bảng, dạng bảng
 
 - **axes** `/ˈæk.siːz/`
   <br />plural of **axis** `/ˈæksɪs/`
