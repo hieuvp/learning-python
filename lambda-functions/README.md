@@ -1,5 +1,7 @@
 # Lambda Functions
 
+> A lambda function is a small anonymous function.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -12,11 +14,10 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-> A lambda function is a small anonymous function.
-> <br />
-> A lambda function can take any number of arguments, but can only have one expression.
-
 ## Syntax
+
+> A lambda function can take any number of arguments,
+> but can only have one expression.
 
 ```python
 lambda arguments : expression
@@ -26,13 +27,13 @@ The expression is executed and the result is returned:
 
 ## Examples
 
-A lambda function that adds 10 to the number passed in as an argument, and print the result:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.py) -->
 <!-- The below code snippet is automatically added from add.py -->
 
 ```py
-x = lambda a : a + 10
+# A lambda function that adds 10 to the number passed in as an argument,
+# and print the result:
+x = lambda a: a + 10
 print(x(5))
 ```
 
@@ -52,13 +53,13 @@ Lambda functions can take any number of arguments:
 
 <br />
 
-A lambda function that multiplies argument a with argument b and print the result:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
-x = lambda a, b : a * b
+# A lambda function that multiplies argument a with argument b
+# and print the result:
+x = lambda a, b: a * b
 print(x(5, 6))
 ```
 
@@ -76,13 +77,12 @@ print(x(5, 6))
 
 <br />
 
-A lambda function that sums argument a, b, and c and print the result:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.py) -->
 <!-- The below code snippet is automatically added from sum.py -->
 
 ```py
-x = lambda a, b, c : a + b + c
+# A lambda function that sums argument a, b, and c and print the result:
+x = lambda a, b, c: a + b + c
 print(x(5, 6, 2))
 ```
 
