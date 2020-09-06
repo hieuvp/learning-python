@@ -35,19 +35,19 @@
 
 #### **collectively** `/kəˈlektɪvli/`
 
-- (adverb) chung, tập thể
+- (adverb) chung, tập thể.
 
 #### **heterogeneous** `/ˌhetərəˈdʒiːniəs/`
 
 - (adjective)
-  consisting of many different kinds of people or things
-  <br />hỗn tạp, đa dạng
+  <br />consisting of many different kinds of people or things.
+  <br />hỗn tạp, đa dạng.
 
 #### **tabular** `/ˈtæbjələ(r)/`
 
 - (adjective)
-  presented or arranged in a table (= in rows and columns)
-  <br />bảng, dạng bảng
+  <br />presented or arranged in a table (= in rows and columns).
+  <br />bảng, dạng bảng.
 
 #### **axes** `/ˈæk.siːz/`
 
@@ -56,10 +56,10 @@
 #### **analogous** `/əˈnæləɡəs/`
 
 - (adjective)
-  <br />analogous (to/with something)
+  analogous (to/with something)
   <br />similar in some way to another thing or situation
-  and therefore able to be compared with it
-  <br />tương tự
+  and therefore able to be compared with it.
+  <br />tương tự.
 
 #### **matrices** `/ˈmeɪtrɪsiːz/`
 
@@ -68,11 +68,11 @@
 #### **cater** `/ˈkeɪtə(r)/`
 
 - (verb)
-  <br />to provide food and drinks for a social event
-  <br />cung cấp thực phẩm, lương thực
-  <br />phục vụ cho, mua vui cho, giải trí cho
-  <br />e.g. this programme caters for the masses
-  <br />chương trình này phục vụ cho quảng đại quần chúng
+  <br />to provide food and drinks for a social event.
+  <br />cung cấp thực phẩm, lương thực.
+  <br />phục vụ cho, mua vui cho, giải trí cho.
+  <br />e.g. this programme caters for the masses.
+  <br />chương trình này phục vụ cho quảng đại quần chúng.
 
 ### Pandas Series
 
