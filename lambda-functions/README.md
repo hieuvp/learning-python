@@ -23,6 +23,8 @@ lambda arguments : expression
 
 The expression is executed and the result is returned:
 
+<br />
+
 A lambda function that adds 10 to the number passed in as an argument, and print the result:
 
 ```python
@@ -32,12 +34,16 @@ print(x(5))
 
 Lambda functions can take any number of arguments:
 
+<br />
+
 A lambda function that multiplies argument a with argument b and print the result:
 
 ```python
 x = lambda a, b : a * b
 print(x(5, 6))
 ```
+
+<br />
 
 A lambda function that sums argument a, b, and c and print the result:
 
