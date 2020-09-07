@@ -1,5 +1,9 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: exception
+exception:
+	./exception.sh &> ./exception.console
+
 .PHONY: example
 example:
 	./example.sh &> ./example.console
@@ -9,7 +13,7 @@ exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: example exercise
+all: exception example exercise
 
 .PHONY: git-add
 git-add: all
