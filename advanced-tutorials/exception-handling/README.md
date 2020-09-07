@@ -15,21 +15,17 @@ Maybe the program ran out of memory. Or the programmer may have even made a mist
 
 Python's solution to errors are exceptions. You might have seen an exception before.
 
-```python
-print(a)
-
-#error
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'a' is not defined
-</module></stdin>
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exception.py) -->
 <!-- The below code snippet is automatically added from exception.py -->
 
 ```py
+print(a)
 
+# error
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# NameError: name 'a' is not defined
+# </module></stdin>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -39,6 +35,11 @@ NameError: name 'a' is not defined
 
 ```console
 + python exception.py
+Traceback (most recent call last):
+  File "exception.py", line 1, in <module>
+    print(a)
+NameError: name 'a' is not defined
++ true
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

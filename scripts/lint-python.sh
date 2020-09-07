@@ -12,6 +12,7 @@ declare -ra FILES
 
 declare -ra IGNORING_FILES=(
   "advanced-tutorials/exception-handling/example.py"
+  "advanced-tutorials/exception-handling/exception.py"
   "advanced-tutorials/generators/exercise.py"
   "advanced-tutorials/map-filter-reduce/map_pets.py"
   "advanced-tutorials/multiple-function-arguments/exercise.py"
@@ -36,6 +37,7 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/modules-and-packages/import_all_module_objects/game.py"
   "learn-the-basics/modules-and-packages/initialize_module/draw.py"
   "pass-statement/example.py"
+  "pass-statement/if.py"
 )
 
 main() {

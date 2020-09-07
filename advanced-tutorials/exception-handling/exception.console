@@ -1,1 +1,6 @@
 + python exception.py
+Traceback (most recent call last):
+  File "exception.py", line 1, in <module>
+    print(a)
+NameError: name 'a' is not defined
++ true
