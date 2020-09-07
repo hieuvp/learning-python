@@ -46,8 +46,8 @@
 #### **tabular** `/ˈtæbjələ(r)/`
 
 - (adjective)
-  <br />presented or arranged in a table (= in rows and columns)
-  <br />bảng, dạng bảng
+  - presented or arranged in a table (= in rows and columns)
+  - bảng, dạng bảng
 
 #### **axes** `/ˈæk.siːz/`
 
@@ -55,11 +55,10 @@
 
 #### **analogous** `/əˈnæləɡəs/`
 
-- (adjective)
-  analogous (to/with something)
-  <br />similar in some way to another thing or situation
-  and therefore able to be compared with it
-  <br />tương tự
+- (adjective) analogous (to/with something)
+  - similar in some way to another thing or situation
+    and therefore able to be compared with it
+  - tương tự
 
 #### **matrices** `/ˈmeɪtrɪsiːz/`
 
@@ -68,18 +67,19 @@
 #### **cater** `/ˈkeɪtə(r)/`
 
 - (verb)
-  <br />to provide food and drinks for a social event
-  <br />cung cấp thực phẩm, lương thực
 
-- (phrasal verb)
-  cater to somebody/something
-  <br />to provide the things that a particular type of person wants,
-  especially things that you do not approve of
-  <br />phục vụ cho, mua vui cho, giải trí cho
-  <br />example: they only publish novels which cater to the mass market
+  - to provide food and drinks for a social event
+  - cung cấp thực phẩm, lương thực
+
+- (phrasal verb) cater to somebody/something
+
+  - to provide the things that a particular type of person wants,
+    especially things that you do not approve of
+  - phục vụ cho, mua vui cho, giải trí cho
+  - example: they only publish novels which cater to the mass market
 
 - example: this programme caters for the masses
-  <br />chương trình này phục vụ cho quảng đại quần chúng
+  - chương trình này phục vụ cho quảng đại quần chúng
 
 ### Pandas Series
 
