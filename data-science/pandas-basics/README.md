@@ -40,8 +40,8 @@
 #### **heterogeneous** `/ˌhetərəˈdʒiːniəs/`
 
 - (adjective)
-  <br />consisting of many different kinds of people or things
-  <br />hỗn tạp, đa dạng
+  - consisting of many different kinds of people or things
+  - hỗn tạp, đa dạng
 
 #### **tabular** `/ˈtæbjələ(r)/`
 
