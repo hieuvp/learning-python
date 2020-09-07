@@ -35,19 +35,19 @@
 
 #### **collectively** `/kəˈlektɪvli/`
 
-- (adverb) chung, tập thể.
+- (adverb) chung, tập thể
 
 #### **heterogeneous** `/ˌhetərəˈdʒiːniəs/`
 
 - (adjective)
-  <br />consisting of many different kinds of people or things.
-  <br />hỗn tạp, đa dạng.
+  <br />consisting of many different kinds of people or things
+  <br />hỗn tạp, đa dạng
 
 #### **tabular** `/ˈtæbjələ(r)/`
 
 - (adjective)
-  <br />presented or arranged in a table (= in rows and columns).
-  <br />bảng, dạng bảng.
+  <br />presented or arranged in a table (= in rows and columns)
+  <br />bảng, dạng bảng
 
 #### **axes** `/ˈæk.siːz/`
 
@@ -58,8 +58,8 @@
 - (adjective)
   analogous (to/with something)
   <br />similar in some way to another thing or situation
-  and therefore able to be compared with it.
-  <br />tương tự.
+  and therefore able to be compared with it
+  <br />tương tự
 
 #### **matrices** `/ˈmeɪtrɪsiːz/`
 
@@ -68,18 +68,18 @@
 #### **cater** `/ˈkeɪtə(r)/`
 
 - (verb)
-  <br />to provide food and drinks for a social event.
-  <br />cung cấp thực phẩm, lương thực.
+  <br />to provide food and drinks for a social event
+  <br />cung cấp thực phẩm, lương thực
 
 - (phrasal verb)
   cater to somebody/something
   <br />to provide the things that a particular type of person wants,
-  especially things that you do not approve of.
-  <br />phục vụ cho, mua vui cho, giải trí cho.
-  <br />Example: they only publish novels which cater to the mass market.
+  especially things that you do not approve of
+  <br />phục vụ cho, mua vui cho, giải trí cho
+  <br />example: they only publish novels which cater to the mass market
 
-- Example: this programme caters for the masses.
-  <br />chương trình này phục vụ cho quảng đại quần chúng.
+- example: this programme caters for the masses
+  <br />chương trình này phục vụ cho quảng đại quần chúng
 
 ### Pandas Series
 
