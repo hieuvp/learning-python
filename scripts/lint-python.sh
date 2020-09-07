@@ -20,6 +20,8 @@ declare -ra IGNORING_FILES=(
   "advanced-tutorials/regular-expressions/example.py"
   "advanced-tutorials/serialization/exercise.py"
   "data-science/pandas-basics/index_dataframe.py"
+  "lambda-functions/add.py"
+  "lambda-functions/functions.py"
   "learn-the-basics/conditions/boolean_operators.py"
   "learn-the-basics/conditions/in_operator.py"
   "learn-the-basics/conditions/not_operator.py"
@@ -31,8 +33,6 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/loops/while_loop.py"
   "learn-the-basics/modules-and-packages/import_all_module_objects/game.py"
   "learn-the-basics/modules-and-packages/initialize_module/draw.py"
-  "pass-statement/example.py"
-  "pass-statement/if.py"
 )
 
 main() {
