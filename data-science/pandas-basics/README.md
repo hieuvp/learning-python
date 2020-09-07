@@ -70,8 +70,15 @@
 - (verb)
   <br />to provide food and drinks for a social event.
   <br />cung cấp thực phẩm, lương thực.
+
+- (phrasal verb)
+  cater to somebody/something
+  <br />to provide the things that a particular type of person wants,
+  especially things that you do not approve of.
   <br />phục vụ cho, mua vui cho, giải trí cho.
-  <br />e.g. this programme caters for the masses.
+  <br />Example: they only publish novels which cater to the mass market.
+
+- Example: this programme caters for the masses.
   <br />chương trình này phục vụ cho quảng đại quần chúng.
 
 ### Pandas Series
