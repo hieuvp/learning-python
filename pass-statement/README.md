@@ -95,15 +95,6 @@ for x in [0, 1, 2]:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=loop.console) -->
-<!-- The below code snippet is automatically added from loop.console -->
-
-```console
-+ python loop.py
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 ### Function Definitions
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=function.py) -->
@@ -113,15 +104,6 @@ for x in [0, 1, 2]:
 # Using the "pass" keyword in a "function" definition
 def my_function():
     pass
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=function.console) -->
-<!-- The below code snippet is automatically added from function.console -->
-
-```console
-+ python function.py
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -139,15 +121,6 @@ class Person:
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=class.console) -->
-<!-- The below code snippet is automatically added from class.console -->
-
-```console
-+ python class.py
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 ### If Statements
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.py) -->
@@ -160,15 +133,6 @@ b = 200
 # Using the "pass" keyword in an "if" statement
 if b > a:
     pass
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=if.console) -->
-<!-- The below code snippet is automatically added from if.console -->
-
-```console
-+ python if.py
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

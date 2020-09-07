@@ -6,19 +6,19 @@ example:
 
 .PHONY: loop
 loop:
-	./loop.sh &> ./loop.console
+	./loop.sh
 
 .PHONY: function
 function:
-	./function.sh &> ./function.console
+	./function.sh
 
 .PHONY: class
 class:
-	./class.sh &> ./class.console
+	./class.sh
 
 .PHONY: if
 if:
-	./if.sh &> ./if.console
+	./if.sh
 
 .PHONY: all
 all: example loop function class if
