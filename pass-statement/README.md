@@ -88,8 +88,7 @@ Good bye!
 <!-- The below code snippet is automatically added from loop.py -->
 
 ```py
-# Using the `pass` keyword in a `for` loop
-
+# Using the "pass" keyword in a "for" loop
 for x in [0, 1, 2]:
     pass
 ```
@@ -111,9 +110,7 @@ for x in [0, 1, 2]:
 <!-- The below code snippet is automatically added from function.py -->
 
 ```py
-# Using the `pass` keyword in a `function` definition:
-
-
+# Using the "pass" keyword in a "function" definition
 def my_function():
     pass
 ```
@@ -135,9 +132,7 @@ def my_function():
 <!-- The below code snippet is automatically added from class.py -->
 
 ```py
-# Using the `pass` keyword in a `class` definition:
-
-
+# Using the "pass" keyword in a "class" definition
 class Person:
     pass
 ```
@@ -159,11 +154,10 @@ class Person:
 <!-- The below code snippet is automatically added from if.py -->
 
 ```py
-# Using the `pass` keyword in an `if` statement:
-
 a = 33
 b = 200
 
+# Using the "pass" keyword in an "if" statement
 if b > a:
     pass
 ```

@@ -29,7 +29,7 @@ print(set("my name is Eric and Eric is my name".split()))
 
 ```console
 + python words.py
-{'and', 'Eric', 'is', 'my', 'name'}
+{'name', 'and', 'my', 'is', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -60,7 +60,7 @@ print(b)
 
 ```console
 + python participants.py
-{'Eric', 'John', 'Jake'}
+{'Jake', 'Eric', 'John'}
 {'Jill', 'John'}
 ```
 
@@ -113,8 +113,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jake', 'Eric', 'Jill'}
-{'Eric', 'Jake', 'Jill'}
+{'Eric', 'Jill', 'Jake'}
+{'Eric', 'Jill', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -165,7 +165,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'John', 'Eric', 'Jill', 'Jake'}
+{'Jake', 'Jill', 'Eric', 'John'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

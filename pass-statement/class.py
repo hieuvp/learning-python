@@ -1,5 +1,3 @@
-# Using the `pass` keyword in a `class` definition:
-
-
+# Using the "pass" keyword in a "class" definition
 class Person:
     pass
