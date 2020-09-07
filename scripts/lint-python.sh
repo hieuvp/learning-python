@@ -36,10 +36,7 @@ declare -ra IGNORING_FILES=(
   "learn-the-basics/loops/while_loop.py"
   "learn-the-basics/modules-and-packages/import_all_module_objects/game.py"
   "learn-the-basics/modules-and-packages/initialize_module/draw.py"
-<<<<<<< HEAD
   "pass-statement/example.py"
-=======
->>>>>>> master
   "pass-statement/if.py"
 )
 
