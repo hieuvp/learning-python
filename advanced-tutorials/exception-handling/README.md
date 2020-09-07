@@ -25,6 +25,24 @@ NameError: name 'a' is not defined
 </module></stdin>
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exception.py) -->
+<!-- The below code snippet is automatically added from exception.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exception.console) -->
+<!-- The below code snippet is automatically added from exception.console -->
+
+```console
++ python exception.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Oops! Forgot to assign a value to the 'a' variable.
 
 But sometimes you don't want exceptions to completely stop the program.
