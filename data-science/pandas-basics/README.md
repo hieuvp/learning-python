@@ -76,15 +76,15 @@
   - to provide the things that a particular type of person wants,
     especially things that you do not approve of
   - phục vụ cho, mua vui cho, giải trí cho
-  - example: they only publish novels which cater to the mass market
+  - e.g. they only publish novels which cater to the mass market
 
 <br />
 
 - (phrasal verb) cater for somebody/something
   - to provide the things that a particular person or situation needs or wants
-  - example: this programme caters for the masses
-  - chương trình này phục vụ cho quảng đại quần chúng
-  - example: the class caters for all ability ranges.
+  - e.g. this programme caters for the masses
+    (chương trình này phục vụ cho quảng đại quần chúng)
+  - e.g. the class caters for all ability ranges
 
 ### Pandas Series
 
