@@ -83,7 +83,7 @@
 - (phrasal verb) cater for somebody/something
   - to provide the things that a particular person or situation needs or wants
   - e.g. this programme caters for the masses
-    (chương trình này phục vụ cho quảng đại quần chúng)
+    (chương trình này phục vụ cho quần chúng)
   - e.g. the class caters for all ability ranges
 
 ### Pandas Series
