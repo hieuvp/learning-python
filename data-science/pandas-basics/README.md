@@ -21,6 +21,7 @@
     - [**cater** `/ˈkeɪtə(r)/`](#cater-%CB%88ke%C9%AAt%C9%99r)
   - [Pandas Series](#pandas-series)
   - [Pandas DataFrame](#pandas-dataframe)
+  - [Conclusion](#conclusion)
 - [Creating Pandas DataFrames](#creating-pandas-dataframes)
   - [From Python Dictionaries](#from-python-dictionaries)
   - [From `.csv` Files](#from-csv-files)
@@ -108,10 +109,13 @@
 
 <div align="center">
   <img src="assets/pandas-dataframe.png" width="680">
-  <div><b>Pandas DataFrame</b> consists of three principal components: data, rows, and columns.</div>
+  <div>
+    <b>Pandas DataFrame</b> consists of three principal components:
+    <b>Data</b>, <b>Rows</b>, and <b>Columns</b>.
+  </div>
 </div>
 
-<br />
+### Conclusion
 
 - So, the **Pandas Series** is the data structure for a single column of a **Pandas DataFrame**,
   not only conceptually, but literally,
