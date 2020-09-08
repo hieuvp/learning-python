@@ -3,6 +3,8 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print(cars)
+print()
 
 # "iloc" is integer index based,
 # so you have to specify rows and columns by their integer index

@@ -270,6 +270,7 @@ import pandas as pd
 
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print(cars)
 print()
 
 print("# Pandas Series with cars_per_cap column")
@@ -303,6 +304,14 @@ print(cars[["cars_per_cap", "country"]])
 
 ```console
 + python index_dataframe.py
+     cars_per_cap        country  drives_right
+US            809  United States          True
+AUS           731      Australia         False
+JAP           588          Japan         False
+IN             18          India         False
+RU            200         Russia          True
+MOR            70        Morocco          True
+EG             45          Egypt          True
 
 # Pandas Series with cars_per_cap column
 + cars["cars_per_cap"]
@@ -417,6 +426,8 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print(cars)
+print()
 
 # "iloc" is integer index based,
 # so you have to specify rows and columns by their integer index
@@ -442,6 +453,15 @@ print(cars.loc[["AUS", "EG"]])
 
 ```console
 + python select_data.py
+     cars_per_cap        country  drives_right
+US            809  United States          True
+AUS           731      Australia         False
+JAP           588          Japan         False
+IN             18          India         False
+RU            200         Russia          True
+MOR            70        Morocco          True
+EG             45          Egypt          True
+
 # Print out observation for Japan
 + cars.iloc[2]
 cars_per_cap      588
