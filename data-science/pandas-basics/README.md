@@ -251,6 +251,8 @@ print(cars)
 
 > There are several ways to index a Pandas DataFrame.
 
+<br />
+
 One of the easiest ways to do this is by using square bracket notation.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=index_dataframe.py) -->
@@ -395,6 +397,8 @@ MOR            70  Morocco          True
 
 <br />
 
+You can also use `loc` and `iloc` to perform just about any data selection operation.
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=select_data.py) -->
 <!-- The below code snippet is automatically added from select_data.py -->
 
@@ -403,10 +407,6 @@ import pandas as pd
 
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
-
-# You can also use "loc" and "iloc" to perform just about any data selection operation
-
-print()
 
 
 # "iloc" is integer index based,
@@ -433,7 +433,6 @@ print(cars.loc[["AUS", "EG"]])
 
 ```console
 + python select_data.py
-
 # Print out observation for Japan
 + cars.iloc[2]
 cars_per_cap      588

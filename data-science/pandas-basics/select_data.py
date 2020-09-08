@@ -3,10 +3,6 @@ import pandas as pd
 # Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
-# You can also use "loc" and "iloc" to perform just about any data selection operation
-
-print()
-
 
 # "iloc" is integer index based,
 # so you have to specify rows and columns by their integer index

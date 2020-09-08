@@ -1,5 +1,4 @@
 + python select_data.py
-
 # Print out observation for Japan
 + cars.iloc[2]
 cars_per_cap      588
