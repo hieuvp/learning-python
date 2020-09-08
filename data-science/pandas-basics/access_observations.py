@@ -3,6 +3,7 @@ import pandas as pd
 
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print(cars)
 print()
 
 print("# Print out first 4 observations")
