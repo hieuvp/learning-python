@@ -105,9 +105,11 @@
 > potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 > You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
 > i.e., data is aligned in a tabular fashion in rows and columns.
-> **Pandas DataFrame** consists of three principal components, the data, rows, and columns.
 
-<div align="center"><img src="assets/pandas-dataframe.png" width="680"></div>
+<div align="center">
+  <img src="assets/pandas-dataframe.png" width="680">
+  <div><b>Pandas DataFrame</b> consists of three principal components: data, rows, and columns.</div>
+</div>
 
 <br />
 
