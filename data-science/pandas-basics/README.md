@@ -97,10 +97,6 @@
 > The object supports both integer and label-based indexing
 > and provides a host of methods for performing operations involving the index.
 
-- So, the **Pandas Series** is the data structure for a single column of a **Pandas DataFrame**,
-  not only conceptually, but literally,
-  e.g. the data in a **Pandas DataFrame** is actually stored in memory as a collection of **Pandas Series**.
-
 <div align="center"><img src="assets/pandas-series.png" width="640"></div>
 
 ### Pandas DataFrame
@@ -115,17 +111,17 @@
 
 <br />
 
-- Analogously: We need both lists and matrices,
-  because matrices are built with lists.
-  Single row matrices,
-  while equivalent to lists in functionality still cannot exist
-  without the list(s) they're composed of.
+- So, the **Pandas Series** is the data structure for a single column of a **Pandas DataFrame**,
+  not only conceptually, but literally,
+  e.g. the data in a **Pandas DataFrame**
+  is actually stored in memory as a collection of **Pandas Series**.
 
 - They both have extremely similar APIs,
-  but you will find that **DataFrame** methods always cater to the possibility
+  but you will find that **Pandas DataFrame** methods always cater to the possibility
   that you have more than one column.
-  And, of course, you can always add another **Series** (or equivalent object) to a **DataFrame**,
-  while adding a **Series** to another **Series** involves creating a **DataFrame**.
+  And, of course,
+  you can always add another **Pandas Series** (or equivalent object) to a **Pandas DataFrame**,
+  while adding a **Pandas Series** to another **Pandas Series** involves creating a **Pandas DataFrame**.
 
 ## Creating Pandas DataFrames
 
