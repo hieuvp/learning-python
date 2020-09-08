@@ -117,9 +117,9 @@
 
 ### Conclusion
 
-- So, the **Pandas Series** is the data structure for a single column of a **Pandas DataFrame**,
+- The **Pandas Series** is the data structure for a single column of a **Pandas DataFrame**,
   not only conceptually, but literally,
-  e.g. the data in a **Pandas DataFrame**
+  <br />e.g. the data in a **Pandas DataFrame**
   is actually stored in memory as a collection of **Pandas Series**.
 
 - They both have extremely similar APIs,
