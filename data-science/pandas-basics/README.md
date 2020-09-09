@@ -16,9 +16,9 @@
     - [**heterogeneous** `/ˌhetərəˈdʒiːniəs/`](#heterogeneous-%CB%8Chet%C9%99r%C9%99%CB%88d%CA%92i%CB%90ni%C9%99s)
     - [**tabular** `/ˈtæbjələ(r)/`](#tabular-%CB%88t%C3%A6bj%C9%99l%C9%99r)
     - [**axes** `/ˈæk.siːz/`](#axes-%CB%88%C3%A6ksi%CB%90z)
+    - [**cater** `/ˈkeɪtə(r)/`](#cater-%CB%88ke%C9%AAt%C9%99r)
     - [**analogous** `/əˈnæləɡəs/`](#analogous-%C9%99%CB%88n%C3%A6l%C9%99%C9%A1%C9%99s)
     - [**matrices** `/ˈmeɪtrɪsiːz/`](#matrices-%CB%88me%C9%AAtr%C9%AAsi%CB%90z)
-    - [**cater** `/ˈkeɪtə(r)/`](#cater-%CB%88ke%C9%AAt%C9%99r)
   - [Pandas Series](#pandas-series)
   - [Pandas DataFrame](#pandas-dataframe)
   - [Conclusion](#conclusion)
@@ -54,17 +54,6 @@
 
 - plural of **axis** `/ˈæksɪs/`
 
-#### **analogous** `/əˈnæləɡəs/`
-
-- (adjective) analogous (to/with something)
-  - similar in some way to another thing or situation
-    and therefore able to be compared with it
-  - tương tự
-
-#### **matrices** `/ˈmeɪtrɪsiːz/`
-
-- plural of **matrix** `/ˈmeɪtrɪks/`
-
 #### **cater** `/ˈkeɪtə(r)/`
 
 - (verb)
@@ -86,6 +75,19 @@
   - e.g. this programme caters for the masses
     (chương trình này phục vụ cho quần chúng)
   - e.g. the class caters for all ability ranges
+
+#### **analogous** `/əˈnæləɡəs/`
+
+- (adjective) analogous (to/with something)
+  - similar in some way to another thing or situation
+    and therefore able to be compared with it
+  - tương tự
+  - e.g. the national debt is analogous with private debt.
+  - e.g. the two situations are roughly analogous.
+
+#### **matrices** `/ˈmeɪtrɪsiːz/`
+
+- plural of **matrix** `/ˈmeɪtrɪks/`
 
 ### Pandas Series
 
