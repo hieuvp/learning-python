@@ -58,7 +58,8 @@
 
 - (verb)
   - to provide food and drinks for a social event
-  - cung cấp thực phẩm, lương thực
+  - cung cấp đồ ăn thức uống
+  - e.g. who will be catering the wedding?
 
 <br />
 
