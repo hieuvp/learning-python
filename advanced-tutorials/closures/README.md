@@ -132,7 +132,7 @@ even after end of those other original functions is called as closures in Python
 ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding.
 (e.g. When there are few methods in a class, use closures instead).
 
-Also, Decorators in Python make extensive use of closures.
+Also, [Decorators](../decorators/README.md) in Python make extensive use of closures.
 
 ## Exercise
 
