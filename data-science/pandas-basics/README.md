@@ -104,9 +104,9 @@
 <br />
 
 - The **axis labels** are collectively called **index**.
-- Labels need not be unique but must be a hashable type.
-- The object supports both integer and label-based indexing
-  and provides a host of methods for performing operations involving the index.
+- **Labels** need not be unique but must be a hashable type.
+- The object supports both **integer** and **label-based** **indexing**
+  and provides a host of methods for performing operations involving the **index**.
 
 ### Pandas DataFrame
 
