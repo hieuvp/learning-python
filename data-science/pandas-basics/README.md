@@ -66,13 +66,14 @@
 - (phrasal verb) cater to somebody/something
   - to provide the things that a particular type of person wants,
     especially things that you do not approve of
-  - phục vụ cho, mua vui cho, giải trí cho
+  - phục vụ đến
   - e.g. they only publish novels which cater to the mass market
 
 <br />
 
 - (phrasal verb) cater for somebody/something
   - to provide the things that a particular person or situation needs or wants
+  - phục vụ cho
   - e.g. this programme caters for the masses
     (chương trình này phục vụ cho quần chúng)
   - e.g. the class caters for all ability ranges
@@ -83,8 +84,8 @@
   - similar in some way to another thing or situation
     and therefore able to be compared with it
   - tương tự
-  - e.g. the national debt is analogous with private debt.
-  - e.g. the two situations are roughly analogous.
+  - e.g. the national debt is analogous with private debt
+  - e.g. the two situations are roughly analogous
 
 #### **matrices** `/ˈmeɪtrɪsiːz/`
 
