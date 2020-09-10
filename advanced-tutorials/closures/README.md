@@ -133,6 +133,39 @@ ADVANTAGE : Closures can avoid use of global variables and provides some form of
 
 Also, [Decorators](../decorators/README.md) in Python make extensive use of closures.
 
+A closure is a nested function
+which has access to a free variable from an enclosing function that has finished its execution.
+Three characteristics of a Python closure are:
+
+- It is a nested function.
+- It has access to a free variable in outer scope.
+- It is returned from the enclosing function.
+
+A free variable is a variable that is not bound in the local scope.
+In order for closures to work with immutable variables such as numbers and strings,
+we have to use the nonlocal keyword.
+
+Python closures help avoiding the usage of global values and provide some form of data hiding.
+They are used in Python decorators.
+
+> Objects are data with methods attached, closures are functions with data attached.
+
+```python
+def make_counter():
+    i = 0
+    def counter(): # counter() is a closure
+        nonlocal i
+        i += 1
+        return i
+    return counter
+
+c1 = make_counter()
+c2 = make_counter()
+
+print (c1(), c1(), c2(), c2())
+# -> 1 2 1 2
+```
+
 ## Exercise
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
