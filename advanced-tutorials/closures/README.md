@@ -18,7 +18,7 @@ Let us get to it step by step
 
 Firstly, a Nested Function is a function defined inside another function.
 It's very important to note that the nested functions can access the variables of the enclosing scope.
-However, at least in python, they are only readonly.
+However, at least in Python, they are only readonly.
 However, one can use the `nonlocal` keyword explicitly with these variables in order to modify them.
 
 For example:
@@ -54,7 +54,7 @@ None
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 This works well as the 'data_transmitter' function can access the 'message'.
-To demonstrate the use of the "nonlocal" keyword, consider this
+To demonstrate the use of the `nonlocal` keyword, consider this
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.py) -->
 <!-- The below code snippet is automatically added from print_msg.py -->
