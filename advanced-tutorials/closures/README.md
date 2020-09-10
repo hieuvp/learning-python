@@ -119,7 +119,7 @@ fun2()
 Even though the execution of the `transmit_to_space()` was completed,
 the message was rather preserved.
 This technique by which the data is attached to some code
-even after end of those other original functions is called as closures in python
+even after end of those other original functions is called as closures in Python
 
 ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding.
 (Eg. When there are few methods in a class, use closures instead).
