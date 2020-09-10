@@ -65,10 +65,10 @@ def print_msg(number):
         """Here we are using the nonlocal keyword"""
         nonlocal number
         number = 3
-        print(number)
+        print("Inside printer(),   number = %s" % number)
 
     printer()
-    print(number)
+    print("Inside print_msg(), number = %s" % number)
 
 
 print_msg(9)
@@ -81,8 +81,8 @@ print_msg(9)
 
 ```console
 + python print_msg.py
-3
-3
+Inside printer(),   number = 3
+Inside print_msg(), number = 3
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

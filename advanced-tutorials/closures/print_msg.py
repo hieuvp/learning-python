@@ -3,10 +3,10 @@ def print_msg(number):
         """Here we are using the nonlocal keyword"""
         nonlocal number
         number = 3
-        print(number)
+        print("Inside printer(),   number = %s" % number)
 
     printer()
-    print(number)
+    print("Inside print_msg(), number = %s" % number)
 
 
 print_msg(9)
