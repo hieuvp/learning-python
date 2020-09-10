@@ -53,8 +53,8 @@ None
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-This works well as the 'data_transmitter' function can access the 'message'.
-To demonstrate the use of the `nonlocal` keyword, consider this
+This works well as the `data_transmitter()` function can access the `message`.
+To demonstrate the use of the `nonlocal` keyword, consider this:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.py) -->
 <!-- The below code snippet is automatically added from print_msg.py -->
