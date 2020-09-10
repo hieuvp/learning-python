@@ -106,7 +106,7 @@
 1. The **axis labels** are collectively called **index**.
 1. **Labels** need not be unique but must be a hashable type.
 1. The object supports both **integer** and **label-based** **indexing**
-   and provides a host of methods for performing operations involving the **index**.
+   <br />and provides a host of methods for performing operations involving the **index**.
 
 ### Pandas DataFrame
 
@@ -115,7 +115,11 @@
 
 <div align="center">
   <img src="assets/pandas-dataframe.png" width="680">
-  <div>Think of it like a spreadsheet or SQL table, or a dict of Series objects</div>
+  <div>
+    Think of it like a <b>spreadsheet</b>,
+    or <b>SQL table</b>,
+    or a <b>dictionary of Series objects</b>
+  </div>
 </div>
 
 <br />
