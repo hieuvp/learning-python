@@ -14,6 +14,41 @@
 
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.
+> Objects are data with methods attached, closures are functions with data attached.
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.py) -->
+<!-- The below code snippet is automatically added from make_counter.py -->
+
+```py
+def make_counter():
+    i = 0
+
+    # counter() is a closure
+    def counter():
+        nonlocal i
+        i += 1
+        return i
+
+    return counter
+
+
+c1 = make_counter()
+c2 = make_counter()
+
+print(c1(), c1(), c2(), c2())
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.console) -->
+<!-- The below code snippet is automatically added from make_counter.console -->
+
+```console
++ python make_counter.py
+1 2 1 2
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 Firstly, a Nested Function is a function defined inside another function.
 It's very important to note that the nested functions can access the variables of the enclosing scope.
@@ -147,42 +182,6 @@ we have to use the nonlocal keyword.
 
 Python closures help avoiding the usage of global values and provide some form of data hiding.
 They are used in Python decorators.
-
-> Objects are data with methods attached, closures are functions with data attached.
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.py) -->
-<!-- The below code snippet is automatically added from make_counter.py -->
-
-```py
-def make_counter():
-    i = 0
-
-    # counter() is a closure
-    def counter():
-        nonlocal i
-        i += 1
-        return i
-
-    return counter
-
-
-c1 = make_counter()
-c2 = make_counter()
-
-print(c1(), c1(), c2(), c2())
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.console) -->
-<!-- The below code snippet is automatically added from make_counter.console -->
-
-```console
-+ python make_counter.py
-1 2 1 2
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Exercise
 
