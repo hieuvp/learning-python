@@ -150,27 +150,26 @@ They are used in Python decorators.
 
 > Objects are data with methods attached, closures are functions with data attached.
 
-```python
-def make_counter():
-    i = 0
-    def counter(): # counter() is a closure
-        nonlocal i
-        i += 1
-        return i
-    return counter
-
-c1 = make_counter()
-c2 = make_counter()
-
-print (c1(), c1(), c2(), c2())
-# -> 1 2 1 2
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.py) -->
 <!-- The below code snippet is automatically added from make_counter.py -->
 
 ```py
+def make_counter():
+    i = 0
 
+    # counter() is a closure
+    def counter():
+        nonlocal i
+        i += 1
+        return i
+
+    return counter
+
+
+c1 = make_counter()
+c2 = make_counter()
+
+print(c1(), c1(), c2(), c2())
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -180,6 +179,7 @@ print (c1(), c1(), c2(), c2())
 
 ```console
 + python make_counter.py
+1 2 1 2
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
