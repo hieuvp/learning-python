@@ -12,9 +12,8 @@
 
 ## Concepts
 
-> A **Closure** is a **function object** that remembers values in enclosing scopes
-> even if they are not present in memory.
-> Objects are data with methods attached, closures are functions with data attached.
+> **Objects** are data with methods attached.
+> <br />**Closures** are functions with data attached.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.py) -->
 <!-- The below code snippet is automatically added from make_counter.py -->
@@ -49,6 +48,9 @@ print(c1(), c1(), c2(), c2())
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+> A **Closure** is a **function object** that remembers values in enclosing scopes
+> even if they are not present in memory.
 
 Firstly, a Nested Function is a function defined inside another function.
 It's very important to note that the nested functions can access the variables of the enclosing scope.
@@ -192,7 +194,8 @@ They are used in Python decorators.
 # Make a nested loop and a python closure to make functions
 # to get multiple multiplication functions using closures.
 # That is using closures,
-# one could make functions to create multiply_with_5() or multiply_with_4() functions using closures.
+# one could make functions to create multiply_with_5()
+# or multiply_with_4() functions using closures.
 
 
 def multiplier_of(number):
