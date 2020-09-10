@@ -87,11 +87,11 @@ Inside print_msg(), number = 3
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Without the nonlocal keyword, the output would be "3 9",
-however, with its usage, we get "3 3", that is the value of the "number" variable gets modified.
+Without the `nonlocal` keyword, the output would be `3 9`,
+however, with its usage, we get `3 3`, that is the value of the `number` variable gets modified.
 
 Now, how about we return the function object rather than calling the nested function within.
-(Remember that even functions are objects. (It's Python.))
+(Remember that even functions are objects. It's Python.)
 
 ```python
 def transmit_to_space(message):
