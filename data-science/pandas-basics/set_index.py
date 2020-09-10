@@ -1,7 +1,7 @@
-from create_dataframe import brics
+from dataframe import brics
 
-# Set the index for brics
+# Set the "index"
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
-# Print out brics with new index values
+# Print out "brics" with new "index values"
 print(brics)

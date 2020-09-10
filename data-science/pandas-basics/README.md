@@ -146,8 +146,8 @@
 
 ### From Python Dictionaries
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=create_dataframe.py) -->
-<!-- The below code snippet is automatically added from create_dataframe.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=dataframe.py) -->
+<!-- The below code snippet is automatically added from dataframe.py -->
 
 ```py
 import pandas as pd
@@ -174,7 +174,7 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from create_dataframe.console -->
 
 ```console
-+ python create_dataframe.py
++ python dataframe.py
         country    capital    area  population
 0        Brazil   Brasilia   8.516      200.40
 1        Russia     Moscow  17.100      143.50
@@ -196,12 +196,12 @@ if __name__ == "__main__":
 <!-- The below code snippet is automatically added from set_index.py -->
 
 ```py
-from create_dataframe import brics
+from dataframe import brics
 
-# Set the index for brics
+# Set the "index"
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
-# Print out brics with new index values
+# Print out "brics" with new "index values"
 print(brics)
 ```
 
