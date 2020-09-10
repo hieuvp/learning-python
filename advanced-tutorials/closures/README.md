@@ -15,8 +15,6 @@
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.
 
-Let us get to it step by step
-
 Firstly, a Nested Function is a function defined inside another function.
 It's very important to note that the nested functions can access the variables of the enclosing scope.
 However, at least in Python, they are only readonly.
