@@ -22,7 +22,7 @@
 def make_counter():
     i = 0
 
-    # counter() is a closure
+    # "counter()" is a "Closure"
     def counter():
         nonlocal i
         i += 1
@@ -48,6 +48,8 @@ print(c1(), c1(), c2(), c2())
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.

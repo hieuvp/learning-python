@@ -1,7 +1,7 @@
 def make_counter():
     i = 0
 
-    # counter() is a closure
+    # "counter()" is a "Closure"
     def counter():
         nonlocal i
         i += 1
