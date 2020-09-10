@@ -1,5 +1,9 @@
 export PATH := ../../venv/bin:$(PATH)
 
+.PHONY: make-counter
+make-counter:
+	./make_counter.sh &> ./make_counter.console
+
 .PHONY: transmit-to-space
 transmit-to-space:
 	./transmit_to_space.sh &> ./transmit_to_space.console
@@ -17,7 +21,7 @@ exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: transmit-to-space print-msg transmit-to-space-v2 exercise
+all: make-counter transmit-to-space print-msg transmit-to-space-v2 exercise
 
 .PHONY: git-add
 git-add: all

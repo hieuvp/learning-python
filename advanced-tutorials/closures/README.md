@@ -166,6 +166,24 @@ print (c1(), c1(), c2(), c2())
 # -> 1 2 1 2
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.py) -->
+<!-- The below code snippet is automatically added from make_counter.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=make_counter.console) -->
+<!-- The below code snippet is automatically added from make_counter.console -->
+
+```console
++ python make_counter.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ## Exercise
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
