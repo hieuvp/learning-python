@@ -101,17 +101,17 @@
   <div><b>Pandas Series</b> is nothing but a column in an excel sheet</div>
 </div>
 
-- The axis labels are collectively called **index**.
+<br />
+
+- The **axis labels** are collectively called **index**.
 - Labels need not be unique but must be a hashable type.
 - The object supports both integer and label-based indexing
   and provides a host of methods for performing operations involving the index.
 
 ### Pandas DataFrame
 
-- **Pandas DataFrame** is two-dimensional size-mutable,
-  potentially heterogeneous tabular data structure with labeled axes (rows and columns).
-- You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
-- i.e., data is aligned in a tabular fashion in rows and columns.
+> **Pandas DataFrame** is two-dimensional size-mutable,
+> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 
 <div align="center">
   <img src="assets/pandas-dataframe.png" width="680">
@@ -120,6 +120,11 @@
     <b>Data</b>, <b>Rows</b>, and <b>Columns</b>.
   </div>
 </div>
+
+<br />
+
+- You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
+- i.e., data is aligned in a tabular fashion in rows and columns.
 
 ### Conclusion
 
