@@ -116,6 +116,24 @@ fun2 = transmit_to_space("Burn the Sun!")
 fun2()
 ```
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space_v2.py) -->
+<!-- The below code snippet is automatically added from transmit_to_space_v2.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space_v2.console) -->
+<!-- The below code snippet is automatically added from transmit_to_space_v2.console -->
+
+```console
++ python transmit_to_space_v2.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 Even though the execution of the `transmit_to_space()` was completed,
 the message was rather preserved.
 This technique by which the data is attached to some code
