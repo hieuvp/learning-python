@@ -188,11 +188,9 @@ if __name__ == "__main__":
 <br />
 
 - As we can see with the new `brics` DataFrame,
-  Pandas has assigned a key for each country as the numerical values `0` through `4`.
-- If we would like to have different index values,
-  say, the two letter country code.
-
-<br />
+  Pandas has assigned a **key** for each country as the numerical values `0` through `4`.
+- If we would like to have different **index** values,
+  say, the two letter country code:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=set_index.py) -->
 <!-- The below code snippet is automatically added from set_index.py -->
