@@ -93,15 +93,18 @@
 
 ### Pandas Series
 
-- **Pandas Series** is a one-dimensional labeled array
-  capable of holding data of any type (integer, string, float, Python objects, etc.).
+> **Pandas Series** is a one-dimensional labeled array
+> capable of holding data of any type (Integer, String, Float, Python Objects, etc.).
+
+<div align="center">
+  <img src="assets/pandas-series.png" width="640">
+  <div><b>Pandas Series</b> is nothing but a column in an excel sheet</div>
+</div>
+
 - The axis labels are collectively called **index**.
-- **Pandas Series** is nothing but a column in an excel sheet.
 - Labels need not be unique but must be a hashable type.
 - The object supports both integer and label-based indexing
   and provides a host of methods for performing operations involving the index.
-
-<div align="center"><img src="assets/pandas-series.png" width="640"></div>
 
 ### Pandas DataFrame
 
