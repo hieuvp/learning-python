@@ -11,7 +11,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-  - [English Vocabulary](#english-vocabulary)
+  - [English Vietnamese Dictionary](#english-vietnamese-dictionary)
     - [**collectively** `/kəˈlektɪvli/`](#collectively-k%C9%99%CB%88lekt%C9%AAvli)
     - [**heterogeneous** `/ˌhetərəˈdʒiːniəs/`](#heterogeneous-%CB%8Chet%C9%99r%C9%99%CB%88d%CA%92i%CB%90ni%C9%99s)
     - [**tabular** `/ˈtæbjələ(r)/`](#tabular-%CB%88t%C3%A6bj%C9%99l%C9%99r)
@@ -32,7 +32,7 @@
 
 ## Concepts
 
-### English Vocabulary
+### English Vietnamese Dictionary
 
 #### **collectively** `/kəˈlektɪvli/`
 
