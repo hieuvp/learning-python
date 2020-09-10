@@ -1,6 +1,6 @@
 def print_msg(number):
     def printer():
-        "Here we are using the nonlocal keyword"
+        """Here we are using the nonlocal keyword"""
         nonlocal number
         number = 3
         print(number)

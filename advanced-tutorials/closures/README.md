@@ -28,10 +28,10 @@ For example:
 
 ```py
 def transmit_to_space(message):
-    "This is the enclosing function"
+    """This is the enclosing function"""
 
     def data_transmitter():
-        "The nested function"
+        """The nested function"""
         print(message)
 
     data_transmitter()
@@ -62,7 +62,7 @@ To demonstrate the use of the `nonlocal` keyword, consider this:
 ```py
 def print_msg(number):
     def printer():
-        "Here we are using the nonlocal keyword"
+        """Here we are using the nonlocal keyword"""
         nonlocal number
         number = 3
         print(number)
