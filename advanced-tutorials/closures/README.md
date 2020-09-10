@@ -93,34 +93,23 @@ however, with its usage, we get `3 3`, that is the value of the `number` variabl
 Now, how about we return the function object rather than calling the nested function within.
 (Remember that even functions are objects. It's Python.)
 
-```python
-def transmit_to_space(message):
-    "This is the enclosing function"
-    def data_transmitter():
-        "The nested function"
-        print(message)
-    return data_transmitter
-```
-
-And we call the function as follows:
-
-```python
-def transmit_to_space(message):
-  "This is the enclosing function"
-  def data_transmitter():
-      "The nested function"
-      print(message)
-  return data_transmitter
-
-fun2 = transmit_to_space("Burn the Sun!")
-fun2()
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space_v2.py) -->
 <!-- The below code snippet is automatically added from transmit_to_space_v2.py -->
 
 ```py
+def transmit_to_space(message):
+    """This is the enclosing function"""
 
+    def data_transmitter():
+        """The nested function"""
+        print(message)
+
+    return data_transmitter
+
+
+# We call the function as follows:
+fun2 = transmit_to_space("Burn the Sun!")
+fun2()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -130,6 +119,7 @@ fun2()
 
 ```console
 + python transmit_to_space_v2.py
+Burn the Sun!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
