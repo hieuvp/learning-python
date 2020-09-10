@@ -3,7 +3,17 @@
 # That is using closures,
 # one could make functions to create multiply_with_5() or multiply_with_4() functions using closures.
 
-# your code goes here
 
-# multiply_with_5 = multiplier_of(5)
-# multiply_with_5(9)
+def multiplier_of(number):
+    def wrapper(multiplicand):
+        return number * multiplicand
+
+    return wrapper
+
+
+multiply_with_4 = multiplier_of(4)
+print("multiply_with_4(9) = %s" % multiply_with_4(9))
+
+
+multiply_with_5 = multiplier_of(5)
+print("multiply_with_5(9) = %s" % multiply_with_5(9))
