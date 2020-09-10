@@ -105,10 +105,10 @@
 
 ### Pandas DataFrame
 
-> **Pandas DataFrame** is two-dimensional size-mutable,
-> potentially heterogeneous tabular data structure with labeled axes (rows and columns).
-> You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
-> i.e., data is aligned in a tabular fashion in rows and columns.
+- **Pandas DataFrame** is two-dimensional size-mutable,
+  potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+- You can think of it like a spreadsheet or SQL table, or a dict of Series objects.
+- i.e., data is aligned in a tabular fashion in rows and columns.
 
 <div align="center">
   <img src="assets/pandas-dataframe.png" width="680">
