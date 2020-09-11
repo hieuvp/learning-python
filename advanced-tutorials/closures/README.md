@@ -51,13 +51,14 @@ print(c1(), c1(), c2(), c2())
 
 <br />
 
-> A closure is a nested function
-> which has access to a free variable from an enclosing function that has finished its execution.
+> A **closure** is a **nested function**
+> which has access to a free variable from an **enclosing function**
+> that has finished its execution.
 > <br />Three characteristics of a Python closure are:
 
-1. It is a nested function.
+1. It is a **nested function**.
 1. It has access to a free variable in outer scope.
-1. It is returned from the enclosing function.
+1. It is returned from the **enclosing function**.
 
 <br />
 
