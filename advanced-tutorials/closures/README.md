@@ -57,10 +57,17 @@ print(c1(), c1(), c2(), c2())
 > <br />Three characteristics of a Python closure are:
 
 1. It is a **nested function**.
-1. It has access to a free variable in outer scope.
+1. It has access to a **free variable** in outer scope.
 1. It is returned from the **enclosing function**.
 
 <br />
+
+A free variable is a variable that is not bound in the local scope.
+In order for closures to work with immutable variables such as numbers and strings,
+we have to use the nonlocal keyword.
+
+Python closures help avoiding the usage of global values and provide some form of data hiding.
+They are used in Python decorators.
 
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.
@@ -188,7 +195,7 @@ Burn the Sun!
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 Even though the execution of the `transmit_to_space()` was completed,
-the message was rather preserved.
+the `message` was rather preserved.
 This technique by which the data is attached to some code
 even after end of those other original functions is called as closures in Python.
 
@@ -196,13 +203,6 @@ ADVANTAGE : Closures can avoid use of global variables and provides some form of
 (e.g. When there are few methods in a class, use closures instead).
 
 Also, [Decorators](../decorators/README.md) in Python make extensive use of closures.
-
-A free variable is a variable that is not bound in the local scope.
-In order for closures to work with immutable variables such as numbers and strings,
-we have to use the nonlocal keyword.
-
-Python closures help avoiding the usage of global values and provide some form of data hiding.
-They are used in Python decorators.
 
 ## Exercise
 
