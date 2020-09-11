@@ -111,10 +111,10 @@ To demonstrate the use of the `nonlocal` keyword, consider this:
 def print_msg_without_nonlocal(number):
     def printer():
         number = 3
-        print("Without nonlocal, inside printer(),   number = %s" % number)
+        print('Without "nonlocal" keyword, inside printer(),   number = %s' % number)
 
     printer()
-    print("Without nonlocal, inside print_msg(), number = %s" % number)
+    print('Without "nonlocal" keyword, inside print_msg(), number = %s' % number)
 
 
 def print_msg_with_nonlocal(number):
@@ -122,10 +122,10 @@ def print_msg_with_nonlocal(number):
         """Here we are using the nonlocal keyword"""
         nonlocal number
         number = 3
-        print("With nonlocal, inside printer(),   number = %s" % number)
+        print('With "nonlocal" keyword, inside printer(),   number = %s' % number)
 
     printer()
-    print("With nonlocal, inside print_msg(), number = %s" % number)
+    print('With "nonlocal" keyword, inside print_msg(), number = %s' % number)
 
 
 print_msg_without_nonlocal(9)
@@ -140,11 +140,11 @@ print_msg_with_nonlocal(9)
 
 ```console
 + python print_msg.py
-Without nonlocal, inside printer(),   number = 3
-Without nonlocal, inside print_msg(), number = 9
+Without "nonlocal" keyword, inside printer(),   number = 3
+Without "nonlocal" keyword, inside print_msg(), number = 9
 
-With nonlocal, inside printer(),   number = 3
-With nonlocal, inside print_msg(), number = 3
+With "nonlocal" keyword, inside printer(),   number = 3
+With "nonlocal" keyword, inside print_msg(), number = 3
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
