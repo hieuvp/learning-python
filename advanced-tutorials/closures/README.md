@@ -197,7 +197,7 @@ even after end of those other original functions is called as closures in Python
 
 - **Closures** can avoid use of global variables and provides some form of data hiding.
   (e.g. When there are few methods in a class, use closures instead).
-- [Decorators](../decorators/README.md) make extensive use of **Closures**.
+- [**Decorators**](../decorators/README.md) make extensive use of **Closures**.
 
 ## Exercise
 
