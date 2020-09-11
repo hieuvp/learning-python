@@ -64,12 +64,7 @@ print(c1(), c1(), c2(), c2())
 > <br />In order for **closures** to work with immutable variables
 > such as numbers and strings, we have to use the `nonlocal` keyword.
 
-Python closures help avoiding the usage of global values and provide some form of data hiding.
-
 <br />
-
-> A **Closure** is a **function object** that remembers values in enclosing scopes
-> even if they are not present in memory.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
 <!-- The below code snippet is automatically added from transmit_to_space.py -->
@@ -198,10 +193,11 @@ the `message` was rather preserved.
 This technique by which the data is attached to some code
 even after end of those other original functions is called as closures in Python.
 
-ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding.
-(e.g. When there are few methods in a class, use closures instead).
+<br />
 
-Also, [Decorators](../decorators/README.md) make extensive use of **Closures**.
+- **Closures** can avoid use of global variables and provides some form of data hiding.
+  (e.g. When there are few methods in a class, use closures instead).
+- [Decorators](../decorators/README.md) make extensive use of **Closures**.
 
 ## Exercise
 
