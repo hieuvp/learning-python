@@ -9,5 +9,6 @@ def transmit_to_space(message):
 
 
 # We call the function as follows:
+# Remember that even functions are objects
 fun2 = transmit_to_space("Burn the Sun!")
 fun2()
