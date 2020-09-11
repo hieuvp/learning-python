@@ -65,12 +65,6 @@ print(c1(), c1(), c2(), c2())
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.
 
-It's very important to note that the nested functions can access the variables of the enclosing scope.
-However, at least in Python, they are only readonly.
-However, one can use the `nonlocal` keyword explicitly with these variables in order to modify them.
-
-For example:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
 <!-- The below code snippet is automatically added from transmit_to_space.py -->
 
@@ -79,8 +73,12 @@ def transmit_to_space(message):
     """This is the enclosing function"""
 
     def data_transmitter():
-        """The nested function"""
-        """A function defined inside another function"""
+        """This is the nested function"""
+        """It is a function defined inside another function"""
+
+        """The nested functions can access the variables of the enclosing scope"""
+        """They are readonly"""
+        """However, one can use the `nonlocal` keyword explicitly with these variables in order to modify them"""
         print(message)
 
     data_transmitter()

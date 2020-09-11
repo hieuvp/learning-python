@@ -2,8 +2,12 @@ def transmit_to_space(message):
     """This is the enclosing function"""
 
     def data_transmitter():
-        """The nested function"""
-        """A function defined inside another function"""
+        """This is the nested function"""
+        """It is a function defined inside another function"""
+
+        """The nested functions can access the variables of the enclosing scope"""
+        """They are readonly"""
+        """However, one can use the `nonlocal` keyword explicitly with these variables in order to modify them"""
         print(message)
 
     data_transmitter()
