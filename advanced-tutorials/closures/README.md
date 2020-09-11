@@ -51,6 +51,16 @@ print(c1(), c1(), c2(), c2())
 
 <br />
 
+> A closure is a nested function
+> which has access to a free variable from an enclosing function that has finished its execution.
+> <br />Three characteristics of a Python closure are:
+
+1. It is a nested function.
+1. It has access to a free variable in outer scope.
+1. It is returned from the enclosing function.
+
+<br />
+
 > A **Closure** is a **function object** that remembers values in enclosing scopes
 > even if they are not present in memory.
 
@@ -171,14 +181,6 @@ ADVANTAGE : Closures can avoid use of global variables and provides some form of
 (e.g. When there are few methods in a class, use closures instead).
 
 Also, [Decorators](../decorators/README.md) in Python make extensive use of closures.
-
-A closure is a nested function
-which has access to a free variable from an enclosing function that has finished its execution.
-Three characteristics of a Python closure are:
-
-- It is a nested function.
-- It has access to a free variable in outer scope.
-- It is returned from the enclosing function.
 
 A free variable is a variable that is not bound in the local scope.
 In order for closures to work with immutable variables such as numbers and strings,
