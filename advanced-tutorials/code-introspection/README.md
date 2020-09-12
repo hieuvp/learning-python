@@ -12,12 +12,13 @@
 
 ## Concepts
 
-> **Code Introspection** is the ability to examine **classes**, **functions** and **keywords**
+> **Code Introspection** is the ability
+> to examine **classes**, **functions** and **keywords**<br />
 > to know what they are, what they do and what they know.
 
 <br />
 
-Python provides several functions and utilities for code introspection.
+Python provides several functions and utilities for **code introspection**:
 
 ```python
 help()
