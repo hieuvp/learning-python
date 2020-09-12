@@ -23,12 +23,6 @@ You might have seen an exception before:
 
 ```py
 print(a)
-
-# error
-# Traceback (most recent call last):
-#   File "<stdin>", line 1, in <module>
-# NameError: name 'a' is not defined
-# </module></stdin>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
