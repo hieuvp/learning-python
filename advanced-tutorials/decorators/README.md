@@ -6,7 +6,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [Examples](#examples)
+- [More Examples](#more-examples)
+  - [`@repeater`](#repeater)
+  - [`@multiply`](#multiply)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -88,7 +90,9 @@ Hello! Decorators
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Examples
+## More Examples
+
+### `@repeater`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
 <!-- The below code snippet is automatically added from repeater.py -->
@@ -172,7 +176,7 @@ def check(old_function):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+### `@multiply`
 
 Let's say you want to multiply the output by a variable amount.
 You could define the decorator and use it as follows:
