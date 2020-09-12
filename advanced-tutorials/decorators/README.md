@@ -69,7 +69,7 @@ function("Hello! Decorators")
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 As you may have seen,
-a decorator is just another function which takes a functions and returns one.
+a **decorator** is just another function which takes a function and returns one.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
 <!-- The below code snippet is automatically added from example.console -->
