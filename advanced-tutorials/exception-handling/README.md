@@ -108,20 +108,22 @@ look no further than the
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Handle all the exception!
-# Think back to the previous lessons to return the last name of the actor
-
-# Setup
 actor = {"name": "John Cleese", "rank": "awesome"}
 
-# Function to modify!!!
-# def get_last_name():
-#     return actor["last_name"]
 
-# Test code
-# get_last_name()
-# print("All exceptions caught! Good job!")
-# print("The actor's last name is %s" % get_last_name())
+# Returning the last name of the actor
+def get_last_name():
+    full_name = actor["name"].split()
+    last_name = full_name[-1]
+
+    return last_name
+
+
+# Handling all the exception
+try:
+    print('The actor\'s last name is "%s"' % get_last_name())
+except KeyError:
+    print("All exceptions caught! Good job!")
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -131,6 +133,7 @@ actor = {"name": "John Cleese", "rank": "awesome"}
 
 ```console
 + python exercise.py
+The actor's last name is "Cleese"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
