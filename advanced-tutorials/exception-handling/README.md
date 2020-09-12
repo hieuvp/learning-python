@@ -16,7 +16,7 @@
 
 <br />
 
-You might have seen an exception before:
+We might have seen an exception before:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exception.py) -->
 <!-- The below code snippet is automatically added from exception.py -->
@@ -45,9 +45,10 @@ Oops! Forgot to assign a value to the `'a'` variable.
 
 <br />
 
-But sometimes you don't want exceptions to completely stop the program.
-You might want to do something special when an exception is raised.
-This is done in a `try`/`except` block.
+Sometimes we don't want exceptions to completely stop the program.
+We might want to do something special when an exception is raised.
+<br />
+This is done in a `try`/`except` block:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
 <!-- The below code snippet is automatically added from example.py -->
