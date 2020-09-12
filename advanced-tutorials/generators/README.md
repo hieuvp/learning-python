@@ -25,6 +25,8 @@
 - If the body of a `def` contains `yield`,
   the function automatically becomes a **generator function**.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.py) -->
 <!-- The below code snippet is automatically added from generator_function.py -->
 
@@ -32,14 +34,14 @@
 import random
 
 
-# A generator function which returns 7 random integers
+# A "generator function" which returns "7" random integers
 def lottery():
-    # Return 6 numbers between 1 and 40
+
     for i in range(6):
-        print("i = %s" % i)
+        # Returning "6" numbers between 1 and 40
         yield random.randint(1, 40)
 
-    # Return a 7th number between 1 and 15
+    # Returning a "7th" number between 1 and 15
     yield random.randint(1, 15)
 
 
@@ -54,19 +56,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-i = 0
-And the next number is... 20!
-i = 1
-And the next number is... 35!
-i = 2
-And the next number is... 34!
-i = 3
+And the next number is... 4!
 And the next number is... 38!
-i = 4
-And the next number is... 3!
-i = 5
-And the next number is... 36!
-And the next number is... 11!
+And the next number is... 38!
+And the next number is... 17!
+And the next number is... 17!
+And the next number is... 31!
+And the next number is... 7!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
