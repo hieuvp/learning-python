@@ -1,1 +1,7 @@
 + python exercise.py
+Traceback (most recent call last):
+  File "exercise.py", line 14, in <module>
+    get_last_name()
+  File "exercise.py", line 10, in get_last_name
+    return actor["last_name"]
+KeyError: 'last_name'
