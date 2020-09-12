@@ -135,8 +135,6 @@ def check(old_function):
 > <br />For some snazzy decorators,
 > go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
 
-<br />
-
 ### `@repeater`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
