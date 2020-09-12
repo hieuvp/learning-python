@@ -92,6 +92,42 @@ Hello! Decorators
 
 ## More Examples
 
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=decorating_functions.py) -->
+<!-- The below code snippet is automatically added from decorating_functions.py -->
+
+```py
+# Change the output
+def double_out(old_function):
+    def new_function(*args, **kwargs):
+        # Modify the return value
+        return 2 * old_function(*args, **kwargs)
+
+    return new_function
+
+
+# Change the input
+def double_input(old_function):
+    # Only works if the old function has one argument
+    def new_function(args):
+        # Modify the argument passed
+        return old_function(args * 2)
+
+    return new_function
+
+
+# Do checking
+def check(old_function):
+    def new_function(args):
+        if args < 0:
+            # This causes an error, which is better than it does the wrong thing
+            raise (ValueError, "Negative Argument")
+        old_function(args)
+
+    return new_function
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 ### `@repeater`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
@@ -125,44 +161,6 @@ multiply(2, 3)
 + python repeater.py
 6
 6
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<br />
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=decorating_functions.py) -->
-<!-- The below code snippet is automatically added from decorating_functions.py -->
-
-```py
-# Change the output
-def double_out(old_function):
-    def new_function(*args, **kwargs):
-        # Modify the return value
-        return 2 * old_function(*args, **kwargs)
-
-    return new_function
-
-
-# Change the input
-def double_input(old_function):
-    # Only works if the old function has one argument
-    def new_function(args):
-        # Modify the argument passed
-        return old_function(args * 2)
-
-    return new_function
-
-
-# Do checking
-def check(old_function):
-    def new_function(args):
-        if args < 0:
-            # This causes an error, which is better than it does the wrong thing
-            raise (ValueError, "Negative Argument")
-        old_function(args)
-
-    return new_function
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
