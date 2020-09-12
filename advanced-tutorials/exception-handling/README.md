@@ -12,11 +12,11 @@
 
 ## Concepts
 
-When programming, errors happen. It's just a fact of life.
-Perhaps the user gave bad input. Maybe a network resource was unavailable.
-Maybe the program ran out of memory. Or the programmer may have even made a mistake!
+> Python's solution to **errors** are **exceptions**.
 
-Python's solution to errors are exceptions. You might have seen an exception before.
+<br />
+
+You might have seen an exception before:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exception.py) -->
 <!-- The below code snippet is automatically added from exception.py -->
@@ -47,7 +47,7 @@ NameError: name 'a' is not defined
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Oops! Forgot to assign a value to the 'a' variable.
+Oops! Forgot to assign a value to the `'a'` variable.
 
 But sometimes you don't want exceptions to completely stop the program.
 You might want to do something special when an exception is raised.
