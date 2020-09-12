@@ -36,6 +36,9 @@ import random
 
 # A "generator function" which returns "7" random integers
 def lottery():
+    # This function decides how to generate the random numbers on its own,
+    # and executes the "yield" statements one at a time,
+    # pausing in between to "yield" execution back to the main "for" loop
 
     for i in range(6):
         # Returning "6" numbers between 1 and 40
@@ -56,13 +59,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 13!
-And the next number is... 21!
-And the next number is... 27!
-And the next number is... 10!
+And the next number is... 20!
+And the next number is... 11!
+And the next number is... 20!
+And the next number is... 40!
+And the next number is... 16!
+And the next number is... 2!
 And the next number is... 8!
-And the next number is... 19!
-And the next number is... 15!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -76,10 +79,6 @@ And the next number is... 15!
    returning a new value from the set.
 1. The generator function can generate as many values (possibly **infinite**) as it wants,
    yielding each one in its turn.
-
-This function decides how to generate the random numbers on its own,
-and executes the `yield` statements one at a time,
-pausing in between to `yield` execution back to the main `for` loop.
 
 ## Exercise
 
