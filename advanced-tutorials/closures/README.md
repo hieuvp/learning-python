@@ -205,13 +205,7 @@ even after end of those other original functions is called as closures in Python
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Make a nested loop and a python closure to make functions
-# to get multiple multiplication functions using closures.
-# That is using closures,
-# one could make functions to create multiply_with_5()
-# or multiply_with_4() functions using closures.
-
-
+# Making a function to get multiple multiplication functions
 def multiplier_of(number):
     def wrapper(multiplicand):
         return number * multiplicand
