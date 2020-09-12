@@ -98,7 +98,7 @@ catch_this()
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 There, that wasn't too hard! You can do that with any exception.
-For more details on handling exceptions,
+<br />For more details on handling exceptions,
 look no further than the [Python Docs](https://docs.python.org/tutorial/errors.html#handling-exceptions)
 
 ## Exercise
