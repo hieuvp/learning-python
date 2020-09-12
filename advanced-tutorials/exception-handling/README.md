@@ -5,9 +5,12 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Concepts](#concepts)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Concepts
 
 When programming, errors happen. It's just a fact of life.
 Perhaps the user gave bad input. Maybe a network resource was unavailable.
