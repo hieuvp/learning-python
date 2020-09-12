@@ -7,7 +7,6 @@
 
 - [Concepts](#concepts)
 - [Exercise](#exercise)
-- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -59,13 +58,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 18!
-And the next number is... 32!
-And the next number is... 39!
-And the next number is... 28!
-And the next number is... 28!
-And the next number is... 21!
-And the next number is... 11!
+And the next number is... 2!
+And the next number is... 30!
+And the next number is... 40!
+And the next number is... 27!
+And the next number is... 25!
+And the next number is... 6!
+And the next number is... 2!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -132,7 +131,3 @@ Good! The fibonacci() function is a generator
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-## References
-
-- [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators)
