@@ -128,6 +128,11 @@ def check(old_function):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+> You can do anything you want with the old function, even completely ignore it!
+> Advanced decorators can also manipulate the doc string and argument number.
+> For some snazzy decorators,
+> go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
+
 ### `@repeater`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
@@ -207,10 +212,6 @@ print(return_number(5))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-You can do anything you want with the old function, even completely ignore it!
-Advanced decorators can also manipulate the doc string and argument number.
-For some snazzy decorators, go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
 
 ## Exercise
 
