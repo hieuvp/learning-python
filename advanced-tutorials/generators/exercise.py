@@ -14,7 +14,7 @@ def fibonacci():
         a, b = b, a + b
 
 
-# Testing code
+# Testing Code
 if isinstance(fibonacci(), GeneratorType):
     print("Good! The fibonacci() function is a generator")
 

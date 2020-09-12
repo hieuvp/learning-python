@@ -58,13 +58,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 2!
-And the next number is... 30!
 And the next number is... 40!
+And the next number is... 30!
 And the next number is... 27!
-And the next number is... 25!
-And the next number is... 6!
-And the next number is... 2!
+And the next number is... 7!
+And the next number is... 10!
+And the next number is... 36!
+And the next number is... 1!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -101,7 +101,7 @@ def fibonacci():
         a, b = b, a + b
 
 
-# Testing code
+# Testing Code
 if isinstance(fibonacci(), GeneratorType):
     print("Good! The fibonacci() function is a generator")
 
