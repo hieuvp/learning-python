@@ -58,13 +58,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 40!
 And the next number is... 30!
-And the next number is... 27!
-And the next number is... 7!
-And the next number is... 10!
+And the next number is... 20!
+And the next number is... 35!
+And the next number is... 13!
+And the next number is... 23!
 And the next number is... 36!
-And the next number is... 1!
+And the next number is... 15!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -110,7 +110,7 @@ if isinstance(fibonacci(), GeneratorType):
 
         # To not add a newline to the end of the string
         # https://docs.python.org/library/functions.html#print
-        print("%d, " % number, end="")
+        print("%d " % number, end="")
 
         counter += 1
         if counter == 10:
@@ -127,7 +127,7 @@ if isinstance(fibonacci(), GeneratorType):
 ```console
 + python exercise.py
 Good! The fibonacci() function is a generator
-1, 1, 2, 3, 5, 8, 13, 21, 34, 55,
+1 1 2 3 5 8 13 21 34 55
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -23,7 +23,7 @@ if isinstance(fibonacci(), GeneratorType):
 
         # To not add a newline to the end of the string
         # https://docs.python.org/library/functions.html#print
-        print("%d, " % number, end="")
+        print("%d " % number, end="")
 
         counter += 1
         if counter == 10:
