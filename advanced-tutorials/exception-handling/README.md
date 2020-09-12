@@ -60,8 +60,8 @@ def do_stuff_with_number(n):
 def catch_this():
     the_list = (1, 2, 3, 4, 5)
 
-    # We need to iterate over "10" numbers, but "the_list" is made from user input,
-    # and might not have "10" numbers in it
+    # We need to iterate over "10" numbers,
+    # but "the_list" is made from user input, and might not have "10" numbers in it
     for i in range(10):
         try:
             do_stuff_with_number(the_list[i])
@@ -98,8 +98,8 @@ catch_this()
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 There, that wasn't too hard! You can do that with any exception.
-For more details on handling exceptions, look no further than the Python Docs
-<https://docs.python.org/tutorial/errors.html#handling-exceptions>
+For more details on handling exceptions,
+look no further than the [Python Docs](https://docs.python.org/tutorial/errors.html#handling-exceptions)
 
 ## Exercise
 
