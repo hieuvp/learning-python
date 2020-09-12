@@ -1,8 +1,7 @@
-# Use the help function to see what each function does.
-# Delete this when you are done.
-help(dir)
-help(hasattr)
-help(id)
+# Using the "help()" function to see what each function does:
+# - help(dir)
+# - help(hasattr)
+# - help(id)
 
 
 # Define the Vehicle class.
@@ -17,6 +16,4 @@ class Vehicle:
         return desc_str
 
 
-# Print a list of all attributes of the Vehicle class.
-# Print a list of all attributes of the given Vehicle object.
-# Your code goes here
+# Print a list of all attributes of the Vehicle class
