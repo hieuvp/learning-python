@@ -133,7 +133,7 @@ def check(old_function):
 > You can do anything you want with the old function, even completely ignore it!
 > <br />Advanced decorators can also manipulate the doc string and argument number.
 > <br />For some snazzy decorators,
-> go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
+> go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary).
 
 ### `@repeater`
 
@@ -175,13 +175,14 @@ multiply(2, 3)
 
 ### `@multiply()`
 
-Let's say you want to multiply the output by a variable amount.
-You could define the decorator and use it as follows:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
+# Let's say you want to multiply the output by a variable amount.
+# You could define the decorator and use it as follows:
+
+
 def multiply(multiplier):
     def multiply_decorator(old_function):
         def new_function(*args, **kwargs):

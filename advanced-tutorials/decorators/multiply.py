@@ -1,3 +1,7 @@
+# Let's say you want to multiply the output by a variable amount.
+# You could define the decorator and use it as follows:
+
+
 def multiply(multiplier):
     def multiply_decorator(old_function):
         def new_function(*args, **kwargs):
