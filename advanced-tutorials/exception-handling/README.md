@@ -43,21 +43,24 @@ NameError: name 'a' is not defined
 
 Oops! Forgot to assign a value to the `'a'` variable.
 
+<br />
+
 But sometimes you don't want exceptions to completely stop the program.
 You might want to do something special when an exception is raised.
 This is done in a `try`/`except` block.
-
-Here's a trivial example: Suppose you're iterating over a list.
-You need to iterate over 20 numbers, but the list is made from user input,
-and might not have 20 numbers in it.
-After you reach the end of the list,
-you just want the rest of the numbers to be interpreted as a 0.
-Here's how you could do that:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
 <!-- The below code snippet is automatically added from example.py -->
 
 ```py
+# Here's a trivial example: Suppose you're iterating over a list.
+# You need to iterate over 20 numbers, but the list is made from user input,
+# and might not have 20 numbers in it.
+# After you reach the end of the list,
+# you just want the rest of the numbers to be interpreted as a 0.
+# Here's how you could do that:
+
+
 def do_stuff_with_number(n):
     print(n)
 

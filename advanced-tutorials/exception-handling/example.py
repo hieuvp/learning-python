@@ -1,3 +1,11 @@
+# Here's a trivial example: Suppose you're iterating over a list.
+# You need to iterate over 20 numbers, but the list is made from user input,
+# and might not have 20 numbers in it.
+# After you reach the end of the list,
+# you just want the rest of the numbers to be interpreted as a 0.
+# Here's how you could do that:
+
+
 def do_stuff_with_number(n):
     print(n)
 
