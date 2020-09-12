@@ -100,7 +100,7 @@ catch_this()
 There, that wasn't too hard! You can do that with any exception.
 <br />For more details on handling exceptions,
 look no further than the
-[Python Docs - Handling Exceptions](https://docs.python.org/tutorial/errors.html#handling-exceptions)
+[Python Docs - Handling Exceptions](https://docs.python.org/tutorial/errors.html#handling-exceptions).
 
 ## Exercise
 
