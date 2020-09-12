@@ -17,13 +17,12 @@
 
 <br />
 
+The syntax:
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example_with_decorator.py) -->
 <!-- The below code snippet is automatically added from example_with_decorator.py -->
 
 ```py
-# The Syntax
-
-
 def decorator(func):
     def wrapper(*args, **kwargs):
         func(*args, **kwargs)
@@ -42,15 +41,12 @@ function("Hello! Decorators")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+Is equivalent to:
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example_without_decorator.py) -->
 <!-- The below code snippet is automatically added from example_without_decorator.py -->
 
 ```py
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Is Equivalent To
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 def decorator(func):
     def wrapper(*args, **kwargs):
         func(*args, **kwargs)
