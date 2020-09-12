@@ -1,7 +1,7 @@
 + python exercise.py
 
 H
-Bad Type
+Bad Type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
 
 6
-Bad Type
+Bad Type! "Not A Number" is not of type "<class 'int'>"

@@ -232,7 +232,7 @@ def type_check(correct_type):
                 # In reality, it should raise an error, but error raising isn't in this tutorial
                 # Using "isinstance(object, type_of_object)" or "type(object)" might help
                 if not isinstance(argument, correct_type):
-                    print("Bad Type")
+                    print('Bad Type! "%s" is not of type "%s"' % (argument, correct_type))
 
             return func(*args, **kwargs)
 
@@ -272,10 +272,10 @@ times(2, "Not A Number")
 + python exercise.py
 
 H
-Bad Type
+Bad Type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
 
 6
-Bad Type
+Bad Type! "Not A Number" is not of type "<class 'int'>"
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
