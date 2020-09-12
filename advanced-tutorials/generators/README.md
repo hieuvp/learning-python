@@ -13,11 +13,11 @@
 
 ## Concepts
 
-> Generator functions are a special kind of function that return a **lazy iterator**.
-> These are objects that you can loop over like a list.
-> However, unlike lists, **lazy iterators** do not store their contents in memory.
+> **Generator Functions** are a special kind of function that return a **Lazy Iterator**.
+> <br />These are objects that you can loop over like a list.
+> However, unlike lists, **Lazy Iterators** do not store their contents in memory.
 
-- A generator-function is defined like a normal function,
+- A generator function is defined like a normal function,
   but whenever it needs to generate a value,
   it does so with the `yield` keyword rather than `return`.
 - If the body of a `def` contains `yield`,
@@ -63,18 +63,18 @@ for random_number in lottery():
 ```console
 + python generator_function.py
 i = 0
-And the next number is... 2!
+And the next number is... 13!
 i = 1
-And the next number is... 25!
+And the next number is... 15!
 i = 2
-And the next number is... 28!
+And the next number is... 17!
 i = 3
-And the next number is... 3!
+And the next number is... 30!
 i = 4
-And the next number is... 3!
+And the next number is... 35!
 i = 5
-And the next number is... 4!
-And the next number is... 9!
+And the next number is... 18!
+And the next number is... 11!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -149,4 +149,4 @@ Good! The fib() function is a generator
 
 ## References
 
-- [How to Use Generators and yield in Python](https://realpython.com/introduction-to-python-generators)
+- [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators)
