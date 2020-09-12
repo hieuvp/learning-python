@@ -15,4 +15,3 @@ def function(message):
 function = decorator(function)
 
 function("Hello! Decorators")
-

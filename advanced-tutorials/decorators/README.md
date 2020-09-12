@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
+- [Examples](#examples)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -87,7 +88,7 @@ Hello! Decorators
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+## Examples
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=repeater.py) -->
 <!-- The below code snippet is automatically added from repeater.py -->
