@@ -16,5 +16,3 @@ function = decorator(function)
 
 function("Hello! Decorators")
 
-# As you may have seen,
-# a decorator is just another function which takes a functions and returns one.
