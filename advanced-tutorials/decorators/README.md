@@ -8,7 +8,7 @@
 - [Concepts](#concepts)
 - [More Examples](#more-examples)
   - [`@repeater`](#repeater)
-  - [`@multiply`](#multiply)
+  - [`@multiply()`](#multiply)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -166,7 +166,7 @@ multiply(2, 3)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `@multiply`
+### `@multiply()`
 
 Let's say you want to multiply the output by a variable amount.
 You could define the decorator and use it as follows:
