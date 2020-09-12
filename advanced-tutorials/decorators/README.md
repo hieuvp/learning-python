@@ -128,10 +128,14 @@ def check(old_function):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+<br />
+
 > You can do anything you want with the old function, even completely ignore it!
-> Advanced decorators can also manipulate the doc string and argument number.
-> For some snazzy decorators,
+> <br />Advanced decorators can also manipulate the doc string and argument number.
+> <br />For some snazzy decorators,
 > go to [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)
+
+<br />
 
 ### `@repeater`
 
