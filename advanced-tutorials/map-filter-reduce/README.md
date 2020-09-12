@@ -25,7 +25,7 @@ Let's get a better understanding of how they all work, starting with map.
 
 ## Map
 
-The map() function in python has the following syntax:
+The `map()` function in Python has the following syntax:
 
 ```python
 map(func, *iterables)
