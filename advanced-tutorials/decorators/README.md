@@ -167,15 +167,6 @@ def check(old_function):
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=decorating_functions.console) -->
-<!-- The below code snippet is automatically added from decorating_functions.console -->
-
-```console
-+ python decorating_functions.py
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
 ### `@multiply`
 
 Let's say you want to multiply the output by a variable amount.
