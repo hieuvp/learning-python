@@ -59,13 +59,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 20!
+And the next number is... 18!
+And the next number is... 32!
+And the next number is... 39!
+And the next number is... 28!
+And the next number is... 28!
+And the next number is... 21!
 And the next number is... 11!
-And the next number is... 20!
-And the next number is... 40!
-And the next number is... 16!
-And the next number is... 2!
-And the next number is... 8!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -82,18 +82,6 @@ And the next number is... 8!
 
 ## Exercise
 
-Hint: Can you use only two variables in the generator function?
-Remember that assignments can be done simultaneously.
-
-```python
-a = 1
-b = 2
-
-# Simultaneously switch the values of a and b
-a, b = b, a
-print(a, b)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
@@ -101,8 +89,8 @@ print(a, b)
 from types import GeneratorType
 
 
-# Write a generator function which returns the Fibonacci series
-def fib():
+# A generator function which returns the Fibonacci series
+def fibonacci():
     # The first two numbers of the series is always equal to 1
     a = b = 1
 
@@ -110,19 +98,20 @@ def fib():
         yield a
 
         # Each consecutive number returned is the sum of the last two numbers
+        # Simultaneously assign the values of "a" and "b"
         a, b = b, a + b
 
 
 # Testing code
-if isinstance(fib(), GeneratorType):
-    print("Good! The fib() function is a generator")
+if isinstance(fibonacci(), GeneratorType):
+    print("Good! The fibonacci() function is a generator")
 
     counter = 0
-    for n in fib():
+    for number in fibonacci():
 
         # To not add a newline to the end of the string
         # https://docs.python.org/library/functions.html#print
-        print("%d, " % n, end="")
+        print("%d, " % number, end="")
 
         counter += 1
         if counter == 10:
@@ -138,7 +127,7 @@ if isinstance(fib(), GeneratorType):
 
 ```console
 + python exercise.py
-Good! The fib() function is a generator
+Good! The fibonacci() function is a generator
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55,
 ```
 
