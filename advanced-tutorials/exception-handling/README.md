@@ -45,7 +45,7 @@ Oops! Forgot to assign a value to the `'a'` variable.
 
 But sometimes you don't want exceptions to completely stop the program.
 You might want to do something special when an exception is raised.
-This is done in a try/except block.
+This is done in a `try`/`except` block.
 
 Here's a trivial example: Suppose you're iterating over a list.
 You need to iterate over 20 numbers, but the list is made from user input,
@@ -65,11 +65,13 @@ def do_stuff_with_number(n):
 def catch_this():
     the_list = (1, 2, 3, 4, 5)
 
-    for i in range(20):
+    for i in range(10):
         try:
             do_stuff_with_number(the_list[i])
-        except IndexError:  # Raised when accessing a non-existing index of a list
-            do_stuff_with_number(0)
+
+        # Raised when accessing a non-existing index of a list
+        except IndexError:
+            do_stuff_with_number(-1)
 
 
 catch_this()
@@ -87,21 +89,11 @@ catch_this()
 3
 4
 5
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
+-1
+-1
+-1
+-1
+-1
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
