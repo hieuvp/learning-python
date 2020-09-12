@@ -108,7 +108,7 @@ look no further than the
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-actor = {"name": "John Cleese", "rank": "awesome"}
+actor = {"name": "John Cleese", "rank": "Awesome"}
 
 
 # Returning the last name of the actor
