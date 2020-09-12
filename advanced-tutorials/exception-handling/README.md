@@ -104,13 +104,13 @@ look no further than the
 
 ## Exercise
 
-Handle all the exception!
-Think back to the previous lessons to return the last name of the actor.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+# Handle all the exception!
+# Think back to the previous lessons to return the last name of the actor
+
 # Setup
 actor = {"name": "John Cleese", "rank": "awesome"}
 

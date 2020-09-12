@@ -1,3 +1,6 @@
+# Handle all the exception!
+# Think back to the previous lessons to return the last name of the actor
+
 # Setup
 actor = {"name": "John Cleese", "rank": "awesome"}
 
