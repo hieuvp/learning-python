@@ -45,8 +45,8 @@ Oops! Forgot to assign a value to the `'a'` variable.
 
 <br />
 
-Sometimes we don't want exceptions to completely stop the program.
-<br />We might want to do something special when an exception is raised.
+Sometimes we don't want exceptions to completely stop the program,
+we might want to do something special when an exception is raised.
 <br />This is done in a `try`/`except` block:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
