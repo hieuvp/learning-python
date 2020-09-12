@@ -58,13 +58,13 @@ for random_number in lottery():
 
 ```console
 + python generator_function.py
-And the next number is... 30!
-And the next number is... 20!
-And the next number is... 35!
-And the next number is... 13!
-And the next number is... 23!
-And the next number is... 36!
+And the next number is... 17!
+And the next number is... 29!
+And the next number is... 33!
 And the next number is... 15!
+And the next number is... 32!
+And the next number is... 24!
+And the next number is... 2!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -74,7 +74,7 @@ And the next number is... 15!
 1. When an iteration over a set of item starts using the `for` statement,
    the generator is run.
 1. Once the generator function's code reaches a `yield` statement,
-   the generator yields its execution back to the `for` loop,
+   <br />the generator yields its execution back to the `for` loop,
    returning a new value from the set.
 1. The generator function can generate as many values (possibly **infinite**) as it wants,
    yielding each one in its turn.
