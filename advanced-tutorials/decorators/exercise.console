@@ -1,7 +1,11 @@
 + python exercise.py
 
-H
+first_letter("Hello World") = H
+
+first_letter(["Not", "A", "String"])
 Bad Type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
 
-6
+times(2, 3) = 6
+
+times(2, "Not A Number")
 Bad Type! "Not A Number" is not of type "<class 'int'>"
