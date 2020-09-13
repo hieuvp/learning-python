@@ -29,8 +29,8 @@ Notice the asterisk(`*`) on iterables? It means there can be as many iterables a
 in so far func has that exact number as required input arguments.
 Before we move on to an example, it's important that you note the following:
 
-1. In Python 3, the function returns a map object which is a generator object.
-   To get the result as a list, the built-in `list()` function can be called on the map object.
+1. In Python 3, the function returns a **map object** which is a **generator object**.
+   To get the result as a **list**, the built-in `list()` function can be called on the **map object**.
    i.e. `list(map(func, *iterables))`
 1. The number of arguments to `func` must be the number of `iterables` listed.
 
@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10f9950a0>
+map_pets       = <map object at 0x1011a50a0>
 type(map_pets) = <class 'map'>
 ```
 
