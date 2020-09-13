@@ -59,6 +59,12 @@ print(upper_pets)
 # With "map()",
 # it's not only easier, but it's also much more flexible
 print(list(map(str.upper, PETS)))
+print()
+
+
+map_pets = map(str.upper, PETS)
+print("map_pets       = %s" % map_pets)
+print("type(map_pets) = %s" % type(map_pets))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -70,6 +76,9 @@ print(list(map(str.upper, PETS)))
 + python map_pets.py
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
+
+map_pets       = <map object at 0x10f9950a0>
+type(map_pets) = <class 'map'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

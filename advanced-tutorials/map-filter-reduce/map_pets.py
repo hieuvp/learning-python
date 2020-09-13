@@ -15,3 +15,9 @@ print(upper_pets)
 # With "map()",
 # it's not only easier, but it's also much more flexible
 print(list(map(str.upper, PETS)))
+print()
+
+
+map_pets = map(str.upper, PETS)
+print("map_pets       = %s" % map_pets)
+print("type(map_pets) = %s" % type(map_pets))
