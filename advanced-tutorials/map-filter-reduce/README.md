@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x106fa80a0>
+map_pets       = <map object at 0x10d21e0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -370,21 +370,17 @@ As usual, let's see some examples:
 <!-- The below code snippet is automatically added from reduce_numbers.py -->
 
 ```py
-# Let's create our own version of Python's built-in sum() function.
-# The sum() function returns the sum of all the items in the iterable passed to it.
-
-# Python 3
 from functools import reduce
 
-numbers = [3, 4, 6, 9, 34, 12]
 
-
+# Create our own version of Python's built-in "sum()" function
 def custom_sum(first, second):
     return first + second
 
 
-result = reduce(custom_sum, numbers)
-print(result)
+numbers = [3, 4, 6, 10]
+
+print(reduce(custom_sum, numbers))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -394,12 +390,10 @@ print(result)
 
 ```console
 + python reduce_numbers.py
-68
+23
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-The result, as you'll expect is 68.
 
 So, what happened?
 
