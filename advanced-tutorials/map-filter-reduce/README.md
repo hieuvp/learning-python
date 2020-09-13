@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1085cf0a0>
+map_pets       = <map object at 0x10263a0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -224,22 +224,18 @@ No? try it! Change the length of one of them.
 
 Onto our own custom `zip()` function!
 
-```python
-# Python 3
-
-my_strings = ['a', 'b', 'c', 'd', 'e']
-my_numbers = [1,2,3,4,5]
-
-results = list(map(lambda x, y: (x, y), my_strings, my_numbers))
-
-print(results)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_strings_numbers.py) -->
 <!-- The below code snippet is automatically added from map_strings_numbers.py -->
 
 ```py
+# Python 3
 
+my_strings = ["a", "b", "c", "d", "e"]
+my_numbers = [1, 2, 3, 4, 5]
+
+results = list(map(lambda x, y: (x, y), my_strings, my_numbers))
+
+print(results)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -249,6 +245,7 @@ print(results)
 
 ```console
 + python map_strings_numbers.py
+[('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5)]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
