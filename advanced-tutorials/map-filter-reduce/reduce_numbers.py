@@ -1,3 +1,6 @@
+# Let's create our own version of Python's built-in sum() function.
+# The sum() function returns the sum of all the items in the iterable passed to it.
+
 # Python 3
 from functools import reduce
 
