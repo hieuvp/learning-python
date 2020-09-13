@@ -10,7 +10,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [`map()`](#map)
-  - [`zip()`](#zip)
+- [`zip()`](#zip)
 - [`filter()`](#filter)
 - [`reduce()`](#reduce)
 - [Exercise](#exercise)
@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1090fb0a0>
+map_pets       = <map object at 0x1023eb0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -186,7 +186,7 @@ print(result)
 The same thing happens if `circle_areas` is less than the length of the second iterable.
 Python simply stops when it can't find the next element in one of the iterables.
 
-### `zip()`
+## `zip()`
 
 To consolidate our knowledge of the `map()` function,
 we are going to use it to implement our own custom `zip()` function.
