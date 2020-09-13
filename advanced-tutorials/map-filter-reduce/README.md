@@ -2,7 +2,7 @@
 
 > **Map**, **Filter**, and **Reduce** are paradigms of **functional programming**.
 > <br />They allow the programmer to write simpler, shorter code,
-> without necessarily needing to bother about intricacies like loops and branching.
+> <br />without necessarily needing to bother about intricacies like loops and branching.
 
 ## Table of Contents
 
@@ -18,9 +18,8 @@
 
 ## Map
 
-The `map()` function in Python has the following syntax:
-
 ```python
+# Syntax
 map(func, *iterables)
 ```
 
@@ -30,12 +29,14 @@ Notice the asterisk(`*`) on iterables? It means there can be as many iterables a
 in so far func has that exact number as required input arguments.
 Before we move on to an example, it's important that you note the following:
 
-1. In Python 3, however, the function returns a map object which is a generator object.
+1. In Python 3, the function returns a map object which is a generator object.
    To get the result as a list, the built-in `list()` function can be called on the map object.
    i.e. `list(map(func, *iterables))`
-1. The number of arguments to func must be the number of `iterables` listed.
+1. The number of arguments to `func` must be the number of `iterables` listed.
 
-Let's see how these rules play out with the following examples.
+<br />
+
+Let's see how these rules play out with the following examples:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.py) -->
 <!-- The below code snippet is automatically added from map_pets.py -->
@@ -74,7 +75,7 @@ print(list(map(str.upper, PETS)))
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 Which would also output the same result.
-Note that using the defined map() syntax above,
+Note that using the defined `map()` syntax above,
 func in this case is str.upper and iterables is the my_pets list -- just one iterable.
 Also note that we did not call the str.upper function (doing this: str.upper()),
 as the map function does that for us on each element in the my_pets list.
