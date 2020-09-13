@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10f4e60a0>
+map_pets       = <map object at 0x10987c0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -155,7 +155,7 @@ but since range(1,3) does not have a third element,
 Python simply stops and returns the result,
 which in this case would simply be `[3.6, 5.58]`.
 
-Go ahead, try it.
+Go ahead, try it:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_inequable_iterables.py) -->
 <!-- The below code snippet is automatically added from map_inequable_iterables.py -->
@@ -182,16 +182,18 @@ print(result)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-The same thing happens if circle_areas is less than the length of the second iterable.
+The same thing happens if `circle_areas` is less than the length of the second iterable.
 Python simply stops when it can't find the next element in one of the iterables.
 
-To consolidate our knowledge of the map() function,
-we are going to use it to implement our own custom zip() function.
+<br />
+
+To consolidate our knowledge of the `map()` function,
+we are going to use it to implement our own custom `zip()` function.
 The `zip()` function is a function that takes a number of iterables
 and then creates a tuple containing each of the elements in the iterables.
-Like map(), in Python 3, it returns a generator object,
+Like `map()`, in Python 3, it returns a generator object,
 which can be easily converted to a list by calling the built-in list function on it.
-Use the below interpreter session to get a grip of zip() before we create ours with map()
+Use the below interpreter session to get a grip of `zip()` before we create ours with `map()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=zip_strings_numbers.py) -->
 <!-- The below code snippet is automatically added from zip_strings_numbers.py -->
@@ -224,7 +226,7 @@ can you guess what would happen in the above session
 if my_strings and my_numbers are not of the same length?
 No? try it! Change the length of one of them.
 
-Onto our own custom zip() function!
+Onto our own custom `zip()` function!
 
 ```python
 # Python 3
