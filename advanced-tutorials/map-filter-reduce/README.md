@@ -77,17 +77,11 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1011a50a0>
+map_pets       = <map object at 0x1037c20a0>
 type(map_pets) = <class 'map'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Which would also output the same result.
-Note that using the defined `map()` syntax above,
-func in this case is str.upper and iterables is the my_pets list -- just one iterable.
-Also note that we did not call the str.upper function (doing this: str.upper()),
-as the map function does that for us on each element in the my_pets list.
 
 What's more important to note is that the str.upper function requires only one argument by definition
 and so we passed just one iterable to it.
