@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x106fdb0a0>
+map_pets       = <map object at 0x10a3570a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -90,11 +90,7 @@ and so we passed just **one iterable** to it.
 <br />
 
 So, if the function you're passing requires **two**, or **three**, or **n arguments**,
-then you need to pass in **two**, **three** or **n iterables** to it.
-
-Python already blesses us with the `round()` built-in function that takes two arguments --
-the number to round up and the number of decimal places to round the number up to.
-So, since the function requires two arguments, we need to pass in two iterables.
+then you need to pass in **two**, **three** or **n iterables** to it:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_circle_areas.py) -->
 <!-- The below code snippet is automatically added from map_circle_areas.py -->
@@ -105,7 +101,7 @@ So, since the function requires two arguments, we need to pass in two iterables.
 circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
 
 # We need to round each element in the list up to its position decimal places, meaning that:
-# we have to round up the first element in the list to one decimal place,
+# round up the first element in the list to one decimal place,
 # the second element in the list to two decimal places,
 # the third element in the list to three decimal places, etc...
 print(list(map(round, circle_areas, range(1, 7))))
@@ -122,6 +118,10 @@ print(list(map(round, circle_areas, range(1, 7))))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+Python already blesses us with the `round()` built-in function that takes two arguments --
+the number to round up and the number of decimal places to round the number up to.
+So, since the function requires two arguments, we need to pass in two iterables.
 
 See the beauty of `map()`? Can you imagine the flexibility this evokes?
 
