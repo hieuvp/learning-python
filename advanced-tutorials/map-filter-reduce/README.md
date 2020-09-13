@@ -1,5 +1,9 @@
 # Map, Filter, Reduce
 
+> **Map**, **Filter**, and **Reduce** are paradigms of **functional programming**.
+> They allow the programmer to write simpler, shorter code,
+> without necessarily needing to bother about intricacies like loops and branching.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -11,10 +15,6 @@
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-Map, Filter, and Reduce are paradigms of functional programming.
-They allow the programmer (you) to write simpler, shorter code,
-without necessarily needing to bother about intricacies like loops and branching.
 
 Essentially,
 these three functions allow you to apply a function across a number of iterables,
