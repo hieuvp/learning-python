@@ -37,14 +37,14 @@ Before we move on to an example, it's important that you note the following:
 
 Let's see how these rules play out with the following examples.
 
-Say I have a list (`iterable`) of my favourite pet names,
-all in lower case and I need them in uppercase.
-Traditionally, in normal Pythoning, I would do something like this:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_pets.py) -->
 <!-- The below code snippet is automatically added from map_pets.py -->
 
 ```py
+# Say I have a list (`iterable`) of my favourite pet names,
+# all in lower case and I need them in uppercase.
+# Traditionally, in normal Pythoning, I would do something like this:
+
 pets = ["alfred", "tabitha", "william", "arla"]
 upper_pets = []
 

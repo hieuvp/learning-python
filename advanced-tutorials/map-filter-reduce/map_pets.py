@@ -1,3 +1,7 @@
+# Say I have a list (`iterable`) of my favourite pet names,
+# all in lower case and I need them in uppercase.
+# Traditionally, in normal Pythoning, I would do something like this:
+
 pets = ["alfred", "tabitha", "william", "arla"]
 upper_pets = []
 
