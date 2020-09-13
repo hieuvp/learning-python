@@ -24,15 +24,14 @@ The `map()` function in Python has the following syntax:
 map(func, *iterables)
 ```
 
-Where func is the function on which
+Where `func` is the function on which
 each element in iterables (as many as they are) would be applied on.
 Notice the asterisk(`*`) on iterables? It means there can be as many iterables as possible,
 in so far func has that exact number as required input arguments.
 Before we move on to an example, it's important that you note the following:
 
-1. In Python 2, the map() function retuns a list.
-   In Python 3, however, the function returns a map object which is a generator object.
-   To get the result as a list, the built-in list() function can be called on the map object.
+1. In Python 3, however, the function returns a map object which is a generator object.
+   To get the result as a list, the built-in `list()` function can be called on the map object.
    i.e. `list(map(func, *iterables))`
 1. The number of arguments to func must be the number of `iterables` listed.
 
