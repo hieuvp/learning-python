@@ -77,14 +77,16 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1037c20a0>
+map_pets       = <map object at 0x109abd0a0>
 type(map_pets) = <class 'map'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-What's more important to note is that the str.upper function requires only one argument by definition
-and so we passed just one iterable to it.
+What is more important to note is that the `str.upper` function
+requires only **one argument** by definition,
+and so we passed just **one iterable** to it.
+
 So, if the function you're passing requires two, or three, or n arguments,
 then you need to pass in two, three or n iterables to it.
 Let me clarify this with another example.
