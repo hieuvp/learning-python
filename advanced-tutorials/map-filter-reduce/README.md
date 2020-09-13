@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x103c7c0a0>
+map_pets       = <map object at 0x10f4e60a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -132,6 +132,8 @@ So, since the function requires **two arguments**, we need to pass in **two iter
    is passed to round making it translate to `round(5.57668, 2)`.
 1. This happens until the end of the `circle_areas` list is reached.
 
+<br />
+
 I'm sure you're wondering:
 "What if I pass in an iterable less than or more than the length of the first iterable?
 That is, what if I pass range(1,3) or range(1, 9999) as the second iterable in the above function".
@@ -155,15 +157,30 @@ which in this case would simply be `[3.6, 5.58]`.
 
 Go ahead, try it.
 
-```python
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_inequable_iterables.py) -->
+<!-- The below code snippet is automatically added from map_inequable_iterables.py -->
+
+```py
 # Python 3
 
 circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
 
-result = list(map(round, circle_areas, range(1,3)))
+result = list(map(round, circle_areas, range(1, 3)))
 
 print(result)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_inequable_iterables.console) -->
+<!-- The below code snippet is automatically added from map_inequable_iterables.console -->
+
+```console
++ python map_inequable_iterables.py
+[3.6, 5.58]
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The same thing happens if circle_areas is less than the length of the second iterable.
 Python simply stops when it can't find the next element in one of the iterables.
