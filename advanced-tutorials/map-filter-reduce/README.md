@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10f7060a0>
+map_pets       = <map object at 0x10a5000a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -311,7 +311,7 @@ print(list(filter(is_a_student, scores)))
 
 <br />
 
-The next example will be a palindrome detector.
+The next example will be a **palindrome detector**.<br />
 A **palindrome** is a word, phrase, or sequence that reads the same backwards as forwards.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
