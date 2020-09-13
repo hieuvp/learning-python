@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x105afe0a0>
+map_pets       = <map object at 0x10f7060a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -312,16 +312,16 @@ print(list(filter(is_a_student, scores)))
 <br />
 
 The next example will be a palindrome detector.
-A "palindrome" is a word, phrase, or sequence that reads the same backwards as forwards.
-Let's filter out words that are palindromes from a tuple (iterable) of suspected palindromes.
+A **palindrome** is a word, phrase, or sequence that reads the same backwards as forwards.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
 <!-- The below code snippet is automatically added from filter_dromes.py -->
 
 ```py
-# Python 3
 dromes = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
 
+# Filter out words that are palindromes
+# from a tuple (iterable) of suspected palindromes
 palindromes = list(filter(lambda word: word == word[::-1], dromes))
 
 print(palindromes)
@@ -338,10 +338,6 @@ print(palindromes)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Which should output `['madam', 'anutforajaroftuna']`.
-
-Pretty neat huh? Finally, `reduce()`
 
 ## `reduce()`
 
