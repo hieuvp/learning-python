@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x107d2a0a0>
+map_pets       = <map object at 0x103c7c0a0>
 type(map_pets) = <class 'map'>
 ```
 
