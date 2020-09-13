@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10d21e0a0>
+map_pets       = <map object at 0x104f5f0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -341,26 +341,23 @@ print(palindromes)
 
 ## `reduce()`
 
-reduce applies a function of two arguments cumulatively to the elements of an iterable,
-optionally starting with an initial argument.
-
 ```python
 # Syntax
 reduce(func, iterable[, initial])
 ```
 
-Where `func` is the function on which each element in the iterable gets cumulatively applied to,
-and initial is the optional value that gets placed before the elements of the iterable in the calculation,
-and serves as a default when the iterable is empty.
+Where `func` is the function on which each element in the `iterable` gets cumulatively applied to,
+and `initial` is the optional value that gets placed
+before the elements of the `iterable` in the calculation,
+and serves as a default when the `iterable` is empty.
 The following should be noted about `reduce()`:
 
-1. `func` requires two arguments, the first of which
-   is the first element in iterable (if initial is not supplied)
-   and the second the second element in iterable.
-   If initial is supplied,
-   then it becomes the first argument to func
-   and the first element in iterable becomes the second element.
-1. `reduce` "reduces" (I know, forgive me) iterable into a single value.
+1. `func` requires two arguments,
+   the first of which is the first element in `iterable` (if `initial` is not supplied)
+   and the second is the second element in `iterable`.
+   If `initial` is supplied, then it becomes the first argument to `func`
+   and the first element in `iterable` becomes the second element.
+1. `reduce` **reduces** `iterable` into a single value.
 
 <br />
 
