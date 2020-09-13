@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x101aed0a0>
+map_pets       = <map object at 0x107d2a0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -123,15 +123,14 @@ So, since the function requires **two arguments**, we need to pass in **two iter
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-- So as **map** iterates through `circle_areas`, during the first iteration,
-  the first element of `circle_areas, 3.56773` is passed
-  along with the first element of `range(1,7), 1` to `round`,
-  making it effectively become `round(3.56773, 1)`.
-
-- During the second iteration, the second element of `circle_areas, 5.57668`
-  along with the second element of `range(1,7), 2`
-  is passed to round making it translate to `round(5.57668, 2)`.
-  This happens until the end of the `circle_areas` list is reached.
+1. So as **map** iterates through `circle_areas`, during the first iteration,
+   the first element of `circle_areas, 3.56773` is passed
+   along with the first element of `range(1,7), 1` to `round`,
+   making it effectively become `round(3.56773, 1)`.
+1. During the second iteration, the second element of `circle_areas, 5.57668`
+   along with the second element of `range(1,7), 2`
+   is passed to round making it translate to `round(5.57668, 2)`.
+1. This happens until the end of the `circle_areas` list is reached.
 
 I'm sure you're wondering:
 "What if I pass in an iterable less than or more than the length of the first iterable?
