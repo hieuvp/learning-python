@@ -77,7 +77,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10a3570a0>
+map_pets       = <map object at 0x104d3e0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -109,6 +109,10 @@ print(list(map(round, circle_areas, range(1, 7))))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+Python already blesses us with the `round()` built-in function that takes **two arguments**,
+the number to round up and the number of decimal places to round the number up to.
+So, since the function requires **two arguments**, we need to pass in **two iterables**.
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=map_circle_areas.console) -->
 <!-- The below code snippet is automatically added from map_circle_areas.console -->
 
@@ -118,12 +122,6 @@ print(list(map(round, circle_areas, range(1, 7))))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-Python already blesses us with the `round()` built-in function that takes two arguments --
-the number to round up and the number of decimal places to round the number up to.
-So, since the function requires two arguments, we need to pass in two iterables.
-
-See the beauty of `map()`? Can you imagine the flexibility this evokes?
 
 The `range(1,7)` function acts as the second argument
 to the `round` function (the number of required decimal places per iteration).
