@@ -41,29 +41,23 @@ Let's see how these rules play out with the following examples.
 <!-- The below code snippet is automatically added from map_pets.py -->
 
 ```py
-# Say I have a list (`iterable`) of my favourite pet names,
-# all in lower case and I need them in uppercase.
-# Traditionally, in normal Pythoning, I would do something like this:
+# Say, we have an iterable list of our favourite pet names, all in lowercase
+PETS = ["alfred", "tabitha", "william", "arla"]
 
-pets = ["alfred", "tabitha", "william", "arla"]
+# We need them in uppercase
 upper_pets = []
 
-for pet in pets:
+# Traditionally, in normal Pythoning
+for pet in PETS:
     upper_pet = pet.upper()
     upper_pets.append(upper_pet)
 
 print(upper_pets)
 
-# Which would then output `['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']`
 
-# With "map()" functions, it's not only easier, but it's also much more flexible
-# I simply do this:
-
-pets = ["alfred", "tabitha", "william", "arla"]
-
-upper_pets = list(map(str.upper, pets))
-
-print(upper_pets)
+# With "map()",
+# it's not only easier, but it's also much more flexible
+print(list(map(str.upper, PETS)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
