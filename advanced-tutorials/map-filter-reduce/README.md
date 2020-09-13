@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1059380a0>
+map_pets       = <map object at 0x105afe0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -277,18 +277,19 @@ The following points are to be noted regarding `filter()`:
 1. `filter()` passes each element in the iterable through `func`
    and returns only the ones that evaluate to `True`.
 
+<br />
+
 Let's see some examples:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_scores.py) -->
 <!-- The below code snippet is automatically added from filter_scores.py -->
 
 ```py
-# The following is a list (iterable) of the scores of 10 students in a Chemistry exam.
-# Let's filter out those who passed with scores more than 75...using filter.
-
+# The following is a list (iterable) of the scores of 10 students in a Chemistry exam
 scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
 
+# Find out those who passed with scores more than 75
 def is_a_student(score):
     return score > 75
 
@@ -307,6 +308,8 @@ print(list(filter(is_a_student, scores)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
 
 The next example will be a palindrome detector.
 A "palindrome" is a word, phrase, or sequence that reads the same backwards as forwards.
