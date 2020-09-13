@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1017b10a0>
+map_pets       = <map object at 0x10a2200a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -262,11 +262,10 @@ I simply preferred to write less code (be "Pythonic").
 
 ## `filter()`
 
-While `map()` passes each element in the iterable through a function
-and returns the result of all elements having passed through the function,
-`filter()`, first of all, requires the function to return boolean values (true or false)
+`filter()`, first of all, requires the function to return boolean values (`True` or `False`)
 and then passes each element in the iterable through the function,
-"filtering" away those that are false. It has the following syntax:
+**filtering** away those that are `False`.
+It has the following syntax:
 
 ```python
 # Syntax
@@ -279,9 +278,10 @@ The following points are to be noted regarding `filter()`:
 1. The func argument is required to return a boolean type.
    If it doesn't, filter simply returns the iterable passed to it.
    Also, as only one iterable is required,
-   it's implicit that func must only take one argument.
-1. filter passes each element in the iterable through func
-   and returns only the ones that evaluate to true. I mean, it's right there in the name -- a "filter".
+   it's implicit that `func` must only take one argument.
+1. filter passes each element in the iterable through `func`
+   and returns only the ones that evaluate to true.
+   I mean, it's right there in the name -- a "filter".
 
 Let's see some examples
 
