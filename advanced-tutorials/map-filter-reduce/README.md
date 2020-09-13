@@ -9,14 +9,15 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Map](#map)
-- [Filter](#filter)
-- [Reduce](#reduce)
+- [`map()`](#map)
+  - [`zip()`](#zip)
+- [`filter()`](#filter)
+- [`reduce()`](#reduce)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Map
+## `map()`
 
 ```python
 # Syntax
@@ -77,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10263a0a0>
+map_pets       = <map object at 0x1090fb0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -185,7 +186,7 @@ print(result)
 The same thing happens if `circle_areas` is less than the length of the second iterable.
 Python simply stops when it can't find the next element in one of the iterables.
 
-<br />
+### `zip()`
 
 To consolidate our knowledge of the `map()` function,
 we are going to use it to implement our own custom `zip()` function.
@@ -259,9 +260,7 @@ This is not to say that using the standard function definition method
 (of def function_name()) isn't allowed, it still is.
 I simply preferred to write less code (be "Pythonic").
 
-That's all about map. Onto filter()
-
-## Filter
+## `filter()`
 
 While map() passes each element in the iterable through a function
 and returns the result of all elements having passed through the function,
@@ -270,6 +269,7 @@ and then passes each element in the iterable through the function,
 "filtering" away those that are false. It has the following syntax:
 
 ```python
+# Syntax
 filter(func, iterable)
 ```
 
@@ -349,13 +349,14 @@ Which should output `['madam', 'anutforajaroftuna']`.
 
 Pretty neat huh? Finally, `reduce()`
 
-## Reduce
+## `reduce()`
 
 reduce applies a function of two arguments cumulatively to the elements of an iterable,
 optionally starting with an initial argument.
 It has the following syntax:
 
 ```python
+# Syntax
 reduce(func, iterable[, initial])
 ```
 
