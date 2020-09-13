@@ -1,7 +1,7 @@
 # Map, Filter, Reduce
 
 > **Map**, **Filter**, and **Reduce** are paradigms of **functional programming**.
-> They allow the programmer to write simpler, shorter code,
+> <br />They allow the programmer to write simpler, shorter code,
 > without necessarily needing to bother about intricacies like loops and branching.
 
 ## Table of Contents
@@ -15,13 +15,6 @@
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-Essentially,
-these three functions allow you to apply a function across a number of iterables,
-in one full swoop.
-`map` and `filter` come built-in with Python (in the `__builtins__` module) and require no importing.
-`reduce`, however, needs to be imported as it resides in the functools module.
-Let's get a better understanding of how they all work, starting with map.
 
 ## Map
 
