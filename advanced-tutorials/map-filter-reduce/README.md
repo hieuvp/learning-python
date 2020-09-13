@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10a2200a0>
+map_pets       = <map object at 0x1059380a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -262,11 +262,6 @@ I simply preferred to write less code (be "Pythonic").
 
 ## `filter()`
 
-`filter()`, first of all, requires the function to return boolean values (`True` or `False`)
-and then passes each element in the iterable through the function,
-**filtering** away those that are `False`.
-It has the following syntax:
-
 ```python
 # Syntax
 filter(func, iterable)
@@ -274,25 +269,23 @@ filter(func, iterable)
 
 The following points are to be noted regarding `filter()`:
 
-1. Unlike `map()`, only one iterable is required.
-1. The func argument is required to return a boolean type.
+1. Unlike `map()`, only **one iterable** is required.
+1. The `func` argument is required to return a **boolean type**.
    If it doesn't, filter simply returns the iterable passed to it.
    Also, as only one iterable is required,
-   it's implicit that `func` must only take one argument.
-1. filter passes each element in the iterable through `func`
-   and returns only the ones that evaluate to true.
-   I mean, it's right there in the name -- a "filter".
+   it is implicit that `func` must only take one argument.
+1. `filter()` passes each element in the iterable through `func`
+   and returns only the ones that evaluate to `True`.
 
-Let's see some examples
-
-The following is a list (iterable) of the scores of 10 students in a Chemistry exam.
-Let's filter out those who passed with scores more than 75...using filter.
+Let's see some examples:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_scores.py) -->
 <!-- The below code snippet is automatically added from filter_scores.py -->
 
 ```py
-# Python 3
+# The following is a list (iterable) of the scores of 10 students in a Chemistry exam.
+# Let's filter out those who passed with scores more than 75...using filter.
+
 scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
 
@@ -300,9 +293,7 @@ def is_a_student(score):
     return score > 75
 
 
-over_75 = list(filter(is_a_student, scores))
-
-print(over_75)
+print(list(filter(is_a_student, scores)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
