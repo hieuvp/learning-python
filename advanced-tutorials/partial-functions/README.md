@@ -15,6 +15,8 @@
 > **Partial Functions** allow one to derive a function with x parameters
 > to a function with fewer parameters and fixed values set for the more limited function.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
 
@@ -45,13 +47,14 @@ double(4) = 8
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-An important note: the default values will start replacing variables from the left.
-The 2 will replace x. y will equal 4 when dbl(4) is called.
-It does not make a difference in this example, but it does in the example below.
+The default values will start replacing variables from the left:
+
+- The `2` will replace `x`.
+- `y` will equal `4` when `double(4)` is called.
 
 ## Exercise
 
-Edit the function provided by calling partial() and replacing the first three variables in func().
+Edit the function provided by calling `partial()` and replacing the first three variables in `func()`.
 Then print with the new partial function
 using only one input variable so that the output equals 60.
 
