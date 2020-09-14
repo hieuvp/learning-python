@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x1056dc0a0>
+map_pets       = <map object at 0x103c190a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -409,15 +409,14 @@ Let's see what happens when I use the optional initial value.
 ```py
 from functools import reduce
 
-numbers = [3, 4, 6, 9, 34, 12]
-
 
 def custom_sum(first, second):
     return first + second
 
 
-result = reduce(custom_sum, numbers, 10)
-print(result)
+numbers = [3, 4, 6, 10]
+
+print(reduce(custom_sum, numbers, 10))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -427,7 +426,7 @@ print(result)
 
 ```console
 + python reduce_with_initial.py
-78
+33
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
