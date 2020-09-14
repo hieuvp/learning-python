@@ -54,23 +54,21 @@ The default values will start replacing variables from the left:
 
 ## Exercise
 
-Edit the function provided by calling `partial()` and replacing the first three variables in `func()`.
-Then print with the new partial function
-using only one input variable so that the output equals 60.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Following is the exercise, function provided:
-# from functools import partial
+from functools import partial
 
 
+# Edit this "func()" function by calling "partial()"
+# and replacing the first three variables
 def func(u, v, w, x):
     return u * 4 + v * 3 + w * 2 + x
 
 
-# Enter your code here to create and print with your partial function
+# Then print with the new partial function
+# using only one input variable so that the output equals 60
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
