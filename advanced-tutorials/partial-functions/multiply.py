@@ -1,3 +1,4 @@
+# Create partial functions by using the partial function from the "functools" library
 from functools import partial
 
 
