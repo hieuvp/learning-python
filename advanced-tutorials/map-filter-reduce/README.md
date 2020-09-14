@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x103c190a0>
+map_pets       = <map object at 0x10f8a30a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -416,6 +416,7 @@ def custom_sum(first, second):
 
 numbers = [3, 4, 6, 10]
 
+# Initially, uses "10" as the first argument to "custom_sum"
 print(reduce(custom_sum, numbers, 10))
 ```
 
@@ -431,15 +432,7 @@ print(reduce(custom_sum, numbers, 10))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-The result, as you'll expect, is 78 because reduce,
-initially, uses 10 as the first argument to custom_sum.
-
-That's all about Python's Map, Reduce, and Filter.
-Try on the below exercises to help ascertain your understanding of each function.
-
 ## Exercise
-
-In this exercise, you'll use each of map, filter, and reduce to fix broken code.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
