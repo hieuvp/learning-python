@@ -12,8 +12,9 @@
 
 ## Concepts
 
-> **Partial Functions** allow one to derive a function with x parameters
-> to a function with fewer parameters and fixed values set for the more limited function.
+> **Partial Functions** allow one to derive
+> **a function with x parameters** to **a function with fewer parameters**
+> and fixed values set for the more limited function.
 
 <br />
 
