@@ -32,12 +32,16 @@ filter-dromes:
 reduce-numbers:
 	./reduce_numbers.sh &> ./reduce_numbers.console
 
+.PHONY: reduce-with-initial
+reduce-with-initial:
+	./reduce_with_initial.sh &> ./reduce_with_initial.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes reduce-numbers exercise
+all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes reduce-numbers reduce-with-initial exercise
 
 .PHONY: git-add
 git-add: all

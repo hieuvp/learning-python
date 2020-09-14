@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x104f5f0a0>
+map_pets       = <map object at 0x10cc7b0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -415,6 +415,24 @@ def custom_sum(first, second):
 result = reduce(custom_sum, numbers, 10)
 print(result)
 ```
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_with_initial.py) -->
+<!-- The below code snippet is automatically added from reduce_with_initial.py -->
+
+```py
+
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_with_initial.console) -->
+<!-- The below code snippet is automatically added from reduce_with_initial.console -->
+
+```console
++ python reduce_with_initial.py
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 The result, as you'll expect, is 78 because reduce,
 initially, uses 10 as the first argument to custom_sum.
