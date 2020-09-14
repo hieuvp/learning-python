@@ -1,4 +1,5 @@
-# Create partial functions by using the partial function from the "functools" library
+# Create partial functions
+# by using the "partial" function from the "functools" library
 from functools import partial
 
 
@@ -7,5 +8,5 @@ def multiply(x, y):
 
 
 # Create a new function that multiplies by 2
-dbl = partial(multiply, 2)
-print(dbl(4))
+double = partial(multiply, 2)
+print("double(4) = %s" % double(4))
