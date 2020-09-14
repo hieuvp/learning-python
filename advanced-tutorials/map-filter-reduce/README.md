@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10f8a30a0>
+map_pets       = <map object at 0x10c9580a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -434,22 +434,31 @@ print(reduce(custom_sum, numbers, 10))
 
 ## Exercise
 
+- **product** (mathematics)
+  - a quantity obtained by multiplying one number by another
+  - tích số
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# from functools import reduce
+from functools import reduce
 
-# Use map to print the square of each numbers rounded
-# to two decimal places
+# Print the square of each numbers rounded to two decimal places
 my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+print("my_floats = %s" % my_floats)
+print(list(map(lambda number: round(number ** 2, 2), my_floats)))
 
-# Use filter to print only the names that are less than
-# or equal to seven letters
+
+# Print only the names that are less than or equal to seven letters
 my_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
+print("my_names = %s" % my_names)
+print(list(filter(lambda name: len(name) <= 7, my_names)))
+
 
 # Use reduce to print the product of these numbers
 my_numbers = [4, 6, 9, 23, 5]
+print("my_numbers = %s" % my_numbers)
 
 # Fix all three respectively.
 # map_result = list(map(lambda x: x, my_floats))
@@ -468,6 +477,11 @@ my_numbers = [4, 6, 9, 23, 5]
 
 ```console
 + python exercise.py
+my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+[18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
+my_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
+['olumide', 'josiah', 'omoseun']
+my_numbers = [4, 6, 9, 23, 5]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

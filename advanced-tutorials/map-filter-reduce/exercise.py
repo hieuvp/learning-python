@@ -1,15 +1,20 @@
-# from functools import reduce
+from functools import reduce
 
-# Use map to print the square of each numbers rounded
-# to two decimal places
+# Print the square of each numbers rounded to two decimal places
 my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+print("my_floats = %s" % my_floats)
+print(list(map(lambda number: round(number ** 2, 2), my_floats)))
 
-# Use filter to print only the names that are less than
-# or equal to seven letters
+
+# Print only the names that are less than or equal to seven letters
 my_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
+print("my_names = %s" % my_names)
+print(list(filter(lambda name: len(name) <= 7, my_names)))
+
 
 # Use reduce to print the product of these numbers
 my_numbers = [4, 6, 9, 23, 5]
+print("my_numbers = %s" % my_numbers)
 
 # Fix all three respectively.
 # map_result = list(map(lambda x: x, my_floats))
