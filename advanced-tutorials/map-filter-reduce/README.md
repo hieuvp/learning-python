@@ -78,7 +78,7 @@ print("type(map_pets) = %s" % type(map_pets))
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
-map_pets       = <map object at 0x10cc7b0a0>
+map_pets       = <map object at 0x1056dc0a0>
 type(map_pets) = <class 'map'>
 ```
 
@@ -403,24 +403,21 @@ It does this continuously (cumulatively) until numbers is exhausted.
 
 Let's see what happens when I use the optional initial value.
 
-```python
-# Python 3
-from functools import reduce
-
-numbers = [3, 4, 6, 9, 34, 12]
-
-def custom_sum(first, second):
-    return first + second
-
-result = reduce(custom_sum, numbers, 10)
-print(result)
-```
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_with_initial.py) -->
 <!-- The below code snippet is automatically added from reduce_with_initial.py -->
 
 ```py
+from functools import reduce
 
+numbers = [3, 4, 6, 9, 34, 12]
+
+
+def custom_sum(first, second):
+    return first + second
+
+
+result = reduce(custom_sum, numbers, 10)
+print(result)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -430,6 +427,7 @@ print(result)
 
 ```console
 + python reduce_with_initial.py
+78
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
