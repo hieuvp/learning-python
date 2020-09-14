@@ -22,8 +22,8 @@
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
-# Create partial functions
-# by using the "partial" function from the "functools" library
+# Create Partial Functions
+# by using "partial" function from "functools" library
 from functools import partial
 
 

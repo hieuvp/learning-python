@@ -1,5 +1,5 @@
-# Create partial functions
-# by using the "partial" function from the "functools" library
+# Create Partial Functions
+# by using "partial" function from "functools" library
 from functools import partial
 
 
