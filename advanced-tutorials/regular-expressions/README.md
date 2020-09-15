@@ -12,9 +12,9 @@
 
 ## Concepts
 
-Regular Expressions (sometimes shortened to `regexp`, `regex`, or `re`)
-are a tool for matching patterns in text.
-In Python, we have the `re` module.
+> **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
+> are a tool for matching patterns in text.
+
 The applications for regular expressions are wide-spread,
 but they are fairly complex,
 so when contemplating using a regex for a certain task,
