@@ -10,18 +10,18 @@ print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
 print(re.search(pattern, "Nada...:-("))
 
 
-def test_email(your_pattern):
-    pattern = re.compile(your_pattern)
-    emails = ["john@example.com", "python-list@python.org", "wha.t.`1an?ug{}ly@email.com"]
-    for email in emails:
-        if not re.match(pattern, email):
-            print("You failed to match %s" % email)
-        elif not your_pattern:
-            print("Forgot to enter a pattern!")
-        else:
-            print("Pass")
+# Compiling a regular expression pattern that will match an email
+REGEX_PATTERN = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
 
 
-# Making a regular expression that will match an email
-pattern = r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$"
-test_email(pattern)
+# Define a function for validating an email
+def check(email):
+    if not re.match(REGEX_PATTERN, email):
+        print("You failed to match %s" % email)
+    else:
+        print("Pass")
+
+
+check("john@example.com")
+check("python-list@python.org")
+check("wha.t.`1an?ug{}ly@email.com")
