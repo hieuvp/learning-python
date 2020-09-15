@@ -22,24 +22,19 @@ An example regex is `r"^(From|To|Cc).*?python-list@python.org"`.
 ### Explanation
 
 - The caret **`^`** matches text at the beginning of a line.
-- The following group **`(From|To|Cc)`** means that,
-  the line has to start with one of the words that are separated by the pipe **`|`**.
-  That is called the **OR** operator,
-  and the regex will match if the line starts with any of the words in the group.
+- The following group **`(From|To|Cc)`** means that:
+  - The line has to start with one of the words that are separated by the pipe **`|`**.
+  - That is called the **OR** operator,
+    and the regex will match if the line starts with any of the words in the group.
 - The **`.*?`** means to un-greedily match any number of characters,
   except the newline **`\n`** character.
   The un-greedy part means to match as few repetitions as possible.
-  The **`.`** character means any non-newline character,
-  the **`*`** means to repeat 0 or more times,
-  and the **`?`** character makes it un-greedy.
+  - The **`.`** character means any non-newline character.
+  - The **`*`** means to repeat 0 or more times.
+  - The **`?`** character makes it un-greedy.
 
 So, the following lines would be matched by that regex:
 `From: python-list@python.org To: !asp]<,. python-list@python.org`
-
-<br />
-
-As an example of a "proper" email-matching regex (like the one in the exercise), see this
-<http://www.ex-parrot.com/pdw/Mail-RFC822-Address.html>
 
 ## Exercise
 
@@ -95,3 +90,4 @@ Forgot to enter a pattern!
 ## References
 
 - [`re` - Regular Expression Operations](https://docs.python.org/library/re.html)
+- [Mail::RFC822::Address: regexp-based address validation](https://www.ex-parrot.com/pdw/Mail-RFC822-Address.html)
