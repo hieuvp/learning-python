@@ -20,10 +20,11 @@
 There are two basic formats for JSON data.
 Either in a string or the object data structure.
 
-- The object data structure, in Python, consists of lists and dictionaries nested inside each other.
-  The object data structure allows one to use Python methods (for lists and dictionaries)
+- The **object data structure**, consists of lists and dictionaries nested inside each other.
+  <br />The **object data structure** allows one to use Python methods (for lists and dictionaries)
   to add, list, search and remove elements from the data structure.
-- The String format is mainly used to pass the data into another program or load into a data structure.
+- The **string** format is mainly used to pass the data into another program
+  or load into a data structure.
 
 <br />
 
