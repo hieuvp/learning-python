@@ -15,16 +15,6 @@
 
 > Python provides built-in JSON libraries to encode and decode JSON.
 
-There are two basic formats for JSON data.
-Either in a string or the object datastructure.
-The object datastructure, in Python, consists of lists and dictionaries nested inside each other.
-The object datastructure allows one to use python methods (for lists and dictionaries)
-to add, list, search and remove elements from the datastructure.
-The String format is mainly used to pass the data into another program or load into a datastructure.
-
-To load JSON back to a data structure, use the "loads" method.
-This method takes a string and turns it back into the json object datastructure:
-
 ```python
 # In order to use the json module, it must first be imported
 import json
@@ -32,7 +22,19 @@ import json
 print(json.loads(json_string))
 ```
 
-To encode a data structure to JSON, use the "dumps" method.
+There are two basic formats for JSON data.
+Either in a string or the object datastructure.
+The object datastructure, in Python, consists of lists and dictionaries nested inside each other.
+The object datastructure allows one to use Python methods (for lists and dictionaries)
+to add, list, search and remove elements from the datastructure.
+The String format is mainly used to pass the data into another program or load into a datastructure.
+
+To load JSON back to a data structure, use the `loads` method.
+This method takes a string and turns it back into the json object datastructure:
+
+<br />
+
+To encode a data structure to JSON, use the `dumps` method.
 This method takes an object and returns a String:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=json_dumps.py) -->
@@ -59,8 +61,8 @@ print(json_string)
 
 ## `import pickle`
 
-Python supports a Python proprietary data serialization method called pickle
-(and a faster alternative called cPickle).
+Python supports a Python proprietary data serialization method called `pickle`
+(and a faster alternative called `cPickle`).
 
 You can use it exactly the same way.
 
@@ -89,7 +91,7 @@ print(pickle.loads(pickled_string))
 ## Exercise
 
 The aim of this exercise is
-to print out the JSON string with key-value pair "Me" : 800 added to it.
+to print out the JSON string with key-value pair `"Me" : 800` added to it.
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
