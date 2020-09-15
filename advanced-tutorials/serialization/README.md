@@ -15,13 +15,6 @@
 
 > Python provides built-in JSON libraries to encode and decode JSON.
 
-```python
-# In order to use the json module, it must first be imported
-import json
-
-print(json.loads(json_string))
-```
-
 <br />
 
 There are two basic formats for JSON data.
@@ -38,6 +31,7 @@ Either in a string or the object data structure.
 <!-- The below code snippet is automatically added from json_dumps.py -->
 
 ```py
+# In order to use the json module, it must first be imported
 import json
 
 # To encode a data structure to JSON, use the "dumps()" method
@@ -77,8 +71,6 @@ type(json_dict) = <class 'dict'>
 > (and a faster alternative called `cPickle`).
 
 <br />
-
-You can use it exactly the same way:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=pickle_dumps.py) -->
 <!-- The below code snippet is automatically added from pickle_dumps.py -->

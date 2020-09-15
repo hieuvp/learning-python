@@ -1,3 +1,4 @@
+# In order to use the json module, it must first be imported
 import json
 
 # To encode a data structure to JSON, use the "dumps()" method
