@@ -1,7 +1,9 @@
 # Regular Expressions
 
-> **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
+> **Regular Expressions** (sometimes shortened to **`regexp`**, **`regex`**, or **`re`**)
 > are a tool for matching patterns in text.
+
+<br />
 
 ## Table of Contents
 
