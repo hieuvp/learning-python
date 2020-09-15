@@ -3,12 +3,13 @@ import re
 # Slight optimization
 pattern = re.compile(r"\[(on|off)\]")
 
-# Returns a Match object!
+# Returning a matched object
 print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
 
 # Doesn't return anything
 print(re.search(pattern, "Nada...:-("))
 
+print()
 
 # Compiling a regular expression pattern that will match an email
 REGEX = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
