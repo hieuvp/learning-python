@@ -1,6 +1,6 @@
 + python exercise.py
 <re.Match object; span=(35, 39), match='[on]'>
 None
-You failed to match john@example.com
-You failed to match python-list@python.org
+Pass
+Pass
 You failed to match wha.t.`1an?ug{}ly@email.com

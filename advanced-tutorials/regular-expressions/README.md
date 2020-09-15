@@ -69,7 +69,7 @@ def test_email(your_pattern):
 
 
 # Making a regular expression that will match an email
-pattern = r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}"
+pattern = r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$"
 test_email(pattern)
 ```
 
@@ -82,8 +82,8 @@ test_email(pattern)
 + python exercise.py
 <re.Match object; span=(35, 39), match='[on]'>
 None
-You failed to match john@example.com
-You failed to match python-list@python.org
+Pass
+Pass
 You failed to match wha.t.`1an?ug{}ly@email.com
 ```
 

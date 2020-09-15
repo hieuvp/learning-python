@@ -23,5 +23,5 @@ def test_email(your_pattern):
 
 
 # Making a regular expression that will match an email
-pattern = r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}"
+pattern = r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$"
 test_email(pattern)
