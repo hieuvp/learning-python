@@ -57,15 +57,15 @@ print(re.search(pattern, "Nada...:-("))
 
 
 # Compiling a regular expression pattern that will match an email
-REGEX_PATTERN = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
+REGEX = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
 
 
 # Define a function for validating an email
 def check(email):
-    if not re.match(REGEX_PATTERN, email):
-        print("You failed to match %s" % email)
+    if re.match(REGEX, email):
+        print('Passed! "%s" is an email.' % email)
     else:
-        print("Pass")
+        print('Failed! "%s" does not match the email pattern "%s".' % (email, REGEX.pattern))
 
 
 check("john@example.com")
@@ -82,9 +82,9 @@ check("wha.t.`1an?ug{}ly@email.com")
 + python exercise.py
 <re.Match object; span=(35, 39), match='[on]'>
 None
-Pass
-Pass
-You failed to match wha.t.`1an?ug{}ly@email.com
+Passed! "john@example.com" is an email.
+Passed! "python-list@python.org" is an email.
+Failed! "wha.t.`1an?ug{}ly@email.com" does not match the email pattern "^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$".
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
