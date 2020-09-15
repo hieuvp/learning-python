@@ -1,2 +1,7 @@
 + python json_dumps.py
-[1, 2, 3, "a", "b", "c"]
+
+json_str        = {"name": "John", "age": 30, "city": "New York"}
+type(json_str)  = <class 'str'>
+
+json_dict       = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(json_dict) = <class 'dict'>
