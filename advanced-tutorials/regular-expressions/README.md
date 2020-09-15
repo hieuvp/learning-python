@@ -15,10 +15,7 @@
 > **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
 > are a tool for matching patterns in text.
 
-The applications for regular expressions are wide-spread,
-but they are fairly complex,
-so when contemplating using a regex for a certain task,
-think about alternatives, and come to regexes as a last resort.
+<br />
 
 An example regex is `r"^(From|To|Cc).*?python-list@python.org"`
 Now for an explanation: the caret `^` matches text at the beginning of a line.
