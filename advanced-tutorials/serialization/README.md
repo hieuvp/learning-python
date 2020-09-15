@@ -12,16 +12,7 @@
 
 ## Concepts
 
-Python provides built-in JSON libraries to encode and decode JSON.
-
-In Python 2.5, the simplejson module is used, whereas in Python 2.7,
-the json module is used. Since this interpreter uses Python 2.7, we'll be using json.
-
-In order to use the json module, it must first be imported:
-
-```python
-import json
-```
+> Python provides built-in JSON libraries to encode and decode JSON.
 
 There are two basic formats for JSON data.
 Either in a string or the object datastructure.
@@ -34,7 +25,9 @@ To load JSON back to a data structure, use the "loads" method.
 This method takes a string and turns it back into the json object datastructure:
 
 ```python
+# In order to use the json module, it must first be imported
 import json
+
 print(json.loads(json_string))
 ```
 
