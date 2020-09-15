@@ -22,20 +22,17 @@ import json
 print(json.loads(json_string))
 ```
 
-There are two basic formats for JSON data.
-Either in a string or the object data structure.
-The object data structure, in Python, consists of lists and dictionaries nested inside each other.
-The object data structure allows one to use Python methods (for lists and dictionaries)
-to add, list, search and remove elements from the data structure.
-The String format is mainly used to pass the data into another program or load into a data structure.
-
-To load JSON back to a data structure, use the `loads` method.
-This method takes a string and turns it back into the json object data structure:
-
 <br />
 
-To encode a data structure to JSON, use the `dumps` method.
-This method takes an object and returns a String:
+There are two basic formats for JSON data.
+Either in a string or the object data structure.
+
+- The object data structure, in Python, consists of lists and dictionaries nested inside each other.
+  The object data structure allows one to use Python methods (for lists and dictionaries)
+  to add, list, search and remove elements from the data structure.
+- The String format is mainly used to pass the data into another program or load into a data structure.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=json_dumps.py) -->
 <!-- The below code snippet is automatically added from json_dumps.py -->
@@ -43,7 +40,10 @@ This method takes an object and returns a String:
 ```py
 import json
 
+# To encode a data structure to JSON, use the "dumps()" method
 json_string = json.dumps([1, 2, 3, "a", "b", "c"])
+
+# The method takes an object and returns a "string"
 print(json_string)
 ```
 
@@ -58,6 +58,11 @@ print(json_string)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
+
+To load JSON back to a data structure, use the `loads` method.
+This method takes a string and turns it back into the json object data structure:
 
 ## `import pickle`
 
