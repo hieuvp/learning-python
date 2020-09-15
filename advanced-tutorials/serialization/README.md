@@ -108,15 +108,14 @@ type(pickled_dict)  = <class 'dict'>
 
 ## Exercise
 
-The aim of this exercise is
-to print out the JSON string with key-value pair `"Me" : 800` added to it.
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
 # import json
 
+# The aim of this exercise is
+# to print out the JSON string with key-value pair `"Me" : 800` added to it.
 
 # fix this function, so it adds the given name
 # and salary pair to salaries_json, and return it
