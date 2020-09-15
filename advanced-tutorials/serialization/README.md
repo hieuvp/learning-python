@@ -5,13 +5,13 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [`json`](#json)
-- [`pickle`](#pickle)
+- [`import json`](#import-json)
+- [`import pickle`](#import-pickle)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## `json`
+## `import json`
 
 > Python provides built-in JSON libraries to encode and decode JSON.
 
@@ -57,7 +57,7 @@ print(json_string)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## `pickle`
+## `import pickle`
 
 Python supports a Python proprietary data serialization method called pickle
 (and a faster alternative called cPickle).
