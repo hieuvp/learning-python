@@ -38,6 +38,11 @@ print("double(4) = %s" % double(4))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+The default values will start replacing variables from the **left**:
+
+- `2` will replace `x`.
+- `y` will equal `4` when `double(4)` is called.
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.console) -->
 <!-- The below code snippet is automatically added from multiply.console -->
 
@@ -47,11 +52,6 @@ double(4) = 8
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-The default values will start replacing variables from the left:
-
-- The `2` will replace `x`.
-- `y` will equal `4` when `double(4)` is called.
 
 ## Exercise
 
