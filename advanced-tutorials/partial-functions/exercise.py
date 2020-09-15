@@ -1,12 +1,11 @@
 from functools import partial
 
 
-# Editing the "func()" by calling "partial()" and replacing the first three variables
 def func(u, v, w, x):
     return u * 4 + v * 3 + w * 2 + x
 
 
-# Creating a new partial function
+# Editing the "func()" and replacing the first three variables
 new_func = partial(func, 7, 6, 5)
 
 
