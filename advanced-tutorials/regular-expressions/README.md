@@ -1,20 +1,17 @@
 # Regular Expressions
 
+> **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
+> are a tool for matching patterns in text.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Concepts](#concepts)
 - [Example](#example)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Concepts
-
-> **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
-> are a tool for matching patterns in text.
 
 ## Example
 
