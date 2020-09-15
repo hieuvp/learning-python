@@ -20,11 +20,10 @@ An example regex is `r"^(From|To|Cc).*?python-list@python.org"`.
 
 ### Explanation
 
-- The caret `^` matches text at the beginning of a line.
-- The following group,
-  the part with `(From|To|Cc)` means that
-  the line has to start with one of the words that are separated by the pipe `|`.
-  That is called the OR operator,
+- The caret **`^`** matches text at the beginning of a line.
+- The following group **`(From|To|Cc)`** means that
+  the line has to start with one of the words that are separated by the pipe **`|`**.
+  That is called the **OR** operator,
   and the regex will match if the line starts with any of the words in the group.
 - The `.*?` means to un-greedily match any number of characters, except the newline `\n` character.
   The un-greedy part means to match as few repetitions as possible.
