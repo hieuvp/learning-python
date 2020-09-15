@@ -6,7 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-- [References](#references)
+- [Example](#example)
+- [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -15,9 +16,10 @@
 > **Regular Expressions** (sometimes shortened to `regexp`, `regex`, or `re`)
 > are a tool for matching patterns in text.
 
-<br />
+## Example
 
 An example regex is `r"^(From|To|Cc).*?python-list@python.org"`
+
 Now for an explanation: the caret `^` matches text at the beginning of a line.
 The following group,
 the part with `(From|To|Cc)` means that
@@ -32,14 +34,18 @@ the `*` means to repeat 0 or more times, and the `?` character makes it un-greed
 So, the following lines would be matched by that regex:
 `From: python-list@python.org To: !asp]<,. python-list@python.org`
 
+<br />
+
 A complete reference for the re syntax is available at the python docs.
 <https://docs.python.org/library/re.html#regular-expression-syntax%22RE%20syntax>
 
 As an example of a "proper" email-matching regex (like the one in the exercise), see this
 <http://www.ex-parrot.com/pdw/Mail-RFC822-Address.html>
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.py) -->
-<!-- The below code snippet is automatically added from example.py -->
+## Exercise
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
+<!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
 # Example:
@@ -73,11 +79,11 @@ test_email(pattern)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=example.console) -->
-<!-- The below code snippet is automatically added from example.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
+<!-- The below code snippet is automatically added from exercise.console -->
 
 ```console
-+ python example.py
++ python exercise.py
 <re.Match object; span=(35, 39), match='[on]'>
 None
 Forgot to enter a pattern!
@@ -86,5 +92,3 @@ Forgot to enter a pattern!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-## References

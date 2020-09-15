@@ -1,4 +1,4 @@
-+ python example.py
++ python exercise.py
 <re.Match object; span=(35, 39), match='[on]'>
 None
 Forgot to enter a pattern!
