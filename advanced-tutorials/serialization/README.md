@@ -75,10 +75,12 @@ type(json_dict) = <class 'dict'>
 
 ## `import pickle`
 
-Python supports a Python proprietary data serialization method called `pickle`
-(and a faster alternative called `cPickle`).
+> Python supports a Python proprietary data serialization method called `pickle`
+> (and a faster alternative called `cPickle`).
 
-You can use it exactly the same way.
+<br />
+
+You can use it exactly the same way:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=pickle_dumps.py) -->
 <!-- The below code snippet is automatically added from pickle_dumps.py -->
@@ -86,8 +88,15 @@ You can use it exactly the same way.
 ```py
 import pickle
 
-pickled_string = pickle.dumps([1, 2, 3, "a", "b", "c"])
-print(pickle.loads(pickled_string))
+pickled_bytes = pickle.dumps({"name": "John", "age": 30, "city": "New York"})
+print("pickled_bytes       = %s" % pickled_bytes)
+print("type(pickled_bytes) = %s" % type(pickled_bytes))
+
+print()
+
+pickled_dict = pickle.loads(pickled_bytes)
+print("pickled_dict        = %s" % pickled_dict)
+print("type(pickled_dict)  = %s" % type(pickled_dict))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -97,7 +106,11 @@ print(pickle.loads(pickled_string))
 
 ```console
 + python pickle_dumps.py
-[1, 2, 3, 'a', 'b', 'c']
+pickled_bytes       = b'\x80\x04\x95-\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04name\x94\x8c\x04John\x94\x8c\x03age\x94K\x1e\x8c\x04city\x94\x8c\x08New York\x94u.'
+type(pickled_bytes) = <class 'bytes'>
+
+pickled_dict        = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(pickled_dict)  = <class 'dict'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
