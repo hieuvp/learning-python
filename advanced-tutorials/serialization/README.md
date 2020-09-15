@@ -5,12 +5,13 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Concepts](#concepts)
-- [References](#references)
+- [`json`](#json)
+- [`pickle`](#pickle)
+- [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Concepts
+## `json`
 
 > Python provides built-in JSON libraries to encode and decode JSON.
 
@@ -56,6 +57,8 @@ print(json_string)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+## `pickle`
+
 Python supports a Python proprietary data serialization method called pickle
 (and a faster alternative called cPickle).
 
@@ -82,6 +85,8 @@ print(pickle.loads(pickled_string))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Exercise
 
 The aim of this exercise is
 to print out the JSON string with key-value pair "Me" : 800 added to it.
@@ -120,5 +125,3 @@ def add_employee(salaries_json, name, salary):
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-## References
