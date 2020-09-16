@@ -80,7 +80,9 @@ type(json_dict) = <class 'dict'>
 ```py
 import pickle
 
-pickled_bytes = pickle.dumps({"name": "John", "age": 30, "city": "New York"})
+origin = {"name": "John", "age": 30, "city": "New York"}
+
+pickled_bytes = pickle.dumps(origin)
 print("pickled_bytes       = %s" % pickled_bytes)
 print("type(pickled_bytes) = %s" % type(pickled_bytes))
 
