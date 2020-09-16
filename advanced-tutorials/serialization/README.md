@@ -123,26 +123,33 @@ type(pickled_dict)  = <class 'dict'>
 ```py
 import json
 
-# The aim of this exercise is
-# to print out the JSON string with key-value pair `"Me" : 800` added to it.
 
-
-# fix this function, so it adds the given name
-# and salary pair to salaries_json, and return it
+# Add the given "name"/"salary" pair to "salaries_json"
 def add_employee(salaries_json, name, salary):
-    salaries_dict = json.loads(salaries_json)
-    salaries_dict[name] = salary
+    salaries = json.loads(salaries_json)
+    salaries[name] = salary
 
-    return json.dumps(salaries_dict)
+    json_str = json.dumps(salaries)
+
+    return json_str
 
 
 # Testing Code
-salaries = '{"Alfred" : 300, "Jane" : 400 }'
-new_salaries = add_employee(salaries, "Me", 800)
-decoded_salaries = json.loads(new_salaries)
-print(decoded_salaries["Alfred"])
-print(decoded_salaries["Jane"])
-print(decoded_salaries["Me"])
+def main():
+    salaries_json = '{"Alfred" : 300, "Jane" : 400 }'
+
+    # Add key-value pair {"Me" : 800}
+    new_salaries_json = add_employee(salaries_json, "Me", 800)
+    salaries = json.loads(new_salaries_json)
+
+    # Print out the JSON string
+    print('salaries["Alfred"] = %s' % salaries["Alfred"])
+    print('salaries["Jane"]   = %s' % salaries["Jane"])
+    print('salaries["Me"]     = %s' % salaries["Me"])
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -152,9 +159,9 @@ print(decoded_salaries["Me"])
 
 ```console
 + python exercise.py
-300
-400
-800
+salaries["Alfred"] = 300
+salaries["Jane"]   = 400
+salaries["Me"]     = 800
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
