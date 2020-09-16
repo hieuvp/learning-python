@@ -35,17 +35,23 @@ Either in a string or the object data structure.
 # In order to use the json module, it must first be imported
 import json
 
+origin = {"name": "John", "age": 30, "city": "New York"}
+print("origin          = %s" % origin)
+print("type(origin)    = %s" % type(origin))
+
+
 # To encode a data structure to JSON, use the "dumps()" method
 # This method takes an object and returns a "string":
-json_str = json.dumps({"name": "John", "age": 30, "city": "New York"})
+json_str = json.dumps(origin)
+print()
 print("json_str        = %s" % json_str)
 print("type(json_str)  = %s" % type(json_str))
 
-print()
 
 # To load JSON back to a data structure, use the "loads()" method
 # This method takes a string and turns it back into the json object data structure:
 json_dict = json.loads(json_str)
+print()
 print("json_dict       = %s" % json_dict)
 print("type(json_dict) = %s" % type(json_dict))
 ```
@@ -57,6 +63,9 @@ print("type(json_dict) = %s" % type(json_dict))
 
 ```console
 + python json_dumps.py
+origin          = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(origin)    = <class 'dict'>
+
 json_str        = {"name": "John", "age": 30, "city": "New York"}
 type(json_str)  = <class 'str'>
 
@@ -112,26 +121,28 @@ type(pickled_dict)  = <class 'dict'>
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# import json
+import json
 
 # The aim of this exercise is
 # to print out the JSON string with key-value pair `"Me" : 800` added to it.
 
+
 # fix this function, so it adds the given name
 # and salary pair to salaries_json, and return it
 def add_employee(salaries_json, name, salary):
-    # Add your code here
+    salaries_dict = json.loads(salaries_json)
+    salaries_dict[name] = salary
 
-    return salaries_json
+    return json.dumps(salaries_dict)
 
 
 # Testing Code
-# salaries = '{"Alfred" : 300, "Jane" : 400 }'
-# new_salaries = add_employee(salaries, "Me", 800)
-# decoded_salaries = json.loads(new_salaries)
-# print(decoded_salaries["Alfred"])
-# print(decoded_salaries["Jane"])
-# print(decoded_salaries["Me"])
+salaries = '{"Alfred" : 300, "Jane" : 400 }'
+new_salaries = add_employee(salaries, "Me", 800)
+decoded_salaries = json.loads(new_salaries)
+print(decoded_salaries["Alfred"])
+print(decoded_salaries["Jane"])
+print(decoded_salaries["Me"])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -141,6 +152,9 @@ def add_employee(salaries_json, name, salary):
 
 ```console
 + python exercise.py
+300
+400
+800
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
