@@ -12,7 +12,10 @@
 
 ## Concepts
 
-Sets are lists with no duplicate entries.
+> **Sets** are lists with no duplicate entries.
+
+<br />
+
 Let's say you want to collect a list of words used in a paragraph:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=words.py) -->
@@ -29,7 +32,7 @@ print(set("my name is Eric and Eric is my name".split()))
 
 ```console
 + python words.py
-{'and', 'name', 'is', 'my', 'Eric'}
+{'my', 'and', 'name', 'is', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -60,8 +63,8 @@ print(b)
 
 ```console
 + python participants.py
-{'Eric', 'Jake', 'John'}
-{'Jill', 'John'}
+{'Jake', 'John', 'Eric'}
+{'John', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -113,8 +116,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jake', 'Jill', 'Eric'}
-{'Jake', 'Jill', 'Eric'}
+{'Jake', 'Eric', 'Jill'}
+{'Eric', 'Jake', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -140,7 +143,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Eric', 'Jake'}
+{'Jake', 'Eric'}
 {'Jill'}
 ```
 
@@ -165,7 +168,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jill', 'John', 'Jake', 'Eric'}
+{'Jill', 'Eric', 'John', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
