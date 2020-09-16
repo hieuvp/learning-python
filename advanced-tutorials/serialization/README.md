@@ -1,5 +1,8 @@
 # Serialization
 
+> There are two basic formats for JSON data.
+> <br />Either in an **object data structure** (lists and dictionaries), or a **string**.
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -14,17 +17,6 @@
 ## `import json`
 
 > Python provides built-in JSON libraries to encode and decode JSON.
-
-<br />
-
-There are two basic formats for JSON data.
-Either in an **object data structure**, or a **string**:
-
-- The **object data structure**, consists of lists and dictionaries nested inside each other.
-  <br />The **object data structure** allows one to use Python methods (for lists and dictionaries)
-  to add, list, search and remove elements from the data structure.
-- The **string** format is mainly used to pass the data into another program
-  or load into a data structure.
 
 <br />
 
