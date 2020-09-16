@@ -1,3 +1,3 @@
 + python symmetric_difference.py
-{'Jill', 'Eric', 'Jake'}
-{'Eric', 'Jake', 'Jill'}
+{'Jake', 'Jill', 'Eric'}
+{'Jake', 'Jill', 'Eric'}

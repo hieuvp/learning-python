@@ -4,7 +4,3 @@ type(pickled_bytes) = <class 'bytes'>
 
 pickled_dict        = {'name': 'John', 'age': 30, 'city': 'New York'}
 type(pickled_dict)  = <class 'dict'>
-
-pickled    = gASVLQAAAAAAAAB9lCiMBG5hbWWUjARKb2hulIwDYWdllEsejARjaXR5lIwITmV3IFlvcmuUdS4=
-
-unpickled  = {'name': 'John', 'age': 30, 'city': 'New York'}
