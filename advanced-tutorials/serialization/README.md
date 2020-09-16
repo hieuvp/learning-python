@@ -78,6 +78,7 @@ type(json_dict) = <class 'dict'>
 <!-- The below code snippet is automatically added from pickle_dumps.py -->
 
 ```py
+import codecs
 import pickle
 
 origin = {"name": "John", "age": 30, "city": "New York"}
@@ -91,6 +92,15 @@ print()
 pickled_dict = pickle.loads(pickled_bytes)
 print("pickled_dict        = %s" % pickled_dict)
 print("type(pickled_dict)  = %s" % type(pickled_dict))
+
+
+print()
+
+pickled = codecs.encode(pickle.dumps(origin), "base64").decode()
+unpickled = pickle.loads(codecs.decode(pickled.encode(), "base64"))
+
+print("pickled    = %s" % pickled)
+print("unpickled  = %s" % unpickled)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -105,6 +115,10 @@ type(pickled_bytes) = <class 'bytes'>
 
 pickled_dict        = {'name': 'John', 'age': 30, 'city': 'New York'}
 type(pickled_dict)  = <class 'dict'>
+
+pickled    = gASVLQAAAAAAAAB9lCiMBG5hbWWUjARKb2hulIwDYWdllEsejARjaXR5lIwITmV3IFlvcmuUdS4=
+
+unpickled  = {'name': 'John', 'age': 30, 'city': 'New York'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
