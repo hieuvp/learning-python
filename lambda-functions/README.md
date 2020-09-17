@@ -20,11 +20,11 @@
 
 ## Syntax
 
-> A lambda function can take any number of arguments,
-> but can only have one expression.
+> A lambda function can take **any number of arguments**,
+> but can only have **one expression**.
 
 ```python
-lambda arguments : expression
+lambda arguments: expression
 ```
 
 Lambda functions can have any number of arguments but only one expression.
