@@ -1,2 +1,2 @@
-sentence = "my name is Eric and Eric is my name"
+sentence = "my name is Harrison and Harrison is my name"
 print(set(sentence.split()))

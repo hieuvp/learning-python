@@ -27,7 +27,7 @@ Let's say you want to collect a list of words used in a paragraph:
 <!-- The below code snippet is automatically added from words.py -->
 
 ```py
-sentence = "my name is Eric and Eric is my name"
+sentence = "my name is Harrison and Harrison is my name"
 print(set(sentence.split()))
 ```
 
@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'and', 'is', 'Eric', 'my', 'name'}
+{'my', 'and', 'is', 'name', 'Harrison'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,9 +48,8 @@ they are not inserted twice.
 
 ## Usages
 
-Sets are a powerful tool in Python since they have the ability to calculate differences
-and intersections between other sets.
-For example, say you have a list of participants in events A and B:
+> Sets are a powerful tool in Python since they have the ability to calculate differences
+> and intersections between other sets.
 
 ### `intersection()`
 
@@ -103,8 +102,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jake', 'Jill', 'Eric'}
-{'Jake', 'Jill', 'Eric'}
+{'Jill', 'Eric', 'Jake'}
+{'Jill', 'Eric', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -132,7 +131,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -159,7 +158,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Eric', 'John', 'Jake', 'Jill'}
+{'Eric', 'John', 'Jill', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
