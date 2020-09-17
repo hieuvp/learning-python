@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'my', 'name', 'is', 'and', 'Harrison'}
+{'name', 'is', 'and', 'my', 'Harrison'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,8 +48,8 @@ they are not inserted twice.
 
 ## Usages
 
-> Sets are a powerful tool in Python since they have the ability to calculate differences
-> and intersections between other sets.
+> **Sets** are a powerful tool in Python since they have the ability
+> to calculate **differences** and **intersections** between **other sets**.
 
 ### `intersection()`
 
@@ -100,7 +100,7 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jill', 'Jake', 'Eric'}
+{'Eric', 'Jake', 'Jill'}
 {'Jake', 'Jill', 'Eric'}
 ```
 
@@ -127,7 +127,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -153,7 +153,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jill', 'Jake', 'John', 'Eric'}
+{'Eric', 'Jill', 'John', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -179,7 +179,7 @@ print(set(a).difference(set(b)))
 
 ```console
 + python exercise.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
