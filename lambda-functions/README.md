@@ -61,8 +61,6 @@ normal_double(8) = 16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-Lambda functions can take any number of arguments:
-
 <br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
@@ -70,9 +68,8 @@ Lambda functions can take any number of arguments:
 
 ```py
 # A lambda function that multiplies argument a with argument b
-# and print the result:
-x = lambda a, b: a * b
-print(x(5, 6))
+multiply = lambda a, b: a * b
+print(multiply(5, 6))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -93,9 +90,9 @@ print(x(5, 6))
 <!-- The below code snippet is automatically added from sum.py -->
 
 ```py
-# A lambda function that sums argument a, b, and c and print the result:
-x = lambda a, b, c: a + b + c
-print(x(5, 6, 2))
+# A lambda function that sums argument a, b, and c
+sum = lambda a, b, c: a + b + c
+print(sum(5, 6, 2))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
