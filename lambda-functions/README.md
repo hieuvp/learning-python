@@ -31,29 +31,32 @@ The `expression` is evaluated and result is returned.
 
 ## Examples
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.py) -->
-<!-- The below code snippet is automatically added from add.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=double.py) -->
+<!-- The below code snippet is automatically added from double.py -->
 
 ```py
-# A lambda function that adds 10 to the number passed in as an argument,
-# and print the result:
-x = lambda a: a + 10
-print(x(5))
+# A lambda function that doubles to the number passed in as an argument
+lambda_double = lambda x: x * 2
 
-# The statement
-# is nearly the same as:
-# def double(x):
-#    return x * 2
+
+# The statement is nearly the same as
+def normal_double(x):
+    return x * 2
+
+
+print("lambda_double(8) = %s" % lambda_double(8))
+print("normal_double(8) = %s" % normal_double(8))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=add.console) -->
-<!-- The below code snippet is automatically added from add.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=double.console) -->
+<!-- The below code snippet is automatically added from double.console -->
 
 ```console
-+ python add.py
-15
++ python double.py
+lambda_double(8) = 16
+normal_double(8) = 16
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

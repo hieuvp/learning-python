@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python add.py
+python double.py
