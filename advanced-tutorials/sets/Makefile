@@ -20,8 +20,12 @@ difference:
 union:
 	./union.sh &> ./union.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> exercise.console
+
 .PHONY: all
-all: words intersection symmetric-difference difference union
+all: words intersection symmetric-difference difference union exercise
 
 .PHONY: git-add
 git-add: all
