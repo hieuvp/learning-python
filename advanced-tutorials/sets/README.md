@@ -7,7 +7,7 @@
 
 - [Concepts](#concepts)
 - [Usages](#usages)
-- [References](#references)
+- [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -34,7 +34,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'Eric', 'is', 'and', 'name', 'my'}
+{'my', 'name', 'is', 'and', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,31 +48,7 @@ Sets are a powerful tool in Python since they have the ability to calculate diff
 and intersections between other sets.
 For example, say you have a list of participants in events A and B:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=participants.py) -->
-<!-- The below code snippet is automatically added from participants.py -->
-
-```py
-a = set(["Jake", "John", "Eric"])
-print(a)
-
-b = set(["John", "Jill"])
-print(b)
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=participants.console) -->
-<!-- The below code snippet is automatically added from participants.console -->
-
-```console
-+ python participants.py
-{'Jake', 'John', 'Eric'}
-{'John', 'Jill'}
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-To find out which members attended both events, you may use the "intersection" method:
+To find out which members attended both events, you may use the `intersection()` method:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.py) -->
 <!-- The below code snippet is automatically added from intersection.py -->
@@ -99,7 +75,7 @@ print(b.intersection(a))
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 To find out which members attended only one of the events,
-use the "symmetric_difference" method:
+use the `symmetric_difference()` method:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.py) -->
 <!-- The below code snippet is automatically added from symmetric_difference.py -->
@@ -119,14 +95,14 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jill', 'Jake', 'Eric'}
-{'Jill', 'Jake', 'Eric'}
+{'Jake', 'Jill', 'Eric'}
+{'Jake', 'Jill', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 To find out which members attended only one event and not the other,
-use the "difference" method:
+use the `difference()` method:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.py) -->
 <!-- The below code snippet is automatically added from difference.py -->
@@ -152,7 +128,7 @@ print(b.difference(a))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-To receive a list of all participants, use the "union" method:
+To receive a list of all participants, use the `union()` method:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=union.py) -->
 <!-- The below code snippet is automatically added from union.py -->
@@ -171,10 +147,12 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jill', 'Jake', 'John', 'Eric'}
+{'Jake', 'John', 'Jill', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Exercise
 
 In the exercise below,
 use the given lists to print out a set containing all the participants
@@ -184,5 +162,3 @@ from event A which did not attend event B.
 a = ["Jake", "John", "Eric"]
 b = ["John", "Jill"]
 ```
-
-## References
