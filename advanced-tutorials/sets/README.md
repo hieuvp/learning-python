@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'my', 'and', 'is', 'name', 'Harrison'}
+{'Harrison', 'and', 'name', 'my', 'is'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -53,15 +53,15 @@ they are not inserted twice.
 
 ### `intersection()`
 
-To find out which members attended both events, you may use the `intersection()` method:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=intersection.py) -->
 <!-- The below code snippet is automatically added from intersection.py -->
 
 ```py
+# Say we have a list of participants in events A and B
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
+# To find out which members attended both events
 print(a.intersection(b))
 print(b.intersection(a))
 ```
@@ -102,8 +102,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jill', 'Eric', 'Jake'}
-{'Jill', 'Eric', 'Jake'}
+{'Jake', 'Eric', 'Jill'}
+{'Jake', 'Eric', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -158,7 +158,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Eric', 'John', 'Jill', 'Jake'}
+{'John', 'Jake', 'Jill', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
