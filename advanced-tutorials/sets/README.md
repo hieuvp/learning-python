@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'name', 'my', 'Harrison', 'is', 'and'}
+{'my', 'name', 'is', 'and', 'Harrison'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -100,8 +100,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jill', 'Eric', 'Jake'}
-{'Eric', 'Jill', 'Jake'}
+{'Jill', 'Jake', 'Eric'}
+{'Jake', 'Jill', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -127,7 +127,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Eric', 'Jake'}
+{'Jake', 'Eric'}
 {'Jill'}
 ```
 
@@ -153,7 +153,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jake', 'Eric', 'Jill', 'John'}
+{'Jill', 'Jake', 'John', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -164,12 +164,12 @@ print(a.union(b))
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# In the exercise below,
-# use the given lists to print out a set containing all the participants
-# from event A which did not attend event B.
-
 a = ["Jake", "John", "Eric"]
 b = ["John", "Jill"]
+
+# Print out a "set" containing all the participants
+# from the event A who did not attend the event B
+print(set(a).difference(set(b)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -179,6 +179,7 @@ b = ["John", "Jill"]
 
 ```console
 + python exercise.py
+{'Jake', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
