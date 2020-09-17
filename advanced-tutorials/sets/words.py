@@ -1,1 +1,2 @@
-print(set("my name is Eric and Eric is my name".split()))
+sentence = "my name is Eric and Eric is my name"
+print(set(sentence.split()))

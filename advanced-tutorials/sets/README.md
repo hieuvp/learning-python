@@ -22,7 +22,8 @@ Let's say you want to collect a list of words used in a paragraph:
 <!-- The below code snippet is automatically added from words.py -->
 
 ```py
-print(set("my name is Eric and Eric is my name".split()))
+sentence = "my name is Eric and Eric is my name"
+print(set(sentence.split()))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -32,14 +33,15 @@ print(set("my name is Eric and Eric is my name".split()))
 
 ```console
 + python words.py
-{'my', 'and', 'name', 'is', 'Eric'}
+{'is', 'Eric', 'my', 'name', 'and'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-This will print out a list containing "my", "name", "is", "Eric", and finally "and".
 Since the rest of the sentence uses words which are already in the set,
 they are not inserted twice.
+
+<br />
 
 Sets are a powerful tool in Python since they have the ability to calculate differences
 and intersections between other sets.
@@ -63,8 +65,8 @@ print(b)
 
 ```console
 + python participants.py
-{'Jake', 'John', 'Eric'}
-{'John', 'Jill'}
+{'Eric', 'John', 'Jake'}
+{'Jill', 'John'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -116,8 +118,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
+{'Jill', 'Eric', 'Jake'}
 {'Jake', 'Eric', 'Jill'}
-{'Eric', 'Jake', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -143,7 +145,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -168,7 +170,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jill', 'Eric', 'John', 'Jake'}
+{'Eric', 'John', 'Jill', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
