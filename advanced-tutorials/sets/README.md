@@ -7,6 +7,10 @@
 
 - [Concepts](#concepts)
 - [Usages](#usages)
+  - [`intersection()`](#intersection)
+  - [`symmetric_difference()`](#symmetric_difference)
+  - [`difference()`](#difference)
+  - [`union()`](#union)
 - [Exercise](#exercise)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -34,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'my', 'name', 'is', 'and', 'Eric'}
+{'and', 'is', 'Eric', 'my', 'name'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -47,6 +51,8 @@ they are not inserted twice.
 Sets are a powerful tool in Python since they have the ability to calculate differences
 and intersections between other sets.
 For example, say you have a list of participants in events A and B:
+
+### `intersection()`
 
 To find out which members attended both events, you may use the `intersection()` method:
 
@@ -73,6 +79,8 @@ print(b.intersection(a))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+### `symmetric_difference()`
 
 To find out which members attended only one of the events,
 use the `symmetric_difference()` method:
@@ -101,6 +109,8 @@ print(b.symmetric_difference(a))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
+### `difference()`
+
 To find out which members attended only one event and not the other,
 use the `difference()` method:
 
@@ -122,11 +132,13 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Eric', 'Jake'}
+{'Jake', 'Eric'}
 {'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+### `union()`
 
 To receive a list of all participants, use the `union()` method:
 
@@ -147,7 +159,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jake', 'John', 'Jill', 'Eric'}
+{'Eric', 'John', 'Jake', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
