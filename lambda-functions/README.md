@@ -13,6 +13,9 @@
 
 - [Syntax](#syntax)
 - [Examples](#examples)
+  - [`double()`](#double)
+  - [`multiply()`](#multiply)
+  - [`sum()`](#sum)
 - [Why Use Lambda Functions](#why-use-lambda-functions)
 - [References](#references)
 
@@ -30,6 +33,8 @@ lambda arguments: expression
 The `expression` is evaluated and result is returned.
 
 ## Examples
+
+### `double()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=double.py) -->
 <!-- The below code snippet is automatically added from double.py -->
@@ -61,7 +66,7 @@ normal_double(8) = 16
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+### `multiply()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=multiply.py) -->
 <!-- The below code snippet is automatically added from multiply.py -->
@@ -84,7 +89,7 @@ print(multiply(5, 6))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+### `sum()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.py) -->
 <!-- The below code snippet is automatically added from sum.py -->
