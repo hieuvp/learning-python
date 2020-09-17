@@ -6,6 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
+- [Usages](#usages)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -33,7 +34,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'is', 'Eric', 'my', 'name', 'and'}
+{'Eric', 'is', 'and', 'name', 'my'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -41,7 +42,7 @@ print(set(sentence.split()))
 Since the rest of the sentence uses words which are already in the set,
 they are not inserted twice.
 
-<br />
+## Usages
 
 Sets are a powerful tool in Python since they have the ability to calculate differences
 and intersections between other sets.
@@ -65,8 +66,8 @@ print(b)
 
 ```console
 + python participants.py
-{'Eric', 'John', 'Jake'}
-{'Jill', 'John'}
+{'Jake', 'John', 'Eric'}
+{'John', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -118,8 +119,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jill', 'Eric', 'Jake'}
-{'Jake', 'Eric', 'Jill'}
+{'Jill', 'Jake', 'Eric'}
+{'Jill', 'Jake', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -170,7 +171,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Eric', 'John', 'Jill', 'Jake'}
+{'Jill', 'Jake', 'John', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
