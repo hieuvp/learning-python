@@ -1,12 +1,10 @@
 # Lambda Functions
 
-> A **lambda function** is a small **anonymous function**.
+> A **Lambda Function** is a small **Anonymous Function**.
 
-<br />
-
-- In Python, an anonymous function is a function that is defined without a name.
-- While normal functions are defined using the `def` keyword in Python,
-  anonymous functions are defined using the `lambda` keyword.
+- An **anonymous function** is a function that is defined without a name.
+- While **normal functions** are defined using the `def` keyword,
+  **anonymous functions** are defined using the `lambda` keyword.
 
 ## Table of Contents
 
