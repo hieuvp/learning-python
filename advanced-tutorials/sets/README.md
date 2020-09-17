@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'Harrison', 'and', 'name', 'my', 'is'}
+{'is', 'my', 'name', 'Harrison', 'and'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -81,9 +81,6 @@ print(b.intersection(a))
 
 ### `symmetric_difference()`
 
-To find out which members attended only one of the events,
-use the `symmetric_difference()` method:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=symmetric_difference.py) -->
 <!-- The below code snippet is automatically added from symmetric_difference.py -->
 
@@ -91,6 +88,8 @@ use the `symmetric_difference()` method:
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
+# To find out which members attended only one of the events,
+# use the `symmetric_difference()` method:
 print(a.symmetric_difference(b))
 print(b.symmetric_difference(a))
 ```
@@ -110,9 +109,6 @@ print(b.symmetric_difference(a))
 
 ### `difference()`
 
-To find out which members attended only one event and not the other,
-use the `difference()` method:
-
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=difference.py) -->
 <!-- The below code snippet is automatically added from difference.py -->
 
@@ -120,6 +116,8 @@ use the `difference()` method:
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
+# To find out which members attended only one event and not the other,
+# use the `difference()` method:
 print(a.difference(b))
 print(b.difference(a))
 ```
@@ -131,15 +129,13 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Eric', 'Jake'}
+{'Jake', 'Eric'}
 {'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### `union()`
-
-To receive a list of all participants, use the `union()` method:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=union.py) -->
 <!-- The below code snippet is automatically added from union.py -->
@@ -148,6 +144,7 @@ To receive a list of all participants, use the `union()` method:
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
+# To receive a list of all participants, use the `union()` method:
 print(a.union(b))
 ```
 
@@ -158,7 +155,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'John', 'Jake', 'Jill', 'Eric'}
+{'Jake', 'Jill', 'John', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
