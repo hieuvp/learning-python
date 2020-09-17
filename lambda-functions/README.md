@@ -114,8 +114,10 @@ print(sum(5, 6, 2))
 
 ## Why Use Lambda Functions
 
-> The power of lambda is better shown
-> when you use them as an anonymous function inside another function.
+> The power of **lambda** is better shown
+> when you use them as an **anonymous function** inside another **function**.
+
+<br />
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=functions.py) -->
 <!-- The below code snippet is automatically added from functions.py -->
