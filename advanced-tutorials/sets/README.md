@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'is', 'my', 'name', 'Harrison', 'and'}
+{'name', 'and', 'Harrison', 'my', 'is'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -88,8 +88,7 @@ print(b.intersection(a))
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
-# To find out which members attended only one of the events,
-# use the `symmetric_difference()` method:
+# To find out which members attended only one of the events
 print(a.symmetric_difference(b))
 print(b.symmetric_difference(a))
 ```
@@ -101,8 +100,8 @@ print(b.symmetric_difference(a))
 
 ```console
 + python symmetric_difference.py
-{'Jake', 'Eric', 'Jill'}
-{'Jake', 'Eric', 'Jill'}
+{'Jill', 'Jake', 'Eric'}
+{'Jill', 'Jake', 'Eric'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -116,8 +115,7 @@ print(b.symmetric_difference(a))
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
-# To find out which members attended only one event and not the other,
-# use the `difference()` method:
+# To find out which members attended only one event and not the other
 print(a.difference(b))
 print(b.difference(a))
 ```
@@ -129,7 +127,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -144,7 +142,7 @@ print(b.difference(a))
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
-# To receive a list of all participants, use the `union()` method:
+# To receive a list of all participants
 print(a.union(b))
 ```
 
@@ -155,7 +153,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Jake', 'Jill', 'John', 'Eric'}
+{'Eric', 'Jake', 'Jill', 'John'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
