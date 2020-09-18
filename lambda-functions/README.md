@@ -114,8 +114,8 @@ print(sum(5, 6, 2))
 
 ## Why Use Lambda Functions
 
-> The power of **lambda** is better shown
-> when you use them as an **anonymous function** inside another **function**.
+> Use **lambda functions**
+> when an **anonymous function** is required for a short period of time.
 
 <br />
 
@@ -123,6 +123,9 @@ print(sum(5, 6, 2))
 <!-- The below code snippet is automatically added from functions.py -->
 
 ```py
+# The power of lambda is better shown
+# when you use them as an anonymous function inside another function
+
 # Having a function definition that takes one argument
 def my_func(n):
     # The argument will be multiplied with an unknown number
@@ -153,9 +156,6 @@ my_tripler(11) = 33
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-> Use lambda functions when an anonymous function is required for a short period of time.
-> Use lambda functions when we require a nameless function for a short period of time.
 
 ## References
 

@@ -1,3 +1,6 @@
+# The power of lambda is better shown
+# when you use them as an anonymous function inside another function
+
 # Having a function definition that takes one argument
 def my_func(n):
     # The argument will be multiplied with an unknown number
