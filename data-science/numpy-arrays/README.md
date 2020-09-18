@@ -19,6 +19,8 @@
 > <br />Some of the key advantages of **Numpy Arrays** are that they are fast, easy to work with,
 > <br />and give users the opportunity to perform calculations across entire arrays.
 
+<br />
+
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=getting_started.py) -->
 <!-- The below code snippet is automatically added from getting_started.py -->
 
