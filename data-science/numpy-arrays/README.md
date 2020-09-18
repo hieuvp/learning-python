@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Getting Started](#getting-started)
-- [Element-wise Calculations](#element-wise-calculations)
+- [Elementwise Operations](#elementwise-operations)
 - [Subsetting](#subsetting)
 - [Exercise](#exercise)
 - [References](#references)
@@ -75,7 +75,7 @@ type(np_height) = <class 'numpy.ndarray'>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Element-wise Calculations
+## Elementwise Operations
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=calculate_bmi.py) -->
 <!-- The below code snippet is automatically added from calculate_bmi.py -->
