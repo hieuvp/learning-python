@@ -131,12 +131,14 @@ bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```py
 from bmi import bmi
 
+print("bmi           = %s" % bmi)
+
 # For instance,
 # if you wanted to know which observations in our BMI array are above 23,
 # we could quickly subset it to find out
 
 # Boolean response
-print("(bmi > 23) = %s" % (bmi > 23))
+print("(bmi > 23)    = %s" % (bmi > 23))
 
 # Print only those observations above 23
 print("bmi[bmi > 23] = %s" % bmi[bmi > 23])
@@ -149,7 +151,8 @@ print("bmi[bmi > 23] = %s" % bmi[bmi > 23])
 
 ```console
 + python subset.py
-(bmi > 23) = [ True  True  True  True  True  True]
+bmi           = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
+(bmi > 23)    = [ True  True  True  True  True  True]
 bmi[bmi > 23] = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```
 
