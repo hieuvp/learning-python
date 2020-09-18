@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python calculate_bmi.py
+python bmi.py

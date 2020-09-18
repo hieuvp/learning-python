@@ -77,8 +77,8 @@ type(np_height) = <class 'numpy.ndarray'>
 
 ## Elementwise Operations
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=calculate_bmi.py) -->
-<!-- The below code snippet is automatically added from calculate_bmi.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=bmi.py) -->
+<!-- The below code snippet is automatically added from bmi.py -->
 
 ```py
 from getting_started import np_height, np_weight
@@ -109,11 +109,11 @@ if __name__ == "__main__":
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=calculate_bmi.console) -->
-<!-- The below code snippet is automatically added from calculate_bmi.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=bmi.console) -->
+<!-- The below code snippet is automatically added from bmi.console -->
 
 ```console
-+ python calculate_bmi.py
++ python bmi.py
 bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```
 
@@ -129,13 +129,13 @@ bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 <!-- The below code snippet is automatically added from subset.py -->
 
 ```py
-from calculate_bmi import bmi
+from bmi import bmi
 
 # For instance,
 # if you wanted to know which observations in our BMI array are above 23,
 # we could quickly subset it to find out
 
-# For a boolean response
+# Boolean response
 print("(bmi > 23) = %s" % (bmi > 23))
 
 # Print only those observations above 23
