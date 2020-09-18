@@ -12,7 +12,7 @@ from getting_started import np_height, np_weight
 
 
 # Performing element-wise calculations on height and weight:
-
+#
 # Take all 6 of the "np_height" and "np_weight" observations,
 # and calculate the BMI for each observation with a single equation
 bmi = np_weight / np_height ** 2

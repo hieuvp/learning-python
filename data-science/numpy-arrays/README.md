@@ -95,7 +95,7 @@ from getting_started import np_height, np_weight
 
 
 # Performing element-wise calculations on height and weight:
-
+#
 # Take all 6 of the "np_height" and "np_weight" observations,
 # and calculate the BMI for each observation with a single equation
 bmi = np_weight / np_height ** 2
@@ -196,4 +196,4 @@ np_weight_lbs = [180.00743707 214.99479808 209.99030473 204.98581138 189.9943775
 
 ## References
 
-- [Day 7: Python - Calculate BMI](https://liyenz.wordpress.com/2019/01/04/day-7-python-calculate-bmi)
+- [Python - Calculate BMI](https://liyenz.wordpress.com/2019/01/04/day-7-python-calculate-bmi)
