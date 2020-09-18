@@ -16,7 +16,7 @@
   - [`double()`](#double)
   - [`multiply()`](#multiply)
   - [`sum()`](#sum)
-- [Why Use Lambda Functions](#why-use-lambda-functions)
+- [Use of Lambda Functions](#use-of-lambda-functions)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -112,7 +112,7 @@ print(sum(5, 6, 2))
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Why Use Lambda Functions
+## Use of Lambda Functions
 
 > Use **lambda functions**
 > when an **anonymous function** is required for a short period of time.
