@@ -1,6 +1,6 @@
 from getting_started import np_height, np_weight
 
-# Body mass index (BMI) is a measure of body fat
+# Body Mass Index (BMI) is a measure of body fat
 # based on height and weight that applies to adult men and women
 #
 # Formula: BMI = kg/m^2
@@ -11,15 +11,14 @@ from getting_started import np_height, np_weight
 # BMI applies to most adults 18-65 years
 
 
-# Now we can perform element-wise calculations on height and weight.
-# For example,
-# you could take all 6 of the height and weight observations above,
-# and calculate the BMI (Body Mass Index) for each observation with a single equation.
+# Performing element-wise calculations on height and weight:
+
+# Take all 6 of the "np_height" and "np_weight" observations,
+# and calculate the BMI for each observation with a single equation
 bmi = np_weight / np_height ** 2
 
-# These operations are very fast and computationally efficient.
-# They are particularly helpful when you have 1000s of observations in your data.
+# These operations are very fast and computationally efficient
+# They are particularly helpful when you have 1000s (thousands) of observations in our data
 
 if __name__ == "__main__":
-    # Print the result
     print("bmi = %s" % bmi)
