@@ -135,7 +135,7 @@ print("bmi           = %s" % bmi)
 
 # If we wanted to know which observations in our BMI array are above "25",
 # we could quickly subset it to find out
-print("(bmi > 25)    = %s" % (bmi > 25))
+print("bmi > 25      = %s" % (bmi > 25))
 
 # Print only those observations above "25"
 print("bmi[bmi > 25] = %s" % bmi[bmi > 25])
@@ -149,7 +149,7 @@ print("bmi[bmi > 25] = %s" % bmi[bmi > 25])
 ```console
 + python subset.py
 bmi           = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
-(bmi > 25)    = [False  True  True  True False  True]
+bmi > 25      = [False  True  True  True False  True]
 bmi[bmi > 25] = [27.88755755 28.75558507 25.48723993 25.84368152]
 ```
 
@@ -173,7 +173,7 @@ print("np_weight_kg  = %s" % np_weight_kg)
 # Then, convert all of the weights from kilograms to pounds.
 # Use the scalar conversion of 2.2 lbs per kilogram to make your conversion.
 # Create np_weight_lbs from np_weight_kg
-np_weight_lbs = np_weight_kg * 2.2046226218488
+np_weight_lbs = np_weight_kg * 2.2
 
 # Lastly, print the resulting array of weights in pounds.
 # Print out np_weight_lbs
@@ -188,8 +188,7 @@ print("np_weight_lbs = %s" % np_weight_lbs)
 ```console
 + python exercise.py
 np_weight_kg  = [81.65 97.52 95.25 92.98 86.18 88.45]
-np_weight_lbs = [180.00743707 214.99479808 209.99030473 204.98581138 189.99437755
- 194.9988709 ]
+np_weight_lbs = [179.63  214.544 209.55  204.556 189.596 194.59 ]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
