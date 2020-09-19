@@ -10,5 +10,5 @@ print("np_weight_kg  = %s" % np_weight_kg)
 # Use the scalar conversion of 2.2 lbs per kilogram to make your conversion
 np_weight_lbs = np_weight_kg * 2.2
 
-# Lastly, print the resulting array of weights in pounds
+# Print the resulting array of weights in pounds
 print("np_weight_lbs = %s" % np_weight_lbs)
