@@ -1,5 +1,5 @@
 # Change the output
-def double_out(old_function):
+def double_output(old_function):
     def new_function(*args, **kwargs):
         # Modify the returned value
         return 2 * old_function(*args, **kwargs)
