@@ -1,6 +1,8 @@
 + python print_msg.py
-Without "nonlocal" keyword, inside printer(),   number = 3
-Without "nonlocal" keyword, inside print_msg(), number = 9
+Without "nonlocal" keyword
+- Inside  printer() : number = 3
+- Outside printer() : number = 9
 
-With "nonlocal" keyword, inside printer(),   number = 3
-With "nonlocal" keyword, inside print_msg(), number = 3
+With "nonlocal" keyword
+- Inside  printer() : number = 3
+- Outside printer() : number = 3

@@ -1,21 +1,25 @@
 def print_msg_without_nonlocal(number):
+    print('Without "nonlocal" keyword')
+
     def printer():
         number = 3
-        print('Without "nonlocal" keyword, inside printer(),   number = %s' % number)
+        print("- Inside  printer() : number = %s" % number)
 
     printer()
-    print('Without "nonlocal" keyword, inside print_msg(), number = %s' % number)
+    print("- Outside printer() : number = %s" % number)
 
 
 def print_msg_with_nonlocal(number):
+    print('With "nonlocal" keyword')
+
     def printer():
         """Using the nonlocal keyword"""
         nonlocal number
         number = 3
-        print('With "nonlocal" keyword, inside printer(),   number = %s' % number)
+        print("- Inside  printer() : number = %s" % number)
 
     printer()
-    print('With "nonlocal" keyword, inside print_msg(), number = %s' % number)
+    print("- Outside printer() : number = %s" % number)
 
 
 print_msg_without_nonlocal(9)
