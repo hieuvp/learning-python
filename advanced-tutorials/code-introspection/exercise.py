@@ -1,4 +1,4 @@
-# Using the "help()" function to see what each function does:
+# Use the "help()" function to see what each function does:
 # - help(dir)
 # - help(hasattr)
 # - help(id)

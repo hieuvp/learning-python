@@ -45,7 +45,7 @@ since you can use it to find what other functions do.
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Using the "help()" function to see what each function does:
+# Use the "help()" function to see what each function does:
 # - help(dir)
 # - help(hasattr)
 # - help(id)
