@@ -1,8 +1,8 @@
 def transmit_to_space(message):
-    """This is the enclosing function"""
+    """This is the Enclosing Function"""
 
     def data_transmitter():
-        """This is the nested function"""
+        """This is the Nested Function"""
         """It is a function defined inside another function"""
 
         print(message)
