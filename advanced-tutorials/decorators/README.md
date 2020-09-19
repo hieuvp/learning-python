@@ -99,7 +99,7 @@ Hello! Decorators
 # Change the output
 def double_out(old_function):
     def new_function(*args, **kwargs):
-        # Modify the return value
+        # Modify the returned value
         return 2 * old_function(*args, **kwargs)
 
     return new_function
@@ -119,7 +119,8 @@ def double_input(old_function):
 def check(old_function):
     def new_function(args):
         if args < 0:
-            # This causes an error, which is better than it does the wrong thing
+            # This causes an error,
+            # which is better than it does the wrong thing
             raise (ValueError, "Negative Argument")
         old_function(args)
 
