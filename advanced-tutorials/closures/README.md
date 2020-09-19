@@ -205,7 +205,7 @@ even after end of those other original functions is called as closures in Python
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# A function to get multiple multiplication functions
+# A function to make multiple multiplication functions
 def multiplier_of(number):
     def wrapper(multiplicand):
         return number * multiplicand
