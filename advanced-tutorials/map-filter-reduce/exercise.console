@@ -1,0 +1,9 @@
++ python exercise.py
+my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+[18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
+
+my_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
+['olumide', 'josiah', 'omoseun']
+
+my_numbers = [4, 6, 9, 23, 5]
+24840

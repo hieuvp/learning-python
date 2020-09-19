@@ -1,0 +1,4 @@
++ python exercise.py
+salaries["Alfred"] = 300
+salaries["Jane"]   = 400
+salaries["Me"]     = 800

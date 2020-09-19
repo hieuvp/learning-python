@@ -4,9 +4,9 @@ export PATH := ../../venv/bin:$(PATH)
 getting-started:
 	./getting_started.sh &> getting_started.console
 
-.PHONY: calculate-bmi
-calculate-bmi:
-	./calculate_bmi.sh &> calculate_bmi.console
+.PHONY: bmi
+bmi:
+	./bmi.sh &> bmi.console
 
 .PHONY: subset
 subset:
@@ -17,7 +17,7 @@ exercise:
 	./exercise.sh &> exercise.console
 
 .PHONY: all
-all: getting-started calculate-bmi subset exercise
+all: getting-started bmi subset exercise
 
 .PHONY: git-add
 git-add: all

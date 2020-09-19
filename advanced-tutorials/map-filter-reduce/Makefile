@@ -8,9 +8,17 @@ map-pets:
 map-circle-areas:
 	./map_circle_areas.sh &> ./map_circle_areas.console
 
+.PHONY: map-inequable-iterables
+map-inequable-iterables:
+	./map_inequable_iterables.sh &> ./map_inequable_iterables.console
+
 .PHONY: zip-strings-numbers
 zip-strings-numbers:
 	./zip_strings_numbers.sh &> ./zip_strings_numbers.console
+
+.PHONY: map-strings-numbers
+map-strings-numbers:
+	./map_strings_numbers.sh &> ./map_strings_numbers.console
 
 .PHONY: filter-scores
 filter-scores:
@@ -24,12 +32,16 @@ filter-dromes:
 reduce-numbers:
 	./reduce_numbers.sh &> ./reduce_numbers.console
 
+.PHONY: reduce-with-initial
+reduce-with-initial:
+	./reduce_with_initial.sh &> ./reduce_with_initial.console
+
 .PHONY: exercise
 exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas zip-strings-numbers filter-scores filter-dromes reduce-numbers exercise
+all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes reduce-numbers reduce-with-initial exercise
 
 .PHONY: git-add
 git-add: all

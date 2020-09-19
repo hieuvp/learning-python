@@ -1,0 +1,6 @@
++ python map_pets.py
+['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
+['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
+
+map_pets       = <map object at 0x107ca50a0>
+type(map_pets) = <class 'map'>
