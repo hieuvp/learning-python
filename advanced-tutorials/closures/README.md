@@ -169,17 +169,16 @@ Now, how about we return the function object rather than calling the nested func
 
 ```py
 def transmit_to_space(message):
-    """This is the enclosing function"""
+    """Enclosing Function"""
 
     def data_transmitter():
-        """The nested function"""
+        """Nested Function"""
         print(message)
 
     return data_transmitter
 
 
-# We call the function as follows:
-# Remember that even functions are objects
+# Even functions are objects
 fun2 = transmit_to_space("Burn the Sun!")
 fun2()
 ```
