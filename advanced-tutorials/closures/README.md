@@ -85,7 +85,7 @@ def transmit_to_space(message):
     data_transmitter()
 
 
-print(transmit_to_space("Test message"))
+print(transmit_to_space("Test Message"))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -95,7 +95,7 @@ print(transmit_to_space("Test message"))
 
 ```console
 + python transmit_to_space.py
-Test message
+Test Message
 None
 ```
 

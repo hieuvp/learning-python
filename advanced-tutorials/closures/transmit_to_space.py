@@ -13,4 +13,4 @@ def transmit_to_space(message):
     data_transmitter()
 
 
-print(transmit_to_space("Test message"))
+print(transmit_to_space("Test Message"))
