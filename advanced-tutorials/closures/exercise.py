@@ -1,4 +1,4 @@
-# Making a function to get multiple multiplication functions
+# A function to get multiple multiplication functions
 def multiplier_of(number):
     def wrapper(multiplicand):
         return number * multiplicand
