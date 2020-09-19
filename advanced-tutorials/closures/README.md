@@ -117,6 +117,7 @@ def print_msg_without_nonlocal(number):
         print("- Inside  printer() : number = %s" % number)
 
     printer()
+
     print("- Outside printer() : number = %s" % number)
 
 
@@ -130,6 +131,7 @@ def print_msg_with_nonlocal(number):
         print("- Inside  printer() : number = %s" % number)
 
     printer()
+
     print("- Outside printer() : number = %s" % number)
 
 
