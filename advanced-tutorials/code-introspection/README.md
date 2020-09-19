@@ -51,7 +51,7 @@ since you can use it to find what other functions do.
 # - help(id)
 
 
-# Define the Vehicle class
+# Define the "Vehicle" class
 class Vehicle:
     name = ""
     kind = "car"
@@ -63,7 +63,7 @@ class Vehicle:
         return desc_str
 
 
-# Print a list of all attributes of the Vehicle class
+# List all attributes of the "Vehicle" class
 for attribute in dir(Vehicle):
     if hasattr(Vehicle, attribute):
         print(attribute)
