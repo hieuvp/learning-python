@@ -180,8 +180,7 @@ multiply(2, 3)
 <!-- The below code snippet is automatically added from multiply.py -->
 
 ```py
-# Let's say you want to multiply the output by a variable amount.
-# You could define the decorator and use it as follows:
+# Let's say we want to multiply the output by a variable amount
 
 
 def multiply(multiplier):
@@ -197,12 +196,12 @@ def multiply(multiplier):
 
 # "multiply" is not a decorator, but "multiply(3)" is
 @multiply(3)
-def return_number(number):
+def get_number(number):
     return number
 
 
-# Now, "return_number" is decorated and reassigned into itself
-print(return_number(5))
+# Now, "get_number()" is decorated and reassigned into itself
+print(get_number(5))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
