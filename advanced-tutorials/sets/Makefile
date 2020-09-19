@@ -4,10 +4,6 @@ export PATH := ../../venv/bin:$(PATH)
 words:
 	./words.sh &> ./words.console
 
-.PHONY: participants
-participants:
-	./participants.sh &> ./participants.console
-
 .PHONY: intersection
 intersection:
 	./intersection.sh &> ./intersection.console
@@ -24,8 +20,12 @@ difference:
 union:
 	./union.sh &> ./union.console
 
+.PHONY: exercise
+exercise:
+	./exercise.sh &> exercise.console
+
 .PHONY: all
-all: words participants intersection symmetric-difference difference union
+all: words intersection symmetric-difference difference union exercise
 
 .PHONY: git-add
 git-add: all

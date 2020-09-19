@@ -10,7 +10,7 @@ repeater:
 
 .PHONY: decorating-functions
 decorating-functions:
-	./decorating_functions.sh &> decorating_functions.console
+	./decorating_functions.sh
 
 .PHONY: multiply
 multiply:

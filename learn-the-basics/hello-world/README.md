@@ -28,7 +28,7 @@ print("Hello, World!")
 
 ```console
 + python --version
-Python 3.8.3
+Python 3.8.5
 + python print.py
 Hello, World!
 ```

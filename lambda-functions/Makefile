@@ -1,8 +1,8 @@
 export PATH := ../venv/bin:$(PATH)
 
-.PHONY: add
-add:
-	./add.sh &> add.console
+.PHONY: double
+double:
+	./double.sh &> double.console
 
 .PHONY: multiply
 multiply:
@@ -17,7 +17,7 @@ functions:
 	./functions.sh &> functions.console
 
 .PHONY: all
-all: add multiply sum functions
+all: double multiply sum functions
 
 .PHONY: git-add
 git-add: all

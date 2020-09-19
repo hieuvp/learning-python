@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python dataframe.py
+python reduce_with_initial.py

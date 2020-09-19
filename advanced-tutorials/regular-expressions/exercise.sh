@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python participants.py
+python exercise.py
