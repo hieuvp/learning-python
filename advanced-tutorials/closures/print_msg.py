@@ -9,7 +9,7 @@ def print_msg_without_nonlocal(number):
 
 def print_msg_with_nonlocal(number):
     def printer():
-        """Here we are using the nonlocal keyword"""
+        """Using the nonlocal keyword"""
         nonlocal number
         number = 3
         print('With "nonlocal" keyword, inside printer(),   number = %s' % number)
