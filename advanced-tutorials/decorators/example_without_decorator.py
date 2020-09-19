@@ -10,8 +10,8 @@ def function(message):
     print(message)
 
 
-# This passes the function to the decorator,
-# and reassigns it to the function
+# Pass the "function" to the "decorator", and reassign it to the new "function"
 function = decorator(function)
+
 
 function("Hello! Decorators")
