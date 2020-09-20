@@ -7,10 +7,6 @@ def transmit_to_space(message):
 
         print(message)
 
-        """Nested Functions can access the variables of the enclosing scope"""
-        """These variables are readonly"""
-        """However, one can use the "nonlocal" keyword explicitly in order to modify them"""
-
     data_transmitter()
 
 
