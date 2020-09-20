@@ -7,6 +7,7 @@
 
 - [Concepts](#concepts)
 - [Exercise](#exercise)
+- [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -81,7 +82,7 @@ def transmit_to_space(message):
 
         """Nested Functions can access the variables of the enclosing scope"""
         """These variables are readonly"""
-        """However, one can use the nonlocal keyword explicitly in order to modify them"""
+        """However, one can use the "nonlocal" keyword explicitly in order to modify them"""
 
     data_transmitter()
 
@@ -239,3 +240,7 @@ multiply_with_5(9) = 45
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## References
+
+- [Python `nonlocal` Keyword](https://www.w3schools.com/python/ref_keyword_nonlocal.asp)
