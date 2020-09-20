@@ -14,7 +14,6 @@ def print_msg_with_nonlocal(number):
     print('With "nonlocal" keyword')
 
     def printer():
-        """Using the nonlocal keyword"""
         nonlocal number
         number = 3
         print("- Inside  printer() : number = %s" % number)
