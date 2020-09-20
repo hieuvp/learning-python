@@ -17,5 +17,5 @@ class Vehicle:
 
 # List all attributes of the "Vehicle" class
 for attribute in dir(Vehicle):
-    if hasattr(Vehicle, attribute):
+    if hasattr(Vehicle, attribute) and not attribute.startswith("__"):
         print(attribute)
