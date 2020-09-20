@@ -132,8 +132,8 @@ However, with its usage, the value of the `number` variable gets modified.
 
 Now, how about we return the function object rather than calling the nested function within.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space_v2.py) -->
-<!-- The below code snippet is automatically added from transmit_to_space_v2.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
+<!-- The below code snippet is automatically added from transmit_to_space.py -->
 
 ```py
 def transmit_to_space(message):
@@ -153,11 +153,11 @@ func()
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space_v2.console) -->
-<!-- The below code snippet is automatically added from transmit_to_space_v2.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.console) -->
+<!-- The below code snippet is automatically added from transmit_to_space.console -->
 
 ```console
-+ python transmit_to_space_v2.py
++ python transmit_to_space.py
 Burn the Sun!
 ```
 
