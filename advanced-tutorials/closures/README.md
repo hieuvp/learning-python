@@ -67,39 +67,6 @@ print(c1(), c1(), c2(), c2())
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.py) -->
-<!-- The below code snippet is automatically added from transmit_to_space.py -->
-
-```py
-def transmit_to_space(message):
-    """This is an Enclosing Function"""
-
-    def data_transmitter():
-        """This is a Nested Function"""
-        """A Function defined inside another Function"""
-
-        print(message)
-
-    data_transmitter()
-
-
-transmit_to_space("Test Message")
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=transmit_to_space.console) -->
-<!-- The below code snippet is automatically added from transmit_to_space.console -->
-
-```console
-+ python transmit_to_space.py
-Test Message
-```
-
-<!-- AUTO-GENERATED-CONTENT:END -->
-
-<br />
-
 The `nonlocal` keyword is used to work with variables inside nested functions,
 where the variable should not belong to the inner function.
 
