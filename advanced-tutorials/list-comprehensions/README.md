@@ -21,24 +21,24 @@
 <!-- The below code snippet is automatically added from list_comprehension.py -->
 
 ```py
-WORDS = "the quick brown fox jumps over the lazy dog".split()
+words = "the quick brown fox jumps over the lazy dog".split()
 
 
 # Create a list of integers which specify the length of each word in a certain sentence,
 # but only if the word is not the word "the"
 lengths = []
-for word in WORDS:
+for word in words:
     if word != "the":
         lengths.append(len(word))
-print(WORDS)
-print(lengths)
+print("words   = %s" % words)
+print("lengths = %s" % lengths)
 
 print()
 
 # When using a "List Comprehension", we could simplify this process
-lengths = [len(word) for word in WORDS if word != "the"]
-print(WORDS)
-print(lengths)
+lengths = [len(word) for word in words if word != "the"]
+print("words   = %s" % words)
+print("lengths = %s" % lengths)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,11 +48,11 @@ print(lengths)
 
 ```console
 + python list_comprehension.py
-['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
-[5, 5, 3, 5, 4, 4, 3]
+words   = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+lengths = [5, 5, 3, 5, 4, 4, 3]
 
-['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
-[5, 5, 3, 5, 4, 4, 3]
+words   = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+lengths = [5, 5, 3, 5, 4, 4, 3]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
