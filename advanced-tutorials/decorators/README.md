@@ -194,7 +194,7 @@ def multiply(multiplier):
     return multiply_decorator
 
 
-# "multiply" is not a "decorator", but "multiply(3)" is
+# "@multiply" is not a "decorator", but "@multiply(3)" is
 @multiply(3)
 def get_number(number):
     return number
