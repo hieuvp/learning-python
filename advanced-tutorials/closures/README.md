@@ -104,6 +104,11 @@ Test Message
 
 <br />
 
+The `nonlocal` keyword is used to work with variables inside nested functions,
+where the variable should not belong to the inner function.
+
+Use the keyword `nonlocal` to declare that the variable is not local.
+
 To demonstrate the use of the `nonlocal` keyword, consider this:
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=print_msg.py) -->
