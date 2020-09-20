@@ -1,3 +1,5 @@
+from pprint import pprint
+
 actor = {"name": "John Cleese", "rank": "Awesome"}
 
 
@@ -12,5 +14,8 @@ def get_last_name():
 # Exception handling
 try:
     print('The actor\'s last name is "%s"' % get_last_name())
-except KeyError:
-    print("All exceptions caught! Good job!")
+    print()
+    print(actor["last name"])
+except Exception as err:
+    print("Exception caught!")
+    pprint(err)
