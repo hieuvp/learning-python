@@ -35,7 +35,7 @@ print("lengths = %s" % lengths)
 
 print()
 
-# When using a "List Comprehension", we could simplify this process
+# When using a "list comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
 print("words   = %s" % words)
 print("lengths = %s" % lengths)
@@ -63,13 +63,12 @@ lengths = [5, 5, 3, 5, 4, 4, 3]
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
+# Use a "list comprehension"
+# to create a list of "positive_integers" out of "numbers"
 numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
-print("numbers           = %s" % numbers)
-
-
-# Using a "List Comprehension"
-# to create a list of "positive_integers" out of the "numbers" list
 positive_integers = [int(number) for number in numbers if number > 0]
+
+print("numbers           = %s" % numbers)
 print("positive_integers = %s" % positive_integers)
 ```
 

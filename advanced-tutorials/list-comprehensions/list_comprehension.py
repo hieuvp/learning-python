@@ -12,7 +12,7 @@ print("lengths = %s" % lengths)
 
 print()
 
-# When using a "List Comprehension", we could simplify this process
+# When using a "list comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
 print("words   = %s" % words)
 print("lengths = %s" % lengths)
