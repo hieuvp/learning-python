@@ -110,7 +110,7 @@ from pprint import pprint
 actor = {"name": "John Cleese", "rank": "Awesome"}
 
 
-# Get last name of the actor
+# Get the last name of the actor
 def get_last_name():
     full_name = actor["name"].split()
     last_name = full_name[-1]
