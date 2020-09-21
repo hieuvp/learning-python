@@ -1,21 +1,23 @@
-def do_stuff_with_number(n):
-    print(n)
+def do_stuff_with_number(number):
+    print("number = %s" % number)
 
 
 def catch_this():
-    the_list = (1, 2, 3, 4, 5)
+    # This list only has "3" numbers in it
+    numbers = (11, 22, 33)
 
-    # We need to iterate over "10" numbers,
-    # but "the_list" is made from user input, and might not have "10" numbers in it
-    for i in range(10):
+    # Iterate over "5" numbers
+    for index in range(5):
         try:
-            do_stuff_with_number(the_list[i])
+            number = numbers[index]
+            do_stuff_with_number(number)
 
         # Raised when accessing a non-existing index of a list
         except IndexError:
-            # After reaching the end of "the_list",
-            # we just want the rest of the numbers to be interpreted as a "0"
-            do_stuff_with_number(0)
+            # After reaching the end of "numbers",
+            # we just want the rest to be interpreted as a "0"
+            number = 0
+            do_stuff_with_number(number)
 
 
 catch_this()

@@ -1,11 +1,6 @@
 + python example.py
-1
-2
-3
-4
-5
-0
-0
-0
-0
-0
+number = 11
+number = 22
+number = 33
+number = 0
+number = 0
