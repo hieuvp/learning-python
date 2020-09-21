@@ -1,4 +1,4 @@
-# A lambda function that doubles to the number passed in as an argument
+# A lambda function that doubles the number passed in as an argument
 lambda_double = lambda x: x * 2
 
 
