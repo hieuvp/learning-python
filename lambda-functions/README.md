@@ -44,7 +44,7 @@ The `expression` is evaluated and result is returned.
 lambda_double = lambda x: x * 2
 
 
-# The above statement is nearly the same as
+# The above statement is nearly same as
 def normal_double(x):
     return x * 2
 
