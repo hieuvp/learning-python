@@ -12,16 +12,12 @@ transmit-to-space:
 print-msg:
 	./print_msg.sh &> ./print_msg.console
 
-.PHONY: transmit-to-space-v2
-transmit-to-space-v2:
-	./transmit_to_space_v2.sh &> ./transmit_to_space_v2.console
-
 .PHONY: exercise
 exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: make-counter transmit-to-space print-msg transmit-to-space-v2 exercise
+all: make-counter transmit-to-space print-msg exercise
 
 .PHONY: git-add
 git-add: all
