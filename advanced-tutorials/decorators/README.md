@@ -221,22 +221,20 @@ print(get_number(5))
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# A "Decorator Factory" which returns a "Decorator"
+# A "decorator factory" which returns a "decorator"
+# that checks if the input type is correct
 def type_check(correct_type):
     def decorator(func):
         def wrapper(*args, **kwargs):
             for argument in args:
                 if not isinstance(argument, correct_type):
                     print('Bad Type! "%s" is not of type "%s"' % (argument, correct_type))
-                    # In reality, it should raise an error,
-                    # but error raising isn't in this tutorial
+                    # In reality, it should raise an error
 
             return func(*args, **kwargs)
 
         return wrapper
 
-    # Return a decorator that makes a function
-    # checks if the input type is correct
     return decorator
 
 
