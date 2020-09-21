@@ -1,0 +1,5 @@
++ python exercise.py
+The actor's last name is "Cleese"
+
+Exception caught!
+KeyError('last name')
