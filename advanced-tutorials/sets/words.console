@@ -1,2 +1,2 @@
 + python words.py
-{'name', 'Harrison', 'my', 'is', 'and'}
+{'and', 'is', 'Harrison', 'my', 'name'}
