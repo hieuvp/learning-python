@@ -58,13 +58,13 @@ for random_number in lottery():
 
 ```console
 + python lottery.py
-And the next number is... 17!
-And the next number is... 38!
-And the next number is... 25!
-And the next number is... 27!
-And the next number is... 21!
-And the next number is... 6!
-And the next number is... 14!
+And the next number is... 29!
+And the next number is... 16!
+And the next number is... 35!
+And the next number is... 37!
+And the next number is... 5!
+And the next number is... 23!
+And the next number is... 11!
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

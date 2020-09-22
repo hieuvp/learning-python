@@ -3,7 +3,7 @@ export PATH := ../../venv/bin:$(PATH)
 .PHONY: lottery
 lottery:
 	# Notice: the output is likely to change
-	./lottery.sh &> lottery.console
+	# ./lottery.sh &> lottery.console
 
 .PHONY: exercise
 exercise:
