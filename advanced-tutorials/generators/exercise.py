@@ -16,12 +16,12 @@ def fibonacci():
 
 # Testing Code
 if isinstance(fibonacci(), GeneratorType):
-    print("Good! The fibonacci() function is a generator")
+    print('Good! The "fibonacci()" function is a generator')
 
     counter = 0
     for number in fibonacci():
 
-        # To not add a newline to the end of the string
+        # Not add a newline to the "end"
         # https://docs.python.org/library/functions.html#print
         print("%d " % number, end="")
 
