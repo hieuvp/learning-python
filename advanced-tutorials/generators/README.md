@@ -26,8 +26,8 @@
 
 <br />
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.py) -->
-<!-- The below code snippet is automatically added from generator_function.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=lottery.py) -->
+<!-- The below code snippet is automatically added from lottery.py -->
 
 ```py
 import random
@@ -53,17 +53,17 @@ for random_number in lottery():
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=generator_function.console) -->
-<!-- The below code snippet is automatically added from generator_function.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=lottery.console) -->
+<!-- The below code snippet is automatically added from lottery.console -->
 
 ```console
-+ python generator_function.py
-And the next number is... 20!
-And the next number is... 22!
++ python lottery.py
+And the next number is... 17!
 And the next number is... 38!
-And the next number is... 4!
-And the next number is... 13!
-And the next number is... 5!
+And the next number is... 25!
+And the next number is... 27!
+And the next number is... 21!
+And the next number is... 6!
 And the next number is... 14!
 ```
 

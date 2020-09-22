@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python generator_function.py
+python lottery.py
