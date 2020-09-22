@@ -53,10 +53,9 @@ pass
 for letter in "Python":
     if letter == "h":
         pass
-        print("This is pass block")
-    print("Current Letter :%s" % letter)
+        print('This is the "pass" block')
 
-print("Good bye!")
+    print("Current letter: %s" % letter)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -68,14 +67,13 @@ When the above code is executed, it produces following result:
 
 ```console
 + python example.py
-Current Letter :P
-Current Letter :y
-Current Letter :t
-This is pass block
-Current Letter :h
-Current Letter :o
-Current Letter :n
-Good bye!
+Current letter: P
+Current letter: y
+Current letter: t
+This is the "pass" block
+Current letter: h
+Current letter: o
+Current letter: n
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

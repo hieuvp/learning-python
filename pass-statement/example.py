@@ -1,7 +1,6 @@
 for letter in "Python":
     if letter == "h":
         pass
-        print("This is pass block")
-    print("Current Letter :%s" % letter)
+        print('This is the "pass" block')
 
-print("Good bye!")
+    print("Current letter: %s" % letter)

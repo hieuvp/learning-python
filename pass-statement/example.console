@@ -1,9 +1,8 @@
 + python example.py
-Current Letter :P
-Current Letter :y
-Current Letter :t
-This is pass block
-Current Letter :h
-Current Letter :o
-Current Letter :n
-Good bye!
+Current letter: P
+Current letter: y
+Current letter: t
+This is the "pass" block
+Current letter: h
+Current letter: o
+Current letter: n
