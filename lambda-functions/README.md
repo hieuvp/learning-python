@@ -95,9 +95,9 @@ print(multiply(5, 6))
 <!-- The below code snippet is automatically added from sum.py -->
 
 ```py
-# A lambda function that sums argument a, b, and c
+# A lambda function that sums arguments a, b, and c
 sum = lambda a, b, c: a + b + c
-print(sum(5, 6, 2))
+print(sum(3, 4, 5))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -107,7 +107,7 @@ print(sum(5, 6, 2))
 
 ```console
 + python sum.py
-13
+12
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
