@@ -33,11 +33,11 @@ lengths = []
 for word in words:
     if word != "the":
         lengths.append(len(word))
-print("By traditional style,        lengths = %s" % lengths)
+print("By following traditional style, lengths = %s" % lengths)
 
 # When using a "List Comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
-print("By using List Comprehension, lengths = %s" % lengths)
+print("By using a List Comprehension,  lengths = %s" % lengths)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -49,8 +49,8 @@ print("By using List Comprehension, lengths = %s" % lengths)
 + python list_comprehension.py
 words = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 
-By traditional style,        lengths = [5, 5, 3, 5, 4, 4, 3]
-By using List Comprehension, lengths = [5, 5, 3, 5, 4, 4, 3]
+By following traditional style, lengths = [5, 5, 3, 5, 4, 4, 3]
+By using a List Comprehension,  lengths = [5, 5, 3, 5, 4, 4, 3]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

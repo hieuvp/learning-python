@@ -10,8 +10,8 @@ lengths = []
 for word in words:
     if word != "the":
         lengths.append(len(word))
-print("By traditional style,        lengths = %s" % lengths)
+print("By following traditional style, lengths = %s" % lengths)
 
 # When using a "List Comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
-print("By using List Comprehension, lengths = %s" % lengths)
+print("By using a List Comprehension,  lengths = %s" % lengths)
