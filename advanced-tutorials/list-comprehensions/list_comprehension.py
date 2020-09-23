@@ -4,7 +4,7 @@ print("words = %s\n" % words)
 
 # Create a list of integers
 # which specifies the length of each word in the sentence,
-# but only if the "word" is not the word "the"
+# but only if the "word" is not "the"
 
 lengths = []
 for word in words:
