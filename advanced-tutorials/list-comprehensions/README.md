@@ -22,6 +22,7 @@
 
 ```py
 words = "the quick brown fox jumps over the lazy dog".split()
+print("words = %s\n" % words)
 
 
 # Create a list of integers which specify the length of each word in a certain sentence,
@@ -30,15 +31,11 @@ lengths = []
 for word in words:
     if word != "the":
         lengths.append(len(word))
-print("words   = %s" % words)
-print("lengths = %s" % lengths)
-
-print()
+print("By traditional style,        lengths = %s" % lengths)
 
 # When using a "list comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
-print("words   = %s" % words)
-print("lengths = %s" % lengths)
+print("By using List Comprehension, lengths = %s" % lengths)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -48,11 +45,10 @@ print("lengths = %s" % lengths)
 
 ```console
 + python list_comprehension.py
-words   = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
-lengths = [5, 5, 3, 5, 4, 4, 3]
+words = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 
-words   = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
-lengths = [5, 5, 3, 5, 4, 4, 3]
+By traditional style,        lengths = [5, 5, 3, 5, 4, 4, 3]
+By using List Comprehension, lengths = [5, 5, 3, 5, 4, 4, 3]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
