@@ -16,6 +16,7 @@ declare -ra IGNORING_FILES=(
   "advanced-tutorials/exception-handling/exercise.py"
   "advanced-tutorials/generators/exercise.py"
   "advanced-tutorials/generators/generator_function.py"
+  "advanced-tutorials/generators/lottery.py"
   "advanced-tutorials/map-filter-reduce/map_pets.py"
   "advanced-tutorials/multiple-function-arguments/exercise.py"
   "advanced-tutorials/partial-functions/exercise.py"
