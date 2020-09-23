@@ -25,15 +25,17 @@ words = "the quick brown fox jumps over the lazy dog".split()
 print("words = %s\n" % words)
 
 
-# Create a list of integers which specify the length of each word in a certain sentence,
-# but only if the word is not the word "the"
+# Create a list of integers
+# which specifies the length of each word in the sentence,
+# but only if the "word" is not the word "the"
+
 lengths = []
 for word in words:
     if word != "the":
         lengths.append(len(word))
 print("By traditional style,        lengths = %s" % lengths)
 
-# When using a "list comprehension", we could simplify this process
+# When using a "List Comprehension", we could simplify this process
 lengths = [len(word) for word in words if word != "the"]
 print("By using List Comprehension, lengths = %s" % lengths)
 ```
@@ -59,7 +61,7 @@ By using List Comprehension, lengths = [5, 5, 3, 5, 4, 4, 3]
 <!-- The below code snippet is automatically added from exercise.py -->
 
 ```py
-# Use a "list comprehension"
+# Use a "List Comprehension"
 # to create a list of "positive_integers" out of "numbers"
 numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
 positive_integers = [int(number) for number in numbers if number > 0]
