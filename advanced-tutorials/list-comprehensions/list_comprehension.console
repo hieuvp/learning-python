@@ -1,0 +1,5 @@
++ python list_comprehension.py
+words = ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+
+By following traditional style, lengths = [5, 5, 3, 5, 4, 4, 3]
+By using a List Comprehension,  lengths = [5, 5, 3, 5, 4, 4, 3]
