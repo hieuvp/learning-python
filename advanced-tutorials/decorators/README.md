@@ -233,7 +233,7 @@ def type_check(correct_type):
 
                     return None
 
-            print("Type checking of function arguments, Passed!")
+            print("Arguments type checking, passed!")
 
             return func(*args, **kwargs)
 
@@ -251,12 +251,12 @@ def test_first_letter():
     print()
     word = "Hello World"
     print("word = %s" % word)
-    print('first_letter(%s) = %s' % (word, first_letter(word)))
+    print("first_letter(%s) = %s" % (word, first_letter(word)))
 
     print()
     word = ["Not", "A", "String"]
     print("word = %s" % word)
-    print('first_letter(%s) = %s' % (word, first_letter(word)))
+    print("first_letter(%s) = %s" % (word, first_letter(word)))
 
 
 test_first_letter()
@@ -295,7 +295,7 @@ test_times()
 + python exercise.py
 
 word = Hello World
-Type checking of function arguments, Passed!
+Arguments type checking, passed!
 first_letter(Hello World) = H
 
 word = ['Not', 'A', 'String']
@@ -304,7 +304,7 @@ first_letter(['Not', 'A', 'String']) = None
 
 multiplier   = 2
 multiplicand = 3
-Type checking of function arguments, Passed!
+Arguments type checking, passed!
 times(2, 3) = 6
 
 multiplier   = 2

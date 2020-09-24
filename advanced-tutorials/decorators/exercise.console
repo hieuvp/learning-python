@@ -1,7 +1,7 @@
 + python exercise.py
 
 word = Hello World
-Type checking of function arguments, Passed!
+Arguments type checking, passed!
 first_letter(Hello World) = H
 
 word = ['Not', 'A', 'String']
@@ -10,7 +10,7 @@ first_letter(['Not', 'A', 'String']) = None
 
 multiplier   = 2
 multiplicand = 3
-Type checking of function arguments, Passed!
+Arguments type checking, passed!
 times(2, 3) = 6
 
 multiplier   = 2
