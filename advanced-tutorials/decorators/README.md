@@ -230,11 +230,9 @@ def type_check(correct_type):
                 if not isinstance(argument, correct_type):
                     # In reality, it should raise an error
                     print('Bad type! "%s" is not of type "%s"' % (argument, correct_type))
-
                     return None
 
             print("Arguments type checking, passed!")
-
             return func(*args, **kwargs)
 
         return wrapper
