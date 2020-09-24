@@ -257,9 +257,6 @@ def test_first_letter():
     print("first_letter(%s) = %s" % (word, first_letter(word)))
 
 
-test_first_letter()
-
-
 @type_check(int)
 def times(multiplier, multiplicand):
     return multiplier * multiplicand
@@ -281,6 +278,7 @@ def test_times():
     print("times(%s, %s) = %s" % (multiplier, multiplicand, times(multiplier, multiplicand)))
 
 
+test_first_letter()
 test_times()
 ```
 
