@@ -1,4 +1,4 @@
-# A "decorator factory" which returns a "decorator"
+# A "Decorator Factory" which returns a "Decorator"
 # that checks if the input type is correct
 def type_check(correct_type):
     def decorator(func):
