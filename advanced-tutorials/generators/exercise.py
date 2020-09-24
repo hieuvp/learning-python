@@ -21,9 +21,9 @@ if isinstance(fibonacci(), GeneratorType):
     counter = 0
     for number in fibonacci():
 
-        # Not add a newline to the "end"
+        # Not to add a newline to the "end"
         # https://docs.python.org/library/functions.html#print
-        print("%d " % number, end="")
+        print("%d" % number, end=" ")
 
         counter += 1
         if counter == 10:
