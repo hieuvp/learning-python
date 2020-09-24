@@ -232,7 +232,7 @@ def type_check(correct_type):
                     print('Bad type! "%s" is not of type "%s"' % (argument, correct_type))
                     return None
 
-            print("Arguments type checking, passed!")
+            print("Type checking passed!")
             return func(*args, **kwargs)
 
         return wrapper
@@ -291,7 +291,7 @@ test_times()
 + python exercise.py
 
 word = Hello World
-Arguments type checking, passed!
+Type checking passed!
 first_letter(Hello World) = H
 
 word = ['Not', 'A', 'String']
@@ -300,7 +300,7 @@ first_letter(['Not', 'A', 'String']) = None
 
 multiplier   = 2
 multiplicand = 3
-Arguments type checking, passed!
+Type checking passed!
 times(2, 3) = 6
 
 multiplier   = 2
