@@ -228,8 +228,12 @@ def type_check(correct_type):
         def wrapper(*args, **kwargs):
             for argument in args:
                 if not isinstance(argument, correct_type):
-                    print('Bad Type! "%s" is not of type "%s"' % (argument, correct_type))
                     # In reality, it should raise an error
+                    print('Bad type! "%s" is not of type "%s"' % (argument, correct_type))
+
+                    return None
+
+            print("Type checking of function arguments, Passed!")
 
             return func(*args, **kwargs)
 
@@ -243,12 +247,19 @@ def first_letter(word):
     return word[0]
 
 
-print()
-print('first_letter("Hello World") = %s' % first_letter("Hello World"))
+def test_first_letter():
+    print()
+    word = "Hello World"
+    print("word = %s" % word)
+    print('first_letter(%s) = %s' % (word, first_letter(word)))
 
-print()
-print('first_letter(["Not", "A", "String"])')
-first_letter(["Not", "A", "String"])
+    print()
+    word = ["Not", "A", "String"]
+    print("word = %s" % word)
+    print('first_letter(%s) = %s' % (word, first_letter(word)))
+
+
+test_first_letter()
 
 
 @type_check(int)
@@ -256,12 +267,23 @@ def times(multiplier, multiplicand):
     return multiplier * multiplicand
 
 
-print()
-print("times(2, 3) = %s" % times(2, 3))
+def test_times():
+    print()
+    multiplier = 2
+    multiplicand = 3
+    print("multiplier   = %s" % multiplier)
+    print("multiplicand = %s" % multiplicand)
+    print("times(%s, %s) = %s" % (multiplier, multiplicand, times(multiplier, multiplicand)))
 
-print()
-print('times(2, "Not A Number")')
-times(2, "Not A Number")
+    print()
+    multiplier = 2
+    multiplicand = "Not A Number"
+    print("multiplier   = %s" % multiplier)
+    print("multiplicand = %s" % multiplicand)
+    print("times(%s, %s) = %s" % (multiplier, multiplicand, times(multiplier, multiplicand)))
+
+
+test_times()
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -272,15 +294,23 @@ times(2, "Not A Number")
 ```console
 + python exercise.py
 
-first_letter("Hello World") = H
+word = Hello World
+Type checking of function arguments, Passed!
+first_letter(Hello World) = H
 
-first_letter(["Not", "A", "String"])
-Bad Type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
+word = ['Not', 'A', 'String']
+Bad type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
+first_letter(['Not', 'A', 'String']) = None
 
+multiplier   = 2
+multiplicand = 3
+Type checking of function arguments, Passed!
 times(2, 3) = 6
 
-times(2, "Not A Number")
-Bad Type! "Not A Number" is not of type "<class 'int'>"
+multiplier   = 2
+multiplicand = Not A Number
+Bad type! "Not A Number" is not of type "<class 'int'>"
+times(2, Not A Number) = None
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
