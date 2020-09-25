@@ -1,23 +1,20 @@
 # Say, we have an iterable list of our favourite pet names, all in lowercase
-PETS = ["alfred", "tabitha", "william", "arla"]
+pets = ["alfred", "tabitha", "william", "arla"]
+
 
 # We need them in uppercase
 upper_pets = []
-
-# Traditionally, in normal Pythoning
-for pet in PETS:
+for pet in pets:
     upper_pet = pet.upper()
     upper_pets.append(upper_pet)
 
-print(upper_pets)
+print("By following traditional style, upper_pets = %s" % upper_pets)
+print()
 
 
 # With "map()",
 # it's not only easier, but it's also much more flexible
-print(list(map(str.upper, PETS)))
-print()
-
-
-map_pets = map(str.upper, PETS)
-print("map_pets       = %s" % map_pets)
-print("type(map_pets) = %s" % type(map_pets))
+upper_pets = map(str.upper, pets)
+print("By using a Map, list(upper_pets) = %s" % list(upper_pets))
+print("- type(upper_pets)       = %s" % type(upper_pets))
+print("- type(list(upper_pets)) = %s" % type(list(upper_pets)))
