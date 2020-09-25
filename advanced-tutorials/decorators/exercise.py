@@ -5,8 +5,8 @@ def type_check(correct_type):
         def wrapper(*args, **kwargs):
             for argument in args:
                 if not isinstance(argument, correct_type):
-                    # In reality, it should raise an error
                     print('Bad type! "%s" is not of type "%s"' % (argument, correct_type))
+                    # In reality, it should raise an error
                     return None
 
             print("Type checking passed!")
