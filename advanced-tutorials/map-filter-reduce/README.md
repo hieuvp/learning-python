@@ -163,13 +163,8 @@ Go ahead, try it:
 <!-- The below code snippet is automatically added from map_inequable_iterables.py -->
 
 ```py
-# Python 3
-
 circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
-
-result = list(map(round, circle_areas, range(1, 3)))
-
-print(result)
+print(list(map(round, circle_areas, range(1, 3))))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
