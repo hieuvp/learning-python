@@ -15,7 +15,7 @@ print("short_names    = %s" % short_names)
 print()
 
 # The product of numbers
-numbers = [4, 6, 9, 23, 5]
+numbers = [1, 2, 3, 4, 5]
 product_of_numbers = reduce(lambda x, y: x * y, numbers)
 print("numbers            = %s" % numbers)
 print("product_of_numbers = %s" % product_of_numbers)

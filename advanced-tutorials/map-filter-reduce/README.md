@@ -456,7 +456,7 @@ print("short_names    = %s" % short_names)
 print()
 
 # The product of numbers
-numbers = [4, 6, 9, 23, 5]
+numbers = [1, 2, 3, 4, 5]
 product_of_numbers = reduce(lambda x, y: x * y, numbers)
 print("numbers            = %s" % numbers)
 print("product_of_numbers = %s" % product_of_numbers)
@@ -475,8 +475,8 @@ square_floats   = [18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
 original_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
 short_names    = ['olumide', 'josiah', 'omoseun']
 
-numbers            = [4, 6, 9, 23, 5]
-product_of_numbers = 24840
+numbers            = [1, 2, 3, 4, 5]
+product_of_numbers = 120
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
