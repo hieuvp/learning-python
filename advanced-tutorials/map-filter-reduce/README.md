@@ -441,22 +441,25 @@ print(reduce(custom_sum, numbers, 10))
 ```py
 from functools import reduce
 
-# Print the square of each numbers rounded to two decimal places
-my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
-print("my_floats = %s" % my_floats)
-print(list(map(lambda number: round(number ** 2, 2), my_floats)))
+# The square of each floating-point numbers rounded to two decimal places
+original_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+square_floats = list(map(lambda number: round(number ** 2, 2), original_floats))
+print("original_floats = %s" % original_floats)
+print("square_floats   = %s" % square_floats)
 print()
 
-# Print only the names that are less than or equal to seven letters
-my_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
-print("my_names = %s" % my_names)
-print(list(filter(lambda name: len(name) <= 7, my_names)))
+# The names that are less than or equal to seven letters
+original_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
+short_names = list(filter(lambda name: len(name) <= 7, original_names))
+print("original_names = %s" % original_names)
+print("short_names    = %s" % short_names)
 print()
 
-# Print the product of these numbers
-my_numbers = [4, 6, 9, 23, 5]
-print("my_numbers = %s" % my_numbers)
-print(reduce(lambda x, y: x * y, my_numbers))
+# The product of numbers
+numbers = [4, 6, 9, 23, 5]
+product_of_numbers = reduce(lambda x, y: x * y, numbers)
+print("numbers            = %s" % numbers)
+print("product_of_numbers = %s" % product_of_numbers)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -466,14 +469,14 @@ print(reduce(lambda x, y: x * y, my_numbers))
 
 ```console
 + python exercise.py
-my_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
-[18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
+original_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+square_floats   = [18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
 
-my_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
-['olumide', 'josiah', 'omoseun']
+original_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
+short_names    = ['olumide', 'josiah', 'omoseun']
 
-my_numbers = [4, 6, 9, 23, 5]
-24840
+numbers            = [4, 6, 9, 23, 5]
+product_of_numbers = 24840
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
