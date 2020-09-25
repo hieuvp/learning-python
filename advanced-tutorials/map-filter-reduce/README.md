@@ -282,16 +282,18 @@ Let's see some examples:
 <!-- The below code snippet is automatically added from filter_scores.py -->
 
 ```py
-# The following is a list (iterable) of the scores of 10 students in a Chemistry exam
-scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
+# The following is a list of the scores of 10 students in a Chemistry exam
+all_scores = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
+print("all_scores    = %s" % all_scores)
 
 
 # Find out those who passed with scores more than 75
-def is_a_student(score):
+def is_passed(score):
     return score > 75
 
 
-print(list(filter(is_a_student, scores)))
+passed_scores = list(filter(is_passed, all_scores))
+print("passed_scores = %s" % passed_scores)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -301,7 +303,8 @@ print(list(filter(is_a_student, scores)))
 
 ```console
 + python filter_scores.py
-[90, 76, 88, 81]
+all_scores    = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
+passed_scores = [90, 76, 88, 81]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

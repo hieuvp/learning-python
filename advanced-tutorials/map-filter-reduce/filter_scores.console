@@ -1,2 +1,3 @@
 + python filter_scores.py
-[90, 76, 88, 81]
+all_scores    = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
+passed_scores = [90, 76, 88, 81]
