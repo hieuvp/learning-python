@@ -1,2 +1,4 @@
 + python filter_dromes.py
-['madam', 'anutforajaroftuna']
+type(dromes) = <class 'tuple'>
+list(dromes) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
+palindromes  = ['madam', 'anutforajaroftuna']
