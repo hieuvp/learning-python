@@ -404,31 +404,31 @@ It does this continuously (cumulatively) until numbers is exhausted.
 
 Let's see what happens when I use the optional initial value.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_with_initial.py) -->
-<!-- The below code snippet is automatically added from reduce_with_initial.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum_with_initial.py) -->
+<!-- The below code snippet is automatically added from sum_with_initial.py -->
 
 ```py
 from functools import reduce
 
 
-def custom_sum(first, second):
+def sum(first, second):
     return first + second
 
 
-numbers = [3, 4, 6, 10]
+numbers = [6, 7, 8, 9]
 
-# Initially, uses "10" as the first argument to "custom_sum"
-print(reduce(custom_sum, numbers, 10))
+# Initially, uses "10" as the first argument to "sum()"
+print(reduce(sum, numbers, 10))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_with_initial.console) -->
-<!-- The below code snippet is automatically added from reduce_with_initial.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum_with_initial.console) -->
+<!-- The below code snippet is automatically added from sum_with_initial.console -->
 
 ```console
-+ python reduce_with_initial.py
-33
++ python sum_with_initial.py
+40
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

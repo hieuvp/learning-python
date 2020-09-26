@@ -32,16 +32,16 @@ filter-dromes:
 sum:
 	./sum.sh &> ./sum.console
 
-.PHONY: reduce-with-initial
-reduce-with-initial:
-	./reduce_with_initial.sh &> ./reduce_with_initial.console
+.PHONY: sum-with-initial
+sum-with-initial:
+	./sum_with_initial.sh &> ./sum_with_initial.console
 
 .PHONY: exercise
 exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes sum reduce-with-initial exercise
+all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes sum sum-with-initial exercise
 
 .PHONY: git-add
 git-add: all
