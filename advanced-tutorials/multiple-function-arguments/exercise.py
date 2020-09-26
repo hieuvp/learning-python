@@ -1,16 +1,13 @@
+# Return the amount of extra arguments received
 def foo(a, b, c, *rest):
-
-    # Return the amount of extra arguments received
     return len(rest)
 
 
+# Return True if the argument with the keyword "magic_number" is worth 7
 def bar(a, b, c, **options):
-
-    # Return True if the argument with the keyword "magic_number" is worth 7
     if options.get("magic_number") == 7:
         return True
 
-    # Otherwise, False
     return False
 
 
