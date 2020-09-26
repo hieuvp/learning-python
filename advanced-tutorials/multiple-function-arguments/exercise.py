@@ -3,7 +3,7 @@ def foo(a, b, c, *rest):
     return len(rest)
 
 
-# Return True if the argument with the keyword "magic_number" is worth 7
+# Return True if the argument with the keyword "magic_number" is worth "7"
 def bar(a, b, c, **options):
     if options.get("magic_number") == 7:
         return True
