@@ -229,14 +229,10 @@ Onto our own custom `zip()` function!
 <!-- The below code snippet is automatically added from map_strings_numbers.py -->
 
 ```py
-# Python 3
+strings = ["a", "b", "c", "d", "e"]
+numbers = [1, 2, 3, 4, 5]
 
-my_strings = ["a", "b", "c", "d", "e"]
-my_numbers = [1, 2, 3, 4, 5]
-
-results = list(map(lambda x, y: (x, y), my_strings, my_numbers))
-
-print(results)
+print(list(map(lambda x, y: (x, y), strings, numbers)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
