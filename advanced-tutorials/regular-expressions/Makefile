@@ -1,11 +1,15 @@
 export PATH := ../../venv/bin:$(PATH)
 
-.PHONY: exercise
-exercise:
-	./exercise.sh &> ./exercise.console
+.PHONY: search
+search:
+	./search.sh &> ./search.console
+
+.PHONY: match
+match:
+	./match.sh &> ./match.console
 
 .PHONY: all
-all: exercise
+all: search match
 
 .PHONY: git-add
 git-add: all

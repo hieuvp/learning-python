@@ -40,8 +40,8 @@ So, the following lines would be matched by that regex:
 
 ## Exercise
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.py) -->
-<!-- The below code snippet is automatically added from exercise.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=search.py) -->
+<!-- The below code snippet is automatically added from search.py -->
 
 ```py
 import re
@@ -54,8 +54,28 @@ print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
 
 # Doesn't return anything
 print(re.search(pattern, "Nada...:-("))
+```
 
-print()
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=search.console) -->
+<!-- The below code snippet is automatically added from search.console -->
+
+```console
++ python search.py
+<re.Match object; span=(35, 39), match='[on]'>
+None
+```
+
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+<br />
+
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=match.py) -->
+<!-- The below code snippet is automatically added from match.py -->
+
+```py
+import re
 
 # Compiling a regular expression pattern that will match an email
 REGEX = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
@@ -76,14 +96,11 @@ check("wha.t.`1an?ug{}ly@email.com")
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=exercise.console) -->
-<!-- The below code snippet is automatically added from exercise.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=match.console) -->
+<!-- The below code snippet is automatically added from match.console -->
 
 ```console
-+ python exercise.py
-<re.Match object; span=(35, 39), match='[on]'>
-None
-
++ python match.py
 Passed! "john@example.com" is an email.
 Passed! "python-list@python.org" is an email.
 Failed! "wha.t.`1an?ug{}ly@email.com" does not match the email pattern "^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$".

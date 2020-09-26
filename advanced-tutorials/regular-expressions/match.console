@@ -1,7 +1,4 @@
-+ python exercise.py
-<re.Match object; span=(35, 39), match='[on]'>
-None
-
++ python match.py
 Passed! "john@example.com" is an email.
 Passed! "python-list@python.org" is an email.
 Failed! "wha.t.`1an?ug{}ly@email.com" does not match the email pattern "^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$".
