@@ -10,7 +10,8 @@
 
 - [Example](#example)
   - [Explanation](#explanation)
-- [Exercise](#exercise)
+- [`re.search()`](#research)
+- [`re.match()`](#rematch)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -38,7 +39,7 @@ An example regex is `r"^(From|To|Cc).*?python-list@python.org"`.
 So, the following lines would be matched by that regex:
 `From: python-list@python.org To: !asp]<,. python-list@python.org`
 
-## Exercise
+## `re.search()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=search.py) -->
 <!-- The below code snippet is automatically added from search.py -->
@@ -69,7 +70,7 @@ None
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<br />
+## `re.match()`
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=match.py) -->
 <!-- The below code snippet is automatically added from match.py -->
