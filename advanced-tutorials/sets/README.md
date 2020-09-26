@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'name', 'and', 'Harrison', 'is', 'my'}
+{'my', 'and', 'name', 'Harrison', 'is'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -101,7 +101,7 @@ print(b.symmetric_difference(a))
 ```console
 + python symmetric_difference.py
 {'Jake', 'Eric', 'Jill'}
-{'Jake', 'Eric', 'Jill'}
+{'Jill', 'Eric', 'Jake'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -127,7 +127,7 @@ print(b.difference(a))
 
 ```console
 + python difference.py
-{'Jake', 'Eric'}
+{'Eric', 'Jake'}
 {'Jill'}
 ```
 
@@ -153,7 +153,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'John', 'Eric', 'Jill', 'Jake'}
+{'Jake', 'Eric', 'John', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
