@@ -200,10 +200,10 @@ Use the below interpreter session to get a grip of `zip()` before we create ours
 <!-- The below code snippet is automatically added from zip_strings_numbers.py -->
 
 ```py
-my_strings = ["a", "b", "c", "d", "e"]
-my_numbers = [1, 2, 3, 4, 5]
+strings = ["a", "b", "c", "d", "e"]
+numbers = [1, 2, 3, 4, 5]
 
-print(list(zip(my_strings, my_numbers)))
+print(list(zip(strings, numbers)))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
