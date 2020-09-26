@@ -4,7 +4,10 @@ def function(first, second, third, *rest):
     print("first  = %s" % first)
     print("second = %s" % second)
     print("third  = %s" % third)
-    print("rest   = %s" % list(rest))
+
+    print()
+    print("type(rest) = %s" % type(rest))
+    print("list(rest) = %s" % list(rest))
 
 
-function(1, 2, 3, 4, 5)
+function(1, 2, 3, 4, 5, 6)

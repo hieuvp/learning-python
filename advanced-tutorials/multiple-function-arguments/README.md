@@ -6,8 +6,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Concepts](#concepts)
-  - [`*args` - Arguments](#args---arguments)
-  - [`**kwargs` - Keyword Arguments](#kwargs---keyword-arguments)
+  - [`*args` - Arbitrary Arguments](#args---arbitrary-arguments)
+  - [`**kwargs` - Arbitrary Keyword Arguments](#kwargs---arbitrary-keyword-arguments)
 - [Exercise](#exercise)
 - [References](#references)
 
@@ -26,7 +26,7 @@ def my_function(first, second, third):
     ...
 ```
 
-### `*args` - Arguments
+### `*args` - Arbitrary Arguments
 
 > It is possible to declare functions which receive a variable number of arguments,
 > using the following syntax:
@@ -43,10 +43,13 @@ def function(first, second, third, *rest):
     print("first  = %s" % first)
     print("second = %s" % second)
     print("third  = %s" % third)
-    print("rest   = %s" % list(rest))
+
+    print()
+    print("type(rest) = %s" % type(rest))
+    print("list(rest) = %s" % list(rest))
 
 
-function(1, 2, 3, 4, 5)
+function(1, 2, 3, 4, 5, 6)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -59,12 +62,14 @@ function(1, 2, 3, 4, 5)
 first  = 1
 second = 2
 third  = 3
-rest   = [4, 5]
+
+type(rest) = <class 'tuple'>
+list(rest) = [4, 5, 6]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-### `**kwargs` - Keyword Arguments
+### `**kwargs` - Arbitrary Keyword Arguments
 
 > It is also possible to send functions arguments by keyword,
 > so that the order of the argument does not matter.
