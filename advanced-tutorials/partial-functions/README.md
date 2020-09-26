@@ -67,7 +67,7 @@ def func(u, v, w, x):
 
 
 # Editing the "func()" and replacing the first three variables
-new_func = partial(func, 7, 6, 5)
+new_func = partial(func, 1, 2, 3)
 
 
 # Printing with the "new_func()", using only one input variable
@@ -82,7 +82,7 @@ print("new_func(4) = %s" % new_func(4))
 
 ```console
 + python exercise.py
-new_func(4) = 60
+new_func(4) = 20
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
