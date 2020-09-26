@@ -1,5 +1,7 @@
 # Say, we have an iterable list of our favourite pet names, all in lowercase
 pets = ["alfred", "tabitha", "william", "arla"]
+print("pets = %s" % pets)
+print()
 
 
 # We need them in uppercase

@@ -1,4 +1,6 @@
 + python map_pets.py
+pets = ['alfred', 'tabitha', 'william', 'arla']
+
 By following traditional style, upper_pets = ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
 By using a Map, list(upper_pets) = ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']

@@ -45,6 +45,8 @@ Let's see how these rules play out with the following examples:
 ```py
 # Say, we have an iterable list of our favourite pet names, all in lowercase
 pets = ["alfred", "tabitha", "william", "arla"]
+print("pets = %s" % pets)
+print()
 
 
 # We need them in uppercase
@@ -72,6 +74,8 @@ print("- type(list(upper_pets)) = %s" % type(list(upper_pets)))
 
 ```console
 + python map_pets.py
+pets = ['alfred', 'tabitha', 'william', 'arla']
+
 By following traditional style, upper_pets = ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
 
 By using a Map, list(upper_pets) = ['ALFRED', 'TABITHA', 'WILLIAM', 'ARLA']
