@@ -1,6 +1,7 @@
 def function(first, second, third, **options):
     if options.get("action") == "sum":
-        print("The sum is: %d" % (first + second + third))
+        sum = first + second + third
+        print("sum    = %s" % sum)
 
     if options.get("number") == "first":
         return first
@@ -8,5 +9,5 @@ def function(first, second, third, **options):
     return None
 
 
-RESULT = function(1, 2, 3, action="sum", number="first")
-print("Result: %d" % RESULT)
+result = function(1, 2, 3, action="sum", number="first")
+print("result = %s" % result)
