@@ -10,4 +10,4 @@ def function(first, second, third, *rest):
     print("list(rest) = %s" % list(rest))
 
 
-function(1, 2, 3, 4, 5, 6)
+function(1, 2, 3, 4, 5, 6, 7)

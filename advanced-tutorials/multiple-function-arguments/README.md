@@ -49,7 +49,7 @@ def function(first, second, third, *rest):
     print("list(rest) = %s" % list(rest))
 
 
-function(1, 2, 3, 4, 5, 6)
+function(1, 2, 3, 4, 5, 6, 7)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -64,7 +64,7 @@ second = 2
 third  = 3
 
 type(rest) = <class 'tuple'>
-list(rest) = [4, 5, 6]
+list(rest) = [4, 5, 6, 7]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
