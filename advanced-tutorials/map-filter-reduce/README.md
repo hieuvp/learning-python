@@ -365,31 +365,30 @@ The following should be noted about `reduce()`:
 
 As usual, let's see some examples:
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.py) -->
-<!-- The below code snippet is automatically added from reduce_numbers.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.py) -->
+<!-- The below code snippet is automatically added from sum.py -->
 
 ```py
 from functools import reduce
 
 
-# Create our own version of Python's built-in "sum()" function
-def custom_sum(first, second):
+def sum(first, second):
     return first + second
 
 
-numbers = [3, 4, 6, 10]
+numbers = [6, 7, 8, 9]
 
-print(reduce(custom_sum, numbers))
+print(reduce(sum, numbers))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=reduce_numbers.console) -->
-<!-- The below code snippet is automatically added from reduce_numbers.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=sum.console) -->
+<!-- The below code snippet is automatically added from sum.console -->
 
 ```console
-+ python reduce_numbers.py
-23
++ python sum.py
+30
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

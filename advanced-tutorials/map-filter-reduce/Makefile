@@ -28,9 +28,9 @@ filter-scores:
 filter-dromes:
 	./filter_dromes.sh &> ./filter_dromes.console
 
-.PHONY: reduce-numbers
-reduce-numbers:
-	./reduce_numbers.sh &> ./reduce_numbers.console
+.PHONY: sum
+sum:
+	./sum.sh &> ./sum.console
 
 .PHONY: reduce-with-initial
 reduce-with-initial:
@@ -41,7 +41,7 @@ exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes reduce-numbers reduce-with-initial exercise
+all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes sum reduce-with-initial exercise
 
 .PHONY: git-add
 git-add: all

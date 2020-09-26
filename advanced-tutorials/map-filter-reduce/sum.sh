@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python reduce_numbers.py
+python sum.py
