@@ -37,8 +37,8 @@ def my_function(first, second, third):
 <!-- The below code snippet is automatically added from args.py -->
 
 ```py
-# "rest" variable is a list of variables,
-# which receives all arguments which were given to the function after the first 3 arguments
+# "rest" receives all arguments
+# which were given to the "function" after the first 3 arguments
 def function(first, second, third, *rest):
     print("first  = %s" % first)
     print("second = %s" % second)
