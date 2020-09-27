@@ -1,2 +1,2 @@
 + python union.py
-{'Jake', 'Eric', 'John', 'Jill'}
+{'Eric', 'Jill', 'John', 'Jake'}
