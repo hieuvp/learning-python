@@ -5,13 +5,13 @@ REGEX = re.compile(r"^[a-z0-9._%+-]+[@][a-z0-9.-]+\.[a-z]{2,}$")
 
 
 # Define a function for validating an email
-def check(email):
+def validate(email):
     if re.match(REGEX, email):
         print('Passed! "%s" is an email' % email)
     else:
         print('Failed! "%s" does not match the email pattern "%s"' % (email, REGEX.pattern))
 
 
-check("john@example.com")
-check("python-list@python.org")
-check("wha.t.`1an?ug{}ly@email.com")
+validate("john@example.com")
+validate("python-list@python.org")
+validate("wha.t.`1an?ug{}ly@email.com")
