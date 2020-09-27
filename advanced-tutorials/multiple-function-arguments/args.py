@@ -1,5 +1,5 @@
 # "rest" receives all arguments
-# which were given to the "function" after the first 3 arguments
+# which were given to the "function()" after the first 3 arguments
 def function(first, second, third, *rest):
     print("first  = %s" % first)
     print("second = %s" % second)
