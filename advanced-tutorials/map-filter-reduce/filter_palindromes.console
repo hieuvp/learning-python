@@ -1,4 +1,4 @@
 + python filter_palindromes.py
-type(dromes) = <class 'tuple'>
-list(dromes) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
-palindromes  = ['madam', 'anutforajaroftuna']
+type(words) = <class 'tuple'>
+list(words) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
+palindromes = ['madam', 'anutforajaroftuna']

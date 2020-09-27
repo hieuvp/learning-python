@@ -321,9 +321,9 @@ A **palindrome** is a word, phrase, or sequence that reads the same backwards as
 words = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
 palindromes = list(filter(lambda word: word == word[::-1], words))
 
-print("type(dromes) = %s" % type(words))
-print("list(dromes) = %s" % list(words))
-print("palindromes  = %s" % palindromes)
+print("type(words) = %s" % type(words))
+print("list(words) = %s" % list(words))
+print("palindromes = %s" % palindromes)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -333,9 +333,9 @@ print("palindromes  = %s" % palindromes)
 
 ```console
 + python filter_palindromes.py
-type(dromes) = <class 'tuple'>
-list(dromes) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
-palindromes  = ['madam', 'anutforajaroftuna']
+type(words) = <class 'tuple'>
+list(words) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
+palindromes = ['madam', 'anutforajaroftuna']
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

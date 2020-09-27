@@ -2,6 +2,6 @@
 words = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
 palindromes = list(filter(lambda word: word == word[::-1], words))
 
-print("type(dromes) = %s" % type(words))
-print("list(dromes) = %s" % list(words))
-print("palindromes  = %s" % palindromes)
+print("type(words) = %s" % type(words))
+print("list(words) = %s" % list(words))
+print("palindromes = %s" % palindromes)
