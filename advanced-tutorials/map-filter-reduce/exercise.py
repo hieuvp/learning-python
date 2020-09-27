@@ -7,7 +7,7 @@ print("original_floats = %s" % original_floats)
 print("square_floats   = %s" % square_floats)
 print()
 
-# Compute the names that are less than or equal to seven letters
+# Select the names that are less than or equal to seven letters
 original_names = ["olumide", "akinremi", "josiah", "temidayo", "omoseun"]
 short_names = list(filter(lambda name: len(name) <= 7, original_names))
 print("original_names = %s" % original_names)
