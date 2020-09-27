@@ -24,9 +24,9 @@ map-strings-numbers:
 filter-scores:
 	./filter_scores.sh &> ./filter_scores.console
 
-.PHONY: filter-dromes
-filter-dromes:
-	./filter_dromes.sh &> ./filter_dromes.console
+.PHONY: filter-palindromes
+filter-palindromes:
+	./filter_palindromes.sh &> ./filter_palindromes.console
 
 .PHONY: sum
 sum:
@@ -41,7 +41,7 @@ exercise:
 	./exercise.sh &> ./exercise.console
 
 .PHONY: all
-all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-dromes sum sum-with-initial exercise
+all: map-pets map-circle-areas map-inequable-iterables zip-strings-numbers map-strings-numbers filter-scores filter-palindromes sum sum-with-initial exercise
 
 .PHONY: git-add
 git-add: all

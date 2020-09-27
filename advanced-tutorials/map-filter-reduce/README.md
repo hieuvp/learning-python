@@ -313,27 +313,26 @@ passed_students = [90, 76, 88, 81]
 The next example will be a **palindrome detector**.<br />
 A **palindrome** is a word, phrase, or sequence that reads the same backwards as forwards.
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.py) -->
-<!-- The below code snippet is automatically added from filter_dromes.py -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_palindromes.py) -->
+<!-- The below code snippet is automatically added from filter_palindromes.py -->
 
 ```py
-# Filter out words that are palindromes
-# from a tuple (iterable) of suspected palindromes
-dromes = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
-palindromes = list(filter(lambda word: word == word[::-1], dromes))
+# Filter out "words" that are "palindromes" from a tuple
+words = ("demigod", "rewire", "madam", "freer", "anutforajaroftuna", "kiosk")
+palindromes = list(filter(lambda word: word == word[::-1], words))
 
-print("type(dromes) = %s" % type(dromes))
-print("list(dromes) = %s" % list(dromes))
+print("type(dromes) = %s" % type(words))
+print("list(dromes) = %s" % list(words))
 print("palindromes  = %s" % palindromes)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_dromes.console) -->
-<!-- The below code snippet is automatically added from filter_dromes.console -->
+<!-- AUTO-GENERATED-CONTENT:START (CODE:src=filter_palindromes.console) -->
+<!-- The below code snippet is automatically added from filter_palindromes.console -->
 
 ```console
-+ python filter_dromes.py
++ python filter_palindromes.py
 type(dromes) = <class 'tuple'>
 list(dromes) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
 palindromes  = ['madam', 'anutforajaroftuna']
