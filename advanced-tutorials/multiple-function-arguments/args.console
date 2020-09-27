@@ -1,0 +1,7 @@
++ python args.py
+first  = 1
+second = 2
+third  = 3
+
+type(rest) = <class 'tuple'>
+list(rest) = [4, 5, 6, 7]

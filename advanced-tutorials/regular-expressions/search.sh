@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python reduce_with_initial.py
+python search.py
