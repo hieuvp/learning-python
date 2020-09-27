@@ -2,7 +2,7 @@
 all_students = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
 
-# Find out those who passed with scores more than 75
+# Find out those who passed with the score more than 75
 def is_passed(score):
     return score > 75
 
