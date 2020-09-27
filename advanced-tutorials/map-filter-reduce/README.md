@@ -281,7 +281,7 @@ Let's see some examples:
 <!-- The below code snippet is automatically added from filter_scores.py -->
 
 ```py
-# The following is a list of the scores of 10 students in a Chemistry exam
+# The following is a list of scores of students in a Chemistry exam
 all_students = [66, 90, 68, 59, 76, 60, 88, 74, 81, 65]
 
 
