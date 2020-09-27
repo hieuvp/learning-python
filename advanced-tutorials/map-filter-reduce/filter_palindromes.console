@@ -1,0 +1,4 @@
++ python filter_palindromes.py
+type(words) = <class 'tuple'>
+list(words) = ['demigod', 'rewire', 'madam', 'freer', 'anutforajaroftuna', 'kiosk']
+palindromes = ['madam', 'anutforajaroftuna']

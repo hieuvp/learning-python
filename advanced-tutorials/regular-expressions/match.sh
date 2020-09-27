@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python exercise.py
+python match.py

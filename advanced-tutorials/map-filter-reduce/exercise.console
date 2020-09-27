@@ -1,0 +1,9 @@
++ python exercise.py
+original_floats = [4.35, 6.09, 3.25, 9.77, 2.16, 8.88, 4.59]
+square_floats   = [18.92, 37.09, 10.56, 95.45, 4.67, 78.85, 21.07]
+
+original_names = ['olumide', 'akinremi', 'josiah', 'temidayo', 'omoseun']
+short_names    = ['olumide', 'josiah', 'omoseun']
+
+numbers            = [1, 2, 3, 4, 5]
+product_of_numbers = 120

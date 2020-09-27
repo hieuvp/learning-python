@@ -2,4 +2,4 @@
 
 set -eoux pipefail
 
-python filter_dromes.py
+python sum.py

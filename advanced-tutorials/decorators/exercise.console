@@ -1,0 +1,19 @@
++ python exercise.py
+
+word = Hello World
+Type checking passed!
+first_letter(Hello World) = H
+
+word = ['Not', 'A', 'String']
+Bad type! "['Not', 'A', 'String']" is not of type "<class 'str'>"
+first_letter(['Not', 'A', 'String']) = None
+
+multiplier   = 2
+multiplicand = 3
+Type checking passed!
+times(2, 3) = 6
+
+multiplier   = 2
+multiplicand = Not A Number
+Bad type! "Not A Number" is not of type "<class 'int'>"
+times(2, Not A Number) = None
