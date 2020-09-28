@@ -47,7 +47,6 @@ So, the following lines would be matched by that regex:
 ```py
 import re
 
-# Slight optimization
 pattern = re.compile(r"\[(on|off)\]")
 print("pattern = %s" % pattern)
 
