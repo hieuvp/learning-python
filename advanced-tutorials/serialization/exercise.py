@@ -14,11 +14,11 @@ def add_employee(salaries_json, name, salary):
 def main():
     salaries_json = '{"Alfred" : 300, "Jane" : 400 }'
 
-    # Add key-value pair {"Me" : 800}
-    new_salaries_json = add_employee(salaries_json, "Me", 800)
-    salaries = json.loads(new_salaries_json)
+    # Add new key-value pair
+    salaries_json = add_employee(salaries_json, "Me", 800)
 
-    # Print out the JSON string
+    # Print out the values
+    salaries = json.loads(salaries_json)
     print('salaries["Alfred"] = %s' % salaries["Alfred"])
     print('salaries["Jane"]   = %s' % salaries["Jane"])
     print('salaries["Me"]     = %s' % salaries["Me"])
