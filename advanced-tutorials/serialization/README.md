@@ -124,7 +124,6 @@ def add_employee(salaries_json, name, salary):
     salaries[name] = salary
 
     json_str = json.dumps(salaries)
-
     return json_str
 
 
