@@ -49,12 +49,21 @@ import re
 
 # Slight optimization
 pattern = re.compile(r"\[(on|off)\]")
+print("pattern = %s" % pattern)
 
-# Returning a matched object
-print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
 
-# Doesn't return anything
-print(re.search(pattern, "Nada...:-("))
+# Return a "Match" object if found
+string = "Mono: Playback 65 [75%] [-16.50dB] [on]"
+print()
+print("string                     = %s" % string)
+print("re.search(pattern, string) = %s" % re.search(pattern, string))
+
+
+# Return "None" if not match
+string = "Nada...:-("
+print()
+print("string                     = %s" % string)
+print("re.search(pattern, string) = %s" % re.search(pattern, string))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -64,8 +73,13 @@ print(re.search(pattern, "Nada...:-("))
 
 ```console
 + python search.py
-<re.Match object; span=(35, 39), match='[on]'>
-None
+pattern = re.compile('\\[(on|off)\\]')
+
+string                     = Mono: Playback 65 [75%] [-16.50dB] [on]
+re.search(pattern, string) = <re.Match object; span=(35, 39), match='[on]'>
+
+string                     = Nada...:-(
+re.search(pattern, string) = None
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
