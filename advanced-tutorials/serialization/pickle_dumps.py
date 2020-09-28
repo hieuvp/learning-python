@@ -9,5 +9,5 @@ print("type(pickled_bytes) = %s" % type(pickled_bytes))
 print()
 
 pickled_dict = pickle.loads(pickled_bytes)
-print("pickled_dict        = %s" % pickled_dict)
-print("type(pickled_dict)  = %s" % type(pickled_dict))
+print("pickled_dict       = %s" % pickled_dict)
+print("type(pickled_dict) = %s" % type(pickled_dict))

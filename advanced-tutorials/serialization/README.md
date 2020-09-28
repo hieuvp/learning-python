@@ -88,8 +88,8 @@ print("type(pickled_bytes) = %s" % type(pickled_bytes))
 print()
 
 pickled_dict = pickle.loads(pickled_bytes)
-print("pickled_dict        = %s" % pickled_dict)
-print("type(pickled_dict)  = %s" % type(pickled_dict))
+print("pickled_dict       = %s" % pickled_dict)
+print("type(pickled_dict) = %s" % type(pickled_dict))
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -102,8 +102,8 @@ print("type(pickled_dict)  = %s" % type(pickled_dict))
 pickled_bytes       = b'\x80\x04\x95-\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04name\x94\x8c\x04John\x94\x8c\x03age\x94K\x1e\x8c\x04city\x94\x8c\x08New York\x94u.'
 type(pickled_bytes) = <class 'bytes'>
 
-pickled_dict        = {'name': 'John', 'age': 30, 'city': 'New York'}
-type(pickled_dict)  = <class 'dict'>
+pickled_dict       = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(pickled_dict) = <class 'dict'>
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
