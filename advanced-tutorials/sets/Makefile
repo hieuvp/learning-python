@@ -14,7 +14,8 @@ symmetric-difference:
 
 .PHONY: difference
 difference:
-	./difference.sh &> ./difference.console
+	# Notice: the output is likely to change
+	# ./difference.sh &> ./difference.console
 
 .PHONY: union
 union:
