@@ -25,6 +25,7 @@ declare -ra IGNORING_FILES=(
   "advanced-tutorials/partial-functions/exercise.py"
   "advanced-tutorials/partial-functions/multiply.py"
   "advanced-tutorials/regular-expressions/example.py"
+  "advanced-tutorials/regular-expressions/search.py"
   "advanced-tutorials/serialization/exercise.py"
   "advanced-tutorials/sets/words.py"
   "data-science/pandas-basics/index_dataframe.py"
