@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'name', 'is', 'and', 'my', 'Harrison'}
+{'name', 'my', 'is', 'and', 'Harrison'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -153,7 +153,7 @@ print(a.union(b))
 
 ```console
 + python union.py
-{'Eric', 'John', 'Jake', 'Jill'}
+{'Jake', 'Eric', 'John', 'Jill'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->

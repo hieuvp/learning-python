@@ -20,7 +20,8 @@ difference:
 
 .PHONY: union
 union:
-	./union.sh &> ./union.console
+	# Notice: the output is likely to change
+	# ./union.sh &> ./union.console
 
 .PHONY: exercise
 exercise:
