@@ -24,20 +24,19 @@
 <!-- The below code snippet is automatically added from json_dumps.py -->
 
 ```py
-# In order to use the json module, it must first be imported
 import json
 
 origin = {"name": "John", "age": 30, "city": "New York"}
-print("origin          = %s" % origin)
-print("type(origin)    = %s" % type(origin))
+print("origin       = %s" % origin)
+print("type(origin) = %s" % type(origin))
 
 
 # To encode a data structure to JSON, use the "dumps()" method
 # This method takes an object and returns a "string":
 json_str = json.dumps(origin)
 print()
-print("json_str        = %s" % json_str)
-print("type(json_str)  = %s" % type(json_str))
+print("json_str       = %s" % json_str)
+print("type(json_str) = %s" % type(json_str))
 
 
 # To load JSON back to a data structure, use the "loads()" method
@@ -55,11 +54,11 @@ print("type(json_dict) = %s" % type(json_dict))
 
 ```console
 + python json_dumps.py
-origin          = {'name': 'John', 'age': 30, 'city': 'New York'}
-type(origin)    = <class 'dict'>
+origin       = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(origin) = <class 'dict'>
 
-json_str        = {"name": "John", "age": 30, "city": "New York"}
-type(json_str)  = <class 'str'>
+json_str       = {"name": "John", "age": 30, "city": "New York"}
+type(json_str) = <class 'str'>
 
 json_dict       = {'name': 'John', 'age': 30, 'city': 'New York'}
 type(json_dict) = <class 'dict'>

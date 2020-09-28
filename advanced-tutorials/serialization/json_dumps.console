@@ -1,9 +1,9 @@
 + python json_dumps.py
-origin          = {'name': 'John', 'age': 30, 'city': 'New York'}
-type(origin)    = <class 'dict'>
+origin       = {'name': 'John', 'age': 30, 'city': 'New York'}
+type(origin) = <class 'dict'>
 
-json_str        = {"name": "John", "age": 30, "city": "New York"}
-type(json_str)  = <class 'str'>
+json_str       = {"name": "John", "age": 30, "city": "New York"}
+type(json_str) = <class 'str'>
 
 json_dict       = {'name': 'John', 'age': 30, 'city': 'New York'}
 type(json_dict) = <class 'dict'>
