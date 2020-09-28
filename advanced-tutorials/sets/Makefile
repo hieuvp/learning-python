@@ -2,7 +2,8 @@ export PATH := ../../venv/bin:$(PATH)
 
 .PHONY: words
 words:
-	./words.sh &> ./words.console
+	# Notice: the output is likely to change
+	# ./words.sh &> ./words.console
 
 .PHONY: intersection
 intersection:

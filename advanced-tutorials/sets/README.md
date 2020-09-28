@@ -38,7 +38,7 @@ print(set(sentence.split()))
 
 ```console
 + python words.py
-{'name', 'my', 'is', 'and', 'Harrison'}
+{'Harrison', 'and', 'is', 'name', 'my'}
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
