@@ -23,7 +23,8 @@ union:
 
 .PHONY: exercise
 exercise:
-	./exercise.sh &> exercise.console
+	# Notice: the output is likely to change
+	# ./exercise.sh &> exercise.console
 
 .PHONY: all
 all: words intersection symmetric-difference difference union exercise
