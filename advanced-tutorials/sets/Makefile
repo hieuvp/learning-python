@@ -10,7 +10,8 @@ intersection:
 
 .PHONY: symmetric-difference
 symmetric-difference:
-	./symmetric_difference.sh &> ./symmetric_difference.console
+	# Notice: the output is likely to change
+	# ./symmetric_difference.sh &> ./symmetric_difference.console
 
 .PHONY: difference
 difference:
