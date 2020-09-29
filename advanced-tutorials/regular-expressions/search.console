@@ -1,0 +1,8 @@
++ python search.py
+pattern = re.compile('\\[(on|off)\\]')
+
+string                     = Mono: Playback 65 [75%] [-16.50dB] [on]
+re.search(pattern, string) = <re.Match object; span=(35, 39), match='[on]'>
+
+string                     = Nada...:-(
+re.search(pattern, string) = None
