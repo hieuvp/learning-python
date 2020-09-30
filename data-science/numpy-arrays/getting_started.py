@@ -10,7 +10,7 @@ np_height = np.array(height)
 np_weight = np.array(weight)
 
 
-def main():
+if __name__ == "__main__":
     print()
     print("height          = %s" % height)
     print("np_height       = %s" % np_height)
@@ -22,7 +22,3 @@ def main():
     print()
     print("type(height)    = %s" % type(height))
     print("type(np_height) = %s" % type(np_height))
-
-
-if __name__ == "__main__":
-    main()
