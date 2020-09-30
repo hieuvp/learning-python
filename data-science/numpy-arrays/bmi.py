@@ -22,6 +22,7 @@ bmi = np_weight / np_height ** 2
 # when you have 1000s (thousands) of observations in our data
 
 if __name__ == "__main__":
-    print("np_weight = %s" % np_weight)
-    print("np_height = %s" % np_height)
-    print("bmi       = %s" % bmi)
+    print("np_weight      = %s" % np_weight)
+    print("np_height      = %s" % np_height)
+    print("np_height ** 2 = %s" % np_height ** 2)
+    print("bmi            = %s" % bmi)
