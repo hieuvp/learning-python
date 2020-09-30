@@ -25,7 +25,7 @@
 <!-- The below code snippet is automatically added from getting_started.py -->
 
 ```py
-# Import the numpy package as np
+# Import the "numpy" package as "np"
 import numpy as np
 
 # Create 2 new Python lists
@@ -38,15 +38,16 @@ np_weight = np.array(weight)
 
 
 if __name__ == "__main__":
-    print()
-    print("height          = %s" % height)
-    print("np_height       = %s" % np_height)
+    print("height    = %s" % height)
+    print("np_height = %s" % np_height)
 
     print()
-    print("weight          = %s" % weight)
-    print("np_weight       = %s" % np_weight)
+
+    print("weight    = %s" % weight)
+    print("np_weight = %s" % np_weight)
 
     print()
+
     print("type(height)    = %s" % type(height))
     print("type(np_height) = %s" % type(np_height))
 ```
@@ -58,12 +59,11 @@ if __name__ == "__main__":
 
 ```console
 + python getting_started.py
+height    = [1.87, 1.87, 1.82, 1.91, 1.9, 1.85]
+np_height = [1.87 1.87 1.82 1.91 1.9  1.85]
 
-height          = [1.87, 1.87, 1.82, 1.91, 1.9, 1.85]
-np_height       = [1.87 1.87 1.82 1.91 1.9  1.85]
-
-weight          = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
-np_weight       = [81.65 97.52 95.25 92.98 86.18 88.45]
+weight    = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
+np_weight = [81.65 97.52 95.25 92.98 86.18 88.45]
 
 type(height)    = <class 'list'>
 type(np_height) = <class 'numpy.ndarray'>

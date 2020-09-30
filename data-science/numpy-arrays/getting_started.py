@@ -1,4 +1,4 @@
-# Import the numpy package as np
+# Import the "numpy" package as "np"
 import numpy as np
 
 # Create 2 new Python lists
@@ -11,14 +11,15 @@ np_weight = np.array(weight)
 
 
 if __name__ == "__main__":
-    print()
-    print("height          = %s" % height)
-    print("np_height       = %s" % np_height)
+    print("height    = %s" % height)
+    print("np_height = %s" % np_height)
 
     print()
-    print("weight          = %s" % weight)
-    print("np_weight       = %s" % np_weight)
+
+    print("weight    = %s" % weight)
+    print("np_weight = %s" % np_weight)
 
     print()
+
     print("type(height)    = %s" % type(height))
     print("type(np_height) = %s" % type(np_height))
