@@ -84,7 +84,7 @@ type(np_height) = <class 'numpy.ndarray'>
 from getting_started import np_height, np_weight
 
 # Body Mass Index (BMI) is a measure of body fat
-# based on height and weight that applies to adult men and women
+# based on "height" and "weight" that applies to adult men and women
 #
 # Formula: BMI = kg/m^2
 # - kg  : a person's weight in kilograms
@@ -94,7 +94,7 @@ from getting_started import np_height, np_weight
 # while the healthy range is "18.5" to "24.9"
 
 
-# Performing element-wise calculations on height and weight:
+# Performing Element-wise Calculations on "height" and "weight":
 #
 # Take all 6 of the "np_height" and "np_weight" observations,
 # and calculate the BMI for each observation with a single equation
