@@ -90,8 +90,8 @@ from getting_started import np_height, np_weight
 # - kg  : a person's weight in kilograms
 # - m^2 : their height in metres squared
 #
-# A BMI of "25.0" or more is overweight, while the healthy range is "18.5" to "24.9"
-# BMI applies to most adults 18-65 years
+# A BMI of "25.0" or more is overweight,
+# while the healthy range is "18.5" to "24.9"
 
 
 # Performing element-wise calculations on height and weight:
@@ -101,10 +101,13 @@ from getting_started import np_height, np_weight
 bmi = np_weight / np_height ** 2
 
 # These operations are very fast and computationally efficient
-# They are particularly helpful when you have 1000s (thousands) of observations in our data
+# They are particularly helpful
+# when you have 1000s (thousands) of observations in our data
 
 if __name__ == "__main__":
-    print("bmi = %s" % bmi)
+    print("np_weight = %s" % np_weight)
+    print("np_height = %s" % np_height)
+    print("bmi       = %s" % bmi)
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -114,7 +117,9 @@ if __name__ == "__main__":
 
 ```console
 + python bmi.py
-bmi = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
+np_weight = [81.65 97.52 95.25 92.98 86.18 88.45]
+np_height = [1.87 1.87 1.82 1.91 1.9  1.85]
+bmi       = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25.84368152]
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
