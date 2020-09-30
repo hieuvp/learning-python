@@ -34,7 +34,7 @@
 
 ### Data Science
 
-1. [Numpy Arrays](data-science/numpy-arrays/README.md)
+1. [NumPy Arrays](data-science/numpy-arrays/README.md)
 1. [Pandas Basics](data-science/pandas-basics/README.md)
 
 ### Advanced Tutorials

@@ -1,4 +1,4 @@
-# Numpy Arrays
+# NumPy Arrays
 
 ## Table of Contents
 
@@ -15,8 +15,8 @@
 
 ## Getting Started
 
-> **Numpy Arrays** are great alternatives to **Python Lists**.
-> <br />Some of the key advantages of **Numpy Arrays** are that they are fast, easy to work with,
+> **NumPy Arrays** are great alternatives to **Python Lists**.
+> <br />Some of the key advantages of **NumPy Arrays** are that they are fast, easy to work with,
 > <br />and give users the opportunity to perform calculations across entire arrays.
 
 <br />
@@ -128,7 +128,7 @@ bmi            = [23.34925219 27.88755755 28.75558507 25.48723993 23.87257618 25
 
 ## Subsetting
 
-> Another great feature of **Numpy Arrays** is the ability to **subset**.
+> Another great feature of **NumPy Arrays** is the ability to **subset**.
 
 <br />
 
@@ -170,15 +170,15 @@ bmi[bmi > 25] = [27.88755755 28.75558507 25.48723993 25.84368152]
 ```py
 import numpy as np
 
-weight_kg = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
+weight_kgs = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
 
-# Convert the list of weights from a "List" to a "Numpy Array"
-np_weight_kg = np.array(weight_kg)
-print("np_weight_kg  = %s" % np_weight_kg)
+# Convert from a "List" to a "NumPy Array"
+np_weight_kgs = np.array(weight_kgs)
+print("np_weight_kgs = %s" % np_weight_kgs)
 
 # Convert all of the weights from kilograms to pounds ("pound" abbreviated as "lb")
 # Use the scalar conversion of 2.2 lbs per kilogram to make your conversion
-np_weight_lbs = np_weight_kg * 2.2
+np_weight_lbs = np_weight_kgs * 2.2
 
 # Print the resulting array of weights in pounds
 print("np_weight_lbs = %s" % np_weight_lbs)
@@ -191,7 +191,7 @@ print("np_weight_lbs = %s" % np_weight_lbs)
 
 ```console
 + python exercise.py
-np_weight_kg  = [81.65 97.52 95.25 92.98 86.18 88.45]
+np_weight_kgs = [81.65 97.52 95.25 92.98 86.18 88.45]
 np_weight_lbs = [179.63  214.544 209.55  204.556 189.596 194.59 ]
 ```
 
