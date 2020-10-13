@@ -271,27 +271,29 @@ One of the easiest ways to do this is by using square bracket notation.
 <!-- The below code snippet is automatically added from index_dataframe.py -->
 
 ```py
-# Use square brackets to select one column of the cars DataFrame.
+# Use square brackets to select one column of the cars DataFrame
 #
 # We can either use a single bracket or a double bracket:
-# - Single bracket will output a Pandas Series.
-# - Double bracket will output a Pandas DataFrame.
+# - Single bracket will output a Pandas Series
+# - Double bracket will output a Pandas DataFrame
 
-# Import pandas and cars.csv
+# Import "pandas"
 import pandas as pd
 
+# Import "cars.csv"
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print("+ cars")
 print(cars)
 print()
 
-print("# Pandas Series with cars_per_cap column")
+# Pandas Series with "cars_per_cap" column
 print('+ cars["cars_per_cap"]')
 print(cars["cars_per_cap"])
 print()
 
-print("# Pandas Series with cars_per_cap and country columns")
 try:
+    # Pandas Series with "cars_per_cap" and "country" columns
     print('+ cars["cars_per_cap", "country"]')
     print(cars["cars_per_cap", "country"])
 except Exception as err:
@@ -299,12 +301,12 @@ except Exception as err:
     print("err       = %s" % err)
 print()
 
-print("# Pandas DataFrame with cars_per_cap column")
+# Pandas DataFrame with "cars_per_cap" column
 print('+ cars[["cars_per_cap"]]')
 print(cars[["cars_per_cap"]])
 print()
 
-print("# Pandas DataFrame with cars_per_cap and country columns")
+# Pandas DataFrame with "cars_per_cap" and "country" columns
 print('+ cars[["cars_per_cap", "country"]]')
 print(cars[["cars_per_cap", "country"]])
 ```
@@ -316,6 +318,7 @@ print(cars[["cars_per_cap", "country"]])
 
 ```console
 + python index_dataframe.py
++ cars
      cars_per_cap        country  drives_right
 US            809  United States          True
 AUS           731      Australia         False
@@ -325,7 +328,6 @@ RU            200         Russia          True
 MOR            70        Morocco          True
 EG             45          Egypt          True
 
-# Pandas Series with cars_per_cap column
 + cars["cars_per_cap"]
 US     809
 AUS    731
@@ -336,12 +338,10 @@ MOR     70
 EG      45
 Name: cars_per_cap, dtype: int64
 
-# Pandas Series with cars_per_cap and country columns
 + cars["cars_per_cap", "country"]
 type(err) = <class 'KeyError'>
 err       = ('cars_per_cap', 'country')
 
-# Pandas DataFrame with cars_per_cap column
 + cars[["cars_per_cap"]]
      cars_per_cap
 US            809
@@ -352,7 +352,6 @@ RU            200
 MOR            70
 EG             45
 
-# Pandas DataFrame with cars_per_cap and country columns
 + cars[["cars_per_cap", "country"]]
      cars_per_cap        country
 US            809  United States

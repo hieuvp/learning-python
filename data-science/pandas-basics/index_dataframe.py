@@ -1,24 +1,26 @@
-# Use square brackets to select one column of the cars DataFrame.
+# Use square brackets to select one column of the cars DataFrame
 #
 # We can either use a single bracket or a double bracket:
-# - Single bracket will output a Pandas Series.
-# - Double bracket will output a Pandas DataFrame.
+# - Single bracket will output a Pandas Series
+# - Double bracket will output a Pandas DataFrame
 
-# Import pandas and cars.csv
+# Import "pandas"
 import pandas as pd
 
+# Import "cars.csv"
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print("+ cars")
 print(cars)
 print()
 
-print("# Pandas Series with cars_per_cap column")
+# Pandas Series with "cars_per_cap" column
 print('+ cars["cars_per_cap"]')
 print(cars["cars_per_cap"])
 print()
 
-print("# Pandas Series with cars_per_cap and country columns")
 try:
+    # Pandas Series with "cars_per_cap" and "country" columns
     print('+ cars["cars_per_cap", "country"]')
     print(cars["cars_per_cap", "country"])
 except Exception as err:
@@ -26,11 +28,11 @@ except Exception as err:
     print("err       = %s" % err)
 print()
 
-print("# Pandas DataFrame with cars_per_cap column")
+# Pandas DataFrame with "cars_per_cap" column
 print('+ cars[["cars_per_cap"]]')
 print(cars[["cars_per_cap"]])
 print()
 
-print("# Pandas DataFrame with cars_per_cap and country columns")
+# Pandas DataFrame with "cars_per_cap" and "country" columns
 print('+ cars[["cars_per_cap", "country"]]')
 print(cars[["cars_per_cap", "country"]])
