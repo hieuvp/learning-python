@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Using a dictionary
+# Use a Dictionary
 dictionary = {
     "country": ["Brazil", "Russia", "India", "China", "South Africa"],
     "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
