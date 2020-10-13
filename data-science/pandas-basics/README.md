@@ -374,20 +374,21 @@ Square brackets can also be used to access observations (rows) from a DataFrame.
 <!-- The below code snippet is automatically added from access_observations.py -->
 
 ```py
-# Import cars data
 import pandas as pd
 
+# Import cars data
 cars = pd.read_csv("cars.csv", index_col=0)
 
+print("+ cars")
 print(cars)
 print()
 
-print("# Print out first 4 observations")
+# Print out first 4 observations
 print("+ cars[0:4]")
 print(cars[0:4])
 print()
 
-print("# Print out fifth and sixth observation")
+# Print out fifth and sixth observations
 print("+ cars[4:6]")
 print(cars[4:6])
 ```
@@ -399,6 +400,7 @@ print(cars[4:6])
 
 ```console
 + python access_observations.py
++ cars
      cars_per_cap        country  drives_right
 US            809  United States          True
 AUS           731      Australia         False
@@ -408,7 +410,6 @@ RU            200         Russia          True
 MOR            70        Morocco          True
 EG             45          Egypt          True
 
-# Print out first 4 observations
 + cars[0:4]
      cars_per_cap        country  drives_right
 US            809  United States          True
@@ -416,7 +417,6 @@ AUS           731      Australia         False
 JAP           588          Japan         False
 IN             18          India         False
 
-# Print out fifth and sixth observation
 + cars[4:6]
      cars_per_cap  country  drives_right
 RU            200   Russia          True
