@@ -82,15 +82,14 @@ from getting_started import np_height, np_weight
 # while the healthy range is "18.5" to "24.9"
 
 
-# Performing Element-wise Calculations on "height" and "weight":
+# Perform "Element-wise Calculations" on "weight" and "height":
 #
-# Take all 6 of the "np_height" and "np_weight" observations,
+# Take all "np_height" and "np_weight" observations,
 # and calculate the BMI for each observation with a single equation
 bmi = np_weight / np_height ** 2
 
 # These operations are very fast and computationally efficient
-# They are particularly helpful
-# when you have 1000s (thousands) of observations in our data
+# They are particularly helpful when we have 1000s (thousands) of observations in our data
 
 if __name__ == "__main__":
     print("np_weight      = %s" % np_weight)
