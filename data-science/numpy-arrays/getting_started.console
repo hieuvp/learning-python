@@ -1,0 +1,6 @@
++ python getting_started.py
+height    = [1.87, 1.87, 1.82, 1.91, 1.9, 1.85]
+np_height = [1.87 1.87 1.82 1.91 1.9  1.85]
+
+type(height)    = <class 'list'>
+type(np_height) = <class 'numpy.ndarray'>
