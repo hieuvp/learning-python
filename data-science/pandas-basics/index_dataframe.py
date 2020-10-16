@@ -10,14 +10,10 @@ import pandas as pd
 # Import "cars.csv"
 cars = pd.read_csv("cars.csv", index_col=0)
 
-print("+ cars")
-print(cars)
-print()
+print("+ cars\n%s\n" % cars)
 
 # Pandas Series with "cars_per_cap" column
-print('+ cars["cars_per_cap"]')
-print(cars["cars_per_cap"])
-print()
+print('+ cars["cars_per_cap"]\n%s\n' % cars["cars_per_cap"])
 
 try:
     # Pandas Series with "cars_per_cap" and "country" columns
@@ -29,10 +25,7 @@ except Exception as err:
 print()
 
 # Pandas DataFrame with "cars_per_cap" column
-print('+ cars[["cars_per_cap"]]')
-print(cars[["cars_per_cap"]])
-print()
+print('+ cars[["cars_per_cap"]]\n%s\n' % cars[["cars_per_cap"]])
 
 # Pandas DataFrame with "cars_per_cap" and "country" columns
-print('+ cars[["cars_per_cap", "country"]]')
-print(cars[["cars_per_cap", "country"]])
+print('+ cars[["cars_per_cap", "country"]]\n%s' % cars[["cars_per_cap", "country"]])

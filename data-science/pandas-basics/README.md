@@ -283,14 +283,10 @@ import pandas as pd
 # Import "cars.csv"
 cars = pd.read_csv("cars.csv", index_col=0)
 
-print("+ cars")
-print(cars)
-print()
+print("+ cars\n%s\n" % cars)
 
 # Pandas Series with "cars_per_cap" column
-print('+ cars["cars_per_cap"]')
-print(cars["cars_per_cap"])
-print()
+print('+ cars["cars_per_cap"]\n%s\n' % cars["cars_per_cap"])
 
 try:
     # Pandas Series with "cars_per_cap" and "country" columns
@@ -302,13 +298,10 @@ except Exception as err:
 print()
 
 # Pandas DataFrame with "cars_per_cap" column
-print('+ cars[["cars_per_cap"]]')
-print(cars[["cars_per_cap"]])
-print()
+print('+ cars[["cars_per_cap"]]\n%s\n' % cars[["cars_per_cap"]])
 
 # Pandas DataFrame with "cars_per_cap" and "country" columns
-print('+ cars[["cars_per_cap", "country"]]')
-print(cars[["cars_per_cap", "country"]])
+print('+ cars[["cars_per_cap", "country"]]\n%s' % cars[["cars_per_cap", "country"]])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -378,13 +371,13 @@ import pandas as pd
 # Import "cars" data
 cars = pd.read_csv("cars.csv", index_col=0)
 
-print("+ cars\n%s\n" % cars.to_string())
+print("+ cars\n%s\n" % cars)
 
 # Print out first 4 observations
-print("+ cars[0:4]\n%s\n" % cars[0:4].to_string())
+print("+ cars[0:4]\n%s\n" % cars[0:4])
 
 # Print out fifth and sixth observations
-print("+ cars[4:6]\n%s" % cars[4:6].to_string())
+print("+ cars[4:6]\n%s" % cars[4:6])
 ```
 
 <!-- AUTO-GENERATED-CONTENT:END -->
