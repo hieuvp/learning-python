@@ -422,7 +422,7 @@ You can also use `loc` and `iloc` to perform just about any data selection opera
 ```py
 import pandas as pd
 
-# Import cars data
+# Import "cars" data
 cars = pd.read_csv("cars.csv", index_col=0)
 
 print("+ cars\n%s\n" % cars)
@@ -436,7 +436,8 @@ print("+ cars.iloc[2]\n%s\n" % cars.iloc[2])
 
 
 # "loc" is label-based,
-# which means that you have to specify rows and columns based on their row and column labels
+# which means that you have to specify rows and columns
+# based on their row and column labels
 
 # Print out observations for Australia and Egypt
 print('+ cars.loc[["AUS", "EG"]]\n%s' % cars.loc[["AUS", "EG"]])
