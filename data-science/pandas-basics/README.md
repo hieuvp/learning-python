@@ -155,7 +155,7 @@ import pandas as pd
 # Use a Dictionary
 dictionary = {
     "country": ["Brazil", "Russia", "India", "China", "South Africa"],
-    "capital": ["Brasilia", "Moscow", "New Dehli", "Beijing", "Pretoria"],
+    "capital": ["Brasilia", "Moscow", "New Delhi", "Beijing", "Pretoria"],
     "area": [8.516, 17.10, 3.286, 9.597, 1.221],
     "population": [200.4, 143.5, 1252, 1357, 52.98],
 }
@@ -178,7 +178,7 @@ if __name__ == "__main__":
         country    capital    area  population
 0        Brazil   Brasilia   8.516      200.40
 1        Russia     Moscow  17.100      143.50
-2         India  New Dehli   3.286     1252.00
+2         India  New Delhi   3.286     1252.00
 3         China    Beijing   9.597     1357.00
 4  South Africa   Pretoria   1.221       52.98
 ```
@@ -215,7 +215,7 @@ print(brics)
          country    capital    area  population
 BR        Brazil   Brasilia   8.516      200.40
 RU        Russia     Moscow  17.100      143.50
-IN         India  New Dehli   3.286     1252.00
+IN         India  New Delhi   3.286     1252.00
 CH         China    Beijing   9.597     1357.00
 SA  South Africa   Pretoria   1.221       52.98
 ```
