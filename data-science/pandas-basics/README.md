@@ -233,7 +233,7 @@ SA  South Africa   Pretoria   1.221       52.98
 ```py
 import pandas as pd
 
-# Import the "cars.csv" data
+# Import "cars.csv" data
 cars = pd.read_csv("cars.csv")
 
 # Print out cars
