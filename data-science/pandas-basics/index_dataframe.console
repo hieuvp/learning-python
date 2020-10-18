@@ -1,0 +1,44 @@
++ python index_dataframe.py
++ cars
+     cars_per_cap        country  drives_right
+US            809  United States          True
+AUS           731      Australia         False
+JAP           588          Japan         False
+IN             18          India         False
+RU            200         Russia          True
+MOR            70        Morocco          True
+EG             45          Egypt          True
+
++ cars["cars_per_cap"]
+US     809
+AUS    731
+JAP    588
+IN      18
+RU     200
+MOR     70
+EG      45
+Name: cars_per_cap, dtype: int64
+
++ cars["cars_per_cap", "country"]
+type(err) = <class 'KeyError'>
+err       = ('cars_per_cap', 'country')
+
++ cars[["cars_per_cap"]]
+     cars_per_cap
+US            809
+AUS           731
+JAP           588
+IN             18
+RU            200
+MOR            70
+EG             45
+
++ cars[["cars_per_cap", "country"]]
+     cars_per_cap        country
+US            809  United States
+AUS           731      Australia
+JAP           588          Japan
+IN             18          India
+RU            200         Russia
+MOR            70        Morocco
+EG             45          Egypt
