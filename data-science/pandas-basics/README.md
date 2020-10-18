@@ -271,18 +271,15 @@ One of the easiest ways to do this is by using square bracket notation.
 <!-- The below code snippet is automatically added from index_dataframe.py -->
 
 ```py
-# Use square brackets to select one column of the cars DataFrame
+# Use square brackets to select one column of the "cars" DataFrame
 #
 # We can either use a single bracket or a double bracket:
 # - Single bracket will output a Pandas Series
 # - Double bracket will output a Pandas DataFrame
 
-# Import "pandas"
 import pandas as pd
 
-# Import "cars.csv"
 cars = pd.read_csv("cars.csv", index_col=0)
-
 print("+ cars\n%s\n" % cars)
 
 # Pandas Series with "cars_per_cap" column
